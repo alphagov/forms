@@ -4,7 +4,7 @@ Date: 2022-01-26
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
 
