@@ -1,3 +1,3 @@
 # GOV.UK Forms
 
-We record our technical Architecture Decisions in [ADR/](ADR) our user research in [research/](research/) and user engagement in [engagement/](engagement/).
+We record our user research findings in [research/](research/), user engagement findings in [engagement/](engagement/) and technical decisions in [ADR/](ADR).
