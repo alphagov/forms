@@ -32,3 +32,5 @@ However, things we need to keep in mind as we go through private beta and will n
 - GOV.UK Notify does not support email attachments, we will need to consider how best manage file uploads and whether or not direct email attachments will be required when those forms are being worked on for the platform.
 - GOV.UK Notify does not support adding reply-to email addresses over the API, though you can specify them per email if they've been added in the web UI.
   - There are workarounds possible for this, however as we scale these will be less realistic and being able to add them over the API by the user would be required.
+- Data sent in the emails will be stored for 7 days, this should be reflected in any relevant policies.
+  - Although this is only visible to people with API keys, API keys themselves are not scoped from email creation/email history viewing and we should keep this in mind when managing API keys.
