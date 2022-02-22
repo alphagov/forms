@@ -87,7 +87,8 @@ flowchart
   api --> store
 ```
 
-- Stores the published forms in a DB directly accessible to the runner
+- Stores the published forms in a datastore directly accessible to the runner
+  - This doesn't necessarily have to be a database (e.g. S3 with a cache)
 - Runner can be focused only on rendering
 - Publish API separate
 - Only two applications to deploy
