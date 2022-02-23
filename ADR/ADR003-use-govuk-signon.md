@@ -10,7 +10,7 @@ Proposed
 
 GOV.UK Forms needs a way of authenticating users who will create and manage forms.
 
-It would be preferably to make use of an existing authentication system rather than create a new one. To explore the options, 2 prototypes were created to better understand the effort to onboard and the account creation process.
+It would be preferable to make use of an existing authentication system rather than create a new one. We created 2 prototypes to better understand the effort to onboard and the account creation process.
 
 ## Decision
 
