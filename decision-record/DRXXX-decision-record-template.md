@@ -1,6 +1,4 @@
-# DRxxx: Decision Record Title
-
-> a description of the decision (not the problem)
+# DRxxx: Decision Record Title (a description of the decision, not the problem)
 
 Date: YYYY-MM-DD
 
