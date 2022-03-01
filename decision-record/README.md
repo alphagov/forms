@@ -17,7 +17,9 @@ Proposing and reviewing decisions requires an understanding of the GitHub and [p
 1. Find the decision record in the list of [pull requests](https://github.com/alphagov/forms/pulls)
 2. Add a comment and / or approve the pull request
 
-## Approving a decision
+## Approving / superseding / rejecting a decision
 
-1. Set the Status to "Approved"
-2. Merge the pull request
+1. Set the Status to either
+   - "Approved" (and where appropriate set the status of any superceded decision to "Superseded by DRXXX"), or
+   - "Rejected" 
+3. Merge the pull request
