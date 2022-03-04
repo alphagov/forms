@@ -4,6 +4,8 @@ Date: 2022-02-24
 
 ## Status
 
+> Proposed, Accepted, Rejected, Deprecated, Superseded by DRzzz
+
 Proposed
 
 ## Context
