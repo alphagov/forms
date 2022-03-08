@@ -1,10 +1,10 @@
-# Alpha Architecture Diagram
+# Private Beta Architecture Diagram
 
-During Alpha to aid discussions we created the following architecture diagram.
+During private beta to aid discussions we created the following architecture diagram.
 
 Each box doesn't necessarily correspond to a different application running, but instead "components" that form part of the entire GOV.UK Forms platform (E.g. The designer/manager could be the same application, but are distinct components to talk about).
 
-This diagram is preserved for historical purposes as we move into [private beta](./002-private-beta-architecture-diagram.md)
+During private beta this diagram will be updated along with any changes.
 
 ```mermaid
 graph
