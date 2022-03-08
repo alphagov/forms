@@ -1,8 +1,21 @@
 # Alpha Architecture Diagram
 
+**Legend**
+
+```mermaid
+graph
+  proposed[Proposed component]
+  proposedLater[Proposed for later in private beta]
+  existing(Existing system)
+
+  classDef futureComponent stroke-dasharray:3;
+  class proposedLater futureComponent
+```
+
 ```mermaid
 flowchart
   classDef subgraphPadding fill:none,stroke:none
+  classDef futureComponent stroke-dasharray:3;
 
   subgraph github[Github]
     alphagov/forms
@@ -45,6 +58,7 @@ flowchart
 
             runner --> userSessions
             runner --> submitter
+            class fileUpload futureComponent
           end
 
           events[Events collector]
@@ -71,11 +85,12 @@ flowchart
   notify --> formProcessor
   submitter --> adapter
   adapter --> existingApi
-  runner --> dependencies
+  runner -.-> dependencies
 
   github --"CI/CD"--> paasForms
   paasForms --> monitoring
 
   class paasPadding subgraphPadding
   class paasFormsPadding subgraphPadding
+  class adapter futureComponent
 ```
