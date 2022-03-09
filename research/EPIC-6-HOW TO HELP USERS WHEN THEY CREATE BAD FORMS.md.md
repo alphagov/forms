@@ -1,4 +1,4 @@
-# EPIC 6 HOW TO HELP USERS WHEN THEY CREATE BAD FORMS 
+# EPIC 6 WHO WILL HELP USERS WHEN THEY CREATE BAD FORMS 
 
 Publishers are the most appropriate group to help assure forms. They are more engaged than Digital Assurance Managers and have the required skillset
 
