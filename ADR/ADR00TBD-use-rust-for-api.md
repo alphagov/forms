@@ -35,5 +35,5 @@ We will build our core API in Rust.
 ## Consequences
 
 The concequences are, as ever, mostly human:
-- Hiring: though we will still hire based on ruby, python, and javascript, we must advertise that rust is a langauge we use.
+- Hiring: though we will still hire based on Ruby, Python, and Javascript, we must advertise that rust is a language we use.
 - Training: Rust has earlier requirements for learning; Whereas most languages wait until scale-up to require tuning, the Rust compiler requires much to be done ahead-of-time. The team can not expect new starters to be expert. 
