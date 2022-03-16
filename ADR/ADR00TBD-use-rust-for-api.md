@@ -12,7 +12,7 @@ Date: 2022-03-15
 Our core API is (or will be) a vital piece of government infrastructure running on GOV.UK PaaS or AWS Lambda. (to be clear, it may or may not be Critical National Infrastructure in the official sense). Though not user-facing, It is important that this API be both reliable and fast, without being complicated to develop. Further, the carbon cost of this infrastructure needs to be considered (in terms of power usage).
 
 ### Rust Advantages
-Rust bills itself as _"A language empowering everyone to build reliable and efficient software"_. It was first released in 2010, 8 months after Go. In terms of adoption there are about the same number of github projects written in Rust as there are in Go.
+Rust bills itself as _"A language empowering everyone to build reliable and efficient software"_. It was first released in 2010, 8 months after Go. In terms of adoption there are [about the same number](https://redmonk.com/sogrady/files/2021/08/lang.rank_.0621.png) of github projects written in Rust as there are in Go.
 
 Rust is designed to quickly build provably correct software, with an emphasis on zero runtime failures, and high-quality developer ergonomics.
 
