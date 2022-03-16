@@ -25,7 +25,7 @@ Notable benefits are:
 - An aproximate 10x reduction in memory overhead.
 - Faster development due to instant compiler feedback (instead of waiting for logs)
 - Faster development due to less unit testing burden: Many errors that would require unit testing are instead compile-time errors.
-- 100% compiled coverage by definition (all compiled code is valid). Allowing the team great confidence that no api responses are invalid, no inputs cause errors, and whole categories of bugs are provably impossible.
+- 100% compiled coverage by definition (all compiled code is valid). Allowing the team great confidence that no API responses are invalid, no inputs cause errors, and whole categories of bugs are provably impossible.
 - A focus in the wider Rust community on correctness and security. Contrast with NPM, which requires so much work to control supply chain attacks that most teams give up the attempt.
 
 ## Decision
