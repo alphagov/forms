@@ -37,7 +37,7 @@ sequenceDiagram
   submitter -->> api: Gets form structure
   api -->> submitter: Returns form structure
   note over api,submitter: This includes the email to submit the form to
-  submitter -->> submitter: Formats response for submission
+  submitter -->> submitter: Converts response into markdown for submission to Notify
   submitter -->> notify: Sends formatted response
   notify -->> processor: Emails formatted response
 ```
