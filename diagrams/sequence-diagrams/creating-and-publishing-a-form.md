@@ -2,10 +2,11 @@
 
 ```mermaid 
 sequenceDiagram
-  actor user as User
+  actor user as Form creator
   participant manager as Manager
   participant designer as Designer
   participant api as API
+  participant govuk as GOV.UK
 
   user -->> manager: Creates a new form
   manager -->> api: Submit form creation information
@@ -25,4 +26,6 @@ sequenceDiagram
   manager -->> api: marks form as published
   api -->> manager: returns published form URL
   manager -->> user: displays page with published url
+  user -->> govuk: creates detailed guidance page on GOV.UK
+  note over user,govuk: This step is done on the GOV.UK publishing platform, but is noted here for completeness
 ```

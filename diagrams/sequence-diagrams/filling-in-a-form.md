@@ -2,7 +2,7 @@
 
 ```mermaid 
 sequenceDiagram
-  actor user as User
+  actor user as Form filler
   participant runner as Runner
   participant api as API
   participant store as User data store
@@ -10,7 +10,8 @@ sequenceDiagram
   participant notify as GOV.UK Notify
   actor processor as Processor
 
-  user -->> runner: Navigates to form from GOV.UK
+  user -->> runner: Navigates to form from start page on GOV.UK
+  note over user, runner: GOV.UK will host the entry point into the form the user fills out
   runner -->> api: Gets form structure
   api -->> runner: Returns form structure
   runner -->> user: Displays first page for form
@@ -38,4 +39,5 @@ sequenceDiagram
   note over api,submitter: This includes the email to submit the form to
   submitter -->> submitter: Formats response for submission
   submitter -->> notify: Sends formatted response
+  notify -->> processor: Emails formatted response
 ```
