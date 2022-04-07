@@ -1,10 +1,10 @@
 # ADR005: Use multi-tenant runner
 
-Date: 2022-02-18
+Date: 2022-04-07
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
 
@@ -44,7 +44,11 @@ flowchart TD
   Manager --> RunnerD
 ```
 
-In this structure, each form has its own runner which serves each form to the end user. This enables you to manage and scale each form individually as well as limit the impact if one form runner encounters an error.
+In this structure, each form has its own runner which serves each form to the end user. This:
+
+- Limit the impact if one form runner encounters an error
+- Makes it more complicated to roll out updates to each runner as we scale
+- Requires us to run a server consistantly for all forms regardless of traffic, using up money + energy when not required
 
 ### Multi tenant structure
 
@@ -60,7 +64,11 @@ flowchart LR
   Manager --> Runner
 ```
 
-In this structure, there is one runner that serves forms to the end user. This enables you to have easier control over updating the runner where required (dependency version increases, service updates, etc.)
+In this structure, there is one runner service that serves forms to the end user. This:
+
+- Enables us to have easier control over updating the runner where required (dependency version increases, service updates, etc.)
+- Enables the ability to scale to the overall load on the forms service, removing the need to run idle servers for forms that have no traffic
+- Makes errors in the forms runner service have wider impact as all forms will be effected rather than just the one on the runner encountering the error
 
 ## Decision
 
