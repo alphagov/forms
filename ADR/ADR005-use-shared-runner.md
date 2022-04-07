@@ -1,4 +1,4 @@
-# ADR005: Use multi-tenant runner
+# ADR005: Use shared runner
 
 Date: 2022-04-07
 
@@ -10,9 +10,9 @@ Accepted
 
 The forms platform has a "runner", the service that runs the forms itself to the user who is filling them in.
 
-There are two different ways to approach the runner - single or multi tenant. Two existing forms creation services (MOJ Forms, XGovFormBuilder) both use the single tenant approach.
+There are two different ways to approach the runner - a shared runner or a single runner per form. Two existing forms creation services (MOJ Forms, XGovFormBuilder) both use the single tenant approach.
 
-### Single tenant structure
+### Runner per form
 
 ```mermaid
 flowchart TD
@@ -46,11 +46,11 @@ flowchart TD
 
 In this structure, each form has its own runner which serves each form to the end user. This:
 
-- Limit the impact if one form runner encounters an error
+- Limits the impact if one form runner encounters an error
 - Makes it more complicated to roll out updates to each runner as we scale
 - Requires us to run a server consistantly for all forms regardless of traffic, using up money + energy when not required
 
-### Multi tenant structure
+### Shared runner
 
 ```mermaid
 flowchart LR
@@ -68,11 +68,11 @@ In this structure, there is one runner service that serves forms to the end user
 
 - Enables us to have easier control over updating the runner where required (dependency version increases, service updates, etc.)
 - Enables the ability to scale to the overall load on the forms service, removing the need to run idle servers for forms that have no traffic
-- Makes errors in the forms runner service have wider impact as all forms will be effected rather than just the one on the runner encountering the error
+- Increases the risk of a problem with one form affecting the performance of others
 
 ## Decision
 
-We have decided to use a multi tenant runner to host and run multiple forms.
+We have decided to use a shared runner to host and run multiple forms.
 
 ## Consequences
 
