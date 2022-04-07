@@ -1,10 +1,10 @@
 # ADR003: Use GOV.UK Signon
 
-Date: 2022-02-18
+Date: 2022-04-07
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
 
