@@ -48,7 +48,7 @@ In this structure, each form has its own runner which serves each form to the en
 
 - Limits the impact if one form runner encounters an error
 - Makes it more complicated to roll out updates to each runner as we scale
-- Requires us to run a server consistantly for all forms regardless of traffic, using up money + energy when not required
+- Requires us to run a server consistently for all forms regardless of traffic, using up money + energy when not required
 
 ### Shared runner
 
