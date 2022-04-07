@@ -1,10 +1,10 @@
 # ADR002: Use GOV.UK Notify
 
-Date: 2022-02-21
+Date: 2022-04-07
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
 
