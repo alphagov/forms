@@ -7,9 +7,12 @@ Date: 2022-03-15
 `Proposed`
 
 ## Context
-> The scope of this ADR is to evaluate the technological viability of Rust. Out of scope is if the GDS should adopt it widely, that is a decision for another report, or perhaps an RFC.
+
+> The scope of this ADR is to evaluate the technological viability of Rust for use in the GOV.UK Forms API. Out of scope is if the GDS should adopt it widely, that is a decision for another report, or perhaps an RFC.
 
 Our core API is (or will be) a vital piece of government infrastructure running on GOV.UK PaaS or AWS Lambda. (to be clear, it may or may not be Critical National Infrastructure in the official sense). Though not user-facing, It is important that this API be both reliable and fast, without being complicated to develop. Further, the carbon cost of this infrastructure needs to be considered (in terms of power usage).
+
+Alongside this, we also have to consider the supportability and maintainability of this API with respect to the tech team who will need to develop and support this API. This must consider the cost of hiring or training developers in Rust, as well as what support is available more widely should it be necessary in the future. As Rust is still a relatively new language (and not one officially adopted within the GDS) these aspects to our decision making are similarly important to the technological choice.
 
 ### Rust Advantages
 Rust bills itself as _"A language empowering everyone to build reliable and efficient software"_. It was first released in 2010, 8 months after Go. In terms of adoption there are [about the same number](https://redmonk.com/sogrady/files/2021/08/lang.rank_.0621.png) of github projects written in Rust as there are in Go.
