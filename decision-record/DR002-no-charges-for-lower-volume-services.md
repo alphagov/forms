@@ -1,4 +1,4 @@
-# DR002: We are not going to charge for using our platform.
+# DR002: We won't charge lower volume services to use our platform.
 
 Date: 2021-08-20
 
@@ -13,10 +13,10 @@ We tested different price points with decision-makers and different business mod
 
 ## Decision
 
-We will not charge users for using our platform. 
+We will not charge government services with fewer than 10,000 form transactions per year to use our platform. If higher volume services choose to use our platform once we open in public beta, or if a form's transactions are higher than first forecast, we could decide to charge for forms with 10,000 transactions and above.
 
 ## Consequences
 
-Positive - our users will be able to use the GOV.UK Form building platform at no cost.
+Positive - most form creators will be able to use GOV.UK Forms at no cost.
 
 This decision relates to [Plan form production](https://app.mural.co/t/gaap0347/m/gaap0347/1640103843400/cce4d74dc3ea2dd8916b8921a435b115a1c9e488?sender=u95c067cf6f303eaa90553018) part of our service.
