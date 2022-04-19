@@ -36,19 +36,17 @@ Notable benefits are:
 - A focus in the wider Rust community on correctness and security. Contrast with NPM, which requires so much work to control supply chain attacks that most teams give up the attempt.
 
 ### Rust Disadvantages
-- Less organisational knowledge. Though PaaS has an [experimental buildpack](https://github.com/alphagov/cf-buildpack-rust) for Rust, and Cyber Security have used it in the past (with one production service operational at time of writing) there are not many projects within GDS.
-- Hiring: though we will still hire based on Ruby, Python, and JavaScript, we must advertise that Rust is a language we use, and expect to train new hires.
-- Training: Rust has earlier requirements for learning; Whereas most languages wait until scale-up to require tuning, the Rust compiler requires much to be done ahead-of-time. The team can not expect new starters to be expert. 
 
+- Less organisational knowledge. Though PaaS has an [experimental buildpack](https://github.com/alphagov/cf-buildpack-rust) for Rust, and Cyber Security have used it in the past (with one production service operational at time of writing) there are not many projects within GDS. This means that we run the risk of operating with slightly more risk as the decisions we'll be making are not yet proven within GDS, which could cause unforeseen consequences down the line.
+- Training: Rust has earlier requirements for learning; Whereas most languages wait until scale-up to require tuning, the Rust compiler requires much to be done ahead-of-time creating a steep initial learning curve. The team can not expect new starters to have any knowledge of Rust. This would mean that until existing and future team members were able to be trained in Rust and able to effectively read and write Rust code our team would have an incredibly low number of people able to contribute and understand this part of the platform. When coupled with the prior lack of organisational knowledge, it would put an unreasonable burden on these team members to help train, develop, and support the API with a potential lack of support from team members or wider GDS.
+- Hiring: though we will still hire based on Ruby, Python, and JavaScript, we would advertise that Rust is a language we use. However we still cannot guarantee that new hires are knowledgable in Rust even if listed, and run the risk of every new hire still requiring training before being able to productively join our team. This would make hiring directly into our team more costly and difficult, at the time to be productive would be much larger than other teams - leaving us at risk of being unable to scale our team as required.
 
 ## Decision
 
-We will build an API in Rust.
+We will not build the API using Rust. However, given the technical benefits that have been demonstrated above, we will look at working on some of the mitigations required for the organisational disadvantages and consider Rust again in the future for small slices of our project where the risk of those issues has much less impact (For example writing an AWS Lambda in Rust).
 
 ## Consequences
 
-To mitigate the disadvantages mentioned above, we will:
-- Use the team's 10% L&D time to learn Rust
-- Advertise for Rust proficiency in our job listings (in addition to Ruby and JavaScript) 
-- Work in the wider GDS community to raise awareness and educate
-- Maintain a machine-readable API spec to allow falling-back to a different language should the experiment be a failure
+- To mitigate the disadvantages mentioned above, we will:
+  - Work in the wider GDS community to raise awareness and educate
+- We will also re-assess the organisational knowledge and support for this again when looking at options for languages for future aspects of our service.
