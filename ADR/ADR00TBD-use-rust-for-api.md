@@ -31,9 +31,10 @@ Notable benefits are:
 	- Request round-trip times are also faster: The slowest Rust web frameworks [are faster](https://web-frameworks-benchmark.netlify.app/result?asc=0&l=rust,ruby,python]) than the fastest Python and Ruby frameworks. Ruby is 1.45x slower, Python, 1.85x. (only the [sifrr](https://sifrr.github.io/sifrr/#/./packages/server/sifrr-server/) framework is faster in JS land)
 - A up to an order of magnitude reduction in memory overhead compared to python and ruby (depending on application) due to lack of runtime overhead.
 - Faster development due to instant compiler feedback (instead of waiting for logs)
-- Faster development due to less unit testing burden: Many errors that would require unit testing are instead compile-time errors. This is not just simple type errors, but whole categories of invalid states are unrepresentable due to careful language and library design.
-- 100% compiled coverage by definition (all compiled code is valid). Allowing the team great confidence that no API responses are invalid, no inputs cause errors, etc.
-- A focus in the wider Rust community on correctness and security. Contrast with NPM, which requires so much work to control supply chain attacks that most teams give up the attempt.
+- Being a compiled language, we felt much more confident in the code we were writing. Rust encodes so much logic into the rich type system that very high level logic can be compile-time validated, not just "is this a number"
+	- Many errors that would require unit testing are instead compile-time errors.
+	- 100% compiled coverage by definition
+	- There is a focus in the wider Rust community on compile-time correctness and compile-timesecurity.
 
 ### Rust Disadvantages
 
@@ -43,10 +44,13 @@ Notable benefits are:
 
 ## Decision
 
-We will not build the API using Rust. However, given the technical benefits that have been demonstrated above, we will look at working on some of the mitigations required for the organisational disadvantages and consider Rust again in the future for small slices of our project where the risk of those issues has much less impact (For example writing an AWS Lambda in Rust).
+We will not build this API using Rust. However, given the technical benefits that have been demonstrated above, we will look at working on some of the mitigations required for the organisational disadvantages and consider Rust again in the future for small slices of our project where the risk of those issues has much less impact (For example writing an AWS Lambda in Rust).
 
 ## Consequences
 
-- To mitigate the disadvantages mentioned above, we will:
-  - Work in the wider GDS community to raise awareness and educate
-- We will also re-assess the organisational knowledge and support for this again when looking at options for languages for future aspects of our service.
+- To mitigate the disadvantages mentioned above, we will work in the wider GDS community to raise awareness and educate, including:
+	- Lunch & Learn sessions on introductions to Rust
+	- Q&A sessions on where it would make sense to use Rust in the GDS
+	- If interest is strong, mentoring options to bring people up to speed. 
+- In our team, we will also re-assess the organisational knowledge and support for this again when looking at options for languages for future aspects of our service.
+
