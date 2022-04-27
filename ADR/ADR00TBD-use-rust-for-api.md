@@ -44,7 +44,7 @@ Notable benefits are:
 
 ## Decision
 
-We will not build this API using Rust. However, given the technical benefits that have been demonstrated above, we will look at working on some of the mitigations required for the organisational disadvantages and consider Rust again in the future for small slices of our project where the risk of those issues has much less impact (For example writing an AWS Lambda in Rust).
+We will not build this API using Rust and have instead opted for Ruby. However, given the technical benefits that have been demonstrated above, we will look at working on some of the mitigations required for the organisational disadvantages and consider Rust again in the future for small slices of our project where the risk of those issues has much less impact (For example writing an AWS Lambda in Rust).
 
 ## Consequences
 
