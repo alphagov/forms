@@ -1,4 +1,4 @@
-# ADR004: Store form schemas in an API
+# ADR004: [DRAFT] Where do we store form schemas
 
 Date: 2022-02-18
 
@@ -13,132 +13,132 @@ Proposed
   - Sustainability, runner not needed during quiet times
 - "Published forms" need to be accessible to the runner
 
+The GOV.UK Forms service is made up of two major user facing services:
+- The service where form creators can create, manage, and publish forms (the "builder")
+  - This service will need to have access to user information for signing in/permissions management
+- The service that people filling out the published forms use to fill in and submit their answers (the "runner")
+
+The rough flow of our service is as follows:
+- Form creator logs in
+- Form creator uses the builder to create a form
+- Form creator previews what the form looks like for users
+- Form creator publishes the form
+- Person filling out the form accesses the form
+- Person filling out the form completes the form
+- Person filling out the form submits the form
+
+Underlying both of these is the stored structure of the form. This has two states which may represent the data in different ways:
+- The structure which the builder creates
+  - The way this is stored may want to be optimised for ease of editing/updating, for example each page being a distinct database entry rather than the form as one big block.
+- The structure that the runner uses to render the form
+  - The way this is stored may wish to be optimised for being able to see the whole format at once for determining things such as the next page to visit, any conditional logic, etc.
+
+The way this data is stored and access needs to:
+
+- Be scalable, as more forms are created the more the form structure will be required to be read as there will be more people filling out forms.
+  - The scaling needs of the builder and the runner are different - the builder will have a lot less traffic compared to the runner and as such has different scaling needs.
+- Allow for the "previewing" of non-published forms, i.e. The runner must be able to see non-published forms
+- Allow forms to have owners and permission management
+- < other requirements >
+
 ### Option 1 - Forms API
 
 ```mermaid
 graph TD
-  Manager[Form manager]
+  Manager[Builder]
+  builderDatastore[(Builder data store)]
+  runnerRenderer[Runner]
 
-  subgraph formsApiService[Forms API]
-    formsApi[API]
+  subgraph formsApiService[ ]
+    formsApi[Forms API]
     formStore[(Form datastore)]
   end
 
-  runnerRenderer[Forms renderer]
+  Manager --> builderDatastore
   Manager --> formsApi
   formsApi --> formStore
   formStore --> formsApi
   runnerRenderer --> formsApi
 ```
 
-- Stores the forms in a datastore with the API being a separate application
-- Runner depends on API
-- Three applications to deploy with dependencies, too complex?
-- Could cache API responses for speed
+#### Summary
 
-### Option 2a - Runner as an API
+In this model the Forms API would be responsible for managing the storage of the form. The builder would hold the information about the users and the API would hold information about the forms, with one of them holding the information mapping user/permissions to forms.
+
+The API would be responsible for holding the status of each form (published/unpublished) and providing the structure to the reader.
+
+The runner would read published forms from the API and render them.
+
+#### Pros
+
+- An API allows for separate scaling based on demand on the runner without needing to scale the builder
+- Able to more easily fine tune how data gets stored/life cycle management of versions
+- Form structures for the runner to read are generated on access, meaning updates to the schema are easy to roll out
+
+#### Cons
+
+- More complex to manage - adds an additional application to update/deploy
+- Permissions for the forms will not be able to be stored in the same place as either the users or the forms, making connecting that data more complicated
+- Security implications
+  - The forms API will need to be secured, though there are multiple ways of doing this it adds an additional complexity to creating it
+
+### Option 2 - Published forms are stored in a datastore
 
 ```mermaid
 flowchart
-  subgraph Manager
-    managerService[Form manager]
-    managerDatastore[(Form datastore)]
-  end
+  managerService[Builder]
+  managerDatastore[(Builder datastore)]
+  formDatastore[(Published form data store)]
+  formRenderer[Runner]
 
-  subgraph Runner[Runner application]
-    api[Publish API]
-    renderer[Forms renderer]
-    store[(Published form datastore)]
-  end
-
-  managerService --> api
-  renderer --> store
-  managerService --> managerDatastore
-  api --> store
+  managerService <--> managerDatastore
+  managerService -- Publish forms --> formDatastore
+  formDatastore --> formRenderer
+  formRenderer --preview unpublished forms--> managerService
 ```
 
-- Stores the published forms alongside the runner
-- Runner doesn't depend on api but exposes it instead
-- Only two applications to deploy
+#### Summary
 
-### Option 2b - Publishing API, stores in shared datastore
+The builder would be responsible for holding the information about the users, permissions, and the structure of the forms that are in progress. However, when a form is "published", that structure would be uploaded to the published form data store. To support the preview feature, the builder would expose an API endpoint available to the runner to get the current structure so that it can be viewed before publishing.
 
-```mermaid
-flowchart
-  subgraph Manager
-    managerService[Form manager]
-    managerDatastore[(Form datastore)]
-  end
+The data store would be a simple file store such as S3 that was available to the runner. In this model it would enable the most recent version of the published forms to be available to the runner without the need to run/scale a server to manage it. Depending on the file store used, there may be other features we can take advantage of.
 
-  subgraph SharedSpace[Shared space]
-    subgraph Runner[Runner application]
-      renderer[Forms renderer]
-    end
+The runner would read the published form form the data store directly when being accessed by the user.
 
-    subgraph Publisher[Publishing application]
-      api[Publish API]
-    end
-    store[(Published form datastore)]
-  end
+#### Pros
 
-  managerService --> api
-  renderer --> store
-  managerService --> managerDatastore
-  api --> store
-```
+- There would only be two services to manage the deployment/updates of
+- Data stores such as S3 provide high uptime/performance
+- Potential cost saving benefits as we would be paying per access of a form rather than for running a server, which could be cached to reduce cost further
+- No need to create authentication methods around a central API
 
-- Stores the published forms in a datastore directly accessible to the runner
-  - This doesn't necessarily have to be a database (e.g. S3 with a cache)
-- Runner can be focused only on rendering
-- Publish API separate
-- Only two applications to deploy
+#### Cons
 
-### Option 3 - Manager and Runner share database
+- Updates to the form schema would require all forms to be republished on update
+- 
+
+#### Additional considerations
+
+- We would need to understand how to manage "withdrawing" a form that is no longer in use. This could be managed via storing the status of the form in the form structure data that is stored in the data store.
+
+
+### Option 2b - Published _and_ preview forms are stored in a datastore
 
 ```mermaid
 flowchart
-  subgraph sharedSpace[GOV.UK Forms]
-    subgraph manager[Manager application]
-      managerService[Form manager]
-    end
+  managerService[Builder]
+  managerDatastore[(Builder datastore)]
+  formDatastore[(Form data store)]
+  formRenderer[Runner]
 
-    formDatastore[(Form datastore)]
-
-    subgraph runner[Runner application]
-      formRenderer[Form renderer]
-    end
-  end
-
-  managerService <--> formDatastore
+  managerService <--> managerDatastore
+  managerService -- Publish forms --> formDatastore
+  managerService -- Store form snapshot for preview --> formDatastore
   formDatastore --> formRenderer
 ```
 
-- Form manager and runner share the same DB
-- No need to build/maintain APIs
-- Shared DB schema is a concern
+#### Summary
 
-### Option 4 - Monolithic manager and runner
+A lot of this is the same to option 2 - however rather than the builder exposing a preview API, it stores preview "snapshots" of the form in the data store that can be accessed by the runner.
 
-```mermaid
-flowchart
-  subgraph sharedSpace[GOV.UK Forms]
-    subgraph service[GOV.UK Forms application]
-      managerService[Form manager]
-      formRenderer[Form renderer]
-    end
-
-    formDatastore[(Form datastore)]
-  end
-
-  managerService <--> formDatastore
-  formDatastore --> formRenderer
-```
-
-- Single application to deploy
-- Single DB schema to maintain
-- Updates to manager will impact the runner
-
-## Decision
-## Consequences
-
-> both positive and negative consequences of the decision
+In this model, the form data stored would also need an indication of whether or not it was a "preview" snapshot or a published form so that the runner could handle it correctly.
