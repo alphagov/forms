@@ -82,26 +82,26 @@ The runner would read published forms from the API and render them.
 - Security implications
   - The forms API will need to be secured, though there are multiple ways of doing this it adds an additional complexity to creating it
 
-### Option 2 - Published forms are stored in a datastore
+### Option 2 - Published and preview forms are stored in a datastore
 
 ```mermaid
 flowchart
   managerService[Builder]
   managerDatastore[(Builder datastore)]
-  formDatastore[(Published form data store)]
+  formDatastore[(Form data store)]
   formRenderer[Runner]
 
   managerService <--> managerDatastore
   managerService -- Publish forms --> formDatastore
+  managerService -- Store form snapshot for preview --> formDatastore
   formDatastore --> formRenderer
-  formRenderer --preview unpublished forms--> managerService
 ```
 
 #### Summary
 
 The builder would be responsible for holding the information about the users, permissions, and the structure of the forms that are in progress. However, when a form is "published", that structure would be uploaded to the published form data store. To support the preview feature, the builder would expose an API endpoint available to the runner to get the current structure so that it can be viewed before publishing.
 
-The data store would be a simple file store such as S3 that was available to the runner. In this model it would enable the most recent version of the published forms to be available to the runner without the need to run/scale a server to manage it. Depending on the file store used, there may be other features we can take advantage of.
+The data store would be a simple file store such as S3 that was available to the runner. In this model it would enable the most recent version of the published forms to be available to the runner without the need to run/scale a server to manage it. Depending on the file store used, there may be other features we can take advantage of. The form data stored would also need an indication of whether or not it was a "preview" snapshot or a published form so that the runner could handle it correctly.
 
 The runner would read the published form form the data store directly when being accessed by the user.
 
@@ -120,25 +120,3 @@ The runner would read the published form form the data store directly when being
 #### Additional considerations
 
 - We would need to understand how to manage "withdrawing" a form that is no longer in use. This could be managed via storing the status of the form in the form structure data that is stored in the data store.
-
-
-### Option 2b - Published _and_ preview forms are stored in a datastore
-
-```mermaid
-flowchart
-  managerService[Builder]
-  managerDatastore[(Builder datastore)]
-  formDatastore[(Form data store)]
-  formRenderer[Runner]
-
-  managerService <--> managerDatastore
-  managerService -- Publish forms --> formDatastore
-  managerService -- Store form snapshot for preview --> formDatastore
-  formDatastore --> formRenderer
-```
-
-#### Summary
-
-A lot of this is the same to option 2 - however rather than the builder exposing a preview API, it stores preview "snapshots" of the form in the data store that can be accessed by the runner.
-
-In this model, the form data stored would also need an indication of whether or not it was a "preview" snapshot or a published form so that the runner could handle it correctly.
