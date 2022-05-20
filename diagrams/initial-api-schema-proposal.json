@@ -21,7 +21,9 @@
           },
           "name": {
             "description": "The name of the form",
-            "$ref": "#components/schemas/translatableText"
+            "allOf": [
+              "$ref": "#/components/schemas/translatableText"
+            ]
           },
           "submission_email": {
             "type": "string",
@@ -31,7 +33,7 @@
           "pages": {
             "type": "array",
             "items": {
-              "$ref": "#components/schemas/page"
+              "$ref": "#/components/schemas/page"
             }
           }
         }
@@ -45,19 +47,27 @@
           },
           "questionText": {
             "description": "The text of the question",
-            "$ref": "#/components/schemas/translatableText"
+            "allOf": [
+              "$ref": "#/components/schemas/translatableText"
+            ]
           },
           "questionShortName": {
             "description": "The short name for the question",
-            "$ref": "#/components/schemas/translatableText"
+            "allOf": [
+              "$ref": "#/components/schemas/translatableText"
+            ]
           },
           "hintText": {
             "description": "The hint text for the question",
-            "$ref": "#/components/schemas/translatableText"
+            "allOf": [
+              "$ref": "#/components/schemas/translatableText"
+            ]
           },
           "questionType": {
             "description": "The type of question being asked",
-            "$ref": "#/components/schemas/questionTypes"
+            "allOf": [
+              "$ref": "#/components/schemas/questionTypes"
+            ]
           }
         }
       },
