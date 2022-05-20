@@ -10,6 +10,10 @@ Date: YYYY-MM-DD
 
 Based on the prototype
 
+The schema can be viewed rendered at https://editor.swagger.io by importing from the URL:
+
+`https://raw.githubusercontent.com/alphagov/forms/ADR-form-data-structure/diagrams/initial-api-schema-proposal.json`
+
 ## Decision
 
 > what the team has decided to do
