@@ -1,4 +1,4 @@
-# ADR007: Storm form text data as objects
+# ADR007: Store form text data as objects
 
 Date: 2022-05-26
 
