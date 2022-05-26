@@ -21,12 +21,13 @@ Were we to replace these (or any other forms where multiple language versions ar
 
 ### Option 1: Do not support multiple languages per form in the runner, get users to create one form per each language
 
+
+**Example schema**
 ```json
-// example schema
 {
   "form": {
     "id": 1,
-    "language": "en" // or other language codes
+    "language": "en (or other language code)"
   }
 }
 ```
@@ -39,8 +40,8 @@ Additionally, we would not be able to respect the users locale settings in their
 
 ### Option 2: Support multiple languages per form, providing translations in the schema for any user generated text:
 
+**Example schema**
 ```json
-// Example schema
 {
   "form": {
       "pages": [
