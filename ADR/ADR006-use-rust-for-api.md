@@ -1,4 +1,4 @@
-# ADR00TBD: Try Rust for an API
+# ADR006: Try Rust for an API
 
 Date: 2022-03-15
 
