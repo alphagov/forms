@@ -1,6 +1,6 @@
-# ADR008: Decision Record Title (a description of the decision, not the problem)
+# ADR008: Page ordering defined by pointers to the next page in form objects
 
-Date: YYYY-MM-DD
+Date: 2022-05-31
 
 ## Status
 
