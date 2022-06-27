@@ -25,22 +25,38 @@ We plan to test the full creation of a sample form as if the user has already lo
 > consider adding links to prototype screens for latest version of pages
 -->
 
-GOV.UK Forms landing page
-![Page with GOV.UK Forms heading and create a form green start button. Screenshot](screenshots/001-forms-landing.png)
+### GOV.UK Forms landing page
+![GOV.UK Forms landing page. Screenshot](screenshots/001-forms-landing.png)
 Page with GOV.UK Forms heading and create a form green start button
 
-Form name
-![What is the name of your form question page with text input box. Screenshot](screenshots/002-name-your-form.png)
-What is the name of your form question page with text input box. Above the box there is hint text that says, "Use a name that describes what the form will help people to do. For example, ‘Apply for a licence’."
+### Form name page
+![What is the name of your form question page. Screenshot](screenshots/002-name-your-form.png)
+What is the name of your form question page with text input box.
+Above the box there is hint text that says, "Use a name that describes what the form will help people to do. For example, ‘Apply for a licence’."
 
-Form overview page
+### Form overview page
 ![Form overview page. Screenshot](screenshots/003-form-overview-first-time.png)
-Page with “Form” caption above heading that says the name of the form the user entered on the “Form name” page. The page has a green “Add a question” button above a link to preview form.
+Page with “Form” caption above heading that says the name of the form the user entered on the “Form name” page.
+The page has a green “Add a question” button above a link to preview form.
 Below preview link is a list of generated pages for check your answers and confirmation.
 
-Edit page
-![Edit question 1 page. Screenshot](screenshots/004-edit-page-1.png)
-![Add hint text expanded detail. Screenshot](screenshots/004-edit-page-1-hint.png)
+### Edit question page
+![Edit question page. Screenshot](screenshots/004-edit-page-1.png)
+Page with “Page 1” caption above heading “Edit page”.
+Smaller heading of “Question” comes before two input boxes. The first one with hint text that says “Long version - for example, What is your name?” and the second with hint text “Short version - for example, Name”.
+Below these two input boxes are a series of radio options below another heading of “Answer”, which has hint text “What kind of answer you need to this question”. The radio options available are:
+
+- A single line of text
+- An email address
+- An address
+- A phone number
+- A National Insurance number
+- A date
+
+There is a blue link with an arrow before the text “Add hint text”.
+The page ends with a green button with the text “Save and create next page”, a red button with the text “Delete page” and a blue link after the word ‘or’ “go to page list”.
+
+![Edit question age add hint text expanded detail. Screenshot](screenshots/004-edit-page-1-hint.png)
 
 ## Changes
 
