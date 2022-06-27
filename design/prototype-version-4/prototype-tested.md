@@ -15,8 +15,10 @@ Dates tested: YYYY-MM-DD to YYYY-MM-DD
 > list of screenshots of the different pages across the journeys
 > these should have alt text where appropriate, and a link to the detailed changes we want to call out on those screenshots
 
+<!--
 > for example, ![alt text](screenshots/001-forms-landing.png)
 > consider adding links to prototype screens for latest version of pages
+-->
 
 ![alt text](screenshots/001-forms-landing.png)
 
