@@ -1,0 +1,81 @@
+version: "2.4"
+
+services:
+  forms-admin:
+    build:
+      context: ../../forms-admin
+      args:
+        - RAILS_ENV=development
+        - NODE_ENV=development
+    env_file:
+      - forms-admin/var.env
+    volumes:
+      - "../../forms-admin:/app:cached"
+    tmpfs:
+      - /app/tmp/pids:mode=775,size=1k,uid=1000,gid=1000
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    ports:
+      - 3000:3000
+
+  forms-api:
+    build:
+      context: ../../forms-api
+    env_file:
+      - forms-api/var.env
+    volumes:
+      - "../../forms-api:/app:cached"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - 9292:3000
+
+  forms-runner:
+    build:
+      context: "../../forms-runner"
+      args:
+        - RAILS_ENV=development
+        - NODE_ENV=development
+    env_file:
+      - forms-runner/var.env
+    depends_on:
+      redis:
+        condition: service_started
+    tmpfs:
+      - /app/tmp/pids:mode=775,size=1k,uid=1000,gid=1000
+    ports:
+      - 3001:3000
+    volumes:
+      - "../../forms-runner:/app:cached"
+
+  redis:
+    image: redis:latest
+    ports:
+      - 6379:6379
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres:/var/lib/postgresql/data
+      - ./postgres/initdb.d:/docker-entrypoint-initdb.d/
+    ports:
+      - 5432:5432
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  redis-data:
+  postgres:
