@@ -1,0 +1,39 @@
+version: "2.4"
+
+services:
+  # forms-asset-builder:
+  #   build:
+  #     context: "../../forms-runner"
+  #     target: "assets"
+  #     args:
+  #       - RAILS_ENV=development
+  #       - NODE_ENV=development
+  #   env_file:
+  #     - forms-runner/var.env
+  #   depends_on:
+  #     - redis
+  #   volumes:
+  #     - "../../forms-runner:/app:cached"
+  #   command: ["yarn", "dev"]
+
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    ports:
+      - 8081:8081
+    depends_on:
+      - redis
+
+  pgweb:
+    container_name: pgweb
+    restart: always
+    image: sosedoff/pgweb
+    ports:
+      - 8082:8081
+    links:
+      - postgres:postgres
+    environment:
+      - DATABASE_URL=postgres://postgres:postgres@postgres:5432/postgres?sslmode=disable
+    depends_on:
+      - postgres
