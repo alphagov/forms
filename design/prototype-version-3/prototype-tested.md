@@ -1,18 +1,20 @@
-# Prototype version 2
+# Prototype version 3
 
-Dates tested: 2022-05-12 to 2022-05-13
+Dates tested: 2022-06-10 to 2022-06-14
 
 ## Status
 
-Superceeded by [version 3](../prototype-version-3)
+Superceeded by [version 4](../prototype-version-4)
 
 ## Context
 
-> Sprint 3  
-> In this sprint we want to test an updated version of the form builder with Insolvency Service staff who are likely to be our users  
-> Changes made were based on feedback received during the first round of research
+> Sprint 5  
+> Our first round of accessibility testing  
+> Other changes we're making include preparing for civil service live (CSL) 2022 for example, radios and checkboxes
 
-We introduced a return journey for testing, where we faked a previously created form with some errors and based the task on the form creator getting feedback from a colleague to make fixes
+We plan to test a partial creation of a sample form as if the user has already logged into the GOV.UK Forms platform and is re-creating one of their departments existing forms.
+
+We will also test a return journey as though they are returning to make fixes to an existing draft form.
 
 
 
@@ -23,35 +25,32 @@ Below are the screens a form creator will see when making or editing their forms
 
 ### GOV.UK Forms landing page
 
-![GOV.UK Forms landing page. Screenshot](screenshots/001-Form-Home.png)
+![GOV.UK Forms landing page. Screenshot](screenshots/001-GOV.UK-Forms.png)
 *Page with “GOV.UK Forms” heading and green “Create a form” start button.*
 
 
 ### Name your form page
 
-![What is the name of your form question page. Screenshot](screenshots/002-Create-a-form.png)
+![What is the name of your form question page. Screenshot](screenshots/002-What-is-the-name-of-your-form.png)
 *Page with “What is the name of your form?” question heading.*
 
 There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example, ‘Apply for a licence’.” above a text input.
 
 Below the text input is a green “Save and continue” button.
 
-#### What we changed from the previous version
-
-[Changes to the name your form page](page-detail/name-your-form.md)
-
 
 ### Form overview page
 
-![Form overview page. Screenshot](screenshots/003-Form-Apply-for-a-juggling-licence.png)
+![Form overview page. Screenshot](screenshots/003-Form-overview-Apply-for-a-juggling-licence.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Form overview”.*
 
 There is a green “Add a question” button.
 
+Below the button is a secondary heading “Form name”. The form name appears below in a summary list component, with “Apply for a juggling licence” on the left with an “Edit” link on the right.
+
 #### What we changed from the previous version
 
 [Changes to the form overview page](page-detail/form-overview.md)
-
 
 
 ### Edit question 1
@@ -74,7 +73,7 @@ Next is a secondary heading, “What kind of answer do you need to this question
 - National Insurance number
 - Phone number
 
-The page ends with a green “Save changes” button, next to a grey “Create next question” button before a red “Delete page” button. Below the three buttons is a “Go to form overview” link.
+The page ends with a green “Save question” button, next to a grey “Create next question” button. Below the two buttons is a “Go to form overview” link.
 
 <!-- describe side preview pane -->
 On the right side of the screen there is a secondary heading, “Question preview” with a link to “Preview question in a new tab”.
@@ -88,7 +87,7 @@ The detail component, “Add hint text to help people answer the question”, is
 
 #### What we changed from the previous version
 
-[Changes to the name your form page](page-detail/edit-question.md)
+[Changes to the edit question page](page-detail/edit-question.md)
 
 
 ### Edit question 2 - saved question
@@ -104,6 +103,14 @@ The ‘Date’ radio is now selected.
 
 <!-- describe side preview pane -->
 On the right side of the screen the iframe has now updated to include the question text “What is your date of birth?” and displays the date component underneath with inputs for ‘Day’, ‘Month’ and ‘Year’. The green “Continue” button is still disabled.
+
+
+### Delete a question
+
+![Are you sure you want to delete this question page. Screenshot](screenshots/010-Delete-page.png)
+*Page with “Are you sure you want to delete this question?” as the heading.*
+
+There are two radio options, “Yes” and “No”. Below is a green “Continue” button.
 
 
 ### Edit check your answers
@@ -144,7 +151,7 @@ The iframe includes the title “Form submitted” above text “Your reference 
 
 ### Publish a form
 
-![Publish form, apply for a juggling licence. Screenshot](screenshots/010-Publish-form-Apply-for-a-juggling-licence.png)
+![Publish form, apply for a juggling licence. Screenshot](screenshots/011-Publish-form-Apply-for-a-juggling-licence.png)
 *Page with “Publish form” caption above the heading “Apply for a juggling licence”.*
 
 There is a question, “Where do you want to publish the form?” with two radio options below, “On the GOV.UK website” and “On my organisation’s website”.
@@ -158,10 +165,18 @@ On the right side of the screen the iframe includes the title “Apply for a jug
 
 ## Some things we changed since last time
 
-- standard pages call to action button text changed from “Create a new page” to “Save changes”
-- standard pages rework of the in page preview (iframe on the right side of the screen) including adding a secondary heading, “Page preview” and adding a “Preview page in a new tab” link above the iframe
+- references to editing ‘page’ have been changed to ‘question’ for example, “Edit question”
+- added “Form name” to the form overview page so form creator has a way to change it
+- content improvements to hint text for question long/short names
+- added secondary heading and made other small changes to the in page preview (iframe on the right on the screen)
+- removed red “Delete” button from edit page if the page has not been saved
+- add delete question journey with confirmation interrupt page
+- set data to pull through to check your answers
+- got prototype ready for civil service live (CSL) 2022
+- improved prototype ready for accessibility testing
+- removed “Start page” from preview journey as we will not be allowing creation or hosting of start pages in our service, it was agreed this would be down on the publishing tools
 
-For more information, see [v0.0.2 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.2).
+For more information, see [v0.0.3 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.3).
 
 
 
@@ -170,15 +185,9 @@ For more information, see [v0.0.2 release notes](https://github.com/alphagov/for
 Below are the screens as the form filler (the end user) would see the form as they complete it.
 
 
-### Preview start page
-
-![Preview Apply for a juggling licence start page. Screenshot](screenshots/101-Preview-start-page.png)
-*Page with “Apply for a juggling licence” heading and a green “Start now” button containing a white arrow.*
-
-
 ### Preview question 1
 
-![Preview What is your name question page. Screenshot](screenshots/102-Preview-question-1.png)
+![Preview What is your name question page. Screenshot](screenshots/101-Preview-question-1.png)
 *Page with “What is your name?” question as a label for a text input. There is a green “Continue” button at the bottom.*
 
 This page is an example of the first (and all following) question pages that a form creator has added to their form.  
@@ -190,7 +199,7 @@ When the form filler clicks the “Continue” button the product should validat
 
 ### Preview final question
 
-![Preview What is your National Insurance number question page. Screenshot](screenshots/103-Preview-final-question.png)
+![Preview What is your National Insurance number question page. Screenshot](screenshots/102-Preview-final-question.png)
 *Page with “What is your National Insurance number?” question as a label for a text input. There is a green “Check your answers” button at the bottom.*
 
 This page is an example of the last question in a form sequence. The difference being a green “Check your answers” button in place of the usual “Continue”.
@@ -198,7 +207,7 @@ This page is an example of the last question in a form sequence. The difference 
 
 ### Preview check your answers (summary page)
 
-![Preview check your answers page. Screenshot](screenshots/104-Preview-Check-your-answers.png)
+![Preview check your answers page. Screenshot](screenshots/103-Preview-Check-your-answers.png)
 *Page with “Check your answers” heading followed by a summary list component.*
 
 The summary list component lists rows of the “Short version” of the questions the form creator has added with a space to the right where the form fillers answer would appear. Finally there is a “Change” link for the form filler to correct or change any answer they feel is incorrect.
@@ -208,11 +217,10 @@ Below is a secondary heading, “Declaration”, before the text “By submittin
 
 ### Preview form submitted (confirmation page)
 
-![Preview form submitted page. Screenshot](screenshots/105-Preview-Form-submitted.png)
+![Preview form submitted page. Screenshot](screenshots/104-Preview-Form-submitted.png)
 *Page with “Form submitted” heading followed by “Your reference number is HDJ2123F” in a green box.*
 
 This page includes a secondary heading “What happens next” followed by the content “We’ve sent you an email to confirm we have received your form.” This text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department and should match their internal service level agreements (SLAs).
-
 
 
 ## What we learned
@@ -220,10 +228,10 @@ This page includes a secondary heading “What happens next” followed by the c
 > Give a synopsis of the key findings from the round of research we tested this version.  
 > Include examples of found needs, pain points or quotes to help explain the findings. These do not have to be too detailed, as this should be covered in the research findings packs/decks - which can be linked to from here.
 
-[MURAL board playback](https://app.mural.co/t/gaap0347/m/gaap0347/1652262618825/de85a467bad90d061809431a9fa8007393135c43?wid=0-1652696148470)
+[Sprint 5 analysis slide deck](https://docs.google.com/presentation/d/1IiSQtwY1dBLbKMsny3p8aOauXg-nMkMW/edit?usp=sharing&ouid=103020973445843702447&rtpof=true&sd=true)
 
 <!-- REMOVE ME!!! after write up -->
-<!-- https://drive.google.com/drive/folders/1ePhbd9quZvA8Z4l8WB9sMjmsWDI5rZd- -->
+<!-- https://drive.google.com/drive/folders/1zrfpRnuctPm0Cfk69sOP_R57Uex94tdF?usp=sharing -->
 
 
 ## Opportunities (optional)

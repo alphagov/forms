@@ -6,6 +6,10 @@
 > - what we wanted to test for example, user needs or design changes
 > - what tasks we gave to users
 
+For this round of testing we want to get a baseline with our first private beta partners.
+
+We plan to test the full creation of a sample form as if the user has already logged into the GOV.UK Forms platform and is re-creating one of their departments existing forms.
+
 
 ## What we tested last time
 
@@ -16,6 +20,13 @@
 > ![alt text](../screenshots/001-forms-landing.png)  
 > *Description of what can be seen in the screenshot, to make it easier for screen reader users and if the images do not load.*  
 -->
+
+![Form overview page. Screenshot](../screenshots/003-form-overview-first-time.png)
+*Page with “Form” caption above heading that says the name of the form the user entered on the “Form name” page.*
+
+The page has a green “Add a question” button above a link to preview form.
+
+Below preview link is a list of generated pages for check your answers and confirmation.
 
 
 ### What we saw
