@@ -35,26 +35,30 @@ There is hint text that says, “The form name will be shown at the top of each 
 Below the text input is a green “Save and continue” button.
 
 
-### Form overview page
+### Create a form (task list page)
 
-![Form overview page. Screenshot](screenshots/003-Form-overview-Apply-for-a-juggling-licence.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Form overview”.*
+![Create a form task list page. Screenshot](screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
+
+
+### Add and edit your questions page
+
+![Add and edit your questions page. Screenshot](screenshots/004-Add-and-edit-your-questions.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Add and edit your questions”.*
 
 There is a green “Add a question” button.
-
-Below the button is a secondary heading “Form name”. The form name appears below in a summary list component, with “Apply for a juggling licence” on the left with an “Edit” link on the right.
 
 
 ### Edit question 1
 
-![Edit question 1. Screenshot](screenshots/004-Edit-question-1.png)
+![Edit question 1. Screenshot](screenshots/005-Edit-question-1.png)
 *Page with “Question 1” caption above a heading “Edit question”.*
 
 A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’” and then a text input.
 
 A second secondary heading, “Hint text (optional)”, followed by hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” and then a text input.
 
-Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be validated to check it’s in the selected format.” Below are radio buttons that determine the input type required:
+Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be checked to make sure it’s in the selected format.” Below are radio buttons that determine the input type required:
 
 - Single line of text (selected)
 - Address
@@ -79,7 +83,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 
 The first text input contains the text that appears as the pages heading, “What is your date of birth?”.
 
-The second text input with the secondary heading label “Question short name (optional)” has the text “Date of birth” in the text input.  
+The second text input with the secondary heading label “Hint text (optional)” has the text “Date of birth” in the text input.  
 
 The ‘Date’ radio is now selected.
 

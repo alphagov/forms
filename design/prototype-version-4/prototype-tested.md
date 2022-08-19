@@ -29,7 +29,7 @@ Below are the screens a form creator will see when making or editing their forms
 ![What is the name of your form question page. Screenshot](screenshots/002-What-is-the-name-of-your-form.png)
 *Page with “What is the name of your form?” question heading.*
 
-There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example, ‘Apply for a licence’.” above a text input.
+There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example, ‘Apply for a juggling licence’.” above a text input.
 
 Below the text input is a green “Save and continue” button.
 
@@ -82,7 +82,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 
 The first text input contains the text that appears as the pages heading, “What is your date of birth?”.
 
-The second text input with the secondary heading label “Question short name (optional)” has the text “Date of birth” in the text input.  
+The second text input with the secondary heading label “Hint text (optional)” has the text “Date of birth” in the text input.  
 
 The ‘Date’ radio is now selected.
 
