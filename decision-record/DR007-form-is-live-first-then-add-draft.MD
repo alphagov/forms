@@ -14,7 +14,9 @@ We need to know what is needed for the first form, so we know what work we need 
 
 ## Decision
 
-We'll finish getting everything ready to support a live form first (Option 1), then build a way to create and edit a draft when we have time (Option 4).
+We'll finish getting everything ready to support a live form first, then add Option 2 on to allow private editing of forms.
+
+We will implement Option 4 as part of improving the current API. This will involve technical decisions to be made around the design and implementation of new form features such as add another, optional questions and conditionality. It will also mean adding a stronger permissions, organisation and auditing model.
 
 ### Option 1: All forms created with GOV.UK Forms are “live”. Forms are edited directly
 
@@ -22,6 +24,8 @@ We'll finish getting everything ready to support a live form first (Option 1), t
 graph TD
     B(Live) --> |Edit form| B
 ```
+
+### Option 2: Each form starts as "draft", then can be made "live" but can’t be set to "draft" again. "Live" forms are edited directly.
 
 ### Option 4: A single “draft” version of a form can be worked on while a separate “live” version exists
 
@@ -35,11 +39,12 @@ graph TD
 
 ## Consequences
 
+The design and implementation effort for Option 1 and the technical changes to the product have meant that implementing Option 2 is now easier than Option 1. Given the advantages it brings - the ability to have forms out of sight of the public, it was felt that it was the best option for the first form going live. This decision also allows us to keep the publishing UX described by the design team, allowing us to move the product closer to option 4.
+
 While GOV.UK Forms will soon have a way to draft forms, if we don't have this in time for our partner to make their first form live, we're comfortable that the associated risks are low enough, particularly around disrupting end users if a change is made to a live form. If a change is made to a live form while an end user is filling in the form, they will probably get an error page, and have to start again. If multiple changes are made in a row, this could be frustrating for the end user.
 
 We have discarded these options:
 
-- Option 2: Each form starts as “draft”, then can be made “live” but can’t be set to “draft” again. “Live” forms are edited directly
 - Option 3: Each form starts as “draft”, then can be made “live”. “Live” forms can’t be edited but can move back into “draft”, making form unavailable until it is “live” again
 
 as for the extra effort, they don't offer much benefit to our users, as changes to live forms are still disruptive, as with Option 1.
