@@ -10,7 +10,7 @@ Accepted
 
 - Manager/Designer components don't need to be as scalable as the runner
 - Runner needs to scale to number of users
-  - Sustainability, runner not needed during quiet times
+  - Sustainability, builder and runner can scale up and down independently so no unnecessary resources are used
 - "Published forms" need to be accessible to the runner
 
 The GOV.UK Forms service is made up of two major user facing services:
