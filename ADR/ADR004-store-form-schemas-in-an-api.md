@@ -1,4 +1,4 @@
-# ADR004: [DRAFT] Where do we store form schemas
+# ADR004: Store form schemas in an API
 
 Date: 2022-02-18
 
@@ -115,8 +115,14 @@ The runner would read the published form form the data store directly when being
 #### Cons
 
 - Updates to the form schema would require all forms to be republished on update
-- 
 
 #### Additional considerations
 
 - We would need to understand how to manage "withdrawing" a form that is no longer in use. This could be managed via storing the status of the form in the form structure data that is stored in the data store.
+
+## Decision
+
+We have decided to implement Option 1 - the Forms API.
+
+## Consequences
+As a result of this decision, we will have to build a new API application and deploy this. We will need to ensure that the API is adequately secured. We should consider adding validations to the API to ensure that only valid forms are stored. 
