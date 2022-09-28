@@ -14,7 +14,7 @@ We need to know what is needed for the first form, so we know what work we need 
 
 ## Decision
 
-We'll finish getting everything ready to support a live form first, then add Option 2 on to allow private editing of forms.
+We'll finish getting everything ready to support a live form first, then add Option 2 on to allow private creation of forms.
 
 We will implement Option 4 as part of improving the current API. This will involve technical decisions to be made around the design and implementation of new form features such as add another, optional questions and conditionality. It will also mean adding a stronger permissions, organisation and auditing model.
 
