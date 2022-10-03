@@ -1,4 +1,4 @@
-# EPIC B Managing two versions of the same form
+# Epic B: Managing two versions of the same form
 
 Managing two versions of the same form is not a widespread issue. Larger (high volume) teams are generally well-oiled machines with systems and processes in place that allow this to be managed seamlessly. 
 
