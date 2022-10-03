@@ -43,6 +43,8 @@ The design and implementation effort for Option 1 and the technical changes to t
 
 While GOV.UK Forms will soon have a way to draft forms, if we don't have this in time for our partner to make their first form live, we're comfortable that the associated risks are low enough, particularly around disrupting end users if a change is made to a live form. If a change is made to a live form while an end user is filling in the form, they will probably get an error page, and have to start again. If multiple changes are made in a row, this could be frustrating for the end user.
 
+Our partners will need to be warned about this behaviour when they join the private beta and before they publish their first form so that they can assess and manage the risk. Messages warning users about the consequences of making changes to live forms have been added to the admin UI in the question editing section and tasklist.
+
 We have discarded these options:
 
 - Option 3: Each form starts as “draft”, then can be made “live”. “Live” forms can’t be edited but can move back into “draft”, making form unavailable until it is “live” again
