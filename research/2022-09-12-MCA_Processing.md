@@ -10,7 +10,7 @@
 - SCOOs claim that GOV.UK Forms output would be easier to read and process if there was clearer delineation between questions and responses
 - The addition of subject line would make the process more efficient for SCOOs.  It would allow them to store forms and organise them with unique names/subjects. Ideally this would have: Name of form (Volunteer to be a Coastguard), Area team, Applicant name.
 - Having form completers answer to email questions formatted as mailto: links makes it convenient to use them to make contact.
-- There was a comment that the personal information in emails was very visible in inboxes, especially if using preview panes."
+- There was a comment that the personal information in emails was very visible in inboxes, especially if using preview panes.
 
 ## Supporting Evidence
 - [Report](https://docs.google.com/presentation/d/1ZIliyiwD9qaqzRo2CLzt3lNbLlEYMgT-/edit?usp=sharing&ouid=104563467983597523310&rtpof=true&sd=true)
