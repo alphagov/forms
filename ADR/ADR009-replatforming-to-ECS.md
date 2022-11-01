@@ -8,8 +8,9 @@ Accepted
 
 ## Context
 
-GOV.UK Forms currently runs on GOV.UK PaaS which is being decommissioned in
-December 2023 and all tenants must re-platform.
+GOV.UK Forms currently runs on [GOV.UK PaaS which is being decommissioned in
+December 2023](https://gds.blog.gov.uk/2022/07/12/why-weve-decided-to-decommission-gov-uk-paas-platform-as-a-service/)
+and all tenants must re-platform.
 
 ## Decision
 
@@ -36,3 +37,5 @@ time to be spent on building and maintaining infrastructure which will likely
 require either up-skilling developers with Site Reliability Engineering (SRE)
 skills or adding extra Site Reliability Engineers to the team.
 - Some team members will need to learn more about working with AWS services directly.
+- The effort required to design and migrate to new infrastructure will reduce
+the amount of road map features that can be developed during the migration.
