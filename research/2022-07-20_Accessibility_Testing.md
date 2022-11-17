@@ -1,4 +1,4 @@
-# Accessibility testing of the current prototype
+# Accessibility testing
 
 ## Key Headlines
 
