@@ -30,7 +30,7 @@ and it also allows us to audit all our database tables for any creations, update
 - The difficulty we faced implementing features such as question reordering and making forms live. Lack of a solid model over the Forms and Pages meant adding these features took longer than necessary.
 
 Potential future problems we may face
-- DB recovery from failed deployments. How to do this in grape/Sequal. Rails already does this well out the box and is well
+- DB recovery from failed deployments. How to do this in grape/Sequel. Rails already does this well out the box and is well
   documented
  
 ### Option 1 - Implement ActiveRecord into ruby-grape
@@ -44,7 +44,7 @@ Creating proprietary software is not always ideal as it can be costly to maintai
 battle tested like other open source software. Again it would be fairly easy to implement at first but would soon be missing
 out on vital features.
 
-Team members would still have to understand grape and having to learn two very frameworks
+Team members would still have to understand grape and having to learn two very different frameworks
 
 ### Option 3 - Switch to using Rails API
 GDS recommends Rails API https://docs.publishing.service.gov.uk/manual/conventions-for-rails-applications.html#use-api_only-mode-for-api-projects
