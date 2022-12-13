@@ -4,7 +4,7 @@ Date: 2022-12-12
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
 
@@ -60,7 +60,7 @@ Rails advantages over Grape
 
 ## Decision
 
-> what the team has decided to do
+The team have decided to go with option 3 as appears to have more benefits for the team, product and brings us closer inline with the rest of GDS
 
 ## Consequences
 
