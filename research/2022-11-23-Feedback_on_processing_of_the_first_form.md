@@ -6,7 +6,7 @@
 - Including a question with ‘LN numbers or case reference numbers’ led to an increase in processing time.
 - The processors reported an issue with receiving information that required a decimal point e.g. number of days taken. This has been resolved.
 - An inconsistent experience for claimants where some similar forms can be completed via a webform, and other forms need to be completed with document-based submissions.
-- Processors reported an improvement in processing time of between 1.5 – 2.5 minutes per form. Much of this was attributed to receiving information in more organised, well laid out fashion making it easier find and transpose into the CMS
+- Processors reported an improvement in processing time of between 1.5 – 2.5 minutes per form. Much of this was attributed to receiving information in more organised, well laid out fashion making it easier to find and transpose into the CMS
 
 ## Supporting Evidence
 - [Report](https://docs.google.com/presentation/d/1auIySXU8ENpf9w7pplidhnRSpNNWXu1j/edit)
