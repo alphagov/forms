@@ -2,7 +2,7 @@
 
 ## Key Headlines
 
-- The question type overview page is visually easy for users to engage with but for some it is just on the edge of being too long and some believe it is important to be able to see all the questions on one page without scrolling down.
+- The question type page is visually easy for users to engage with but for some it is just on the edge of being too long and some believe it is important to be able to see all the questions on one page without scrolling down.
 - One user believed it would be easier if questions were ‘grouped’ into ‘chunks’ to reflect the beginning, middle and end of a form or by commonly used and custom questions. This raises the possibility of categorising question types and hints at the possibility users might benefit from ordering questions in a different way.
 - The ‘add a person’s name’ question was completed with ease and users welcomed the ability to break the name down into component parts. 
 - Users found it easy to add address questions and welcomed the addition of international and UK address fields.
