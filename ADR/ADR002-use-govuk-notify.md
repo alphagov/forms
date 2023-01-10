@@ -4,7 +4,7 @@ Date: 2022-04-07
 
 ## Status
 
-Rejected
+Superseded
 
 ## Context
 
