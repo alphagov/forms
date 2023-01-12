@@ -80,12 +80,87 @@ sequenceDiagram
 
 ## Set other form details
 
-TODO
+```mermaid
+sequenceDiagram
+  title Set other form details
+  actor user as form creator
+  participant browser as Web Browser
+  participant admin as forms-admin
+  link admin: GitHub repo @ https://github.com/alphagov/forms-admin
+  participant api as forms-api
+  link api: GitHub repo @ https://github.com/alphagov/forms-api
 
+  note right of user: form already created
+
+  user->>browser: click "Add a declaration for people to agree to" link
+  browser->>admin: GET /forms/{form id}/declaration
+  admin->>api: GET /api/v1/forms/{form id}
+  admin->>api: GET /api/v1/forms/{form id}
+  browser-->>user: show "Add a declaration" page
+  user->>browser: Provide declaration<br />click "Save and continue" button
+  browser->>admin: POST /forms/{form id}/declaration
+  admin->>api: GET /api/v1/forms/{form id}
+  admin->>api: GET /api/v1/forms/{form id}
+  admin->>api: PUT /api/v1/forms/{form id}
+  api->>api: Update form
+  admin-->>browser: 302
+  browser->>admin: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}/pages
+  browser-->>user: show "Create a form" page
+```
+
+Diagram shows "declaration". Flow is equivalent for
+
+* what-happens-next
+* privacy-policy
+* contact-details
 
 ## Set email address for completed forms
 
-TODO
+```mermaid
+sequenceDiagram
+  title Set other form details
+  actor user as form creator
+  participant browser as Web Browser
+  participant admin as forms-admin
+  link admin: GitHub repo @ https://github.com/alphagov/forms-admin
+  participant api as forms-api
+  link api: GitHub repo @ https://github.com/alphagov/forms-api
+  participant notify as GOV.UK Notify
+  participant inbox as shared email inbox
+  actor processor as form processor
+
+  note right of user: form already created
+
+  user->>browser: click "Set the email address for completed forms" link
+  browser->>admin: GET /forms/{form id}/submission-email
+  admin->>api: GET /api/v1/forms/{form id}
+  admin->>api: GET /api/v1/forms/{form id}
+  browser-->>user: show "Set the email address for completed forms" page
+  user->>browser: Provide email address<br />click "Save and continue" button
+  browser->>admin: POST /forms/{form id}/submission-email
+  admin->>admin: Generate and store confirmation_code
+  admin->>notify: Send email with confirmation_code
+  notify->>inbox: Send email
+  admin-->>browser: 302
+  browser->>admin: GET /forms/{form id}/email-code-sent
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
+  browser-->>user: show "Confirmation code sent" page
+
+  inbox--)processor: read email
+  processor--)user: provide confirmation_code
+
+  user->>browser: click "Enter the email address confirmation code" link
+  browser->>admin: GET /forms/{form id}/confirm-submission-email
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
+  browser-->>user: show "Enter the confirmation code" page  
+```
 
 ## Previewing a form
 
