@@ -10,7 +10,7 @@
 - Optional questions were seen, understood and implemented by users with ease. 
 - The guidance and examples are working well with evidence of users being prompted to think about the questions they are creating, leading to better question design. They are also copy and pasting examples into the field which saves them time.
 - There were also some areas where users had some difficulty. Onto e question overview page, although the options are mostly understood there can be some problems understanding the language. For example, ‘selection from a list,’  which can be understood as a list of previous questions and ‘adding a number’ with some users unsure whether this would enable them to include other characters and symbols e.g. BH678 
-- Users had difficulty adding a ‘selection from a list’ because they expected the question page to be presented before the options. Currently the design is backwards. Some users indicated it would be even more beneficial to see the question and options on one page. 
+- Users had difficulty adding a ‘selection from a list’ because they expected the question page to be presented before creating the list of options. Currently the design is backwards. Some users indicated it would be even more beneficial to see the question and options on one page. 
 - One very low digitally skilled user had real problems completing the task of creating the form. There were several issues:
     - The user expected to be able to add multiple questions in one go (not one at a time). Is this something we should prepare users for?  
     - The user didn’t appear to understand that text fields were there to key in information. He expected questions to be created for him. 
