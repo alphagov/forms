@@ -17,7 +17,7 @@ sequenceDiagram
   browser-->>user: show "What is the name of your form?" page
   user->>browser: Give the form a name<br />click "Save and continue" button
   browser->>admin: POST /forms/new<br />payload: forms_change_name_form%5Bname%5D={form name}
-  admin->>api: POST /api/v1/forms<br />{"name":"{form name}",<br />"submission_email":"",<br />"org":"{user orginisation}"}
+  admin->>api: POST /forms<br />{"name":"{form name}",<br />"submission_email":"",<br />"org":"{user orginisation}"}
   api->>api: Create form
   api-->>admin: {"id":{form id}}
   admin-->>browser: 302
@@ -94,14 +94,14 @@ sequenceDiagram
 
   user->>browser: click "Add a declaration for people to agree to" link
   browser->>admin: GET /forms/{form id}/declaration
-  admin->>api: GET /api/v1/forms/{form id}
-  admin->>api: GET /api/v1/forms/{form id}
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
   browser-->>user: show "Add a declaration" page
   user->>browser: Provide declaration<br />click "Save and continue" button
   browser->>admin: POST /forms/{form id}/declaration
-  admin->>api: GET /api/v1/forms/{form id}
-  admin->>api: GET /api/v1/forms/{form id}
-  admin->>api: PUT /api/v1/forms/{form id}
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
+  admin->>api: PUT /forms/{form id}
   api->>api: Update form
   admin-->>browser: 302
   browser->>admin: GET /forms/{form id}
@@ -136,8 +136,8 @@ sequenceDiagram
 
   user->>browser: click "Set the email address for completed forms" link
   browser->>admin: GET /forms/{form id}/submission-email
-  admin->>api: GET /api/v1/forms/{form id}
-  admin->>api: GET /api/v1/forms/{form id}
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
   browser-->>user: show "Set the email address for completed forms" page
   user->>browser: Provide email address<br />click "Save and continue" button
   browser->>admin: POST /forms/{form id}/submission-email
@@ -159,7 +159,31 @@ sequenceDiagram
   browser->>admin: GET /forms/{form id}/confirm-submission-email
   admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}
-  browser-->>user: show "Enter the confirmation code" page  
+  browser-->>user: show "Enter the confirmation code" page 
+
+  user->>browser: enter code, click "Save and continue" button
+  browser->>admin: POST /forms/{form id}/confirm-submission-email
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
+  admin->>admin: check code
+
+  opt wrong code entered
+    admin-->>browser: 200
+    browser-->>user: show "Enter the confirmation code" page with error
+    user->>browser: enter code, click "Save and continue" button
+    browser->>admin: POST /forms/{form id}/confirm-submission-email
+  admin->>api: GET /forms/{form id}
+    admin->>api: GET /forms/{form id}
+    admin->>admin: check code
+  end
+
+  admin->>api: PUT /forms/{form id}
+  api->>api: update form 
+  admin-->>browser: 302
+  browser->>admin: GET /forms/{form id}/submission-email-confirmed
+  admin->>api: GET /forms/{form id}
+  admin->>api: GET /forms/{form id}
+  browser-->>user: show "Email address confirmed" page
 ```
 
 ## Previewing a form
