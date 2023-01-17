@@ -21,7 +21,7 @@ We plan to test the full creation of a sample form as if the user has already lo
 > *Description of what can be seen in the screenshot, to make it easier for screen reader users and if the images do not load.*  
 -->
 
-![Form overview page. Screenshot](../screenshots/003-form-overview-first-time.png)
+![Form overview page. Screenshot](../screenshots/003-Form-overview-Apply-for-a-juggling-licence.png)
 *Page with “Form” caption above heading that says the name of the form the user entered on the “Form name” page.*
 
 The page has a green “Add a question” button above a link to preview form.

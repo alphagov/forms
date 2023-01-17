@@ -6,26 +6,44 @@ Dates tested: 2022-05-12 to 2022-05-13
 
 Superceeded by [version 3](../prototype-version-3)
 
+___
+
+## Contents
+
+- [Context](#context)
+- [Admin interface screenshots](#admin-interface-screenshots)
+- [Form runner screenshots](#form-runner-screenshots)
+- [What we learned](#what-we-learned)
+- [Opportunites](#opportunities)
+
+___
+
+<br>
+
 ## Context
 
-> Sprint 3  
+> **Sprint 3**  
 > In this sprint we want to test an updated version of the form builder with Insolvency Service staff who are likely to be our users  
-> Changes made were based on feedback received during the first round of research
 
-We introduced a return journey for testing, where we faked a previously created form with some errors and based the task on the form creator getting feedback from a colleague to make fixes
+Changes made were based on feedback received during the first round of research.
 
+We introduced a return journey for testing, where we faked a previously created form with some errors and based the task on the form creator getting feedback from a colleague to make fixes.
 
+<br>
+<br>
 
 ## Admin interface screenshots
 
 Below are the screens a form creator will see when making or editing their forms.
 
+<br>
 
 ### GOV.UK Forms landing page
 
 ![GOV.UK Forms landing page. Screenshot](screenshots/001-Form-Home.png)
 *Page with “GOV.UK Forms” heading and green “Create a form” start button.*
 
+<br>
 
 ### Name your form page
 
@@ -40,6 +58,7 @@ Below the text input is a green “Save and continue” button.
 
 [Changes to the name your form page](page-detail/name-your-form.md)
 
+<br>
 
 ### Form overview page
 
@@ -52,7 +71,7 @@ There is a green “Add a question” button.
 
 [Changes to the form overview page](page-detail/form-overview.md)
 
-
+<br>
 
 ### Edit question 1
 
@@ -90,6 +109,7 @@ The detail component, “Add hint text to help people answer the question”, is
 
 [Changes to the name your form page](page-detail/edit-question.md)
 
+<br>
 
 ### Edit question 2 - saved question
 
@@ -105,6 +125,7 @@ The ‘Date’ radio is now selected.
 <!-- describe side preview pane -->
 On the right side of the screen the iframe has now updated to include the question text “What is your date of birth?” and displays the date component underneath with inputs for ‘Day’, ‘Month’ and ‘Year’. The green “Continue” button is still disabled.
 
+<br>
 
 ### Edit check your answers
 
@@ -123,6 +144,7 @@ On the right side of the screen there is a secondary heading, “Page preview”
 
 The iframe includes the title “Check your answers” and displays the secondary heading, “Declaration”, above the text input content provided on the left, “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”
 
+<br>
 
 ### Edit confirmation page
 
@@ -141,6 +163,7 @@ On the right side of the screen there is a secondary heading, “Page preview”
 
 The iframe includes the title “Form submitted” above text “Your reference number is HDJ2123F” in a green box. There is also a secondary heading, “What happens next”, above the text input content provided on the left, “We’ve sent you an email to confirm we have received your form.”
 
+<br>
 
 ### Publish a form
 
@@ -154,27 +177,31 @@ There is a green “Publish form” button, the word ‘or’, and then a link t
 <!-- describe side preview pane -->
 On the right side of the screen the iframe includes the title “Apply for a juggling licence” above a green “Start now” button to simulate the journey from the start page.
 
+<br>
+<br>
 
-
-## Some things we changed since last time
+### Some things we changed since last time
 
 - standard pages call to action button text changed from “Create a new page” to “Save changes”
 - standard pages rework of the in page preview (iframe on the right side of the screen) including adding a secondary heading, “Page preview” and adding a “Preview page in a new tab” link above the iframe
 
 For more information, see [v0.0.2 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.2).
 
-
+<br>
+<br>
 
 ## Form runner screenshots
 
-Below are the screens as the form filler (the end user) would see the form as they complete it.
+Below are the screens the form filler (the end user) would see as they complete the form.
 
+<br>
 
 ### Preview start page
 
 ![Preview Apply for a juggling licence start page. Screenshot](screenshots/101-Preview-start-page.png)
 *Page with “Apply for a juggling licence” heading and a green “Start now” button containing a white arrow.*
 
+<br>
 
 ### Preview question 1
 
@@ -187,6 +214,7 @@ The basic structure includes a “Back” link which should take the form filler
 
 When the form filler clicks the “Continue” button the product should validate that an input has been given (field is not empty or radio is selected for example) before continuing through to the next question in sequence.
 
+<br>
 
 ### Preview final question
 
@@ -195,6 +223,7 @@ When the form filler clicks the “Continue” button the product should validat
 
 This page is an example of the last question in a form sequence. The difference being a green “Check your answers” button in place of the usual “Continue”.
 
+<br>
 
 ### Preview check your answers (summary page)
 
@@ -205,6 +234,7 @@ The summary list component lists rows of the “Short version” of the question
 
 Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button. The text of the declaration is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department.
 
+<br>
 
 ### Preview form submitted (confirmation page)
 
@@ -213,7 +243,11 @@ Below is a secondary heading, “Declaration”, before the text “By submittin
 
 This page includes a secondary heading “What happens next” followed by the content “We’ve sent you an email to confirm we have received your form.” This text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department and should match their internal service level agreements (SLAs).
 
+<br>
 
+___
+
+<br>
 
 ## What we learned
 
@@ -225,8 +259,13 @@ This page includes a secondary heading “What happens next” followed by the c
 <!-- REMOVE ME!!! after write up -->
 <!-- https://drive.google.com/drive/folders/1ePhbd9quZvA8Z4l8WB9sMjmsWDI5rZd- -->
 
+<br>
 
-## Opportunities (optional)
+## Opportunities
 
 > Are there any opportunities we would like to explore, or ideas that we think we could consider?  
 > List these here. They do not have to be full formulated at this point, but will inform our work (and should be added to Trello to discuss and ideate as a team).
+
+<br>
+
+[Back to the top](#prototype-version-2)
