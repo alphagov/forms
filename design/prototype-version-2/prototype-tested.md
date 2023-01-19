@@ -107,7 +107,7 @@ The detail component, “Add hint text to help people answer the question”, is
 
 #### What we changed from the previous version
 
-[Changes to the name your form page](page-detail/edit-question.md)
+[Changes to the edit question page](page-detail/edit-question.md)
 
 <br>
 
