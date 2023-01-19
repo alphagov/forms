@@ -25,7 +25,7 @@ ___
 > **Sprint 2**  
 > For this round of testing we want to get a baseline with our first private beta partners at the Insolvency Service
 
-We plan to test the full creation of a sample form as if the user has already logged into the GOV.UK Forms platform and is re-creating one of their departments existing forms.
+We plan to test the full creation of a sample form as if the user has already logged into the GOV.UK Forms platform and is re-creating one of their department's existing document-based forms.
 
 <br>
 <br>
