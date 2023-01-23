@@ -60,5 +60,9 @@ sequenceDiagram
   browser->>admin: GET /auth/gds/callback?<br />code={code}<br />&state={state}
   admin-->>browser: 302
   browser->>admin: GET /
+
+  admin->>signon: ?
+  signon-->>admin: ?
+
   browser-->>user: show GOV.UK Forms homepage
 ```
