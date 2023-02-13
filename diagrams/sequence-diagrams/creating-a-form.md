@@ -65,7 +65,7 @@ sequenceDiagram
   browser->>admin: POST /forms/{form id}/pages/new
   admin->>api: POST /forms/{form id}/pages<br />{"question_text":,<br />"hint_text":,<br />"answer_type":,<br />"is_optional":,<br />"answer_settings":{"input_type":}
   api->>api: create page
-  api-->admin: { ??? }
+  api-->>admin: { ??? }
 
   alt "Save and add next question" clicked
     admin-->>browser: 302
@@ -188,4 +188,29 @@ sequenceDiagram
 
 ## Previewing a form
 
-TODO
+```mermaid 
+sequenceDiagram
+  title Previewing a form
+  actor user as form creator
+  participant browser as Web Browser
+  participant admin as forms-admin
+  link admin: GitHub repo @ https://github.com/alphagov/forms-admin  
+  participant runner as forms-runner
+  link runner: GitHub repo @ https://github.com/alphagov/forms-runner  
+  participant api as forms-api
+  link api: GitHub repo @ https://github.com/alphagov/forms-api  
+
+  note right of user: At least one question has been added
+
+  admin-->>user: show "Create a form" page
+  user->>browser: Click "Preview this form in a new tab" link
+  browser->>runner: GET /preview-form/{form id}/{form slug}
+  runner->>api: GET /forms/{form id}
+  runner->>runner: determine start page  
+  runner-->>browser: 302
+  browser->>runner: GET /forms/{form id}/{form slug}/{start page id}
+  runner->>api: GET /forms/{form id}
+  runner->>api: GET /forms/{form id}/pages
+  runner-->>browser: render form start page
+  browser-->>user: show form preview in new tab
+```
