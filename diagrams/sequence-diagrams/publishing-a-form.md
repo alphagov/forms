@@ -25,7 +25,7 @@ sequenceDiagram
   admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}/pages
-  admin->>api: PUT /forms/{form id}
+  admin->>api: PUT /forms/{form id}/make-live
   admin-->>browser: 302
   browser->>admin: GET /forms/{form id}/live-confirmation
   admin->>api: GET /forms/{form id}
