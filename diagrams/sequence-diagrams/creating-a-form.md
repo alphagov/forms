@@ -22,8 +22,8 @@ sequenceDiagram
   api-->>admin: {"id":{form id}}
   admin-->>browser: 302
   browser->>admin: GET /forms/{form id}
-  Note right of admin: unclear why this next request happens twice, but it does
   admin->>api: GET /forms/{form id}
+  admin->>admin: check user org matches form org
   admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}/pages
   browser-->>user: show "Create a form" page
@@ -45,8 +45,8 @@ sequenceDiagram
 
   user->>browser: click "Add and edit your questions" link
   browser->>admin: GET /forms/1/pages/new/type-of-answer
-  Note right of admin: unclear why this next request happens twice, but it does
   admin->>api: GET /forms/{form id}
+  admin->>admin: check user org matches form org
   admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}/pages
 
