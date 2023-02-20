@@ -54,6 +54,33 @@ Below the text input is a green “Save and continue” button.
 
 <br>
 
+#### **Analysis**
+
+- Unclear what GOV.UK Forms is
+- Unclear what the form name is used for
+- Unclear where the form name would appear 
+
+##### **Comments**
+
+- would hint text help and state this is a draft name whilst you’re designing your form so you can find it in a list?  
+- drop downs and auto populating is interesting but we’d be worried about taking away the nudge to improve them and make their content more appropriate  
+- we need a name at least so they can find the form again  
+
+##### **Ideas**
+
+- change ‘save and continue’ to ‘save and add a question’
+- make naming the form to be mandatory 
+- Add ‘you can change this later’
+
+##### **Actions**
+
+- change the hint text for future testing
+- add an error page, to make the name input mandatory
+
+---
+
+<br>
+
 ### Form overview page
 
 ![Form overview page. Screenshot](screenshots/003-Form-Apply-for-a-juggling-licence.png)
@@ -75,6 +102,29 @@ On the right are grey buttons for moving the page ‘Up’ or ‘Down’ reorder
 Depending on where they are in the list, the buttons vary. The first row - and therefore the first page in the form - only has a ‘Down’ button, while the second row has both an ‘Up’ and ‘Down’ button, and the final row - and final question page in the form - only has an ‘Up’ button.
 
 Each new row also has a relevant “Edit” link to make changes to the corresponding page.
+
+<br>
+
+#### **Analysis**
+
+##### **Comments**
+
+- Agreed. I think this is an IA thing, could potentially be solved with a task list / Check your answers type approach
+Chunk the page up into digestible sections
+- I think people expected this screen to be a preview of the form questions. Adding more detail to each entry might help explain what things are
+- Having a task list approach would mean we could show the next step/stage as they progress through the form creation process
+- That task list idea may help to provide the structure they'd need to know and then supported by good design and maybe training materials.
+
+##### **Ideas**
+
+- explore task list / Check your answers type approach to break up the page into sections
+    - “Your pages” > “Our pages” (CYA/Confirmation) > “Next steps” (get the form live)
+
+##### **Actions**
+
+- remove everything else but “Add a question” button
+
+---
 
 <br>
 
@@ -108,6 +158,43 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 *Page with “Page 1” caption above heading “Edit page” with detail component expanded.*
 
 The detail component, “Add hint text”, is now expanded revealing the hint text “A short hint to help people answer the question” before a text input.
+
+<br>
+
+#### **Analysis**
+
+- Not sure why long and short questions are needed
+- Answer type didn’t match mental model for asking a Name
+- Felt answer types were missing or limited
+- Associated 'hint text' to adding information that goes on the start page
+- Felt ‘add a page’ button would allow creator to add different elements other than a question to a page eg. hint text
+- Wants an option to save and preview the previous questions
+- The purpose of the small preview pane is not obvious
+- Preview pane is not useful for the preview page
+- NINo format is a possible answer type missing
+
+##### **Comments**
+
+-   Previously add a question was add a page. Makes sense for now as we are adding one question to 
+-   What answer types need some extra explanation?
+
+##### **Ideas**
+
+- One user suggested: having an “add a question and add a page button”
+    - Because not only are you adding questions you are adding other different kinds of things like guidance 
+    - They would prefer an extra option for users to add a different bit and type of content
+
+##### **Actions**
+
+- change ‘page list’ in the ‘go to...’ link to ‘form overview’  
+- change any reference to ‘page’ to ‘question’  
+- make long version the main option and make short version optional
+- add context for both ‘long’ and ‘short version’
+- move hint text up  
+- change the buttons on the left hand side ‘update preview’ to ‘save changes’
+- Add a ‘back’ button
+
+---
 
 <br>
 
@@ -248,10 +335,17 @@ To see the write up go to [Research: Basic form building](../../research/2022-05
 
 <br>
 
-## Opportunities
+## Opportunities 
 
-> Are there any opportunities we would like to explore, or ideas that we think we could consider?  
-> List these here. They do not have to be full formulated at this point, but will inform our work (and should be added to Trello to discuss and ideate as a team).
+### Ideas
+
+- explore task list idea to help form creators complete their forms, step by step
+
+### Next steps
+
+- update “Name your form page” hint text for future testing
+- add error to make the “Name your form page” input mandatory
+- update “Form overview page” to only show “Add a question” button on first load - when there are no questions yet added
 
 <br>
 
