@@ -16,7 +16,7 @@ sequenceDiagram
   alt User already exists
     user->>browser: click on user
     browser->>signon: GET /users/{user id}/edit
-    user->>browser: check "Has access?", "Update User"
+    user->>browser: check  GOV.UK Forms "Has access?", "Update User"
     browser->>signon: POST /users/{user id}
     signon-->>browser: 302
     browser->>signon: GET /users
