@@ -65,7 +65,7 @@ sequenceDiagram
   browser->>admin: POST /forms/{form id}/pages/new
   admin->>api: POST /forms/{form id}/pages<br />{"question_text":,<br />"hint_text":,<br />"answer_type":,<br />"is_optional":,<br />"answer_settings":{"input_type":}
   api->>api: create page
-  api-->>admin: { ??? }
+  api-->>admin: 201
 
   alt "Save and add next question" clicked
     admin-->>browser: 302
