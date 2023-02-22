@@ -43,6 +43,20 @@ Below are the screens a form creator will see when making or editing their forms
 
 <br>
 
+#### **Analysis**
+
+- This page acted as expected for all users, with some going into further detail about what they’d also see here in future - such as list of forms they had created, both in progress or live 
+    > “Expect GDS to be good at these things - this looks like I expected” - P1
+
+#### **User comments**
+
+- P1: “link to help might possibly be here, incase you've never done it before”
+- P1: “not sure if there's training here too?”
+
+---
+
+<br>
+
 ### Name your form page
 
 ![What is the name of your form question page. Screenshot](screenshots/002-Create-a-form.png)
@@ -60,22 +74,22 @@ Below the text input is a green “Save and continue” button.
 - Unclear what the form name is used for
 - Unclear where the form name would appear 
 
-##### **Comments**
+#### **Team comments**
 
 - would hint text help and state this is a draft name whilst you’re designing your form so you can find it in a list?  
 - drop downs and auto populating is interesting but we’d be worried about taking away the nudge to improve them and make their content more appropriate  
 - we need a name at least so they can find the form again  
 
-##### **Ideas**
+#### **Ideas**
 
 - change ‘save and continue’ to ‘save and add a question’
 - make naming the form to be mandatory 
-- Add ‘you can change this later’
+- add ‘you can change this later’
 
-##### **Actions**
+#### **Actions**
 
-- change the hint text for future testing
-- add an error page, to make the name input mandatory
+- [X] change the hint text for future testing
+- [X] add an error page, to make the name input mandatory
 
 ---
 
@@ -107,22 +121,39 @@ Each new row also has a relevant “Edit” link to make changes to the correspo
 
 #### **Analysis**
 
-##### **Comments**
+- Concerns about reordering many pages
+- Users could reorder pages, but took an extra moment to check if it worked
+  > “Did that actually do anything... yeah it's working” - P1
+- Users perceived the page list in different ways due to the additional generated pages - another pointed out that it could be difficult for them with the amount of information (numbering questions was suggested to help them)
+
+#### **User comments**
+
+-  P3: “What if it was 50 questions in a form that you have added at the bottom and you want to take it to number 8 it would be cumbersome.” ... “instead use an arrow or a dragging option would work for longer forms.”
+
+#### **Team comments**
 
 - Agreed. I think this is an IA thing, could potentially be solved with a task list / Check your answers type approach
 Chunk the page up into digestible sections
 - I think people expected this screen to be a preview of the form questions. Adding more detail to each entry might help explain what things are
 - Having a task list approach would mean we could show the next step/stage as they progress through the form creation process
 - That task list idea may help to provide the structure they'd need to know and then supported by good design and maybe training materials.
+- P2 Expected a ‘save and finish’ button - is this something we need to consider?
 
-##### **Ideas**
+#### **Ideas**
 
 - explore task list / Check your answers type approach to break up the page into sections
     - “Your pages” > “Our pages” (CYA/Confirmation) > “Next steps” (get the form live)
+- Can we add numbers down the side? 
+- Can we make it so the list is more delineated between questions - thinker line? 
+- How can we make it so that users can shift up and down by section or by more than one question at a time? E.g. Jump up button
+- Consider more descriptive labels for 'up' and 'down'? 'Move up' and 'move down' might be quite cumbersome though
 
-##### **Actions**
 
-- remove everything else but “Add a question” button
+#### **Actions**
+
+- [X] hide everything except “Add a question” button, until at least one question has been added
+- [X] remove content “X page draft form.”
+- [X] improve chunking of generated versus created questions/pages
 
 ---
 
@@ -163,36 +194,47 @@ The detail component, “Add hint text”, is now expanded revealing the hint te
 
 #### **Analysis**
 
-- Not sure why long and short questions are needed
-- Answer type didn’t match mental model for asking a Name
+##### **Long and short question text**
+- Not sure why long and short questions are needed  
+  > P2: Left short version blank for most questions.  
+
+  > P3: The long versions and short version, was an unexpected question. Initial thinking is to put the short version.  
+
+##### **Answer types**
 - Felt answer types were missing or limited
-- Associated 'hint text' to adding information that goes on the start page
-- Felt ‘add a page’ button would allow creator to add different elements other than a question to a page eg. hint text
+- NINo format is a possible answer type missing
+- Answer type didn’t match mental model for asking a Name  
+  > “you might want Name as a type here too. If you wanted first name and last name separately. At the moment you’d have to do two separate form fields.” - P1  
+
+##### **Previewing**
 - Wants an option to save and preview the previous questions
 - The purpose of the small preview pane is not obvious
-- Preview pane is not useful for the preview page
-- NINo format is a possible answer type missing
+  - Preview pane is not useful for the preview page 
 
-##### **Comments**
+##### **Other**
+- Associated 'hint text' to adding information that goes on the start page
+- Felt ‘add a page’ button would allow creator to add different elements other than a question to a page eg. hint text 
+
+#### **Team comments**
 
 -   Previously add a question was add a page. Makes sense for now as we are adding one question to 
 -   What answer types need some extra explanation?
 
-##### **Ideas**
+#### **Ideas**
 
 - One user suggested: having an “add a question and add a page button”
     - Because not only are you adding questions you are adding other different kinds of things like guidance 
-    - They would prefer an extra option for users to add a different bit and type of content
+    - They would prefer an extra option to add a different bit and type of content
 
-##### **Actions**
+#### **Actions**
 
-- change ‘page list’ in the ‘go to...’ link to ‘form overview’  
-- change any reference to ‘page’ to ‘question’  
-- make long version the main option and make short version optional
-- add context for both ‘long’ and ‘short version’
-- move hint text up  
-- change the buttons on the left hand side ‘update preview’ to ‘save changes’
-- Add a ‘back’ button
+- [X] change ‘page list’ in the ‘go to...’ link to ‘form overview’  
+- [X] change any reference to ‘page’ to ‘question’  
+- [X] make long version the main option and make short version optional
+- [X] add context for both ‘long’ and ‘short version’
+- [X] move hint text up  
+- [X] change the buttons on the left hand side ‘update preview’ to ‘save changes’
+- [X] add a ‘back’ button
 
 ---
 
@@ -233,6 +275,25 @@ There is a button styled like a link, “Update preview”, centered to the asid
 
 <br>
 
+#### **Analysis**
+
+- Users seemed confused by this screen, and tended to switch hats between creator and filler
+  > P3: Thought check your answers meant preview what you have done.  
+
+  > P3 suggested: Instead call it 'add your declaration page'  
+  > Not sure if every form needs a declaration?  
+
+  > “For the Check your answers page, I think this would be 
+ a way to edit wording or order the questions.” - P1  
+
+#### **Actions**
+
+- [X] make preview consistent with edit page
+
+---
+
+<br>
+
 ### Edit confirmation page
 
 ![Edit form submitted page. Screenshot](screenshots/005-Edit-confirmation-page.png)
@@ -252,6 +313,24 @@ There is a button styled like a link, “Update preview”, centered to the asid
 
 <br>
 
+#### **Analysis**
+
+- Users seemed confused by this screen, and tended to switch hats between creator and filler
+  > P2 initially thought the ‘confirmation’ was aimed at them as the form creator, rather than being a page aimed at the end user.  
+
+#### **User comments**
+
+- P1: Who gets the reference numbers? Is that part of the email?
+- P1: Where is it going to ask me where I as the creator put an email in, how I publish it. I would expect a ‘finalise this form’ or something like that at the bottom. ‘Finalise and publish’ or something like that. 
+
+#### **Actions**
+
+- [X] make preview consistent with edit page
+
+---
+
+<br>
+
 ### Publish a form
 
 ![Publish form, apply for a juggling licence. Screenshot](screenshots/009-Publish-form-Apply-for-a-juggling-licence.png)
@@ -263,6 +342,27 @@ There is a green “Publish form” button, the word ‘or’, and then a link t
 
 <!-- describe side preview pane -->
 On the right side of the screen the iframe includes the title “Apply for a juggling licence” above a green “Start now” button to simulate the journey from the start page.
+
+<br>
+
+#### **Analysis**
+
+- Users wanted some confirmation and playback of the link to their form
+  > P1: After clicking 'publish' said, “I would expect it to say ‘it’s been published’, here’s a link to it on the live site. Enjoy your day.”  
+- One expected it to go to some kind of 2i process, even after ‘publishing’ the form
+  > P2: thats what happens for gov.uk publishing
+- One user did not even see the link to publish their form
+
+#### **User comments**
+
+- P1: “What does publishing ‘on my organisation’s website’ mean?”
+
+#### **Team comments**
+
+- We need to make it clear what publishing on the organisations means. And make it clear the next steps after  
+- Could probably get part of the publish journey hooked up in prototype for next round...
+
+---
 
 <br>
 <br>
@@ -328,8 +428,9 @@ ___
 
 ## What we learned
 
-> Give a synopsis of the key findings from the round of research we tested this version.  
-> Include examples of found needs, pain points or quotes to help explain the findings. These do not have to be too detailed, as this should be covered in the research findings packs/decks - which can be linked to from here.
+Overall users found the experience of creating a form “easy”, but there were several areas that caused confusion. This was due to use of unknown terminology or lack of explanation of what was being shown or asked for.  
+
+There was some worry about losing progress if they were to navigate around the system, whether to preview or if they felt that they were ‘finished’. Showing a need for some kind of feedback when tasks are completed.  
 
 To see the write up go to [Research: Basic form building](../../research/2022-05-03_Basic_Form_Building.md).
 
@@ -343,9 +444,7 @@ To see the write up go to [Research: Basic form building](../../research/2022-05
 
 ### Next steps
 
-- update “Name your form page” hint text for future testing
-- add error to make the “Name your form page” input mandatory
-- update “Form overview page” to only show “Add a question” button on first load - when there are no questions yet added
+- update the prototype for the next round of testing
 
 <br>
 
