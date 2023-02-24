@@ -17,7 +17,6 @@ sequenceDiagram
   browser->>admin: GET /forms/{form id}/make-live
   admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
   browser-->>user: show "Make your form live" page
 
   user->>browser: Confirm making form live<br />click "Save and continue" button
@@ -28,7 +27,6 @@ sequenceDiagram
   admin->>api: PUT /forms/{form id}/make-live
   admin-->>browser: 302
   browser->>admin: GET /forms/{form id}/live-confirmation
-  admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}
   browser-->>user: show "Your form is live" page
