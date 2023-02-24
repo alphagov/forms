@@ -15,20 +15,20 @@ sequenceDiagram
   admin-->>user: show "Create a form" page
   user->>browser: Click "Make your form live" link
   browser->>admin: GET /forms/{form id}/make-live
-  admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
+  admin->>api: GET /api/v1/forms/{form id}
+  admin->>api: GET /api/v1/forms/{form id}
   browser-->>user: show "Make your form live" page
 
   user->>browser: Confirm making form live<br />click "Save and continue" button
   browser->>admin: POST /forms/{form id}/make-live
-  admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}/pages
-  admin->>api: PUT /forms/{form id}/make-live
-  admin-->>browser: 302
+  admin->>api: GET /api/v1/forms/{form id}
+  admin->>api: GET /api/v1/forms/{form id}
+  admin->>api: GET /api/v1/forms/{form id}/pages
+  admin->>api: POST /api/v1/forms/{form id}/make-live<br>payload: {includes all form attributes and values}<br>Controller Action doesn't use any
+  admin-->>browser: REDIRECT 302
   browser->>admin: GET /forms/{form id}/live-confirmation
-  admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
+  admin->>api: GET /api/v1/forms/{form id}
+  admin->>api: GET /api/v1/forms/{form id}
   browser-->>user: show "Your form is live" page
   user->>user: Copy URL for the form
 
