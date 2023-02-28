@@ -35,7 +35,8 @@ come to do User Management, we can set up the extra details as part of that work
 ### Positives
 
 - We can identify exactly what has changed and when it was changed.
-- We can restore from a specific version of Form/Page
+- We can restore from a specific version of Form/Page. This can be done through migration or Rails console, as a team we also
+  discussed the option of building an endpoint/UI which super admins may have access to to do these sort of tasks.
 - PaperTrail adds call back into all the crud actions create/update/delete so its easy to track those events
 - PaperTrail also accepts custom events an can be manually triggered
 - It's really easy to tell PaperTrail to track a model by including `has :papertrail` to the model that you would like to
