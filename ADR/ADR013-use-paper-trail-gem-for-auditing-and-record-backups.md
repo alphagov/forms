@@ -21,8 +21,9 @@ changes to Forms/Pages but also from any other tables we might want to monitor.
 
 ## Consequences
 
-We will not be able to identify what has changed and when without having to go back to splunk server logs and trawl 
-through them in the hopes of being able to spot the changes. We also need this information to surface back to the user.
+We will be able to identify very easily what attribute on a specific model changed, when it changed and who changed it.
+This means that we do not have to trawl splunk server logs trying to see what information had been sent to the server
+and at what point did the model get updated to. We also need this information to surface back to the user.
 
 By setting it up now, we can double check the data that's being collected and tweak it before surfacing it to our users. 
 If there are any issues we can reconfig or completely drop and restart this data collection without any questions from our users.
