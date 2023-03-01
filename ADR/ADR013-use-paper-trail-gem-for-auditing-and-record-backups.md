@@ -12,7 +12,8 @@ We need way to audit changes to database records to identify what has changed an
 will be surfaced to users later on when we come to versioning. This is still valuable to record now for any support tickets
 that come in and require us to understand the form/pages history.
 
-There is also a secondary need be able to restore individual records rather than having to restore from database backups.
+There is also a secondary benefit where it could be possible to restore individual records rather than having to restore 
+from database backups.
 
 ## Decision
 
