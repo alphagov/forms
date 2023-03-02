@@ -25,10 +25,6 @@ sequenceDiagram
   admin->>api: GET /api/v1/forms/{form id}
   admin->>api: GET /api/v1/forms/{form id}/pages
   admin->>api: POST /api/v1/forms/{form id}/make-live<br>payload: {includes all form attributes and values}<br>Controller Action doesn't use any
-  admin-->>browser: REDIRECT 302
-  browser->>admin: GET /forms/{form id}/live-confirmation
-  admin->>api: GET /api/v1/forms/{form id}
-  admin->>api: GET /api/v1/forms/{form id}
   browser-->>user: show "Your form is live" page
   user->>user: Copy URL for the form
 
