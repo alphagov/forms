@@ -49,10 +49,6 @@ sequenceDiagram
     browser->>admin: POST /forms/{form id}/make-live<br>payload: {forms_make_live_form"=><br>{"confirm_make_live"=>"made_live"},<br>"form_id"=>"{form id"}}
     admin->>api: POST /api/v1/forms/{form id}/make-live<br>payload: {includes all form attributes and values}<br>Controller Action doesn't use any
     note over admin,api: Creates a new record in published_forms table,<br>with a copy of the form and all its pages<br>
-    admin-->>browser: REDIRECT 302 
-    browser->>admin: GET /forms/{form id}/live-confirmation
-    admin->>api: GET /forms/{form id}
-    admin->>api: GET /forms/{form id}
     browser-->>user: show "Your form is live" confirmation page
     user->>browser: click "Continue to form details" link
     browser->>admin: GET /forms/{form id}/live
