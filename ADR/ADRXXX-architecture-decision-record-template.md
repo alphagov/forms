@@ -6,13 +6,13 @@ Date: YYYY-MM-DD
 
 > Proposed, Accepted, Rejected, Deprecated, Superseded by ADRzzz
 
-## Context
-
-> the facts behind the need to make the decision
-
 ## Decision
 
 > what the team has decided to do
+
+## Context
+
+> the facts behind the need to make the decision
 
 ## Consequences
 
