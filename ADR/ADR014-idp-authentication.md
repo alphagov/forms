@@ -1,10 +1,10 @@
-# ADR013: Use another Identity Provider for authentication
+# ADR014: Use an Identity Provider for authentication and implement authorisation
 
 Date: 2023-02-06
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
 
