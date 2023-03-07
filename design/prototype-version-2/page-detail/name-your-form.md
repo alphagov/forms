@@ -19,7 +19,7 @@ Below the text input is a green “Save and continue” button.
 
 ### What we saw
 
-When testing some users were unsure what to call their forms, with some suggesting that they should have a list of names to choose from. This seemed to feel as though they expected the system to know or have a list of their departments forms already listed.  
+When testing some users were unsure what to call their forms, with some suggesting that they should have a list of names to choose from. This seemed to feel as though they expected the system to know or have a list of their department's forms already listed.  
 
 We also heard from some users that they were unsure what the name would be used for and who would see it.  
 > “we should better explain what the name of the form will be used for - that the end user will see it” - P2

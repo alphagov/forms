@@ -50,7 +50,7 @@ Below are the screens a form creator will see when making or editing their forms
 
 #### **User comments**
 
-- P1: “link to help might possibly be here, incase you've never done it before”
+- P1: “link to help might possibly be here, in case you've never done it before”
 - P1: “not sure if there's training here too?”
 
 ---
@@ -83,13 +83,13 @@ Below the text input is a green “Save and continue” button.
 #### **Ideas**
 
 - change ‘save and continue’ to ‘save and add a question’
-- make naming the form to be mandatory 
+- make naming the form mandatory 
 - add ‘you can change this later’
 
 #### **Actions**
 
 - [X] change the hint text for future testing
-- [X] add an error page, to make the name input mandatory
+- [X] make the name input mandatory and add an error
 
 ---
 
@@ -124,7 +124,7 @@ Each new row also has a relevant “Edit” link to make changes to the correspo
 - Concerns about reordering many pages
 - Users could reorder pages, but took an extra moment to check if it worked
   > “Did that actually do anything... yeah it's working” - P1
-- Users perceived the page list in different ways due to the additional generated pages - another pointed out that it could be difficult for them with the amount of information (numbering questions was suggested to help them)
+- Users perceived the page list in different ways due to the additional generated pages - another pointed out that it could be difficult for them because of the amount of information (numbering questions was suggested to help them)
 
 #### **User comments**
 
@@ -132,28 +132,28 @@ Each new row also has a relevant “Edit” link to make changes to the correspo
 
 #### **Team comments**
 
-- Agreed. I think this is an IA thing, could potentially be solved with a task list / Check your answers type approach
+- Agreed. I think this is an information architecture thing, could potentially be solved with a task list / Check your answers type approach
 Chunk the page up into digestible sections
 - I think people expected this screen to be a preview of the form questions. Adding more detail to each entry might help explain what things are
-- Having a task list approach would mean we could show the next step/stage as they progress through the form creation process
-- That task list idea may help to provide the structure they'd need to know and then supported by good design and maybe training materials.
+- Having a task list approach would mean we could show the next step as they progress through the form creation process
+- That task list idea may help to provide the structure they'd need, that could be further supported by good design and maybe training materials.
 - P2 Expected a ‘save and finish’ button - is this something we need to consider?
 
 #### **Ideas**
 
 - explore task list / Check your answers type approach to break up the page into sections
-    - “Your pages” > “Our pages” (CYA/Confirmation) > “Next steps” (get the form live)
+    - “Your pages” > “Our pages” (Check your answers/Confirmation) > “Next steps” (get the form live)
 - Can we add numbers down the side? 
-- Can we make it so the list is more delineated between questions - thinker line? 
-- How can we make it so that users can shift up and down by section or by more than one question at a time? E.g. Jump up button
-- Consider more descriptive labels for 'up' and 'down'? 'Move up' and 'move down' might be quite cumbersome though
+- Can we make it so the list is more delineated between questions - maybe with a thicker line? 
+- How can we make it so that users can shift up and down by section or by more than one question at a time? For example with a "Jump up" button
+- Consider more descriptive labels for 'up' and 'down'? 'Move up' and 'Move down' might be quite cumbersome though
 
 
 #### **Actions**
 
 - [X] hide everything except “Add a question” button, until at least one question has been added
 - [X] remove content “X page draft form.”
-- [X] improve chunking of generated versus created questions/pages
+- [X] improve chunking of user generated versus automatically created questions/pages
 
 ---
 
@@ -195,14 +195,14 @@ The detail component, “Add hint text”, is now expanded revealing the hint te
 #### **Analysis**
 
 ##### **Long and short question text**
-- Not sure why long and short questions are needed  
+- Not sure why long and short versions of questions are needed  
   > P2: Left short version blank for most questions.  
 
-  > P3: The long versions and short version, was an unexpected question. Initial thinking is to put the short version.  
+  > P3: The long version and short version, was an unexpected question. Initial thinking is to put the short version.  
 
 ##### **Answer types**
 - Felt answer types were missing or limited
-- NINo format is a possible answer type missing
+- National Insurance Number is a possible answer type missing
 - Answer type didn’t match mental model for asking a Name  
   > “you might want Name as a type here too. If you wanted first name and last name separately. At the moment you’d have to do two separate form fields.” - P1  
 
@@ -217,7 +217,7 @@ The detail component, “Add hint text”, is now expanded revealing the hint te
 
 #### **Team comments**
 
--   Previously add a question was add a page. Makes sense for now as we are adding one question to 
+-   Previously 'add a question' was 'add a page'. Makes sense for now as it adds a question
 -   What answer types need some extra explanation?
 
 #### **Ideas**
@@ -228,12 +228,12 @@ The detail component, “Add hint text”, is now expanded revealing the hint te
 
 #### **Actions**
 
-- [X] change ‘page list’ in the ‘go to...’ link to ‘form overview’  
+- [X] change ‘go to page list’ link to ‘go to form overview’  
 - [X] change any reference to ‘page’ to ‘question’  
-- [X] make long version the main option and make short version optional
-- [X] add context for both ‘long’ and ‘short version’
+- [X] make long version of a question the main option and make short version optional
+- [X] add context for both ‘long’ and ‘short version’ of a question
 - [X] move hint text up  
-- [X] change the buttons on the left hand side ‘update preview’ to ‘save changes’
+- [X] change the button on the left hand side from ‘update preview’ to ‘save changes’
 - [X] add a ‘back’ button
 
 ---
@@ -277,8 +277,8 @@ There is a button styled like a link, “Update preview”, centered to the asid
 
 #### **Analysis**
 
-- Users seemed confused by this screen, and tended to switch hats between creator and filler
-  > P3: Thought check your answers meant preview what you have done.  
+- Users seemed confused by this screen, and tended to 'switch hats' between creator and filler
+  > P3: Thought 'check your answers' meant preview what you have done.  
 
   > P3 suggested: Instead call it 'add your declaration page'  
   > Not sure if every form needs a declaration?  
@@ -315,8 +315,8 @@ There is a button styled like a link, “Update preview”, centered to the asid
 
 #### **Analysis**
 
-- Users seemed confused by this screen, and tended to switch hats between creator and filler
-  > P2 initially thought the ‘confirmation’ was aimed at them as the form creator, rather than being a page aimed at the end user.  
+- Users seemed confused by this screen, and tended to 'switch hats' between creator and filler
+  > P2 initially thought the ‘confirmation’ was aimed at them as the form creator, rather than being a page aimed at the form filler.  
 
 #### **User comments**
 
@@ -350,7 +350,7 @@ On the right side of the screen the iframe includes the title “Apply for a jug
 - Users wanted some confirmation and playback of the link to their form
   > P1: After clicking 'publish' said, “I would expect it to say ‘it’s been published’, here’s a link to it on the live site. Enjoy your day.”  
 - One expected it to go to some kind of 2i process, even after ‘publishing’ the form
-  > P2: thats what happens for gov.uk publishing
+  > P2: thats what happens for GOV.UK publishing
 - One user did not even see the link to publish their form
 
 #### **User comments**
@@ -359,7 +359,7 @@ On the right side of the screen the iframe includes the title “Apply for a jug
 
 #### **Team comments**
 
-- We need to make it clear what publishing on the organisations means. And make it clear the next steps after  
+- We need to make it clear what publishing on the organisation's website means. And make it clear what the next steps after are.
 - Could probably get part of the publish journey hooked up in prototype for next round...
 
 ---
