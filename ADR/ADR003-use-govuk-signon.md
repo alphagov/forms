@@ -4,7 +4,7 @@ Date: 2022-04-07
 
 ## Status
 
-Superseded by [ADR014: Use an Identity Provider for authentication and implement authorisation](ADR014-idp-authentication.md).
+Superseded by [ADR015: Use an Identity Provider for authentication and implement authorisation](ADR015-idp-authentication.md).
 
 ## Context
 
