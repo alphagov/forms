@@ -26,7 +26,7 @@ So far on the project these haven't been huge problems, because we're still in p
 Vite can do many of the things we currently use Sprockets for - namely cache invalidation and manifest generation. Because of this, Sprockets is probably unnecessary for our use case. We can use [vite_rails](https://github.com/ElMassimo/vite_ruby/tree/main/vite_rails) to replace the other Sprockets features (integration with the Rails assets tasks and tag helpers for .erb files).
 
 ### Ecosystem concerns
-- Vite is quite popular now - it has roughly as much usage as Gulp in the most recent State of JS survey, but unlike Gulp it's increasing in popularity.
+- Vite is quite popular now - it has roughly as much usage as Gulp in [the most recent State of JS survey](https://2022.stateofjs.com/en-US/libraries/build-tools/), but unlike Gulp it's increasing in popularity.
 - It's part of the Vue ecosystem, so it has a reasonably large developer community attached to it and we should be able to expect it to remain active for a while.
 - Because it's ultimately using Rollup for bundling, if it does end up out of support in the future, we could move back to Rollup and Sprockets (or Propshaft) without too much trouble.
 
