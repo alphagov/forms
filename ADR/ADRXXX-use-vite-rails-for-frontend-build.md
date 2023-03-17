@@ -38,4 +38,4 @@ We have decided to move from Gulp/Rollup/Sprockets and the Rails CSS/JSBundling 
 
 - Faster frontend builds and updates - starting the dev server should be quicker, as should updates when code changes.
 - Faster builds overall - from local testing it appears that a clean install should be quicker, because we don't need to install as many gems or Yarn.
-- It's theoretically possible to for the dev server to do something different from the prod build - this is most likely to happen when devloping for browser-specific bugs. In these cases this can be circumvented by running a full build of the assets and then starting a local rails server, rather than using the vite dev server.
+- It's theoretically possible for the dev server to do something different from the prod build - this is most likely to happen when devloping for browser-specific bugs. In these cases this can be circumvented by running a full build of the assets and then starting a local rails server, rather than using the vite dev server.
