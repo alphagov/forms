@@ -1,4 +1,4 @@
-# ADRxxx: Use Vite and the vite_rails gem for our frontend build
+# ADR016: Use Vite and the vite_rails gem for our frontend build
 
 Date: 2023-03-17
 
