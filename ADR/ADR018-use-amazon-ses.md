@@ -1,4 +1,4 @@
-# ADR017: Use Amazon SES
+# ADR018: Use Amazon SES
 
 Date: 2023-03-27
 
