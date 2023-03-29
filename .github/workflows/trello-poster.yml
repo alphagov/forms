@@ -1,0 +1,14 @@
+name: Trello Poster
+on:
+  pull_request:
+    types: [created, edited]
+jobs:
+  trello-poster:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lfdebrux/trello-poster-action@58d9e4abfc732a12f372aa219478b74db0fd5d91
+        with:
+          comment-body: ${{ github.event.pull_request.body }}
+          github-url: ${{ github.event.pull_request.html_url }}
+          trello-api-token: ${{ secrets.TRELLO_API_TOKEN }}
+          trello-api-key: ${{ secrets.TRELLO_API_KEY }}
