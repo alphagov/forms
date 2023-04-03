@@ -23,8 +23,6 @@ sequenceDiagram
   admin-->>browser: 302
   browser->>admin: GET /forms/{form id}
   admin->>api: GET /forms/{form id}
-  admin->>admin: check user org matches form org
-  admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}/pages
   browser-->>user: show "Create a form" page
 ```
@@ -45,8 +43,6 @@ sequenceDiagram
 
   user->>browser: click "Add and edit your questions" link
   browser->>admin: GET /forms/1/pages/new/type-of-answer
-  admin->>api: GET /forms/{form id}
-  admin->>admin: check user org matches form org
   admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}/pages
 
@@ -94,18 +90,16 @@ sequenceDiagram
 
   user->>browser: click "Add a declaration for people to agree to" link
   browser->>admin: GET /forms/{form id}/declaration
-  admin->>api: GET /forms/{form id}
+
   admin->>api: GET /forms/{form id}
   browser-->>user: show "Add a declaration" page
   user->>browser: Provide declaration<br />click "Save and continue" button
   browser->>admin: POST /forms/{form id}/declaration
   admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
   admin->>api: PUT /forms/{form id}
   api->>api: Update form
   admin-->>browser: 302
   browser->>admin: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}/pages
   browser-->>user: show "Create a form" page
@@ -137,7 +131,6 @@ sequenceDiagram
   user->>browser: click "Set the email address for completed forms" link
   browser->>admin: GET /forms/{form id}/submission-email
   admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
   browser-->>user: show "Set the email address for completed forms" page
   user->>browser: Provide email address<br />click "Save and continue" button
   browser->>admin: POST /forms/{form id}/submission-email
@@ -147,9 +140,6 @@ sequenceDiagram
   admin-->>browser: 302
   browser->>admin: GET /forms/{form id}/email-code-sent
   admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
   browser-->>user: show "Confirmation code sent" page
 
   inbox--)processor: read email
@@ -158,12 +148,10 @@ sequenceDiagram
   user->>browser: click "Enter the email address confirmation code" link
   browser->>admin: GET /forms/{form id}/confirm-submission-email
   admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
   browser-->>user: show "Enter the confirmation code" page 
 
   user->>browser: enter code, click "Save and continue" button
   browser->>admin: POST /forms/{form id}/confirm-submission-email
-  admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}
   admin->>admin: check code
 
@@ -172,7 +160,6 @@ sequenceDiagram
     browser-->>user: show "Enter the confirmation code" page with error
     user->>browser: enter code, click "Save and continue" button
     browser->>admin: POST /forms/{form id}/confirm-submission-email
-  admin->>api: GET /forms/{form id}
     admin->>api: GET /forms/{form id}
     admin->>admin: check code
   end
@@ -181,7 +168,6 @@ sequenceDiagram
   api->>api: update form 
   admin-->>browser: 302
   browser->>admin: GET /forms/{form id}/submission-email-confirmed
-  admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}
   browser-->>user: show "Email address confirmed" page
 ```

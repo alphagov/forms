@@ -22,7 +22,6 @@ sequenceDiagram
   user->>browser: click "Create a draft to edit" button
   browser->>admin: GET /forms/{form id}
   admin->>api: GET /forms/{form id}
-  admin->>api: GET /forms/{form id}
   admin->>api: GET /forms/{form id}/pages
   browser-->>user: show draft form page with task list
   
@@ -31,16 +30,13 @@ sequenceDiagram
   user->>browser: click "Make your changes live" task
   browser->>admin: GET /forms/{form id}/make-live
   admin->>api: GET /api/v1/forms/{form id}
-  admin->>api: GET /api/v1/forms/{form id}
   browser-->>user: show "Make your changes live" page
   alt form creator decides not to make form live
     user->>browser: click "No" and submits page
     browser->>admin: POST /forms/{form id}/make-live<br>payload: {forms_make_live_form"=><br>{"confirm_make_live"=>"not_made_live"},<br>"form_id"=>"{form id"}}
     admin->>api: GET /api/v1/forms/{form id}
-    admin->>api: GET /api/v1/forms/{form id}
     admin-->>browser: REDIRECT 302
     browser->>admin: GET /forms/{form id}
-    admin->>api: GET /forms/{form id}
     admin->>api: GET /forms/{form id}
     admin->>api: GET /forms/{form id}/pages
     browser-->>user: show draft form page with task list
