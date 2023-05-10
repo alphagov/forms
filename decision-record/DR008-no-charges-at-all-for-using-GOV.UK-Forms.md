@@ -8,7 +8,7 @@ Proposed
 
 ## Context
 
-The previous pricing structure for GOV.UK Forms, documented in [DR002](https://github.com/alphagov/forms/blob/main/decision-record/DR002-no-charges-for-lower-volume-services.md), stated that there would be no charges for using GOV.UK Forms for government services with less than 10,000 transactions per year. However, we needed to decide and communicate to our partners the charges that would apply to forms with over 10,000 transactions. 
+The previous pricing structure for GOV.UK Forms, documented in [DR002](https://github.com/alphagov/forms/blob/main/decision-record/DR002-no-charges-for-lower-volume-services.md), stated that there would be no charges for using GOV.UK Forms for government services with less than 10,000 transactions per year. However, we needed to decide and communicate to our partners any charges that would apply to forms with over 10,000 transactions. 
 
 We drafted several [pricing options](https://docs.google.com/document/d/1ahgeukfJgqO5UG6e6HFeWnrD_06C2iAS9pVoj8eHc5c/edit#heading=h.6342cuxdkdzu) and presented these to the senior management team for review. On April 6, 2023, we received confirmation that GOV.UK Forms would become completely free for all users regardless of number of created forms or form submissions.
 
