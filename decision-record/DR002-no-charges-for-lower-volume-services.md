@@ -4,7 +4,7 @@ Date: 2021-08-20
 
 ## Status
 
-Accepted
+Superseded by DR008
 
 ## Context
 
