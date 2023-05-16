@@ -4,7 +4,7 @@ Date: 2023-05-09
 
 ## Status
 
-Proposed
+Approved
 
 ## Context
 
@@ -22,4 +22,7 @@ We have also changed the amount of time we’ll inform our partners of any chang
 ## Consequences
 
 Offering GOV.UK Forms at no cost helps to reduce the barriers to lower volume services using GOV.UK Forms that would otherwise require significant procurement effort. This will help drive greater digitisation of government services and promote channel shift, saving money and time for our users.
+
+Negative consequence
+We recognise that the decision not to charge for any forms or submissions, risks larger volume services using GOV.UK Forms when a digital service rather than just a form is required. Incase higher volume services that handle more than 10,000 transactions per year use an online form builder, they may be required to undergo a service assessment. It is not within the scope of GOV.UK Forms to ensure that such services have undergone a service assessment. If such cases arise, we will refer them to the DDaT profession leads of their respective departments to assist them in deciding the what to do.
 
