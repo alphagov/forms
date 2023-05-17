@@ -1,7 +1,7 @@
 name: Trello Poster
 on:
   pull_request:
-    types: [created, edited]
+    types: [opened, edited]
 jobs:
   trello-poster:
     runs-on: ubuntu-latest
