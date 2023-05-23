@@ -11,7 +11,7 @@ ___
 
 ## Contents
 
-- [Simple routing logic v1](#simple-routing-logic-v1)
+- [Simple routing logic](#simple-routing-logic)
   - [Status](#status)
   - [Contents](#contents)
   - [What](#what)
@@ -53,4 +53,4 @@ ___
 
 <br>
 
-[Back to the top](#simple-routing-logic-v1)
+[Back to the top](#simple-routing-logic)
