@@ -1,10 +1,8 @@
-# Simple routing logic v1
+# Simple routing logic
 
 ## Status
 
 Date created: *2023-05-23*  
-
-Hypothesis
 
 Epic trello card: https://trello.com/c/nBnFZQlw/135-epic-simple-routing  
 Mural working board: https://app.mural.co/invitation/mural/gaap0347/1671196865223?sender=ue1ef9fc3c2ad3697c3c93132&key=09616cf9-ae28-43a7-8810-10970a59a765  
@@ -44,6 +42,8 @@ We know when creating paper forms, creators use language to inform the form fill
 We also know that paper forms can be completed in any order with information being skipped if the person filling in the form doesn’t have the information or doesn’t feel like a certain question doesn’t apply to them and their submission. This can result in incomplete forms being submitted.  
 
 Without skip functionality being part of an HTML form users are forced to go through all the questions even when they are not relevant to their submissions success. We originally implemented a feature to allow form creators to make questions “optional”, meaning the person completing a form can pass over questions they do not need to complete. However, this means form creators need to give questions context within the “hint text” to help form completers decide if they need to complete a question or not.  
+
+## Hypothesis
 
 **We believe** by offering simple skip logic, based on the “selection from a list” answer type, we can help form creators create better forms that only ask for information that the processing team require to action a submission.  
 
