@@ -94,7 +94,7 @@ flowchart LR;
     "]
     
     step1-->|"user clicks #quot;Add a question route#quot; button"|step2;
-    step2-->|"user selects page and continues"|step3;
+    step2-->|"user selects question and continues"|step3;
     
 ```
 
