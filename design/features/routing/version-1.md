@@ -32,6 +32,34 @@ ___
 - form creator HAS to select a next question for each radio option IF one radio option in a list has had a next question set  
 - form creator can set next (single) question as skippable if radio option X is chosen  
 
+
+## Key decisions
+
+- we are only going to allow routing to be based on a radio button answer type
+- there can only be one route for a question
+  - a question can be routed to and then routed from
+  - but cannot have multiple routes from
+- we will not be considering branching journeys as part of this work
+- we will prioritise errors for breaking changes, such as
+  - the answer to base the route on is changed or deleted
+  - the question the route takes the person to is deleted
+  - the question the route takes the person to is now above the question the route should start
+- we will also give an error for when a question the route takes the person to is now directly below the question the route starts from 
+  - this could make our database complicated and have an impact on future iterations
+  - this is mostly house keeping
+- we will not allow a form to be made “Live” without the breaking change errors being resolved
+  - this is to reduce poor forms, and infinite loops within forms
+- we will not allow a creator to change the question the route is based on when editing a route
+  - the user should delete a route in this situation, as they will need to select all the different parts of the route
+  - this is something we might revisit, but makes development easier for now
+- moving a page that has a route attached (starting question) will also move the route
+- if the route start question is deleted, the route will also be deleted
+- if the route start question answer type is changed from radio options, the route will be deleted. This includes
+  - answer type being changed
+  - option for “People can only select on option” is unselected on the “Create a list of options” screen, making the question a checkbox and not a radio type question
+
+<br>
+
 ## Designs
 
 ### New “Add a question route” journey and view on questions list page
