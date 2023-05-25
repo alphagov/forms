@@ -14,6 +14,7 @@ ___
   - [Status](#status)
   - [Contents](#contents)
   - [What](#what)
+  - [Key decisions](#key-decisions)
   - [Designs](#designs)
 
 ___
