@@ -68,15 +68,65 @@ ___
 ![Add and edit your questions page with new grey “Add a question route” button next to the green “Add a question” button. Screenshot.](https://github.com/alphagov/forms/assets/35372982/700ad8f7-0fa7-4484-b636-2263beb141d2)
 *As part of the list of questions added to the form there is a new row, with the row heading “Question 2’s route”. To the right are the starting question, the answer to base the route on and the page to take the user to if the answer is chosen. There is an edit link at the end of the row.*
 
-### Adding a new route 
+### Create a new route 
 
 ![Simple routing exploration - 2022-12-16_2023-05-25_08-12-01](https://github.com/alphagov/forms/assets/35372982/3b72e7a3-8e41-43fb-86eb-9e09928bfce1)
 *caption2*
 
-### Editing an existing route
+#### Create a new route flow diagram
+
+```mermaid
+    
+flowchart LR;
+
+    step1["Add and edit your questions"]
+    
+    step2["Add a question route
+    Which question do you want your route to start from?
+    [Question 2]
+    [Question 5]
+    "]
+    
+    step3["Add a question route: select an answer and where to take the person to
+    If the question [Question 2]
+    is answered as [Y]
+    take the person to [Z]
+    "]
+    
+    step1-->|"user clicks #quot;Add a question route#quot; button"|step2;
+    step2-->|"user selects page and continues"|step3;
+    
+```
+
+### Edit an existing route
 
 ![Simple routing exploration - 2022-12-16_2023-05-25_08-12-56](https://github.com/alphagov/forms/assets/35372982/4af90739-72ce-4ef3-b110-ff1c041f6e3e)
 *caption3*
+
+#### Edit an existing route flow diagram
+
+```mermaid
+    
+flowchart LR;
+    
+    stepA["Add and edit your questions"]
+    
+    stepB["Edit question 2#39;s route
+    If the question [Question 2]
+    is answered as [Y]
+    take the person to [Z]
+    "]
+    
+    stepD["Delete question 2#39;s route
+    Are you sure you want to delete this question route?
+    []Yes
+    []No
+    "]
+    
+    stepA-->|"user clicks edit #quot;Question 2#39;s route#quot; link"|stepB;
+    stepB-->|user selects delete question route button|stepD;
+    
+```
 
 ### Breaking changes errors
 
