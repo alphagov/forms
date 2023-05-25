@@ -70,8 +70,8 @@ ___
 
 ### Create a new route 
 
-![Simple routing exploration - 2022-12-16_2023-05-25_08-12-01](https://github.com/alphagov/forms/assets/35372982/3b72e7a3-8e41-43fb-86eb-9e09928bfce1)
-*caption2*
+![Screen flow of user creating a new question route created in Mural. Screenshot.](https://github.com/alphagov/forms/assets/35372982/3b72e7a3-8e41-43fb-86eb-9e09928bfce1)
+*From left to right, “Add and edit your questions” with grey “Add a question route” button. User is taken to “Add a question route” screen with dropdown if more than 10 pages have radio answer type, else user is taken to the same page with radio buttons with the appropriate pages. Nexxt user is taken to “Add a question route: select an answer and where to take the person to” screen with the route the question is based on played back above a new dropdown labelled “is answered as” and a second dropdown labelled “take the person to”.*
 
 #### Create a new route flow diagram
 
@@ -100,8 +100,8 @@ flowchart LR;
 
 ### Edit an existing route
 
-![Simple routing exploration - 2022-12-16_2023-05-25_08-12-56](https://github.com/alphagov/forms/assets/35372982/4af90739-72ce-4ef3-b110-ff1c041f6e3e)
-*caption3*
+![Screen flow of user an existing question route created in Mural. Screenshot.](https://github.com/alphagov/forms/assets/35372982/4af90739-72ce-4ef3-b110-ff1c041f6e3e)
+*From left to right. “Edit question 2’s route” screen with playback of “If the question” and the question selected. Below is a dropdown labelled “is answered as” with the answer selected, and a second dropdown labelled ”take the person to” with a question selected. There is an “Add another answer” grey button above a green “Save and continue” and red “Delete question route” button. A red dotted line points to the next screen from the delete button. “Delete question 2’s route” screen shows a playback of the full route with rows for “If this question” ”is answered as” ”take the person to” above inset text “By deleting this question route the person filling in the form will have to complete every question, even if you do not need them to. Do you want this to happen? If you do, select ‘Yes’.” There is a mandatory question “Are you sure you want to delete this question route?” with radio options for “Yes” and “No” above a green “Save and continue” button.*
 
 #### Edit an existing route flow diagram
 
@@ -130,8 +130,8 @@ flowchart LR;
 
 ### Breaking changes errors
 
-![Simple routing exploration - 2022-12-16_2023-05-25_08-20-54](https://github.com/alphagov/forms/assets/35372982/c9d01a5c-48d9-4abf-816f-a22de683a665)
-*caption4*
+![Errors and how they will be displayed on the “Add and edit your questions” page as part of summary and inline error components, created on Mural. Screenshot.](https://github.com/alphagov/forms/assets/35372982/c9d01a5c-48d9-4abf-816f-a22de683a665)
+*List of 4 errors with two options of how to display them as inline errors.*
 
 
 <br>
