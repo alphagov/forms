@@ -34,11 +34,11 @@ flowchart LR;
   Complete all the tasks
   "]
 
-  step2["Make form live"]
-
-  step3["Your form is live
+  step2["Make form live
   Choose 'Yes' to proceed
   "]
+
+  step3["Your form is live"]
 
   step4["Your form page
   View form details
