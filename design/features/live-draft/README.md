@@ -102,6 +102,16 @@ flowchart LR;
 - **Your changes are live** confirmation page: use the confirmation panel to keep the experience consistent
 - **Forms landing page**:
   - If a form has a live and a draft version, display both status tag. When a user activates the form name link, they should land on the Live form view only page and can access the draft form via 'Edit the draft of this form' button
+- **Preview form** :
+  - Make previewing a draft and live form different from each other, so that it is clear what form state the user previewing
+  - Remove the 'Beta' tag in the phase banner from the preview, as it wasn't relevant and replace it with 'Draft' and 'Live' tags
+  - Include content in the phase banner 'You're previewing the draft version of this form' for a draft preview
+  - Include 'You're previewing a live form' content in the phase banner for a live form preview
+  - Include a 'PREVIEW' watermark for a live form preview
+  - We didn't want to rely on a watermark only, as it wouldn't be accessible
+  - Include 'Draft/Live preview' in the page title, so it's present in the browser tab
+  - Include 'draft/live preview' as visually hidden in the question H1, so screen readers can announce it
+  - Follow the colour theme of live and draft in the phase banner tag and page header border
 
 ## Designs
 
