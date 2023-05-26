@@ -10,12 +10,14 @@ ___
 
 ## Contents
 
-- [Feature name](#feature-name)
-  - [Status](#status)
-  - [Contents](#contents)
-  - [What](#what)
-  - [Key decisions](#key-decisions)
-  - [Designs](#designs)
+- [Status](#status)
+- [Contents](#contents)
+- [What](#what)
+- [Key decisions](#key-decisions)
+- [Designs](#designs)
+  - [Breaking changes errors](#breaking-changes-errors)
+  - [Edit answer type warning](#edit-answer-type-warning)
+  - [Notes](#notes)
 
 ___
 
@@ -68,6 +70,8 @@ ___
 ![Add and edit your questions page with new grey “Add a question route” button next to the green “Add a question” button. Screenshot.](https://github.com/alphagov/forms/assets/35372982/700ad8f7-0fa7-4484-b636-2263beb141d2)
 *As part of the list of questions added to the form there is a new row, with the row heading “Question 2’s route”. To the right are the starting question, the answer to base the route on and the page to take the user to if the answer is chosen. There is an edit link at the end of the row.*
 
+<br>
+
 ### Create a new route 
 
 ![Screen flow of user creating a new question route created in Mural. Screenshot.](https://github.com/alphagov/forms/assets/35372982/3b72e7a3-8e41-43fb-86eb-9e09928bfce1)
@@ -97,6 +101,8 @@ flowchart LR;
     step2-->|"user selects question and continues"|step3;
     
 ```
+
+<br>
 
 ### Edit an existing route
 
@@ -128,10 +134,34 @@ flowchart LR;
     
 ```
 
+<br>
+
 ### Breaking changes errors
 
 ![Errors and how they will be displayed on the “Add and edit your questions” page as part of summary and inline error components, created on Mural. Screenshot.](https://github.com/alphagov/forms/assets/35372982/c9d01a5c-48d9-4abf-816f-a22de683a665)
 *List of 4 errors with two options of how to display them as inline errors.*
+
+### Edit answer type warning
+
+![Blue “Important” notification banner informing user that existing question route may be deleted if they change the answer type at the top of the “What kind of answer do you need to this quesiton” screen, with “Selection from a list of options” radio selected. Screenshot.](https://github.com/alphagov/forms/assets/35372982/1cf086bd-ef9b-46d6-bde4-a01d9b02b6fd)
+*We are using the blue notification banner to inform a form creator that if they change the answer type from “Selection from a list of options” the existing question route attached to this question will be deleted, but they can cancel by using the back button or the “go to your questions” link in the notification banner.*
+
+This design needs to be tested and is a temporary implementation due to time constraints, but we know there is a better way of implementing this breaking change warning. Such as introducing an are you sure type page journey. 
+
+Current content:  
+```
+Your existing question route may be deleted
+Changing the answer type from “Selection from a list of options” to a different answer type means your route will no longer work and will be deleted.
+
+If you do not want to lose your question route you can cancel this change by using the back button or go to your questions.
+```
+
+<br>
+
+### Notes
+
+- changing the answer type doesn’t actually delete the question route or make any issues, or changes, to the database until the user presses one of the “Save” button options on the “Edit question” screen
+- we still need to consider if and what content should be on the “Create a list of options” screen for if a user returns to edit if the form completer can select more than one option
 
 
 <br>
