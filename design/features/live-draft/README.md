@@ -84,3 +84,4 @@ Date created: *2022-05-26*
 ![Preview draft form](/design/features/live-draft/screenshots-v1/008.Preview-draft-form.png)
 
 ### Form filler view of a live form
+x   

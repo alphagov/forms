@@ -32,7 +32,7 @@ We can include main names of the features and iterations.
 
 ### Outcome
 
-- [First tested iteration of making changes to a live form feature](/design/features/live-draft/version-1.md)
+- [First tested iteration of making changes to a live form feature](/design/features/live-draft/README.md)
 - We created an improved user journey of making changes to a live form in a draft state
 - We added new view only pages to present information about a form in a live state, like questions
 - We added a modified task list page for editing a form in a draft state
