@@ -4,7 +4,7 @@ Date: 2022-04-07
 
 ## Status
 
-Accepted
+Superseded by [ADR018 Use Amazon SES](ADR018-use-amazon-ses.md)
 
 ## Context
 
