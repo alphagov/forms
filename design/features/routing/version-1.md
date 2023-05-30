@@ -18,6 +18,7 @@ ___
   - [Breaking changes errors](#breaking-changes-errors)
   - [Edit answer type warning](#edit-answer-type-warning)
   - [Notes](#notes)
+- [Research focus](#research-focus)
 
 ___
 
@@ -163,6 +164,24 @@ If you do not want to lose your question route you can cancel this change by usi
 - changing the answer type doesn’t actually delete the question route or make any issues, or changes, to the database until the user presses one of the “Save” button options on the “Edit question” screen
 - we still need to consider if and what content should be on the “Create a list of options” screen for if a user returns to edit if the form completer can select more than one option
 
+___
+
+<br>
+
+## Research focus
+
+### Scenarios to test (prioritised for time):
+- Skipping a single question
+- Skipping a series of questions
+- Errors
+  - Error 1: Destination question deleted / Error 2: Removed the option in selection question for defined route
+  - Error 5: Changes routing question type to not select from list
+  - Error 4: Destination question moved to immediately below routing question
+  - Error 3: Destination question moved above route
+- Add questions to… Skip questions(s) based on binary answer (yes/no)
+- Add questions to… Skip questions(s) based on multiple answer (country)
+
+[Simple Routing Research Planning and discussion guide](https://docs.google.com/document/d/1OF9Tz-SL3o8qj-yk0mAHkZ9gVhA6ajVy66h7Ct5Lhis/edit)
 
 <br>
 
