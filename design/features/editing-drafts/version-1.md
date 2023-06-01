@@ -49,13 +49,23 @@ ___
 
 ## Key decisions
 
-> Decisions and discussions go here, with any potential blockers or features that are required to implement this design.
+- a tandem piece of work was picked up to [Add a way to show users whether they're looking at a live form, a preview of a live form or a preview of a draft form in the runner](https://trello.com/c/CYcJlAqv/739-add-a-way-to-show-users-whether-theyre-looking-at-a-live-form-a-preview-of-a-live-form-or-a-preview-of-a-draft-form-in-the-runne)
+- without the work of the above card, we could start changing the current preview link journey but would not move any further
+- we agreed to make the smallest amount of changes to the form builder, improving as we go
+- work would be chunked into smaller steps and implemented around larger feature work
+  - we had to make sure any step was self contained and would have a minimal overall impact without any dependencies
+  - each step should be done in a specific order, but some could be missed or visited in isolation
+- larger steps of work would need to be spiked and considered from a technical point of view
+- we would not test any of the functionality as a stand alone round of research and instead take findings from other rounds, when and if issues or opportunities came up
 
 <br>
 
 ## Designs
 
-> Design work from Mural and any screenshots will go here.
+### Step 1 of the to-be for draft and live preview
+
+![Step one of the to be draft and live preview screen flow view of a user landing on the “Add and edit your questions” and pressing the “Preview this form” link before being taken to the first screen in the journey, now within the same window or tab. Screenshot of screens from Mural](https://github.com/alphagov/forms/assets/35372982/c10e2578-bb66-4a7e-aaee-aa045a41b7f6)
+*caption1*
 
 <br>
 
