@@ -38,7 +38,17 @@ ___
 - there is a “DRAFT” watermark on the background of these screens, which we hope will help form creators keep the “creation” mindset (hat)  
 - there is no easy way for users to get back to the edit pages  
 - in rounds of research the new tab caused issues and users tried to click the back button to edit pages, with some being lost and needing prompting from the researcher  
-- some users suggested being able to quickly edit pages they were on when they saw an issue or error, like a typo or incorrect input type  
+- some users suggested being able to quickly edit pages they were on when they saw an issue or error, like a typo or incorrect input type 
+
+#### Current preview screens design
+
+The following designs were developed alongside the work to help users identify easily what version of the form they were looking at while the Forms team developed the new feature that allows a new draft of a form to be created from an existing live form without making changes instantly live.
+
+![Draft preview with updated phase banner using “DRAFT PREVIEW” purple tag next to content “You're previewing the draft version of this form”. The word “DRAFT” appears at an angle repeating across the screen left to right and top to bottom. Screenshot of mural board design](https://github.com/alphagov/forms/assets/35372982/5898c1fe-77b7-4130-876b-cb8136d5a07b)
+
+![Live preview with updated phase banner using “LIVE PREVIEW” blue tag next to content “You're previewing a live form”. The word “PREVIEW” appears at an angle repeating across the screen left to right and top to bottom. Screenshot of mural board design](https://github.com/alphagov/forms/assets/35372982/49f0242a-ded3-44b0-9b18-8991e48d716a)
+
+<br>
 
 ### To-be
 
@@ -66,6 +76,11 @@ ___
 
 ![Step one of the to be draft and live preview screen flow view of a user landing on the “Add and edit your questions” and pressing the “Preview this form” link before being taken to the first screen in the journey, now within the same window or tab. Screenshot of screens from Mural](https://github.com/alphagov/forms/assets/35372982/c10e2578-bb66-4a7e-aaee-aa045a41b7f6)
 *caption1*
+
+### Step 3 of the to-be logged in draft preview
+
+![Step three of the to be draft preview screen flow view of a logged in user previewing their form, the draft preview now has a new phase banner and content with a quick link to edit the current page they are previewing. Screenshot of screens from Mural](https://github.com/alphagov/forms/assets/35372982/015bf848-114c-427e-95c5-70e356550cfa)
+*caption2*
 
 <br>
 
