@@ -72,6 +72,9 @@ The following designs were developed alongside the work to help users identify e
 
 ## Designs
 
+Mural board:  
+https://app.mural.co/t/gaap0347/m/gaap0347/1679397321141/0240133a9118f567e73363eb32bd7136454d31e0?wid=0-1680685000213
+
 ### Step 1 of the to-be for draft and live preview
 
 ![Step one of the to be draft and live preview screen flow view of a user landing on the “Add and edit your questions” and pressing the “Preview this form” link before being taken to the first screen in the journey, now within the same window or tab. Screenshot of screens from Mural](https://github.com/alphagov/forms/assets/35372982/c10e2578-bb66-4a7e-aaee-aa045a41b7f6)
