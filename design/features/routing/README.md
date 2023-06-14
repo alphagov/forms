@@ -1,4 +1,4 @@
-# Simple routing logic
+# Simple routing logic (skip questions)
 
 ## Status
 
@@ -23,7 +23,7 @@ ___
 
 ## What
 
-This feature is introduces functionality within the form building tool to help form creators create simple skip logic for questions, meaning people completing a form should only be asked relevant questions based on a previously given answer.
+This feature introduces new functionality to the form building tool to help form creators create simple skip logic for questions. This means that people completing a form only need to be asked relevant questions based on a previously given answer.
 
 ### User stories
 
@@ -35,17 +35,17 @@ This feature is introduces functionality within the form building tool to help f
 
 ## Why
 
-When users fill in forms they are currently shown all the questions within a form, meaning they are potentially presented with questions that are not relevant to their submission. This can cause people completing forms anxiety when filling them in, as they may not have the information required or may not understand what they are being asked for.  
+When users fill in forms they’re currently shown all the questions within a form: this means they’re potentially presented with questions that are not relevant to their submission. This can cause anxiety for people completing forms as they may not have the information needed or they may not understand what they’re being asked for. It can also be a waste of their time and add to cognitive load.  
 
-We know when creating paper forms, creators use language to inform the form filler of when a piece of information is required or if they should go to a later section or question to continue.  
+When creating paper forms, we know that form creators use wording to tell the form filler when a piece of information is needed or if they should go to a later section or question to continue.  
 
-We also know that paper forms can be completed in any order with information being skipped if the person filling in the form doesn’t have the information or doesn’t feel like a certain question doesn’t apply to them and their submission. This can result in incomplete forms being submitted.  
+We also know that paper forms can be completed in any order, with information being skipped if the person filling in the form does not have the information or does not feel that a certain question applies to them. This can result in incomplete forms being submitted.  
 
-Without skip functionality being part of an HTML form users are forced to go through all the questions even when they are not relevant to their submissions success. We originally implemented a feature to allow form creators to make questions “optional”, meaning the person completing a form can pass over questions they do not need to complete. However, this means form creators need to give questions context within the “hint text” to help form completers decide if they need to complete a question or not.  
+Without skip functionality in an HTML form users are forced to go through all the questions even when they’re not relevant to their submission. We originally implemented a feature to allow form creators to make questions ‘optional’, meaning the person completing a form can pass over questions they do not need to complete. However, this means form creators need to add context to questions within the ‘hint text’ to help form fillers decide if they need to complete a question or not.  
 
 ## Hypothesis
 
-**We believe** by offering simple skip logic, based on the “selection from a list” answer type, we can help form creators create better forms that only ask for information that the processing team require to action a submission.  
+We believe that by offering simple skip logic, based on the ‘selection from a list’ answer type, we can help form creators create better forms that only ask for information that the processing team need to action a submission.  
 
 <br>
 
