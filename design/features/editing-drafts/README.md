@@ -28,21 +28,21 @@ ___
 
 ## What
 
-This feature is introduces functionality within the form building tool to help form creators quickly return to edit questions while previewing the full form as though they are a person completing the form. It introduces a clearer route for form creators to navigate between preview and edit.  
+This feature introduces functionality in the form building tool to help form creators return to edit their questions more quickly when previewing the form as though they're someone who's filling it in. It introduces a clearer, simpler route for form creators to navigate between previewing and editing their form.  
 
 <br>
 
 ## Why
 
-When users were testing their forms the wanted to step through the pages as an end user (form filler) would. As they travelled through their form, they spotted some mistakes within some pages and wanted to quickly get back to the editor screen for that page.  
+When users were testing their forms in preview they wanted to step through the pages and view them as an end user (form filler) would. As they travelled through their form, they spotted mistakes within certain pages and wanted to quickly get back to the edit screen for that particular page in order to change it.  
 
-It is currently causing issues as some lower digitally confident users aren't realising they are in a new window/tab and are trying to click back to return to the editor.  
+This is currently causing issues as some users with lower digital confidence are not realising that they're in a new window/tab. They're therefore trying to click the back button to return to the edit screen but finding that this is not possible.  
 
-Once they get back to the form overview page they have forgotten what page it was they saw the error.  
+Once they do manage to get back to the form overview page they've often forgotten which page they saw the error on.  
 
 ## Hypothesis
 
-**We believe** by offering them an "Edit this page" option somewhere within the test/preview journey they will be able to fix mistakes quicker and easier.
+We believe that by offering form creators an "Edit this page" option somewhere within the test/preview journey they'll be able to fix mistakes more quickly and easily.
 
 <br>
 
