@@ -15,7 +15,7 @@ ___
 - [What](#what)
 - [Key decisions](#key-decisions)
 - [Designs](#designs)
-  - [Breaking changes errors](#breaking-changes-errors)
+  - [Breaking change errors](#breaking-change-errors)
   - [Edit answer type warning](#edit-answer-type-warning)
   - [Notes](#notes)
 - [Research focus](#research-focus)
