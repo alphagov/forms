@@ -11,11 +11,12 @@ ___
 
 ## Contents
 
-- [Simple routing logic](#simple-routing-logic)
+- [Simple routing logic (skip questions)](#simple-routing-logic-skip-questions)
   - [Status](#status)
   - [Contents](#contents)
   - [What](#what)
   - [Why](#why)
+  - [Hypothesis](#hypothesis)
 
 ___
 
