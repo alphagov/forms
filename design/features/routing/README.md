@@ -42,7 +42,7 @@ When creating paper forms, we know that form creators use wording to tell the fo
 
 We also know that paper forms can be completed in any order, with information being skipped if the person filling in the form does not have the information or does not feel that a certain question applies to them. This can result in incomplete forms being submitted.  
 
-Without skip functionality in an HTML form users are forced to go through all the questions even when they’re not relevant to their submission. We originally implemented a feature to allow form creators to make questions ‘optional’, meaning the person completing a form can pass over questions they do not need to complete. However, this means form creators need to add context to questions within the ‘hint text’ to help form fillers decide if they need to complete a question or not.  
+Without skip functionality in an HTML form users are forced to go through all the questions even when they’re not relevant to their submission. We originally implemented a feature to allow form creators to make questions ‘optional’, meaning the person completing a form can pass over questions they do not need to complete. However, this means form fillers have to decide whether they think a question is relevant to them, and they may decide not to answer when in fact they need to. It also means that form creators may feel the need to clarify who should answer the question in the 'hint text', which may or may not be read by the form completer.  
 
 ## Hypothesis
 
