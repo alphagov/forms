@@ -49,8 +49,6 @@ ___
   - the question the route takes the person to is deleted
   - the question the route takes the person to is now above the question the route should start from
 - We'll also show an error when a question the route takes the person to is now directly below the question the route starts from 
-  - This could make our database complicated and have an impact on future iterations
-  - This is mostly house keeping
 - We will not allow a form to be made 'Live' without the breaking change errors being resolved
   - This is to reduce the likelihood of poor forms, and infinite loops within forms
 - We will not allow a creator to change the question the route is based on when editing a route
