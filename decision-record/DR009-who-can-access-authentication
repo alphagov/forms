@@ -8,7 +8,7 @@ Date: 2023-06-27
 
 ## Context
 
-> While looking at replacing Signon with either CDDO's SSO, or Auth0, it was raised that restricting users to gov.uk email accounts only would still allow non-central government deparmtnets, such as local councils, access to create an account.
+> While looking at replacing Signon with either CDDO's SSO, or Auth0, it was raised that restricting users to gov.uk email accounts only would still allow non-central government organisations, such as local councils, access to create an account.
 
 We are currently restricting GOV.UK Forms to central government departments, so this was discussed as a risk of inadvertently expanding our scope.
 
