@@ -2,7 +2,7 @@
 
 ## Key Headlines 
 
-"- The concept of a live form you then make a draft of to edit was understood by users.
+- The concept of a live form you then make a draft of to edit was understood by users.
 - Users noticed the ‘Live’ and ‘Draft labels and made use of them.
 - All users managed to make the various changes to forms, with a few uncertain moments about general navigation.
 - All users wanted to understand the form before editing, and used the question view and preview functions to successfully do this.
