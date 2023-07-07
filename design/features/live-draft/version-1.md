@@ -74,7 +74,7 @@ flowchart LR;
 ## Decisions
 
 **Create a form** task list page:
-Moved the 'Preview this form in a new tab' link to above the task list, so it's easier to find.
+- Moved the 'Preview this form in a new tab' link to above the task list, so it's easier to find.
 
 **Make form live** page:
 - Removed the 'Important' banner because we will no longer need to warn form creators about the impact on form fillers of each edit they make to a form once it's live.
@@ -112,21 +112,21 @@ Not yet implemented:
 - Form creators confirm with 'Yes' to continue.
 
 **Your changes are live** confirmation page: 
-- Uses the confirmation panel to keep the experience consistent
+- Used the confirmation panel to keep the experience consistent.
 
 **Forms landing page**:
 - If a form has a live and a draft version, we display both status tags. When a user selects a form link, they go to the Live form view only page and can access the draft form via 'Edit the draft of this form' button.
   
-**Preview form** :
-- Make previewing a draft and live form different from each other, so that it is clear what form state the user previewing
-- Remove the 'Beta' tag in the phase banner from the preview, as it wasn't relevant and replace it with 'Draft' and 'Live' tags
-- Include content in the phase banner 'You're previewing the draft version of this form' for a draft preview
-  - Include 'You're previewing a live form' content in the phase banner for a live form preview
-  - Include a 'PREVIEW' watermark for a live form preview
-  - We didn't want to rely on a watermark only, as it wouldn't be accessible
-  - Include 'Draft/Live preview' in the page title, so it's present in the browser tab
-  - Include 'draft/live preview' as visually hidden in the question H1, so screen readers can announce it
-  - Follow the colour theme of live and draft in the phase banner tag and page header border
+**Preview form**:
+- Made previewing a draft and live form look different from each other, so that it is clear what form state the user previewing.
+- Removed the 'Beta' tag in the phase banner from the preview, as it wasn't relevant, and replaced it with a 'Draft' or 'Live' tag.
+- Added 'You're previewing the draft version of this form' to the phase banner for a draft preview.
+- Added 'You're previewing a live form' to the phase banner for a live form preview.
+- Used different colours for the live and draft phase banner tag and the live and draft page header border.
+- Added a 'PREVIEW' watermark for a live form preview.
+- We didn't want to rely on a watermark only, as it wouldn't be accessible, so we also: 
+  - added 'Draft/Live preview' to the page title, so it's present in the browser tab
+  - added 'draft/live preview' as visually hidden in the question H1, so screen readers can announce it
 
 ## Designs
 
