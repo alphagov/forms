@@ -7,7 +7,7 @@
 - All users managed to make the various changes to forms, with a few uncertain moments about general navigation.
 - All users wanted to understand the form before editing, and used the question view and preview functions to successfully do this.
 - Two users thought that the form would be put in a maintenance state and unavailable to completers while they were editing their draft.
-- Two users did not make their form live, partly due to not noticing the link to do so."
+- Two users did not make their form live, partly due to not noticing the link to do so.
 
 ## Supporting Evidence
 - [Report](https://docs.google.com/presentation/d/1a-DTcB0dMOtEL3iV9L0lUajA_pgY3SI6Y7fBTkiNQpM/edit#slide=id.g2390911b466_0_31)
