@@ -21,6 +21,7 @@ With the constant attention that the tests require, and the expansion of their c
  - We have to (/get to) keep track of a new repo
  - Tests can be updated without requiring the `forms-deploy` repo to be in order
  - Test repo can have clearer dependencies and environment management
+- End to end tests can be public (forms-deploy repo is private)
 
 
 > both positive and negative consequences of the decision
