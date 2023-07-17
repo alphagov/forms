@@ -12,8 +12,8 @@ Date created: *2022-05-26*
   - [Decisions](#decisions)
   - [Designs](#designs)
     - [GOV.UK Forms landing page](#govuk-forms-landing-page)
-    - [Live form view only](#live-form-view-only)
-    - [Your questions view only](#your-questions-view-only)
+    - [Live form view-only](#live-form-view-only)
+    - [Your questions view-only](#your-questions-view-only)
     - [Edit draft form task list](#edit-draft-form-task-list)
       - [Edit draft in progress task list](#edit-draft-in-progress-task-list)
       - [Edit draft completed task list](#edit-draft-completed-task-list)
@@ -81,7 +81,7 @@ flowchart LR;
 
 **Your form is live**:
 - Added a confirmation panel to reassure form creators that the form is now live. This also makes the experience more consistent.
-- Once the form is live it becomes 'view only' and cannot be deleted. Only draft forms can be deleted.
+- Once the form is live it becomes 'view-only' and cannot be deleted. Only draft forms can be deleted.
 
 **Live form view**: 
 - Replaced the task list with a read only view of the form's settings and content.
@@ -115,7 +115,7 @@ Not yet implemented:
 - Used the confirmation panel to keep the experience consistent.
 
 **Forms landing page**:
-- If a form has a live and a draft version, we display both status tags. When a user selects a form link, they go to the Live form view only page and can access the draft form via 'Edit the draft of this form' button.
+- If a form has a live and a draft version, we display both status tags. When a user selects a form link, they go to the Live form view-only page and can access the draft form via 'Edit the draft of this form' button.
   
 **Preview form**:
 - Made previewing a draft and live form look different from each other, so that it is clear what form state the user previewing.
@@ -139,11 +139,11 @@ It then lists your organisations forms. In this case, 'Government Digital Servic
 
 The form names are links. To the right of each form link the forms status is shown in either a 'LIVE', 'DRAFT' status tag - or both. 
 
-### Live form view only
+### Live form view-only
 
-![Live form view only](screenshots-v1/003.Live-form-view-only.png)
+![Live form view-only](screenshots-v1/003.Live-form-view-only.png)
 
-An example of a live form's view only page. It shows:
+An example of a live form's view-only page. It shows:
 
 - the title of the form
 - it's 'LIVE' status tag
@@ -155,13 +155,13 @@ An example of a live form's view only page. It shows:
 - the form's submission email, privacy policy link and support contact details
 - a green button to 'Create a draft to edit'
 
-### Your questions view only
+### Your questions view-only
 
-![Questions view only](/design/features/live-draft/screenshots-v1/004.Your-questions-view-only.png)
+![Questions view-only](/design/features/live-draft/screenshots-v1/004.Your-questions-view-only.png)
 
-An example of the view only page of a form's questions. Each question is listed in a table with:
+An example of the view-only page of a form's questions. Each question is listed in a table with:
 - the question as a bold heading
-- the quesion's hint text if it has any
+- the question's hint text if it has any
 - the question's answer type and details of the answer type as relevant
 - the options for selection questions
 
@@ -171,25 +171,27 @@ An example of the view only page of a form's questions. Each question is listed 
 
 ![Edit draft task list in progress](/design/features/live-draft/screenshots-v1/006.Edit-form-in-draft-tasklist-in-progress.png)
 
-*Image Caption*
+The task list page to 'Edit your form'. The tasks have slightly different wording to the 'Create a Form' task list to reflect that the form builder is editing an existing forma rather than creating it for the first time. Above the task list, inset text warns the form builder than when a draft is made live there can be an impact on people who are part-way through completing the form at that time. The tasks each have a status alongside them, the 'Edit your questions' task in this example is shown as 'IN PROGRESS" while the other tasks are shown as 'COMPLETED'. The final task in the list. 'Make your changes live', is not an active link and has no status (as it cannot be completed yet). 
 
 #### Edit draft completed task list
 
 ![Edit draft task list completed](/design/features/live-draft/screenshots-v1/007.Edit-form-in-draft-tasklist-completed.png)
 
-*Image Caption*
+Same as the previous screenshot but in this example all the tasks except the final 'Make your changes live' taks have the 'COMPLETED' status tag. 'Make your changes live' is now an active link. 
 
 ### Make your changes live
 
 ![Make changes live](/design/features/live-draft/screenshots-v1/009.Make-changes-live.png)
 
-*Image Caption*
+This page warns again that "when you make your changes live, there may be an impact on people who are filling in the live form at the same time." It also states that the URL will remain the same (Note that this isn't quite accurate. The URL will still work, but it may have changed if the form creator changes the name of the form. This will be corrected).
+
+The page then asks 'Are you sure you want to make your draft live' with Yes/No radio options and a green "Save and continue" button.
 
 ### Your changes are live
 
 ![Changes are live](/design/features/live-draft/screenshots-v1/010.Changes-are-live-confirmation.png)
 
-*Image Caption*
+A green confirmation page says "Your changes are live". The content beneath the green banner plays back the form's name and URL, then some text explains that the form is not indexed by search engines and you'll need to contact your publishing team to publish the link on GOV.UK. Then there is a link to 'Continue to form details' which takes the user to to view-only live form page.
 
 ### Preview form
 
@@ -197,10 +199,15 @@ An example of the view only page of a form's questions. Each question is listed 
 
 ![Preview live form](/design/features/live-draft/screenshots-v1/011.Preview-live-form.png)
 
-*Image Caption*
+An example of a preview of a question page from a live form. Under the black GOV.UK banner there is a blue 'LIVE PREVIEW' tag and 'You're previewing the live version of this form'. There is a repeating grey 'PREVIEW' watermark behind the content of the question.
+
 #### Preview draft form
 
 ![Preview draft form](/design/features/live-draft/screenshots-v1/008.Preview-draft-form.png)
 
+An example of a preview of a question page from a draft form. Under the black GOV.UK banner there is a purple 'DRAFT PREVIEW' tag and 'You're previewing the draft version of this form'. Then a link to 'Edit this question'. There is a repeating grey 'DRAFT' watermark behind the content of the question.
+
 ### Form filler view of a live form
 ![Live form view](/design/features/live-draft/screenshots-v1/012.Live-form-form-filler-view.png)
+
+The same question that was previewed in the previous two designs but in this case it does not have a status tag os extra content under the banner, and it does not have a watermark. 
