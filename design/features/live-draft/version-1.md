@@ -133,18 +133,37 @@ Not yet implemented:
 ### GOV.UK Forms landing page
 ![Landing page](/design/features/live-draft/screenshots-v1/005.Landing-page-forms-list.png)
 
-*Image Caption*
+The main landing page of GOV.UK Forms. It has a black GOV.UK Forms banner and beta banner, a 'GOV.UK Forms' heading and a green 'Create a form' button. 
+
+It then lists your organisations forms. In this case, 'Government Digital Service forms'. 
+
+The form names are links. To the right of each form link the forms status is shown in either a 'LIVE', 'DRAFT' status tag - or both. 
+
 ### Live form view only
 
 ![Live form view only](screenshots-v1/003.Live-form-view-only.png)
 
-*Image Caption*
+An example of a live form's view only page. It shows:
+
+- the title of the form
+- it's 'LIVE' status tag
+- a link to 'preview this form'
+- The form URL and a button to copy the URL to your clipboard
+- a link to 'Your form's 13 questions'
+- the form's declaration text, and a details component explaining where it is shown
+- the form's 'what happens next' text, and a details component explaining where it is shown
+- the form's submission email, privacy policy link and support contact details
+- a green button to 'Create a draft to edit'
 
 ### Your questions view only
 
 ![Questions view only](/design/features/live-draft/screenshots-v1/004.Your-questions-view-only.png)
 
-*Image Caption*
+An example of the view only page of a form's questions. Each question is listed in a table with:
+- the question as a bold heading
+- the quesion's hint text if it has any
+- the question's answer type and details of the answer type as relevant
+- the options for selection questions
 
 ### Edit draft form task list
 
