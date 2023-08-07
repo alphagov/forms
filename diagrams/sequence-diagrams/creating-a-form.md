@@ -17,7 +17,7 @@ sequenceDiagram
   browser-->>user: show "What is the name of your form?" page
   user->>browser: Give the form a name<br />click "Save and continue" button
   browser->>admin: POST /forms/new<br />payload: forms_change_name_form%5Bname%5D={form name}
-  admin->>api: POST /forms<br />{"name":"{form name}",<br />"submission_email":"",<br />"org":"{user orginisation}"}
+  admin->>api: POST /forms<br />{"name":"{form name}",<br />"submission_email":"",<br />"organisation_id":{user organisation id}}
   api->>api: Create form
   api-->>admin: {"id":{form id}}
   admin-->>browser: 302
