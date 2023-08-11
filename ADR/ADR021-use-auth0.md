@@ -32,6 +32,8 @@ We will use [Auth0 passwordless authentication with email](https://auth0.com/doc
 
 We make use of the [Auth0 OmniAuth Strategy gem](https://github.com/auth0/omniauth-auth0).
 
+Auth0 offers limited [customisation of the login pages](https://auth0.com/docs/customize/universal-login-pages/universal-login-page-templates), which may restrict use of the [GOV.UK Design System](https://design-system.service.gov.uk/).
+
 We need to [configure Auth0 to use Amazon SES as an external SMTP email provider](https://auth0.com/docs/customize/email/smtp-email-providers/configure-amazon-ses-as-external-smtp-email-provider) (we decided to use SES as part of [ADR019: Use Amazon SES](ADR019-use-amazon-ses.md)).
 
 The Auth0 DPIA needs to be reviewed and updated when GOV.UK Forms moves into Public Beta phase and beyond.
