@@ -111,7 +111,7 @@ Having a link or button to create a route within either of these pages was consi
 
 In an attempt to improve the findability of the ‘Add a question route’ button by using another simpler, cheaper solution we decided to:
 
-- make the ‘Add a route’ button available at all times
+- make the ‘Add a question route’ button available at all times
 - create a new version of the routing start page with content that explains what form creators need to do if they try to add a route when their form doesn’t meet the criteria
 
 The intention is that form creators will notice the ‘Add a question route’ button alongside the ‘Add a question’ button earlier on in their form creation journey. This will need to be tested at the next opportunity.
@@ -146,43 +146,47 @@ We decided that it’s not a priority to revisit the rest of the content/wording
 
 ## Designs
 
-### ‘Add a route’ button now visible at all times 
+### ‘Add a question route’ button now visible at all times 
 
-The ‘Add a route’ button is now visible on the ‘Add and edit your questions’ page at all times - even if the criteria for adding a route are not met
+The ‘Add a question route’ button is now visible on the ‘Add and edit your questions’ page at all times - even if the criteria for adding a route are not met
 
 ![Add and edit your question screen with the grey ‘Add a question route’ button visible with a single question added. Screenshot](https://github.com/alphagov/forms/assets/35372982/757555e3-f224-41ed-ba74-e0bbd8030c16)
 
 
 ### Question route start page - no criteria are met and no other route exists
 
-New routing start page that form creators will see if they click the ‘Add a route’ button but do not yet meet any or all of the criteria for adding a route and no other routes exist.
+New routing start page that form creators will see if they click the ‘Add a question route’ button but do not yet meet any or all of the criteria for adding a route and no other routes exist.
 
 A new sentence which says “You can only add one route from each question” is shown beneath the bullet points. (This sentence appears on all other variations of the routing start page too.)
 
 ![Add a question route screen with no radio options to start a route from. Screenshot](https://github.com/alphagov/forms/assets/35372982/2101c8a1-c858-442b-8302-05eab6b0e495)
 
-...
-
 
 ### Question route start page - no criteria are met but other routes exist
 
-New routing start page that form creators will see if they click ‘Add a route’ button when they do not meet the criteria for adding a route but at least one other route already exists
+New routing start page that form creators will see if they click ‘Add a question route’ button when they do not meet the criteria for adding a route but at least one other route already exists
 
 ![Add a question route screen telling user “You have no more questions to start a route from”. Screenshot](https://github.com/alphagov/forms/assets/35372982/a5d99b86-80e2-46d6-9f69-06faafd7c46a)
 
-...
+Where the list of pages, if there were any that met the criteria, or the list of criteria would appear is now replace with the sentence, “A route can only start from a question where people select one item from a list. You can only add one route from each question.”
 
 
 ### Other versions of the routing start page - depending on how many potential start questions are available
 
 ![Three examples of the ‘Add a question route’ screen. Left, 1 available page, shows the screen with only one radio option available. Middle, 2 to 10 pages, shows the screen with three radio options. Right, 11+ pages, shows a select box component. Screenshot](https://github.com/alphagov/forms/assets/35372982/ebfd5ae1-faa7-4c55-adee-4ba7de9c8780)
 
-...
+The first version of the screen offers a single radio button with the name of the page that meets all the criteria. 
+
+The second version shows three pages that meet that criteria as radio buttons. This is how we will display up to ten pages that meet the criteria.
+
+The third version shows what the screen would look like if there were eleven or more pages that met the criteria. The select, dropdown, component is used.
 
 
 ### New optional question wording - removing the word ‘skip’ and using ‘leave it blank’ instead for the checkbox label
 
 ![Question settings section of “Edit question” screen showing new version of checkbox label text. Screenshot](https://github.com/alphagov/forms/assets/35372982/669dbc34-5ce2-41de-b5c0-cb5df5566ada)
+
+New checkbox label text reads, “Make this question optional so people can leave it blank”.
 
 <br>
 ___
