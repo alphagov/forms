@@ -12,8 +12,8 @@ ___
 
 - [Status](#status)
 - [Contents](#contents)
-- [What we’re doing](#what-we’re-doing)
-- [Why we’re doing this](#why-we’re-doing-this)
+- [What we’re doing](#what-were-doing)
+- [Why we’re doing this](#why-were-doing-this)
 - [Key decisions](#key-decisions)
 - [Designs](#design)
 
