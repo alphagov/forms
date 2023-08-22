@@ -19,8 +19,6 @@ ___
 
 ___
 
-<br>
-
 ## What we’re doing
 
 We’re making some changes to the GOV.UK Forms simple routing feature in response to findings from our first round of usability testing (sprint 30).
@@ -32,7 +30,6 @@ As a result of the findings, we’re going to:
 3. clarify what is / is not possible with simple routing
 4. clarify the difference between optional questions and routing
 
-<br>
 
 ### Version 1 simple routing feature (as-is) 
 
@@ -45,7 +42,6 @@ The criteria are that the form must have:
 - 2 or more questions
 - at least one question where people must select a single item from a list of options
 
-<br>
 
 #### How we explain what is / is not possible with simple routing 
 
@@ -53,7 +49,6 @@ We specify on the ‘Add a question route’ page that you can only create a rou
 
 The wording is: “A route can only start from a question where people select one item from a list”. 
 
-<br>
 
 #### How we present the difference between optional questions and routing 
 
@@ -79,7 +74,6 @@ The explanatory text is “‘(optional)’ will be added to the end of the ques
 
 See Trello card: [Make the ‘Add a question route’ button visible at all times](https://trello.com/c/itxN6e0h/866-routing-consider-making-the-add-a-question-route-button-visible-at-all-times-design)
 
-<br>
 
 #### How we’ll clarify what is / is not possible with simple routing
 
@@ -88,7 +82,6 @@ See Trello card: [Make the ‘Add a question route’ button visible at all time
 
 See Trello card: [Hone existing content to clarify what is and is not possible with basic routing](https://trello.com/c/X3D9272a/870-routing-hone-existing-content-to-clarify-what-is-and-isnt-possible-with-basic-routing-the-rules) 
 
-<br>
 
 #### How we’ll clarify the difference between optional questions and routing
 
@@ -96,7 +89,6 @@ See Trello card: [Hone existing content to clarify what is and is not possible w
 
 See Trello card: [Help users differentiate between optional questions and routing](https://trello.com/c/xv3uVzLm/902-routing-help-users-differentiate-between-optional-questions-and-routing) 
 
-<br>
 <br>
 
 ## Why we’re doing this 
@@ -107,7 +99,6 @@ It was important to balance the need for making changes to this feature with the
 
 We decided to prioritise these particular tasks because they were considered to be relatively ‘quick wins’ - meaning they should help form creators understand and add skip logic more easily but would not take up too much of the team’s resource.
 
-<br>
 <br>
 
 ## Key decisions 
@@ -125,7 +116,6 @@ In an attempt to improve the findability of the ‘Add a question route’ butto
 
 The intention is that form creators will notice the ‘Add a question route’ button alongside the ‘Add a question’ button earlier on in their form creation journey. This will need to be tested at the next opportunity.
 
-<br>
 
 ### Clarify what is / is not possible with simple routing
 
@@ -141,7 +131,6 @@ Our main change was to update the content on the routing start page so that it e
 
 We considered also adding content to help users understand that it makes most sense to create a route for answers that need to skip a question, rather than the other way around - possibly using an example. However, it was difficult to find appropriate wording without adding significant complexity to this page. We therefore decided to leave this for now and to monitor the need for this during future rounds of testing. 
 
-<br>
 
 ### Clarify the difference between optional questions and routing 
 
@@ -154,7 +143,6 @@ We decided to tweak the optional question hint text to remove the word ‘skip�
 We decided that it’s not a priority to revisit the rest of the content/wording in any more depth at this point, but we’ll keep it on the radar for future testing and feedback.
 
 <br>
-<br>
 
 ## Designs
 
@@ -162,9 +150,8 @@ We decided that it’s not a priority to revisit the rest of the content/wording
 
 The ‘Add a route’ button is now visible on the ‘Add and edit your questions’ page at all times - even if the criteria for adding a route are not met
 
-![Add and edit your question screen with the grey ‘Add a question route’ button visible with a single question added. Screenshot](image.jpg)
+![Add and edit your question screen with the grey ‘Add a question route’ button visible with a single question added. Screenshot](https://github.com/alphagov/forms/assets/35372982/757555e3-f224-41ed-ba74-e0bbd8030c16)
 
-<br>
 
 ### Question route start page - no criteria are met and no other route exists
 
@@ -172,33 +159,30 @@ New routing start page that form creators will see if they click the ‘Add a ro
 
 A new sentence which says “You can only add one route from each question” is shown beneath the bullet points. (This sentence appears on all other variations of the routing start page too.)
 
-![Add a question route screen with no radio options to start a route from. Screenshot](image.jpg)
+![Add a question route screen with no radio options to start a route from. Screenshot](https://github.com/alphagov/forms/assets/35372982/2101c8a1-c858-442b-8302-05eab6b0e495)
 
 ...
 
-<br>
 
 ### Question route start page - no criteria are met but other routes exist
 
 New routing start page that form creators will see if they click ‘Add a route’ button when they do not meet the criteria for adding a route but at least one other route already exists
 
-![Add a question route screen telling user “You have no more questions to start a route from”. Screenshot](image.jpg)
+![Add a question route screen telling user “You have no more questions to start a route from”. Screenshot](https://github.com/alphagov/forms/assets/35372982/a5d99b86-80e2-46d6-9f69-06faafd7c46a)
 
 ...
 
-<br>
 
 ### Other versions of the routing start page - depending on how many potential start questions are available
 
-![Three examples of the ‘Add a question route’ screen. Left, 1 available page, shows the screen with only one radio option available. Middle, 2 to 10 pages, shows the screen with three radio options. Right, 11+ pages, shows a select box component. Screenshot](image.jpg)
+![Three examples of the ‘Add a question route’ screen. Left, 1 available page, shows the screen with only one radio option available. Middle, 2 to 10 pages, shows the screen with three radio options. Right, 11+ pages, shows a select box component. Screenshot](https://github.com/alphagov/forms/assets/35372982/ebfd5ae1-faa7-4c55-adee-4ba7de9c8780)
 
 ...
 
-<br>
 
 ### New optional question wording - removing the word ‘skip’ and using ‘leave it blank’ instead for the checkbox label
 
-![Question settings section of “Edit question” screen showing new version of checkbox label text. Screenshot](image.jpg)
+![Question settings section of “Edit question” screen showing new version of checkbox label text. Screenshot](https://github.com/alphagov/forms/assets/35372982/669dbc34-5ce2-41de-b5c0-cb5df5566ada)
 
 <br>
 ___
