@@ -15,7 +15,7 @@ ___
 - [What we’re doing](#what-were-doing)
 - [Why we’re doing this](#why-were-doing-this)
 - [Key decisions](#key-decisions)
-- [Designs](#design)
+- [Designs](#designs)
 
 ___
 
