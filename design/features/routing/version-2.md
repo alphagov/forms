@@ -168,7 +168,7 @@ New routing start page that form creators will see if they click ‘Add a questi
 
 ![Add a question route screen telling user “You have no more questions to start a route from”. Screenshot](https://github.com/alphagov/forms/assets/35372982/a5d99b86-80e2-46d6-9f69-06faafd7c46a)
 
-Where the list of pages, if there were any that met the criteria, or the list of criteria would appear is now replace with the sentence, “A route can only start from a question where people select one item from a list. You can only add one route from each question.”
+Where the list of pages (if there were any that met the criteria) or the list of criteria would appear, a replacement sentence has been added instead. The wording is: “A route can only start from a question where people select one item from a list. You can only add one route from each question.”
 
 
 ### Other versions of the routing start page - depending on how many potential start questions are available
@@ -177,9 +177,9 @@ Where the list of pages, if there were any that met the criteria, or the list of
 
 The first version of the screen offers a single radio button with the name of the page that meets all the criteria. 
 
-The second version shows three pages that meet that criteria as radio buttons. This is how we will display up to ten pages that meet the criteria.
+The second version shows 3 pages that meet that criteria as radio buttons. This is how we will display up to 10 pages that meet the criteria.
 
-The third version shows what the screen would look like if there were eleven or more pages that met the criteria. The select, dropdown, component is used.
+The third version shows what the screen would look like if there were 11 or more pages that met the criteria. The select, dropdown, component is used.
 
 
 ### New optional question wording - removing the word ‘skip’ and using ‘leave it blank’ instead for the checkbox label
