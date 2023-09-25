@@ -4,7 +4,9 @@ Date: YYYY-MM-DD
 
 ## Status
 
-> Proposed, Accepted, Rejected, Deprecated, Superseded by ADRzzz
+> Accepted or Rejected
+>
+> Valid ADR statuses are: "Proposed", "Accepted", "Rejected", "Deprecated", "Superseded by ADRzzz", but since we use the GitHub Pull request mechanism to approve ADRs, "Proposed" isn't applicable.
 
 ## Context
 
