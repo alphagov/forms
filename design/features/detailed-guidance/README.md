@@ -35,7 +35,7 @@ Where a complex piece of guidance or instructions are needed before a section or
 
 **As a form creator**, I need to add content before a question, so that the user has any context that they need to answer that question.
 
-**As a form filler**, I need to understand how to answer a question, so that I feel confident about my answer and don’t need to go looking for help.
+**As a form completer**, I need to understand how to answer a question, so that I feel confident about my answer and don’t need to go looking for help.
 
 <br>
 
@@ -51,7 +51,7 @@ There is, however, a pattern within the design system which looks at more comple
 
 ## Hypothesis
 
-We believe that by offering the ability to add more complex information - including formatting - before a question, form completers will be able to direct form fillers to any relevant information and provide the level of contextual detail they need to answer a difficult question.  
+We believe that by offering the ability to add more complex information - including formatting - before a question, form creators will be able to direct form completers to any relevant information and provide the level of contextual detail they need to answer a difficult question.  
 
 We believe this offering will improve the data being collected, improve processing times, and help form completers to get to the outcome they need.  
 
