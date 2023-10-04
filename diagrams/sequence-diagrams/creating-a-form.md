@@ -52,13 +52,13 @@ sequenceDiagram
 
   note right of browser: multiple steps to select question type
 
-  browser->>admin: GET /forms/{form id}/pages/new
+  browser->>admin: GET /forms/{form id}/pages/new/question
   browser-->>user: show "Edit question" page
 
 
   user->>browser: Provide Question text, Hint text (optional), Question settings
   user->>browser: Click "Save and add next question" OR "Save question" button
-  browser->>admin: POST /forms/{form id}/pages/new
+  browser->>admin: POST /forms/{form id}/pages/new/question
   admin->>api: POST /forms/{form id}/pages<br />{"question_text":,<br />"hint_text":,<br />"answer_type":,<br />"is_optional":,<br />"answer_settings":{"input_type":}
   api->>api: create page
   api-->>admin: 201
@@ -69,7 +69,7 @@ sequenceDiagram
     browser-->>user: show "What kind of answer do you need to this question?" page 
   else "Save question" clicked
     admin-->>browser: 302
-    browser->admin: GET /forms/{form id}/pages/2/edit
+    browser->admin: GET /forms/{form id}/pages/2/edit/question
     browser-->>user: show "Edit question" page
   end
 ```
