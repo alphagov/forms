@@ -245,10 +245,24 @@ If the user was to click the “Continue” call to action button they would mov
 
 ![“Check your question” page summarising the information the form creator has provided to create their question. Screenshot](https://github.com/alphagov/forms/assets/35372982/e687f2aa-6f01-4ef9-8081-878008b62e65)
 
+This page plays back the selections form creators have made to build their question.  
+It starts with a section “Your question”. This section has a summary list with a row for each piece of information given. 
+“Question”, “Hint text (optional” and “Add guidance” - which is set to “No” in this instance.  
+
+The next section is “Answer settings” showing the “Answer type” - currently set as “Selection from a list of options”, so includes a row for “Options”, “People can only select one option” and “Include an option for ‘None of the above’”. Where a different “Answer type” is selected the user will have the additional answer information associated with that type here.  
 
 #### Guidance text has been added  
 
 ![“Check your question” page showing “Give your page a heading” input. Screenshot](https://github.com/alphagov/forms/assets/35372982/7ce4e0a8-4273-4b85-8a1b-23e525827eca)
+
+This page is now showing that the form creator has set “Add guidance” as “Yes”. There is a new row added to the “Your question” section called “Guidance text”. This row plays back the Markdown - as it was written. Where the content is consider to very long - length to be confirmed - we will hide overflow and add a “Show” link to expand the rest of the Markdown on click.  
+
+The “Answer type” of this question is “Person’s name” so the second section “Question settings” can be seen. This section only contains a single row for “Make this questional optional” - currently set as “No” by the form creator.  
+
+The next section “Answer settings” plays back the additional answer information associated with a “Person’s name” “answer type”.   
+
+Because the form creator has chosen to ‘add guidance’ for this question. We present them with a new input. 
+“Give your page a heading” which has some simple hint text - “Use a heading that’s a statement rather than a question - for example, ‘Interview needs’. This will be your main page heading.” The hint text is intended to help from creators create a useful heading for the page - making sure that the form is marked up correctly for accesibility, while remaining relevant to the information the form completer will see on screen. It also explains where this text will appear - giving the form creator more context of why we are asking for it.  
 
 
 <br>
@@ -286,7 +300,11 @@ flowchart LR;
 
 ## Notes
 
-- 
+- As part of the first iteration we are attempting to create a new custom graphical interface that helps users add/edit Markdown by use of buttons
+  - This functionality will need usability and accessibility testing
+  - We won’t be testing this component as part of this iteration and should focus on it in a future round of research before we consider re-using it on other screens within the product
+- The implementation we are taking into development is at risk as we are currently unsure if the ‘formatting help’ and other parts of the guidance are going to help our users
+  - We believe this is a low risk and that by putting this in the product we will get better quality feedback and a better understanding of how our users are using the feature
 
 ___
 
@@ -294,9 +312,28 @@ ___
 
 ## Research focus
 
-### Scenarios to test (prioritised for time):
-- 
+### Things we plan to focus on in testing:
+- Testing the new journey for adding questions
+- Testing user experience for adding detailed guidance
+  - Do they understand what the feature is?
+  - Are they able to distinguish detailed guidance from hint text?
+  - Are they likely to use the correct feature for their need?
+  - Do users understanding why they are being asked for a ‘page heading’?
+- Testing user experience for formatting with markdown
+  - Can users write/create working Markdown based on a document version of a form?
+  - Do users find the ‘formatting help’ useful, and are they able to fix issues themselves?
+-  Although not priority, we will keep an eye on how users interact with and what they say about the “Check your question” summary page
+  - Do users like it?
+  - Do users find it useful?
+  - Do users feel like it adds another barrier to creating questions, or does it give them confidence that the question they are creating will be correct?
+  - Is there anything they were or were not expecting about the journey/page in particular?  
 
+[Research plan/discussion guide](https://docs.google.com/document/d/14Omvdh5-ck9A8NoPzB7TbF5mTpzVRoHU0oCODcJzAPg/edit#heading=h.d7qnjjmaxy08)  
+
+### Update: what we found through testing  
+
+[Playback: User Research - Detailed Guidance (Google slides)](https://docs.google.com/presentation/d/1cZKLrPDaXZlqHtg_y8rYE2eKA1B26Hc8YiUBJKGc-jg/edit#slide=id.g2793e27bf4a_0_65)  
+[UR Playback: Detailed Guidance (Video)](https://drive.google.com/drive/folders/1L52JCUb8hLea32lS5im6mM7Y4AKhZGWV)  
 
 <br>
 
