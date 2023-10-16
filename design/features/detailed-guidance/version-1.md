@@ -141,7 +141,7 @@ We will need to test and validate whether:
 ### Your questions - live form questions summary
 
 ![Your questions - live form summary cards for each question with the new guidance page heading and text included in a question page. Screenshot](https://github.com/alphagov/forms/assets/35372982/0a27ecce-7160-40e2-8718-f56a3263f30e)
-*This screen shows the list of questions for a form that is ‘Live’ on GOV.UK Forms. It shows summary cards for each question in the form. The second question now has a row for “Page heading” and another for “Guidance text” as the form creator has added this. These rows appear as the first two rows in the card, above “Hint text” and “Answer type”.*  
+*This screen shows the list of questions for a form that is ‘live’ on GOV.UK Forms. It shows summary cards for each question in the form. The second question now has a row for “Page heading” and another for “Guidance text” as the form creator has added this. These rows appear as the first two rows in the card, above “Hint text” and “Answer type”.*  
 
 ### Add guidance error messages
 
@@ -154,19 +154,19 @@ Three errors as they could appear on the “Add guidance” page are:
 
 ### Returning to the "Edit question" page
 
-Once a user has added the guidance information required they are then returned to the “Edit question” page. Here, the guidance section has now turned into a summary list view where they can see the page heading and guidance text they've added - showing the Markdown. They have the option to “Change” either of these from here.  
+Once a form creator has added the guidance information they're then returned to the “Edit question” page. Here, the guidance section has now turned into a summary-list view where they can see the page heading and guidance text they've added - along with the Markdown. They have the option to “Change” either of these from here.  
 
 #### "Edit question" return example for “Selection from a list” answer type
 
-When a user returns to the “Edit question” page after adding their guidance information, if the answer type is “Selection from a list” they are not shown the “Question settings” section where they can make this question optional.  
+When a form creator returns to the “Edit question” page after adding their guidance information, if the answer type is “Selection from a list” they are not shown the “Question settings” section where they can make this question optional.  
 
-![Edit question page with the “Guidance” section showing a summary list view of the information a form creator has added and the option to change their inputs. Screenshot](https://github.com/alphagov/forms/assets/35372982/508dfdee-a90e-4c25-a684-0fcb904f7937)
+![Edit question page with the “Guidance” section showing a summary-list view of the information a form creator has added and the option to change their inputs. Screenshot](https://github.com/alphagov/forms/assets/35372982/508dfdee-a90e-4c25-a684-0fcb904f7937)
 
 #### "Edit question" return example for most other answer types
 
 When a user returns to the “Edit question” page after adding their guidance information, if the answer type is not a “Selection from a list” then they are still shown the “Question settings” section where they can make this question optional.  
 
-![Edit question page with the “Guidance” section showing a summary list view. Next is the “Question settings” section allowing the form creator to make this question optional. Screenshot](https://github.com/alphagov/forms/assets/35372982/8dd85593-a13a-4032-a439-6fae5cf6065b)
+![Edit question page with the “Guidance” section showing a summary-list view. Next is the “Question settings” section allowing the form creator to make this question optional. Screenshot](https://github.com/alphagov/forms/assets/35372982/8dd85593-a13a-4032-a439-6fae5cf6065b)
 
 <br>
 
@@ -196,18 +196,18 @@ flowchart LR;
 
 ## Design to test in the prototype
 
-In order to explore an alternative option we agreed to test a more complex journey change in the prototype. This version removes the answer type summary list from the “Edit question” screen, no longer showing previous options selected to setup the question. It uses routing to build a complex question with additional guiidance.  
+In order to explore an alternative option we agreed to test a more complex journey change in the prototype. This version removes the answer-type summary list from the “Edit question” screen, so it no longer shows previous options selected to set up the question. Instead, it uses routing to build a complex question with additional guiidance.  
 
-In the prototype we also wanted to test the introduction of a “Check your question” - summary - page at the end of creating a question. We wanted to know if adding another screen would be useful to form creators or make the journey more laborious.  
+In the prototype we also wanted to test the introduction of a “Check your question” page (that is, a ‘summary’ page) at the end of the create-a-question journey. We wanted to know if adding another screen would be useful to form creators or if it would make the journey more laborious.  
 
 ### “Edit question” page - without summary information
 
 ![“Edit question” page without “Answer settings” section. Screenshot](https://github.com/alphagov/forms/assets/35372982/93b852c7-d979-48fd-867a-db1381cb90a1)
 *The “Answer settings” section has been replaced with “Do you need to add guidance to help people answer the question?”*
 
-The new question uses similar help text as the build version: “Only add guidance if you need to give a longer explanation of how to answer the question, or to format your content. For example, you can use paragraphs, links or lists.”  
+The new question uses similar help text to the build version: “Only add guidance if you need to give a longer explanation of how to answer the question, or to format your content. For example, you can use paragraphs, links or lists.”  
 
-It can be answered ‘Yes’ or ‘No’. If answered ‘Yes’ the user is taken to add the additional guidance.  
+It can be answered ‘Yes’ or ‘No’. If answered ‘Yes’, the user is taken to an “Add guidance” page where they can add any additional guidance.  
 
 ### “Add guidance” page - no Javascript enhancement
 
@@ -219,11 +219,12 @@ We include the same guidance to explain when to use the guidance feature as the 
 > - provide more context  
 > - format your content - for example, with links, sub-headings or lists  
 
-We do not ask for the ‘page heading’ at this point. We believe that this will help the user focus on the single task of adding their ‘help’ text. We ask for the ‘page heading’ at the end of the journey as they will have context of the question page as a whole.  
+We do not ask for the ‘page heading’ at this point. We believe that this will help form creators focus on the single task of adding their ‘help’ text. We ask for the ‘page heading’ at the end of the journey when they'll have the context of the question page as a whole.  
 
-The form creator is now asked to “Add guidance text” with hint text: “Use Markdown if you need to format your guidance content. Formatting help can be found below.” Above a textarea with a character count below showing “You have 4000 characters remaining”. There is a grey “Preview guidance” button that updates the page and generates a preview of what the content will look like to form fillers. The focus is moved to the ‘preview area’ to reduce scrolling. However, if the user is not re-focussed correctly they are presented with a green ‘success’ notifcation banner at the top of the page which links them to the ‘preview area’ when clicked.  
+The form creator is now asked to “Add guidance text” with hint text that says: “Use Markdown if you need to format your guidance content. Formatting help can be found below.” This is above a textarea with a character count below showing “You have 4000 characters remaining”. There is a grey “Preview guidance” button that updates the page and generates a preview of what the content will look like to form fillers. The focus is moved to the ‘preview area’ to reduce scrolling. However, if the user is not re-focussed correctly they're presented with a green ‘success’ notifcation banner at the top of the page which links them to the ‘preview area’ when clicked.  
 
-The next section is “Formatting help” which lists the supported Markdown the form creator can use when creating their guidance. We’re starting with content based on what Notify use, as they’ve done a lot of testing with a similar user type to us and have found that their implementation is working as expected. We'll monitor this through research. The form creator can either ‘continue’ using a green call to action button, or ‘cancel’ the addition of guidance - returning them to the “Edit question” page.  
+
+The next section is “Formatting help”, which lists the supported Markdown the form creator can use when creating their guidance. We’re starting with content based on what Notify use, as they’ve done a lot of testing with a similar user type to us and have found that their implementation is working as expected. We'll monitor this through research. The form creator can either ‘continue’ using a green call-to-action button, or ‘cancel’ the addition of guidance which returns them to the “Edit question” page.  
 
 #### “Add guidance” page with “Preview your guidance text” showing
 
@@ -234,9 +235,9 @@ The form creator is only presented with this view if they click “Preview guida
 
 The new “Preview your guidance text” section gives a simple explanation of what the form creator is seeing in the ‘preview area’ box: “Below is a preview of how your guidance content will be shown to the person completing the question.”  
 
-The ‘preview area’ shows the Markdown has been converted to a presentation of the HTML as interpreted by the browser. This means they are able to get an idea of how this will appear for form fillers going through the form. Below the ‘preview area’ is a link - “Edit guidance text” - that the form creator can use to quickly take them back up the page to make edits or fixes to the Markdown they have written.  
+The ‘preview area’ shows the Markdown has been converted to a presentation of the HTML as interpreted by the browser. This means they're able to get an idea of how this will appear for form fillers going through the form. Below the ‘preview area’ is a link - “Edit guidance text” - that the form creator can use to quickly take them back up the page to make edits or fixes to the Markdown they've written.  
 
-If the user was to click the “Continue” call to action button they would move on to the “Check your question” summary page allowing them to review everything about this question.  
+If the user clicked the “Continue” call-to-action button they'd move on to the “Check your question” summary page, which would allow them to review everything about this question.  
 
 
 ### “Check your question” page
@@ -245,24 +246,25 @@ If the user was to click the “Continue” call to action button they would mov
 
 ![“Check your question” page summarising the information the form creator has provided to create their question. Screenshot](https://github.com/alphagov/forms/assets/35372982/e687f2aa-6f01-4ef9-8081-878008b62e65)
 
-This page plays back the selections form creators have made to build their question.  
-It starts with a section “Your question”. This section has a summary list with a row for each piece of information given. 
-“Question”, “Hint text (optional” and “Add guidance” - which is set to “No” in this instance.  
+This page plays back the selections that form creators have made to build their question.  
+It starts with a section called “Your question”. This section has a summary list with a row for each piece of information given: 
+“Question”, “Hint text (optional)”, and “Add guidance” - which is set to “No” in this instance.  
 
-The next section is “Answer settings” showing the “Answer type” - currently set as “Selection from a list of options”, so includes a row for “Options”, “People can only select one option” and “Include an option for ‘None of the above’”. Where a different “Answer type” is selected the user will have the additional answer information associated with that type here.  
+The next section is called “Answer settings”. This shows the “Answer type” - currently set as “Selection from a list of options” - so it includes a row for “Options”, “People can only select one option” and “Include an option for ‘None of the above’”. Where a different “Answer type” is selected the user will have the additional information associated with that answer type here.  
 
 #### Guidance text has been added  
 
 ![“Check your question” page showing “Give your page a heading” input. Screenshot](https://github.com/alphagov/forms/assets/35372982/7ce4e0a8-4273-4b85-8a1b-23e525827eca)
 
-This page is now showing that the form creator has set “Add guidance” as “Yes”. There is a new row added to the “Your question” section called “Guidance text”. This row plays back the Markdown - as it was written. Where the content is consider to very long - length to be confirmed - we will hide overflow and add a “Show” link to expand the rest of the Markdown on click.  
+This page is now showing that the form creator has selected “Yes” for “Add guidance”. A new row has been added to the “Your question” section, called “Guidance text”. This row plays back the Markdown as it was written (with the Markdown code showing). Where the content is considered to be very long - length to be confirmed - we'll hide the overflow and will add a “Show” link to expand the rest of the Markdown when clicked.  
 
-The “Answer type” of this question is “Person’s name” so the second section “Question settings” can be seen. This section only contains a single row for “Make this questional optional” - currently set as “No” by the form creator.  
+This question's “Answer type” is “Person’s name” so the second section - “Question settings” - can be seen. This section only contains a single row for “Make this questional optional” - currently set as “No” by the form creator.  
 
-The next section “Answer settings” plays back the additional answer information associated with a “Person’s name” “answer type”.   
+The next section - “Answer settings” - plays back the additional answer information associated with a “Person’s name” “answer type”.   
 
-Because the form creator has chosen to ‘add guidance’ for this question. We present them with a new input. 
-“Give your page a heading” which has some simple hint text - “Use a heading that’s a statement rather than a question - for example, ‘Interview needs’. This will be your main page heading.” The hint text is intended to help from creators create a useful heading for the page - making sure that the form is marked up correctly for accesibility, while remaining relevant to the information the form filler will see on screen. It also explains where this text will appear - giving the form creator more context of why we are asking for it.  
+Because the form creator has chosen to ‘add guidance’ for this question, we present them with a new input - “Give your page a heading”. This has some simple hint text: “Use a heading that’s a statement rather than a question - for example, ‘Interview needs’. This will be your main page heading.” 
+
+The hint text is intended to help from creators create a useful heading for the page - making sure that the form is marked up correctly for accessibility, while remaining relevant to the information the form filler will see on screen. It also explains where this text will appear - giving the form creator more context about why we're asking for it.  
 
 
 <br>
@@ -300,11 +302,11 @@ flowchart LR;
 
 ## Notes
 
-- As part of the first iteration we are attempting to create a new custom graphical interface that helps users add/edit Markdown by use of buttons
-  - This functionality will need usability and accessibility testing
-  - We won’t be testing this component as part of this iteration and should focus on it in a future round of research before we consider re-using it on other screens within the product
-- The implementation we are taking into development is at risk as we are currently unsure if the ‘formatting help’ and other parts of the guidance are going to help our users
-  - We believe this is a low risk and that by putting this in the product we will get better quality feedback and a better understanding of how our users are using the feature
+- As part of the first iteration we're attempting to create a new custom graphical interface that helps users add/edit Markdown by the use of buttons. Note that:  
+  - this functionality will need usability and accessibility testing
+  - we won’t be testing this component as part of this iteration and should focus on it in a future round of research before we consider re-using it on other screens within the product
+
+- The implementation we're taking into development is at risk as we are currently unsure if the ‘formatting help’ and other parts of the guidance are going to help our users. We believe this is a low risk and that by putting this in the product we'll get better-quality feedback and a better understanding of how our users are using the feature.
 
 ___
 
@@ -314,19 +316,19 @@ ___
 
 ### Things we plan to focus on in testing:
 - Testing the new journey for adding questions
-- Testing user experience for adding detailed guidance
+- Testing user experience for adding detailed guidance:
   - Do they understand what the feature is?
   - Are they able to distinguish detailed guidance from hint text?
   - Are they likely to use the correct feature for their need?
-  - Do users understanding why they are being asked for a ‘page heading’?
-- Testing user experience for formatting with markdown
+  - Do users understanding why they're being asked for a ‘page heading’?
+- Testing user experience of formatting with Markdown:
   - Can users write/create working Markdown based on a document version of a form?
   - Do users find the ‘formatting help’ useful, and are they able to fix issues themselves?
--  Although not priority, we will keep an eye on how users interact with and what they say about the “Check your question” summary page
+-  Although not a priority, we will keep an eye on how users interact with and what they say about the “Check your question” summary page:
   - Do users like it?
   - Do users find it useful?
-  - Do users feel like it adds another barrier to creating questions, or does it give them confidence that the question they are creating will be correct?
-  - Is there anything they were or were not expecting about the journey/page in particular?  
+  - Do users feel like it adds another barrier to creating questions, or does it give them confidence that the question they're creating will be correct?
+  - Is there anything they were or were not expecting in terms of the journey/page in particular?  
 
 [Research plan/discussion guide](https://docs.google.com/document/d/14Omvdh5-ck9A8NoPzB7TbF5mTpzVRoHU0oCODcJzAPg/edit#heading=h.d7qnjjmaxy08)  
 
