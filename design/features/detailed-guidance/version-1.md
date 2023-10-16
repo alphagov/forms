@@ -31,7 +31,7 @@ ___
 
 ### To-be
 
-- Form creators can add additional content and context to individual question pages to help form completers understand what's needed from them. They can use basic formatting like headings, lists and links.
+- Form creators can add additional content and context to individual question pages to help form fillers understand what's needed from them. They can use basic formatting like headings, lists and links.
 
 
 ## Key decisions
@@ -49,7 +49,7 @@ In parallel, we'll design and test another version in the prototype. This versio
   - these will not be validated as real URLs
   - clicked links will always open in a new window or tab
 - Maximum of 5,000 characters - this does not include the Markdown tags
-- Previewing Markdown as it will be displayed to the form completer: 
+- Previewing Markdown as it will be displayed to the form filler: 
   - preview will be in page and will not include the question or input
   - preview will be enhanced using Javascript so users can quickly switch in page without a reload
 - Basic WYSIWYG functionality for the Markdown textarea:
@@ -61,7 +61,7 @@ In parallel, we'll design and test another version in the prototype. This versio
 - Headings:
   - level 1 (H1) as this is covered by a separate input to ensure valid and accessible page markup
   - levels 4 to 6 (H4, H5, H6) as we believe this is unnecessary at this time, and adds more potential for missuse
-- Bold - we believe that adding this now could cause missuse and potentially add more difficulty for form completers, but we'll keep an eye on it for future iterations
+- Bold - we believe that adding this now could cause missuse and potentially add more difficulty for form fillers, but we'll keep an eye on it for future iterations
 - Underline - we believe that this is not going to be needed for any of the forms on our platform, but we'll keep an eye on it for future iterations
 - Tables - this is complex Markdown and we do not currently have a need to include it
 - Blockquotes - this is something we don’t believe there will be a need for
@@ -90,7 +90,7 @@ In parallel, we'll design and test another version in the prototype. This versio
 ![Edit question page with new “Guidance” section and grey “Add guidance” button. Screenshot](https://github.com/alphagov/forms/assets/35372982/02f5af4e-9e46-4581-8d1b-992f8851d5b0)
 *This shows the “Edit question” page with the new “Guidance” section, and the following explanatory text: “Only add guidance if you need to give a longer explanation of how to answer the question, or to format your content. For example, you can use paragraphs, links or lists.” This is followed by a grey, secondary “Add guidance” button.*  
 
-The form creator can now add guidance if they need to give the form completer a longer explanation of how to answer the question. It also highlights that form creators can use this feature if they need to add formatting or links to their 'help' text.  
+The form creator can now add guidance if they need to give the form filler a longer explanation of how to answer the question. It also highlights that form creators can use this feature if they need to add formatting or links to their 'help' text.  
 
 Once clicked, the form creator is then taken to the “Add guidance” page, which is a sub journey of the overall add/edit-a-question flow. This means they're taken out of the larger linear flow and will be returned after they've added whatever guidance content is needed.  
 
@@ -112,7 +112,7 @@ This is to make sure we have a clear H1 for the page.
 Next, they can add guidance text in a textarea using Markdown:  
 > Use Markdown if you need to format your guidance content. Formatting help can be found below.  
 
-They can then choose to “Update preview” to preview how the content will look to the form completer (on the frontend).
+They can then choose to “Update preview” to preview how the content will look to the form filler (on the frontend).
 The button will reload the page and take the browser focus to the “Preview your guidance text” `<div>` to reduce confusion and scroll fatigue.  
 
 Due to Javascript being disabled, the “Formatting help” details component will be expanded on page load. This does add more scolling and noise to the screen but it should at least be obvious and helpful to users - as they won’t have the WYSIWYG buttons. We're starting with content based on what Notify use, as they've done a lot of testing with a similar user type to us and have found that their implementation is working as expected. We'll monitor this through research.  
@@ -129,7 +129,7 @@ Using the tab component from the design system we're reducing the scroll on this
 
 #### Preview guidance text
 
-![Add guidance page showing the preview of the guidance text as it would appear to the form completer. Screenshot](https://github.com/alphagov/forms/assets/35372982/4b8080c4-dfbf-4841-867b-af52802119c7)
+![Add guidance page showing the preview of the guidance text as it would appear to the form filler. Screenshot](https://github.com/alphagov/forms/assets/35372982/4b8080c4-dfbf-4841-867b-af52802119c7)
 
 #### Notes on Javascript-enhanced guidance text
 
@@ -221,7 +221,7 @@ We include the same guidance to explain when to use the guidance feature as the 
 
 We do not ask for the ‘page heading’ at this point. We believe that this will help the user focus on the single task of adding their ‘help’ text. We ask for the ‘page heading’ at the end of the journey as they will have context of the question page as a whole.  
 
-The form creator is now asked to “Add guidance text” with hint text: “Use Markdown if you need to format your guidance content. Formatting help can be found below.” Above a textarea with a character count below showing “You have 4000 characters remaining”. There is a grey “Preview guidance” button that updates the page and generates a preview of what the content will look like to form completers. The focus is moved to the ‘preview area’ to reduce scrolling. However, if the user is not re-focussed correctly they are presented with a green ‘success’ notifcation banner at the top of the page which links them to the ‘preview area’ when clicked.  
+The form creator is now asked to “Add guidance text” with hint text: “Use Markdown if you need to format your guidance content. Formatting help can be found below.” Above a textarea with a character count below showing “You have 4000 characters remaining”. There is a grey “Preview guidance” button that updates the page and generates a preview of what the content will look like to form fillers. The focus is moved to the ‘preview area’ to reduce scrolling. However, if the user is not re-focussed correctly they are presented with a green ‘success’ notifcation banner at the top of the page which links them to the ‘preview area’ when clicked.  
 
 The next section is “Formatting help” which lists the supported Markdown the form creator can use when creating their guidance. We’re starting with content based on what Notify use, as they’ve done a lot of testing with a similar user type to us and have found that their implementation is working as expected. We'll monitor this through research. The form creator can either ‘continue’ using a green call to action button, or ‘cancel’ the addition of guidance - returning them to the “Edit question” page.  
 
@@ -234,7 +234,7 @@ The form creator is only presented with this view if they click “Preview guida
 
 The new “Preview your guidance text” section gives a simple explanation of what the form creator is seeing in the ‘preview area’ box: “Below is a preview of how your guidance content will be shown to the person completing the question.”  
 
-The ‘preview area’ shows the Markdown has been converted to a presentation of the HTML as interpreted by the browser. This means they are able to get an idea of how this will appear for form completers going through the form. Below the ‘preview area’ is a link - “Edit guidance text” - that the form creator can use to quickly take them back up the page to make edits or fixes to the Markdown they have written.  
+The ‘preview area’ shows the Markdown has been converted to a presentation of the HTML as interpreted by the browser. This means they are able to get an idea of how this will appear for form fillers going through the form. Below the ‘preview area’ is a link - “Edit guidance text” - that the form creator can use to quickly take them back up the page to make edits or fixes to the Markdown they have written.  
 
 If the user was to click the “Continue” call to action button they would move on to the “Check your question” summary page allowing them to review everything about this question.  
 
@@ -262,7 +262,7 @@ The “Answer type” of this question is “Person’s name” so the second se
 The next section “Answer settings” plays back the additional answer information associated with a “Person’s name” “answer type”.   
 
 Because the form creator has chosen to ‘add guidance’ for this question. We present them with a new input. 
-“Give your page a heading” which has some simple hint text - “Use a heading that’s a statement rather than a question - for example, ‘Interview needs’. This will be your main page heading.” The hint text is intended to help from creators create a useful heading for the page - making sure that the form is marked up correctly for accesibility, while remaining relevant to the information the form completer will see on screen. It also explains where this text will appear - giving the form creator more context of why we are asking for it.  
+“Give your page a heading” which has some simple hint text - “Use a heading that’s a statement rather than a question - for example, ‘Interview needs’. This will be your main page heading.” The hint text is intended to help from creators create a useful heading for the page - making sure that the form is marked up correctly for accesibility, while remaining relevant to the information the form filler will see on screen. It also explains where this text will appear - giving the form creator more context of why we are asking for it.  
 
 
 <br>
