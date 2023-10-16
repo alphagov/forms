@@ -223,6 +223,7 @@ We do not ask for the ‘page heading’ at this point. We believe that this wil
 
 The form creator is now asked to “Add guidance text” with hint text that says: “Use Markdown if you need to format your guidance content. Formatting help can be found below.” This is above a textarea with a character count below showing “You have 4000 characters remaining”. There is a grey “Preview guidance” button that updates the page and generates a preview of what the content will look like to form fillers. The focus is moved to the ‘preview area’ to reduce scrolling. However, if the user is not re-focussed correctly they're presented with a green ‘success’ notifcation banner at the top of the page which links them to the ‘preview area’ when clicked.  
 
+
 The next section is “Formatting help”, which lists the supported Markdown the form creator can use when creating their guidance. We’re starting with content based on what Notify use, as they’ve done a lot of testing with a similar user type to us and have found that their implementation is working as expected. We'll monitor this through research. The form creator can either ‘continue’ using a green call-to-action button, or ‘cancel’ the addition of guidance which returns them to the “Edit question” page.  
 
 #### “Add guidance” page with “Preview your guidance text” showing
