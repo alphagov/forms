@@ -71,10 +71,31 @@ ___
 
 ## Design for build
 
-### page
+### Live form view with no metrics available as the form has just gone live
 
-![page. Screenshot](url)
+![Live form view with no metrics available. Screenshot](https://github.com/alphagov/forms/assets/35372982/5ddfaa3a-3a02-43df-b58a-8c4cf39d6664)  
 *caption*  
+
+### Live form view with less than 7 days of metrics data
+
+![Live form view with 3 days of metrics data. Screenshot](https://github.com/alphagov/forms/assets/35372982/8ea09690-ed56-4777-9c1c-2798659d54c3)  
+*caption*  
+
+### Live form view with 7 days of metrics data
+
+![Live form view with 7 days of metrics data. Screenshot](https://github.com/alphagov/forms/assets/35372982/54daa06f-9d4b-4dd2-8bc6-8cdab508af92)  
+*caption*
+
+### Live form view where there is no metrics data available within the last week
+
+![Live form view where there is no metrics data available within the last week. Screenshot](https://github.com/alphagov/forms/assets/35372982/c391a5df-93eb-4098-a3eb-38218fb72ac2)  
+*caption*  
+
+### Live form view where there is a problem getting metrics from CloudWatch
+
+![Live form view showing there is a problem with this service. Try again later. Screenshot](https://github.com/alphagov/forms/assets/35372982/affbba5a-9864-4eb7-b322-19d42b521402)    
+*caption*  
+
 
 <br>
 
