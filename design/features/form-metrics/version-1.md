@@ -73,28 +73,75 @@ ___
 
 ### Live form view with no metrics available as the form has just gone live
 
-![Live form view with no metrics available. Screenshot](https://github.com/alphagov/forms/assets/35372982/5ddfaa3a-3a02-43df-b58a-8c4cf39d6664)  
-*caption*  
+![Live form view with “No metrics available yet as no-one has started or submitted a form since it went live” message. Screenshot](https://github.com/alphagov/forms/assets/35372982/5ddfaa3a-3a02-43df-b58a-8c4cf39d6664)  
+
+When form creators first make their forms live they and go to view their form. They will be presented with the ‘live’ state view of their form with the details they added to create their form.   
+
+As part of this screen we will introduce a placeholder for the “Form metrics for the past 7 days”.   
+Within this section form creators are presented with inset text telling them:  
+
+> No metrics are available yet as no-one has started or submitted a form since it went live.  
+> Once they have, you’ll be able to see the following for the past 7 days.  
+>  
+> - Completion rate  
+> - Number of forms completed  
+> - Number of forms started but not completed  
+
+The rest of the screen has no changes, showing the rest of the form information including a way to preview their form.  
 
 ### Live form view with less than 7 days of metrics data
 
 ![Live form view with 3 days of metrics data. Screenshot](https://github.com/alphagov/forms/assets/35372982/8ea09690-ed56-4777-9c1c-2798659d54c3)  
-*caption*  
+
+This version of the ‘live’ form view now shows the form creator that they are seeing “Form metrics for the past 3 days: 29 September to 1 October 2023”.  
+
+There is a paragraph at the start of this section telling the form creator what to expect is included in the data:  
+> The metrics shown here are for less than a week. To see a full week's data, check again when your form's been live for 7 days.  
+
+They are then present with 3 separate pieces of data displayed next to each other as though blocks.  
+
+The first box shows “Completion rate” with the figure “87%” beneath it.  
+
+The second box shows “Forms submitted” with the figure “87” beneath it.  
+
+The third box shows “Forms started but not completed” with the figure “13” beneath it.  
 
 ### Live form view with 7 days of metrics data
 
-![Live form view with 7 days of metrics data. Screenshot](https://github.com/alphagov/forms/assets/35372982/54daa06f-9d4b-4dd2-8bc6-8cdab508af92)  
-*caption*
+![Live form view with 7 days of metrics data. Screenshot](https://github.com/alphagov/forms/assets/35372982/0444722c-bd22-4fe7-b58a-8696ca5df7e1)
+
+This version of the ‘live’ form view now shows the form creator that they are seeing “Form metrics for the past 7 days: 25 September to 2 October 2023”.  
+
+There is a paragraph at the start of this section telling the form creator the limitations of the data shown:  
+> If you want to track metrics over a longer period you'll need to make a note of these on the same day each week. 
+
+They are then present with 3 separate pieces of data displayed next to each other as though blocks.  
+
+The first box shows “Completion rate” with the figure “75%” beneath it.  
+
+The second box shows “Forms submitted” with the figure “4” beneath it. 
+
+The third box shows “Forms started but not completed” with the figure “1” beneath it.  
 
 ### Live form view where there is no metrics data available within the last week
 
-![Live form view where there is no metrics data available within the last week. Screenshot](https://github.com/alphagov/forms/assets/35372982/c391a5df-93eb-4098-a3eb-38218fb72ac2)  
-*caption*  
+![Live form view where there is no metrics data available within the last week. Screenshot](https://github.com/alphagov/forms/assets/35372982/dc87926f-09bc-4f89-8c65-c7d011b8d6d2)
+
+This version of the screen introduces a section where the form has been live for more than 7 days but there were no submissions.  
+
+The section heading has changed to “Form metrics for the past 7 days: 25 September to 2 October 2023”.   
+Within this section form creators are presented with inset text telling them:  
+
+> No metrics are available as no-one has started or submitted a form in the past 7 days.  
+> This may be because the form is no longer published on GOV.UK.  
 
 ### Live form view where there is a problem getting metrics from CloudWatch
 
-![Live form view showing there is a problem with this service. Try again later. Screenshot](https://github.com/alphagov/forms/assets/35372982/affbba5a-9864-4eb7-b322-19d42b521402)    
-*caption*  
+![Live form view showing “Sorry, there's a problem getting your form's metrics. Try again later”. Screenshot](https://github.com/alphagov/forms/assets/35372982/1b0ac6f9-e643-4682-b24c-5f4583e48f43)
+
+This version of the screen shows there has been an error with the data storage (CloudWatch) or the system was unable to get the data requested.  
+
+This would only appear where there has been a server request error.  
 
 
 <br>
