@@ -132,7 +132,7 @@ This version of the screen introduces a section where the form has been live for
 The section heading has changed to “Form metrics for the past 7 days: 25 September to 2 October 2023”.   
 Within this section form creators are presented with inset text telling them:  
 
-> No metrics are available as no-one has started or submitted a form in the past 7 days.  
+> No metrics are available as no-one has started or submitted a form in the past 7 days.  
 > This may be because the form is no longer published on GOV.UK.  
 
 ### Live form view where there is a problem getting metrics from CloudWatch
