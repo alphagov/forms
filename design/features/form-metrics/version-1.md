@@ -143,38 +143,6 @@ This version of the screen shows there has been an error with the data storage (
 
 This would only appear where there has been a server request error.  
 
-
-<br>
-
-#### Flow of prototype tested
-
-```mermaid
-    
-flowchart LR;
-
-    step1["Edit your question
-    Do you need to add more detail to help users answer the question?
-    [] Yes
-    [] No
-    "]
-    
-    step2["Add guidance
-    Add guidance text
-    [textarea]
-    "]
-    
-    step3["Check your question
-    Summary list
-    ---
-    Give your page a heading
-    [input]
-    "]
-
-    step1-->|"user answers #quot;Yes#quot; to add more detail"|step2;
-    step2-->|"user clicks #quot;Continue#quot; button"|step3;
-    
-```
-
 ___
 
 <br>
