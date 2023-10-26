@@ -175,19 +175,24 @@ flowchart LR;
     
 ```
 
-<br>
-
-## Notes
-
-- 
 ___
 
 <br>
 
-## Research focus
+## Research
 
-### Things we plan to focus on in testing:
-- 
+[Plan and run UR on data dashboard / analytics needs](https://trello.com/c/dwNKBIev/1054-plan-and-run-ur-on-data-dashboard-analytics-needs)  
+
+We have currently not tested the design implementation with users but our researcher has done a preliminary round of research with current partners to understand: 
+
+- How are users getting on with the current data they receive from our performance analyst?
+- What data are they using the most? And for what purpose?
+- Are they sharing or tracking data in any way, and how?
+- Are there any needs or trends that we can see that would be impacted by our initial agreed MVP?
+
+[Notes: Data and Analytics needs (Google document)](https://docs.google.com/document/d/1Tz417kZuXHz_PFYOxkQk0_EdvoUt4SvvGEwJ5zZefP0/edit?usp=sharing)  
+[Playback - Form data and analytics (Google deck)](https://docs.google.com/presentation/d/1sOhNmWa1Cih22l6FZ5FQCdDwPKMb4WS_PzkCSFd2HH4/edit?usp=sharing)  
+[Research playback: Data & Analytics (Recording)](https://drive.google.com/file/d/1cKwbV6u9iV3EecFvHIfjsbYcBgHdDC6x/view?usp=sharing)  
 
 <br>
 
