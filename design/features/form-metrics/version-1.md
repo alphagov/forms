@@ -15,8 +15,7 @@ ___
 - [What](#what)
 - [Key decisions](#key-decisions)
 - [Design for build](#design-for-build)
-- [Notes](#notes)
-- [Research focus](#research-focus)
+- [Research](#research)
 
 ___
 
