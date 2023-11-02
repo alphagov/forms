@@ -36,8 +36,12 @@ ___
 - Previously supplied: questions amended from the ‘check your answers’ page - these are low in number, users seem more likely to use the browser forward/back buttons
 - Submissions and completion rates over time
 - Dropouts/pain points
+
+#### Things we expect to send in the future
+
 - Ability to download raw data
-- Some of the Google Analytics metrics such as device type if/when we implement that on the forms runner (doing anything ourselves would be fraught with data privacy issues). They could then self serve these  
+- Some of the Google Analytics metrics such as device type if/when we implement that on the forms runner (doing anything ourselves would be fraught with data privacy issues). They could then self serve these
+
 
 ### To-be  
 
