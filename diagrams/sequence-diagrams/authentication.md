@@ -77,29 +77,76 @@ sequenceDiagram
     participant browser as web browser
     participant forms as GOV.UK Forms
     participant auth0 as Auth0
+    participant gw as Google Workspace
     participant ses as Amazon SES
 
     user ->> browser: visit GOV.UK Forms
     browser ->> forms: HTTP GET
     forms ->> forms: no session cookie found
+    forms -->> browser: redirect to /auth/auth0
+    browser->> forms: HTTP GET
+
+
     note right of forms: using Auth0 OmniAuth strategy
-    forms -->> browser: redirect to authenticate
+    forms -->> browser: redirect to authorize
     browser ->> auth0: HTTP GET
+    auth0 -->> browser: redirect to login
+    browser ->> auth0: HTTP GET
+
     auth0 -->> browser: login screen
     browser -->> user: display login screen
 
     user ->> browser: provide email address
     browser ->> auth0: HTTP POST email address
-    auth0 ->> ses: use SES API
-    ses ->> user: send one time code by email
-    auth0 -->> browser: redirect to code entry screen
-    browser ->> auth0: HTTP GET
-    auth0 -->> browser: code entry screen
-    browser -->> user: display code entry screen
+    auth0 ->> auth0: check email address
+    alt email address ends with "digital.cabinet-office.gov.uk"
+      note over user: Google Workspace integration not yet implemented<br /><br />May use Home Realm Discovery (HRD)<br />or<br />seperate Auth0 connection flow
+      auth0 ->> browser: redirect to Google Workspace
+      browser ->> gw: HTTP GET
+      opt If user doesn't have an active Google Workspace session
+        gw -->> browser: login screen
+        browser -->> user: display login screen
+        user ->> browser: login
+        browser ->> gw: HTTP POST
+      end
 
-    user ->> browser: provide one time code
-    browser ->> auth0: HTTP POST one time code
-    auth0 -->> browser: redirect to GOV.UK Forms with authorization code
+      gw -->> browser: redirect to Auth0 callback
+
+      browser ->> auth0: HTTP GET callback
+
+    else all other email addresses
+      auth0 ->> ses: use SES API
+      ses ->> user: send one time code by email
+      auth0 -->> browser: redirect to code entry screen
+      browser ->> auth0: HTTP GET
+      auth0 -->> browser: code entry screen
+      browser -->> user: display code entry screen
+
+      user ->> user: access email
+
+
+      loop Until valid code provided
+        user ->> browser: provide one time code
+        browser ->> auth0: HTTP POST one time code
+
+        auth0 ->> auth0: check code
+      
+        opt OTP incorrect
+          auth0 -->> browser: Account blocked page
+          note over user,browser: The code is not correct
+        end
+
+        opt Brute force protection
+          auth0 -->> browser: Account blocked page
+          note over user,browser: Your account has been blocked<br />after multiple consecutive login attempts
+        end
+      end
+    end
+
+      auth0 -->> browser: redirect to Auth0 resume
+      browser ->> auth0: HTTP GET
+
+      auth0 -->> browser: redirect to GOV.UK Forms with authorization code
 
     browser ->> forms: HTTP GET with authorization code
     forms ->> auth0: HTTP POST token request with authorization code
@@ -110,9 +157,17 @@ sequenceDiagram
     else Returning user
         forms ->> forms: get record of user
     end
+
+    opt User has Super Admin role
+      forms ->> forms: check user has authenticated with Google Workspace
+    end
+
     forms ->> forms: create user session
-    forms -->> browser: set session cookie
+    forms -->> browser: set session cookie, redirect
     browser ->> browser: store session cookie
+    browser ->> forms: HTTP GET
+    forms ->> forms: get list of forms
+    forms -->> browser: 
     browser -->> user: display GOV.UK Forms
 
     note right of user: user is now authenticated
