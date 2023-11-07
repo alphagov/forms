@@ -9,7 +9,7 @@ The diagrams in this folder (created using [Mermaid](https://docs.github.com/en/
 ```mermaid
 graph TD
     subgraph users
-        super_admin((Super<br />Admin))
+        super_admin((Super Admin))
         creator((form creator))
         content((content designer))
         user((Person filling in a form))
