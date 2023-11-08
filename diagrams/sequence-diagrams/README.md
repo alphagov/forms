@@ -9,18 +9,18 @@ The diagrams in this folder (created using [Mermaid](https://docs.github.com/en/
 ```mermaid
 graph TD
     subgraph users
-        signon_admin((GOV.UK Signon<br />administrator))
+        super_admin((Super Admin))
         creator((form creator))
         content((content designer))
         user((Person filling in a form))
         processor((form processor))
     end
 
-    signon(GOV.UK Signon)
+    auth0(Auth0)
     govuk(GOV.UK website)
 
-    signon_admin --- signon
-    creator --- signon
+    super_admin --- auth0
+    creator --- auth0
     content --- govuk
 
     subgraph sg1 [GOV.UK Forms]
@@ -29,7 +29,7 @@ graph TD
         runner(forms-runner)
     end
 
-    signon --- admin --- api
+    auth0 --- admin --- api
     user --- govuk
     user --- runner --- api
 
