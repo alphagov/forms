@@ -4,8 +4,8 @@
 
 Date created: *2023-11-06*  
 
-Trello card:https://trello.com/c/I8HETm57/1041-design-the-early-access-upgrade-mou-journey-ready-for-user-research 
-Mural working board: https://app.mural.co/t/gaap0347/m/gaap0347/1691659258399/af093136c3f86be05860120cb92d6810e98f3643?sender=u61ceb93b0f861033ca7c7448 
+- [Trello card](https://trello.com/c/I8HETm57/1041-design-the-early-access-upgrade-mou-journey-ready-for-user-research "Trello card")
+- [Mural working board](https://app.mural.co/t/gaap0347/m/gaap0347/1691659258399/af093136c3f86be05860120cb92d6810e98f3643?sender=u61ceb93b0f861033ca7c7448 "Mural working board")
 
 ___
 
@@ -13,16 +13,23 @@ ___
 
 - [Early access journey](#early-access-journey)
   - [Status](#status)
-  - [Contents](#contents)
   - [What](#what)
-  - [Why](#why)
+  - [Problems we tried to solve](#Problems-we-tried-to-solve)
+  - [User needs](#user-needs)
+  - [Changes](#changes)
+  - [What we did](#what-we-did)
 
 ___
-
 <br>
 
 ## What
-With this journey, users can create a trial account and understand if they can upgrade to editor and how to do that. It will also automate a lot of things the adoption team would have to do otherwise, and take us a step closer to self service.
+This journey is for trial users requesting to become editor so that they can start publishing their forms on GOV.UK. 
+
+<br>
+
+## Problems we tried to solve
+* There is currently no process in place where users can request to become an editor, sign mou and go through requirements check to become an editor.
+* There is also no process in place for adoption to receive requests for editor acccess
 
 <br>
 
@@ -33,15 +40,26 @@ With this journey, users can create a trial account and understand if they can u
 
 <br>
 
-## Why
 
-We currently do not have a process enabling users to request editor access and start publishing forms. 
+## Changes
+We have created a new journey which starts from product page and connects the users to the adoption team. 
+
+The changes are in the product. 
+Prototype can be found here: https://forms-prototypes-pr-201.herokuapp.com/product-pages/ 
 
 <br>
 
-## Changes
-The changes are in the product. 
-Prototype can be found here: https://forms-prototypes-pr-201.herokuapp.com/product-pages/ 
+## What we did 
+* We ran a series of team activities to ideate and refine what the new journey would look like for trial users.[Workshops can be found here](https://app.mural.co/t/gaap0347/m/gaap0347/1691659258399/af093136c3f86be05860120cb92d6810e98f3643?sender=u61ceb93b0f861033ca7c7448 "Workshops can be found here") 
+* We sketched and made multiple iterations of the design and user journey and then we began implementing the designs into the GOV.UK Forms product.
+* We tested the new journey with the users.
+
+<br>
+
+## Outcome 
+* [The first itearation we tested during UR.](https://www.figma.com/file/pCN39S9tIDlgicZ05Nj47J/Early-Access?type=design&node-id=337%3A3586&mode=design&t=0R6O7wWl9Alok9vs-1 "The first iteration we tested during UR.")
+* We created content improvements for the early access journey based on the user feedback.
+* [Final journey can be found here](https://www.figma.com/file/pCN39S9tIDlgicZ05Nj47J/Early-Access?type=design&node-id=337%3A3586&mode=design&t=0R6O7wWl9Alok9vs-1 "Final journey can be found here")
 
 <br>
 
