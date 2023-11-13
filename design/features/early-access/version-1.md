@@ -6,12 +6,8 @@
 
 ## Contents
 - [Status](#status)
-- [What](#What)
 - [Key Decisions](#key-decisions)
 - [Designs](#Designs)
-
-## What 
-This is a documentation for early access journey.
 
 ## As is 
 - There is currently no process in place for trial users to request an editor account. 
@@ -97,3 +93,5 @@ They also see a button that says "Create a form". Once clciked user is taken to 
 ## Some of the changes we have done after the research;
 
 - We have created some content changes for the "Get started" , "Requirements to become an editor" , "What happens next page"
+
+[Back to the top](#early-access-journey-designs)
