@@ -6,7 +6,8 @@
 
 ## Contents
 - [Status](#status)
-- [Decisions](#decisions)
+- [What](#What)
+- [Key Decisions](#key-decisions)
 - [Designs](#Designs)
 
 ## What 
