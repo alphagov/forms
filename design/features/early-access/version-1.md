@@ -12,17 +12,19 @@
 ## What 
 
 ## As is 
-- 
+- There is currently no process in place for trial users to request an editor account. 
 
 ## To-be
--
+- Early access journey enables trial users to request an editor account within the GOV.UK Forms. 
 
 ## Key Decisions
-Some content decisions 
+It was agreed that we'll build a minimum version that covers the basic functionality needed for this journey, while making it available as soon as possible so that more trial users can be upgraded to an editor. 
 
-## What we will support 
+Once we move from private beta, we'll design another version of early access where we wil be focusing on creating a self service model. In this process we will focus on automating some of the taks adoption team currently takes place and crate a model where users can upgrade to an editor account without an action from the adoption team. 
 
-## What we want support
+We are also using Auth0 for this journey. 
+
+- 
 
 ## Designs
 [Figma files for designs can be found here](https://www.figma.com/file/pCN39S9tIDlgicZ05Nj47J/Early-Access?type=design&node-id=337%3A3586&mode=design&t=0R6O7wWl9Alok9vs-1 "Figma files for designs can be found here")
