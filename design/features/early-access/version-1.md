@@ -34,7 +34,7 @@ Created a get started page to help users understan what we offer at GOV.UK Forms
 
 <br>
 
-*This shows the “Get started” page and the following explanatory text: "GOV.UK Forms is a new platform that makes it easy to create accessible online forms for the GOV.UK website." *  
+*This shows the “Get started” page and the following explanatory text: "GOV.UK Forms is a new platform that makes it easy to create accessible online forms for the GOV.UK website."*  
 
 With this page, trial user can read and understand what they can do with a trial account and read more about what they need to do in order to become an editor. 
 
