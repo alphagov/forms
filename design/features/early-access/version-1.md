@@ -1,15 +1,28 @@
 #   Early Access Designs
 ## Status
 
-Date created: *2023-11-9*
-Developed 
+- Date created: *2023-11-9*
+- Developed 
 
 ## Contents
 - [Status](#status)
 - [Decisions](#decisions)
 - [Designs](#Designs)
-## Decisions
 
+## What 
+
+## As is 
+- 
+
+## To-be
+-
+
+## Key Decisions
+Some content decisions 
+
+## What we will support 
+
+## What we want support
 
 ## Designs
 [Figma files for designs can be found here](https://www.figma.com/file/pCN39S9tIDlgicZ05Nj47J/Early-Access?type=design&node-id=337%3A3586&mode=design&t=0R6O7wWl9Alok9vs-1 "Figma files for designs can be found here")
