@@ -1,4 +1,5 @@
 #   Early Access Journey Designs
+
 ## Status
 
 - Date created: *2023-11-9*
@@ -41,6 +42,8 @@ Once "Create a trial account button" is clicked the trial user is taken to "Auth
 ### Trial account notification banner
 ![Trial account notification banner](/design/features/early-access/screenshots-v1/007.Trial-notification-banner.png)
 
+<br>
+
 Once the users are aunthenticated using the Auth0 login journey they are taken to the GOV.UK Forms landing page. 
 
 Here we have a notification banner to inform the users that they need have a trial account. *It uses the following text "You have a trial account, you can create a form, preview and test it. You need an editor account to be able to make a form live and if the trial user want to become an editor they need to click "find out if you can upgrade to an editor account"*
@@ -50,6 +53,8 @@ Once the users click the link they are taken to "Requirements to upgrade to an e
 ### Requirements to upgrade to an editor account
 ![Requirements to upgrade to an editor account](/design/features/early-access/screenshots-v1/004.Requirements-page.png)
 
+<br>
+
 Requirements to upgrade to an editor account is created to help users understand what do they need to become an editor. 
 
 On this page we have created a description and a list of requirements needed to become an editor and a check box asking the users if they meet these requirements. 
@@ -58,6 +63,8 @@ Once the check boxed is ticked, the users is then asked to click "Continue". Onc
 
 ### What happens next page
 ![What happens next](/design/features/early-access/screenshots-v1/005.What-happens-next.png)
+
+<br>
 What happens next page infomrs users about the next steps in the early access journey. 
 
 Here we are using a panel component with a text that says *We've sent you an email to request more information* 
@@ -71,12 +78,16 @@ At this stage users are directed to email where they hear from the adoption team
 ### Memorandum of Understanding page
 ![MOU](/design/features/early-access/screenshots-v1/003.Mou.png)
 
+<br>
+
 If the adoption team identifies that this user needs to sign MOU, they send a link to it via email. At this stage users are asked to click to that link and are taken to "Memorandum of Understanding page". In this page we have all the MOU document where user needs to read and sign. 
 
 At the end of the back we have added a check box where it says *I agree to the MOU on behalf of my organisation*. Once checked the users are asked to click "Save and continue". Users are then taken to "Agreeing to MOU' page. 
 
 ### Agreeing to MOU
 ![Agreeing to MOU](/design/features/early-access/screenshots-v1/006.Agreeing-to-mou.png)
+
+<br>
 
 On this page we inform users that they have signed the MOU with a panel that says *You’ve agreed to the MOU*. We also added a "What happens next" title with a text saying *We’ll email you with any updates to the MOU that are made in the future.* 
 
@@ -85,12 +96,16 @@ At the top left hand corner we have also included a back button, allowing users 
 ### "You have an editor account" Notification banner
 ![Notificaiton banner](/design/features/early-access/screenshots-v1/001.Editor-notification-banner.png)
 
+<br>
+
 Once the adoption team upgrades the user and the trial user sign back in to their GOV.UK Forms account, they see a notification banner that says *You now have an editor account. You can create a form and make it live.*  
 
 They also see a button that says "Create a form". Once clciked user is taken to GOV.UK forms landing page. 
 
 
 ## Some of the changes we have done after the research;
+
+<br>
 
 - We have created some content changes for the "Get started" , "Requirements to become an editor" , "What happens next page"
 
