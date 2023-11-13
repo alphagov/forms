@@ -1,4 +1,4 @@
-#   Early Access Designs
+#   Early Access Journey Designs
 ## Status
 
 - Date created: *2023-11-9*
