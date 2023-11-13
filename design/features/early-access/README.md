@@ -58,7 +58,7 @@ Prototype can be found here: https://forms-prototypes-pr-201.herokuapp.com/produ
 
 ## Outcome 
 * [The first itearation we tested during UR.](https://www.figma.com/file/pCN39S9tIDlgicZ05Nj47J/Early-Access?type=design&node-id=337%3A3586&mode=design&t=0R6O7wWl9Alok9vs-1 "The first iteration we tested during UR.")
-* We created content improvements for the early access journey based on the user feedback.
+* We created content improvements for the early access journey based on the [user feedback.](https://docs.google.com/presentation/d/1Sd4y8xXPDyxw_yThsA5qNmatAqjb-rpYvctYMflgCJQ/edit#slide=id.g1e7dce5d897_0_37)
 * [Final journey can be found here](https://www.figma.com/file/pCN39S9tIDlgicZ05Nj47J/Early-Access?type=design&node-id=337%3A3586&mode=design&t=0R6O7wWl9Alok9vs-1 "Final journey can be found here")
 
 <br>
