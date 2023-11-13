@@ -52,7 +52,7 @@ Prototype can be found here: https://forms-prototypes-pr-201.herokuapp.com/produ
 ## What we did 
 * We ran a series of team activities to ideate and refine what the new journey would look like for trial users.[Workshops can be found here](https://app.mural.co/t/gaap0347/m/gaap0347/1691659258399/af093136c3f86be05860120cb92d6810e98f3643?sender=u61ceb93b0f861033ca7c7448 "Workshops can be found here") 
 * We sketched and made multiple iterations of the design and user journey and then we began implementing the designs into the GOV.UK Forms product.
-* We tested the new journey with the users.
+* [We tested the journey with the users.](https://docs.google.com/presentation/d/1Sd4y8xXPDyxw_yThsA5qNmatAqjb-rpYvctYMflgCJQ/edit)
 
 <br>
 
