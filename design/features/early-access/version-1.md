@@ -27,11 +27,12 @@ We are also using Auth0 for this journey.
 ## Designs
 [Figma files for designs can be found here](https://www.figma.com/file/pCN39S9tIDlgicZ05Nj47J/Early-Access?type=design&node-id=337%3A3586&mode=design&t=0R6O7wWl9Alok9vs-1 "Figma files for designs can be found here")
 <br>
-<br>
 
 ### Get started page
 Created a get started page to help users understan what we offer at GOV.UK Forms.
 ![Get Started](/design/features/early-access/screenshots-v1/002.Get-started.png)
+
+<br>
 
 *This shows the “Get started” page and the following explanatory text: "GOV.UK Forms is a new platform that makes it easy to create accessible online forms for the GOV.UK website." *  
 
