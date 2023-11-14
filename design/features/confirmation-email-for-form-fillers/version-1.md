@@ -62,39 +62,93 @@ As part of our first iteration:
 
 ## Design for form fillers
 
-What are we doing... 
+To get us ready for early access we wanted to make the smallest iteration with the most impact. In so doing we agreed to only add a way for form fillers to opt-in or out of receiving an email confirming a successful submission. This will be included on the “Check your answers before submitting your form” page.
 
 ### Check your answers page
 
-![Check your answers before submitting summary screen with new email confirmation question. Screenshot](https://github.com/alphagov/forms/assets/35372982/7ac041dd-0112-4e73-866c-a9f44243f731)
-*Do you want to get an email confirming your form has been submitted?*
+![Check your answers before submitting summary screen with new email confirmation question. Screenshot](https://github.com/alphagov/forms/assets/35372982/7ac041dd-0112-4e73-866c-a9f44243f731)  
+*This screen shows the new “Do you want to get an email confirming your form has been submitted?” question with ‘Yes’ and ‘No’ radio options.*
 
-![Check your answers before submitting summary screen with new email confirmation question expanded with input for email address. Screenshot](https://github.com/alphagov/forms/assets/35372982/06fa052d-2cfd-4d31-aaea-1081ce02e187)
-*Do you want to get an email confirming your form has been submitted?*
+We want it to be clear why they are being asked this question, so have included hint text:  
+> We'll only use your email address to send a confirmation that your form's been successfully submitted. It will not contain a copy of your answers.  
 
-### Email examples
+This question is mandatory and if no option is selected we will reload the screen with an error summary and message.  
 
-![Access to work plus referral confirmation email example. Screenshot](https://github.com/alphagov/forms/assets/35372982/cf4d3bfd-b0d5-41b8-a8fc-281431861eee)
-*caption*
+![Error summary when a user doesn’t select a radio option for email confirmation. Screenshot](https://github.com/alphagov/forms/assets/35372982/c0504aa6-7983-4dd0-8293-29d97fc18e5b)  
+*The error summary shows “There is a problem” with the detailed error message “Select ‘Yes’ if you want to get an email confirming your form has been submitted” to help form fillers understand what has gone wrong.*
 
-![Apply for a county parish holding confirmation email example. Screenshot](https://github.com/alphagov/forms/assets/35372982/a884ec01-d0c8-4509-a6d1-09881530adf0)
-*caption*
+![Check your answers before submitting summary screen with new email confirmation question expanded with input for email address. Screenshot](https://github.com/alphagov/forms/assets/35372982/06fa052d-2cfd-4d31-aaea-1081ce02e187)  
+*This screen now shows “Do you want to get an email confirming your form has been submitted?” question with the ‘Yes’ radio expanded to reveal a new input.*
+
+Because they have selected ‘Yes’ - they want to get an email confirming their form has been submitted - they are now asked: 
+> What email address do you want us to send your confirmation to?  
+
+This question is also mandatory, where the form filler has selected the ‘Yes’ radio. If they have not provided a valid email the screen will reload with a new error summary and message. 
+
+![Error summary when a user doesn’t input a valid email address for email confirmation to be sent to. Screenshot](https://github.com/alphagov/forms/assets/35372982/82f8be47-8827-4dfe-8d0d-e188510d54fb)  
+*The error summary shows “There is a problem” with the detailed error message “Enter an email address in the correct format, like name@example.com” to help form fillers understand what has gone wrong.*
+
+<br> 
+
+### Email content structure  
+
+Emails will come from the “GOV.UK Forms” email address.  
+
+Email subject lines will be the same for all emails at this point, “Your form has been successfully submitted”.  
+
+> ## Your form has been successfully submitted  
+> "[form_name]" was successfully submitted at 4:46pm on 3 July 2023.  
+> 
+> Thank you.  
+>
+> You cannot reply to this email. Use the contact details below if you need help with your form.  
+>
+> ### What happens next  
+> [Content will be whatever the form creator has specified on the 'Form submitted' page]  
+>
+> ### Contact details  
+> [Content will be whatever the form creator has specified on the 'Provide contact details for support' page - email, phone or online contact link]  
+
+
+#### Email examples
+
+The emails will include:
+
+- name of the form the form filler completed  
+- date and time the form filler submitted their form  
+- “Thank you” - we know this adds value to people completing forms, showing appreciation for thier time - even if it is a mandatory form    
+- information telling the form filler that they should not reply to this email as any contact will be ignored  
+- information about “What happens next” that the form creator added to their forms confirmation page  
+- contact information that the form creator added to support their users  
+  
+![Access to work plus referral confirmation email example. Screenshot](https://github.com/alphagov/forms/assets/35372982/cf4d3bfd-b0d5-41b8-a8fc-281431861eee)  
+*This email shows an outline of content and format of what a typical email confirming a submission has been sent looks like. This example shows information DWP might use for one of their forms.*
+
+![Apply for a county parish holding confirmation email example. Screenshot](https://github.com/alphagov/forms/assets/35372982/a884ec01-d0c8-4509-a6d1-09881530adf0)  
+*This email shows an outline of content and format of what a typical email confirming a submission has been sent looks like. This example shows information Defra might use for one of their forms.*
 
 <br>
 
 ## Design for form creators
 
-What are we doing... 
+By introducing the control to form fillers we needed to inform form creators what information is included in the email at the time they add or edit their content for the information about what happens next and the contact details for support.  
 
 ### Form submitted page
 
-![Form submitted page. Screenshot](https://github.com/alphagov/forms/assets/35372982/24eabfbc-f961-43ea-8b4a-cc764af65a11)
-*caption*
+![Form submitted page. Screenshot](https://github.com/alphagov/forms/assets/35372982/24eabfbc-f961-43ea-8b4a-cc764af65a11)  
+
+We have added new content to this screen just above the textarea input:
+
+> This content will also be included in an email confirming that a form's been submitted - if people choose to receive this. The email will include the date and time of submission, and contact details for support. It will not contain a copy of someone's answers.
 
 ### Provide contact details for support
 
-![Provide contact details for support. Screenshot](https://github.com/alphagov/forms/assets/35372982/06fa052d-2cfd-4d31-aaea-1081ce02e187)
-*caption*
+![Provide contact details for support. Screenshot](https://github.com/alphagov/forms/assets/35372982/06fa052d-2cfd-4d31-aaea-1081ce02e187)  
+
+We have added new content to this screen just above the “How can people get help with filling in this form?” question:
+
+> It will also be included in an email confirming that a form's been submitted - if people choose to receive this. The email will include the date and time of submission. It will not contain a copy of someone's answers.
+
 
 <br>
 
