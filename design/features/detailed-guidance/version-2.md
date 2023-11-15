@@ -180,7 +180,7 @@ There are now only 2 bullet points explaining that you should use guidance if yo
 
 A new sentence explains where guidance content will be shown: “Guidance will be displayed at the top of the page, above your question.”
 
-[ADD SCREENSHOT 2]
+![Updated text clarifying when to use guidance and how it'll be displayed. Screenshot](/design/features/detailed-guidance/screenshots-v2/add-guidance-help-text.png)
 
 ### ‘Add guidance’ page - updated Markdown guidance clarifies how to use it correctly
 
@@ -188,12 +188,14 @@ The formatting help that’s revealed if someone clicks on the ‘Formatting hel
 
 It also has a new “Headings” H3, with information explaining that headings should not be used to achieve bold formatting.
 
-[ADD SCREENSHOT 3]
+![Updated formatting help text to make it easier to use Markdown. Screenshot](/design/features/detailed-guidance/screenshots-v2/updated-formatting-markdown-help-text.png)
 
 ### ‘Add guidance’ page - updated explanation of why a page heading is needed 
 The explanatory content under the “Give your page a heading” label has been updated for clarity. 
 
 It now says:  “When you add guidance your question text will no longer be the main page heading, so you need to use a different one. Use a heading that’s a statement rather than a question - for example, ‘Interview needs’.”
+
+![Updated content explaining why a page heading is needed. Screenshot](/design/features/detailed-guidance/screenshots-v2/give-your-page-a-heading-on-add-guidance-page.png)
 
 [ADD SCREENSHOT 4]
 
