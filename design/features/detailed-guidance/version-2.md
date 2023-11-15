@@ -93,15 +93,11 @@ In testing, the concept of detailed guidance came across relatively clearly. Som
 
 We considered various changes to hint text, like ‘no more than 1 or 2 sentences’, or ‘1 or 2 sentences only, no formatting’. In the end, however, we decided this could seem a bit suggestive or prescriptive and went with the simple addition of the word ‘short’ before the word ‘hint’. There’s a 500 character ‘hard’ limit in place, so if people go beyond that they’ll get an error message.
 
-New ‘Hint text (optional)’ wording: 
-
-“You can add a short hint to help people answer the question”. (This is followed by an example of possible hint text, which is customised to match the ‘answer type’.) 
+New ‘Hint text (optional)’ wording: “You can add a short hint to help people answer the question”. (This is followed by an example of possible hint text, which is customised to match the ‘answer type’.) 
 
 For the guidance text, we decided to specify the exact formatting that will be allowed - rather than to say what it could ‘include’, which might lead people to think they could add more Markdown formatting than is possible.
 
-New ‘Guidance’ wording: 
-
-“Only add guidance if you need to give a longer explanation of how to answer the question, or to format your question with paragraphs, links, lists or headings.” 
+New ‘Guidance’ wording: “Only add guidance if you need to give a longer explanation of how to answer the question, or to format your question with paragraphs, links, lists or headings.” 
 
 See [Mural board for the updated content designs](https://app.mural.co/t/gaap0347/m/gaap0347/1683038152877/e16c675d20fcbc7595d016d03eeb5d7024fe0020?wid=0-1695202191757) 
 
@@ -171,13 +167,12 @@ The main decision was to iterate some of the content to clarify:
 
 ### ‘Edit question’ page - updated wording helps differentiate hint text and guidance
 
-The explanatory text under the “Hint text (optional)” label now includes the word ‘short’: 
+The explanatory text under the “Hint text (optional)” label now includes the word ‘short’: “You can add a short hint to help people answer the question.”
 
-“You can add a short hint to help people answer the question.”
+The explanatory text under the “Guidance” H2 clarifies what type of formatting is possible: “Only add guidance if you need to give a longer explanation of how to answer the question, or to format your content with paragraphs, headings, lists or links.”
 
-The explanatory text under the “Guidance” H2 clarifies what type of formatting is possible: 
+![Updated hint text and guidance content. Screenshot](/design/features/detailed-guidance/screenshots-v2/hint-text-guidance-text-on-edit-question-page.png)
 
-“Only add guidance if you need to give a longer explanation of how to answer the question, or to format your content with paragraphs, headings, lists or links.”
 
 ### ‘Add guidance’ page - updated text clarifies when to use guidance and how it will be displayed
 
@@ -185,16 +180,20 @@ There are now only 2 bullet points explaining that you should use guidance if yo
 
 A new sentence explains where guidance content will be shown: “Guidance will be displayed at the top of the page, above your question.”
 
+[ADD SCREENSHOT 2]
+
 ### ‘Add guidance’ page - updated Markdown guidance clarifies how to use it correctly
 
 The formatting help that’s revealed if someone clicks on the ‘Formatting help’ details component has been updated. It now clarifies how to use Markdown for links (no spaces between brackets) and lists (one line space is needed before and after the list items). 
 
 It also has a new “Headings” H3, with information explaining that headings should not be used to achieve bold formatting.
 
+[ADD SCREENSHOT 3]
+
 ### ‘Add guidance’ page - updated explanation of why a page heading is needed 
 The explanatory content under the “Give your page a heading” label has been updated for clarity. 
 
 It now says:  “When you add guidance your question text will no longer be the main page heading, so you need to use a different one. Use a heading that’s a statement rather than a question - for example, ‘Interview needs’.”
 
-
+[ADD SCREENSHOT 4]
 
