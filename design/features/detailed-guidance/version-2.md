@@ -1,3 +1,5 @@
+# Add guidance v2
+
 ## Status
 Date created: *2023-11-14*  
 
@@ -23,7 +25,7 @@ As a result of the findings, we’re going to:
 
 * clarify the hint text and guidance instructions on the ‘Edit question’ page
 * iterate the Markdown help text on the ‘Add guidance’ page
-* clarify why a ‘page heading’ is needed when adding guidance
+* clarify why people are asked to include a ‘page heading’ when adding guidance
 
 ### Version 1 detailed guidance feature (as-is)
 
@@ -33,9 +35,7 @@ The original hint text wording followed one of these patterns:
 * “Use hint text to help people answer the question” - along with an example relevant to the type of question (such as “For example, ‘You can provide either a home or mobile phone number.”) 
 * ‘‘You could use hint text to tell people how you’ll use their address. For example, ‘We’ll send your licence to this address.’” 
 
-The original guidance wording was: 
-
-“Only add guidance if you need to give a longer explanation of how to answer the question, or to format your content. For example, you can use paragraphs, links or lists.”
+The original guidance wording was: “Only add guidance if you need to give a longer explanation of how to answer the question, or to format your content. For example, you can use paragraphs, links or lists.”
 
 #### Markdown help text - ‘Add guidance’ page
 
@@ -82,9 +82,7 @@ You need one empty line space before the numbers start, and one at the end. For 
 > * Third item”
 
 #### Clarify why a page heading is needed when adding guidance - ‘Add guidance’ page
-The original content telling form creators they needed to add a page heading when using guidance, under the label “Give your page a heading”, was: 
-
-“Use a heading that’s a statement rather than a question - for example, ‘Interview needs’. This will be your main page heading.”
+The original content telling form creators they needed to add a page heading when using guidance - under the label “Give your page a heading” - was: “Use a heading that’s a statement rather than a question - for example, ‘Interview needs’. This will be your main page heading.”
 
 ### Version 2 detailed guidance feature (to-be)
 
@@ -95,7 +93,7 @@ We considered various changes to hint text, like ‘no more than 1 or 2 sentence
 
 New ‘Hint text (optional)’ wording: “You can add a short hint to help people answer the question”. (This is followed by an example of possible hint text, which is customised to match the ‘answer type’.) 
 
-For the guidance text, we decided to specify the exact formatting that will be allowed - rather than to say what it could ‘include’, which might lead people to think they could add more Markdown formatting than is possible.
+For the guidance text, we decided to specify the exact formatting that will be allowed - rather than say what it could ‘include’, which might lead people to think they could add more Markdown formatting than is possible.
 
 New ‘Guidance’ wording: “Only add guidance if you need to give a longer explanation of how to answer the question, or to format your question with paragraphs, links, lists or headings.” 
 
@@ -112,15 +110,15 @@ The line spacing needed to correctly format a bulleted list did not come across 
 
 We decided to make the following changes to try and address these issues: 
 
-* Under ‘Links and URLs’ added the sentence “Make sure there are no spaces between the two sets of brackets.” This is because some users left a space and struggled to understand why the link didn't work. This is very similar to the language used by GOV.UK and Notify.
+* Under ‘Links and URLs’, added the sentence “Make sure there are no spaces between the two sets of brackets.” This is because some users left a space and struggled to understand why the link didn't work. This is very similar to the language used by GOV.UK and Notify.
 
 * Added a new H3 ‘Headings’, followed by content explaining heading order in general, and the fact that headings shouldn't be used to achieve bold formatting, which is what one user did during testing. New content: “Use the headings in sequence - a second-level heading needs to come before a third-level heading. Do not use headings to style your text in bold. This can cause issues for people using assistive technology.”
 
 * Made ‘Second-level headings’ and ‘Third-level headings’ H4s. Retained the examples from the first iteration but added the abbreviations ‘H2’ and ‘H3’ as these are in common usage and it makes sense to include them.
 
-* Under H3 ‘Bulleted’ lists, changed “You need one empty line space before the bullets start, and one at the end” to “Leave one empty line before adding the first bullet point and another after the last bullet point.” This is because the GOV.UK terminology of leaving one 'empty line space' didn't test that well and some users seemed unclear about what was needed. Also changed the word ‘Use’ to “Make sure you use” in the sentence “Make sure you use one space after the asterisk or dash.” This was to emphasise the importance of this space. 
+* Under H3 ‘Bulleted’ lists, changed “You need one empty line space before the bullets start, and one at the end” to “Leave one empty line before adding the first bullet point and another after the last bullet point.” This is because the GOV.UK terminology of leaving one 'empty line space' didn't test that well and some users seemed unclear about what was needed. Also changed the word ‘Use’ to “Make sure you use” in the sentence “Make sure you use one space after the asterisk or dash.” This was to emphasise the importance of adding this space. 
 
-* Under H3 ‘Numbered lists’ made the same changes as for H3 ‘Bulleted lists’ (though already said “Make sure you use [...]”).
+* Under H3 ‘Numbered lists’, made the same changes as for H3 ‘Bulleted lists’ (though we already started this sentence with “Make sure you use [...]”).
 
 See Trello cards: 
 
@@ -141,7 +139,8 @@ New wording on the ‘Add guidance’ page:
 
 * explain how to answer the question in more detail
 * format your content with paragraphs, headings, lists or links
-* Guidance will be displayed at the top of the page, above your question
+
+Guidance will be displayed at the top of the page, above your question.
 
 [Label] Give your page a heading
 
@@ -173,7 +172,6 @@ The explanatory text under the “Guidance” H2 clarifies what type of formatti
 
 ![Updated hint text and guidance content. Screenshot](/design/features/detailed-guidance/screenshots-v2/hint-text-guidance-text-on-edit-question-page.png)
 
-
 ### ‘Add guidance’ page - updated text clarifies when to use guidance and how it will be displayed
 
 There are now only 2 bullet points explaining that you should use guidance if you need to - “explain how to answer the question in more detail” or “format your content with paragraphs, headings, lists or links”.
@@ -197,5 +195,8 @@ It now says:  “When you add guidance your question text will no longer be the 
 
 ![Updated content explaining why a page heading is needed. Screenshot](/design/features/detailed-guidance/screenshots-v2/give-your-page-a-heading-on-add-guidance-page.png)
 
-[ADD SCREENSHOT 4]
+___
 
+<br>
+
+[Back to the top](#add-guidance-v2)
