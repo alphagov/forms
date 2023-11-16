@@ -41,25 +41,31 @@ The original guidance wording was: “Only add guidance if you need to give a lo
 
 The original Markdown help text was as follows:  
 
-“[H2] Formatting help
+[H2] Formatting help
 
 [H3] Links and URLs
 
 To add a link, use square brackets [ ] around the link text, and round brackets ( ) around the full URL. For example:
 
-> [Link text](https://www.gov.uk/link-text-url)
+```
+[Link text](https://www.gov.uk/link-text-url)
+```
 
 [H3] Second-level headings
 
 To add a second-level heading, use 2 hashtags followed by a space. For example:
 
-> This is a second-level heading
+```
+## This is a second-level heading
+```
 
 [H3] Third-level headings
 
 For a third-level heading, use 3 hashtags followed by a space. For example:
 
-> This is a third-level heading
+```
+### This is a third-level heading
+```
 
 [H3] Bulleted lists
 
@@ -67,9 +73,11 @@ To add bullet points, start each item with * (asterisk) or - (dash). Use one spa
 
 You need one empty line space before the bullets start, and one at the end. For example:
 
-> * First bullet point
-> * Second bullet point
-> * Third bullet point
+```
+* First bullet point
+* Second bullet point
+* Third bullet point
+```
 
 [H3] Numbered lists
 
@@ -77,9 +85,11 @@ Use numbers for each list item, followed by a full stop. Make sure there is one 
 
 You need one empty line space before the numbers start, and one at the end. For example:
 
-> * First item
-> * Second item
-> * Third item”
+```
+1. First item
+2. Second item
+3. Third item
+```
 
 #### Clarify why a page heading is needed when adding guidance - ‘Add guidance’ page
 The original content telling form creators they needed to add a page heading when using guidance - under the label “Give your page a heading” - was: “Use a heading that’s a statement rather than a question - for example, ‘Interview needs’. This will be your main page heading.”
