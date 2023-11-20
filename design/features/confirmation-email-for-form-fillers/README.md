@@ -39,7 +39,7 @@ This feature introduces new functionality to the form filler's journey, allowing
 
 Currently, once a form is submitted the form filler is shown a confirmation screen telling them that their form has been submitted. This screen also includes information about what will happen next, in terms of timelines and expectation management. 
 
-We know that some of our forms also use this content to set out next steps that a form filler needs to complete. However, these steps might not be time sensitive or they might require more information than a form filler has at that moment. Having a record of these steps in the form of an email will help form fillers return to complete these tasks at a later time.  
+We know that some of our forms also use this content to set out next steps that a form filler needs to complete. However, these steps might not be time sensitive or they might require more information than a form filler has at that moment. Having a record of these steps in an email will help form fillers return to complete these tasks at a later time.  
 
 ## Hypothesis
 
