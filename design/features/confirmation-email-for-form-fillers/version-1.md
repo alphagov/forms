@@ -31,20 +31,22 @@ ___
 
 ### As-is
 
-- form fillers do not get any more confirmation of a submission than the confirmation screen  
+- the only confirmation of a submission that form fillers get is the confirmation screen that appears after they click 'Agree and submit'
 - currently form fillers are unable to get a copy of their submission sent to them  
-- if a form filler wants to save their submission data they can “print” screen on the check your answers  
+- if a form filler wants to save their submission data they can “print” screen on the check your answers page  
 
 ### To-be
 
 - form fillers receive a confirmation of their submission being successfully sent (MVP)  
 - form fillers can get a copy of their submission data sent to them (not MVP)  
-- form creators can control different aspects of confirmation emails such as, including WHN information (not MVP)  
+- form creators can control different aspects of confirmation emails, such as including 'what happens next' (WHN) information (not MVP)  
 
 
 ## Key decisions
 
-It was agreed that we'll build a minimum version. This will involve a way for form fillers to decide if they receive an email confirming their submission or not, meaning we will only inform form creators of where the information they add to their form will be provided.  
+It was agreed that we'll build a minimum version. This will involve a way for form fillers to choose whether to receive an email confirming their submission or not. 
+
+We'll explain to form creators that certain information they add to their form will be provided in this email.  
 
 As part of our first iteration:  
 
@@ -54,7 +56,7 @@ As part of our first iteration:
   - date and time of submission
   - form name
   - thank you
-  - “do not reply” messaging
+  - 'do not reply' messaging
   - what happens next information
   - support contact details
 
@@ -62,14 +64,14 @@ As part of our first iteration:
 
 ## Design for form fillers
 
-To get us ready for early access we wanted to make the smallest iteration with the most impact. In so doing we agreed to only add a way for form fillers to opt-in or out of receiving an email confirming a successful submission. This will be included on the “Check your answers before submitting your form” page.
+To get us ready for early access we wanted to make the smallest iteration with the most impact. In doing so, we agreed to only add a way for form fillers to opt in or out of receiving an email confirming a successful submission. This will be included on the “Check your answers before submitting your form” page.
 
 ### Check your answers page
 
 ![Check your answers before submitting summary screen with new email confirmation question. Screenshot](https://github.com/alphagov/forms/assets/35372982/7ac041dd-0112-4e73-866c-a9f44243f731)  
 *This screen shows the new “Do you want to get an email confirming your form has been submitted?” question with ‘Yes’ and ‘No’ radio options.*
 
-We want it to be clear why they are being asked this question, so have included hint text:  
+We want it to be clear why form fillers are being asked this question, so have included hint text:  
 > We'll only use your email address to send a confirmation that your form's been successfully submitted. It will not contain a copy of your answers.  
 
 This question is mandatory and if no option is selected we will reload the screen with an error summary and message.  
@@ -78,9 +80,9 @@ This question is mandatory and if no option is selected we will reload the scree
 *The error summary shows “There is a problem” with the detailed error message “Select ‘Yes’ if you want to get an email confirming your form has been submitted” to help form fillers understand what has gone wrong.*
 
 ![Check your answers before submitting summary screen with new email confirmation question expanded with input for email address. Screenshot](https://github.com/alphagov/forms/assets/35372982/06fa052d-2cfd-4d31-aaea-1081ce02e187)  
-*This screen now shows “Do you want to get an email confirming your form has been submitted?” question with the ‘Yes’ radio expanded to reveal a new input.*
+*This screen now shows the “Do you want to get an email confirming your form has been submitted?” question with the ‘Yes’ radio expanded to reveal a new input.*
 
-Because they have selected ‘Yes’ - they want to get an email confirming their form has been submitted - they are now asked: 
+Because the form filler has selected ‘Yes’ - meaning they want to get an email confirming their form has been submitted - they're now asked: 
 > What email address do you want us to send your confirmation to?  
 
 This question is also mandatory, where the form filler has selected the ‘Yes’ radio. If they have not provided a valid email the screen will reload with a new error summary and message. 
@@ -94,7 +96,7 @@ This question is also mandatory, where the form filler has selected the ‘Yes�
 
 Emails will come from the “GOV.UK Forms” email address.  
 
-Email subject lines will be the same for all emails at this point, “Your form has been successfully submitted”.  
+Email subject lines will be the same for all emails at this point: “Your form has been successfully submitted”.  
 
 > ## Your form has been successfully submitted  
 > "[form_name]" was successfully submitted at 4:46pm on 3 July 2023.  
@@ -114,24 +116,24 @@ Email subject lines will be the same for all emails at this point, “Your form 
 
 The emails will include:
 
-- name of the form the form filler completed  
+- name of the form that the form filler has completed  
 - date and time the form filler submitted their form  
-- “Thank you” - we know this adds value to people completing forms, showing appreciation for thier time - even if it is a mandatory form    
-- information telling the form filler that they should not reply to this email as any contact will be ignored  
-- information about “What happens next” that the form creator added to their forms confirmation page  
-- contact information that the form creator added to support their users  
+- “Thank you” - we know this adds value to people completing forms, showing appreciation for their time - even if it is a mandatory form    
+- information telling the form filler that they cannot reply to this email and referring them to the contact details provided later in the email
+- information about “What happens next” which the form creator has added to their form's confirmation page  
+- contact information that the form creator has added to support their users  
   
 ![Access to work plus referral confirmation email example. Screenshot](https://github.com/alphagov/forms/assets/35372982/cf4d3bfd-b0d5-41b8-a8fc-281431861eee)  
-*This email shows an outline of content and format of what a typical email confirming a submission has been sent looks like. This example shows information DWP might use for one of their forms.*
+*This email shows an outline of the content and format that a typical email confirming that a submission's been sent might look like. This example shows information DWP might use for one of their forms.*
 
 ![Apply for a county parish holding confirmation email example. Screenshot](https://github.com/alphagov/forms/assets/35372982/a884ec01-d0c8-4509-a6d1-09881530adf0)  
-*This email shows an outline of content and format of what a typical email confirming a submission has been sent looks like. This example shows information Defra might use for one of their forms.*
+*This email shows an outline of the content and format that a typical email confirming that a submission's been sent might look like. This example shows information Defra might use for one of their forms.*
 
 <br>
 
 ## Design for form creators
 
-By introducing the control to form fillers we needed to inform form creators what information is included in the email at the time they add or edit their content for the information about what happens next and the contact details for support.  
+Giving form fillers control over whether or not they receive an email confirmation meant we needed to tell form creators which information they provide will be included in this email - and at the appropriate stage of their form-creation journey. We decided that this would be at the point they add or edit their content for the "Information about what happens next" and "Contact details for support" tasks. 
 
 ### Form submitted page
 
