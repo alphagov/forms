@@ -145,7 +145,7 @@ We’ve added new content to this screen, just above the textarea input:
 
 ### Provide contact details for support
 
-![Provide contact details for support. Screenshot](https://github.com/alphagov/forms/assets/35372982/06fa052d-2cfd-4d31-aaea-1081ce02e187)  
+![Provide contact details for support. Screenshot](https://github.com/alphagov/forms/assets/35372982/0d928780-b80d-4f63-a09b-81fc69409259)
 
 We’ve added new content to this screen, just above the “How can people get help with filling in this form?” question:
 
