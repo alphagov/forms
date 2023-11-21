@@ -165,7 +165,7 @@ We know that we’ll have to return to this feature later to include the followi
   - Explore if we should let them control whether submission data is or is not included in a confirmation email
     - Does the submission copy need to act as a legal proof (due to policy. This will dictate file types such as PDF over .txt)
   - Explore options to create more customised emails
-  - Explore generated submission references  
+  - Explore generating submission references  
   - Understand if we can or should offer alternative confirmation messaging such as SMS  
   - Understand if there is any need for metrics on confirmation emails
     - Number of times form fillers request an email confirming their submission (useful for our team, but is it useful for form creators?)
