@@ -163,7 +163,7 @@ We know that we’ll have to return to this feature later to include the followi
   - Give them a way to make confirmation emails mandatory for all users  
   - Explore if we should allow them to decide their own subject line for the emails  
   - Explore if we should let them control whether submission data is or is not included in a confirmation email
-    - Does the submission copy need to act as a legal proof (due to policy. This will dictate file types such as PDF over .txt)
+    - Does the submission copy need to act as a legal proof (due to policy)? This will dictate file types, such as PDF rather than .txt)
   - Explore options to create more customised emails
   - Explore generating submission references  
   - Understand if we can or should offer alternative confirmation messaging such as SMS  
