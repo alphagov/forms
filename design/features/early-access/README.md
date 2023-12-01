@@ -34,7 +34,7 @@ This journey is for trial users requesting to become editor so that they can sta
 <br>
 
 ## User needs: 
- * As a trial user I need to know what are the criteria to become an editor
+ * As a trial user I need to know what are the criteria and steps to become an editor
  * As a trial user I need to know whether someone has agreed to the MOU in my organisation 
  * As a GOV.UK Forms team, I need to make sure that organisations have signed an MOU before their users get permissions beyond trial.
 
