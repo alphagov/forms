@@ -1,4 +1,4 @@
-#   Early Access Journey Designs
+#   Early Access journey designs
 
 ## Status
 
@@ -6,107 +6,136 @@
 - Developed 
 
 ## Contents
-- [Status](#status)
-- [Key Decisions](#key-decisions)
-- [Designs](#Designs)
+- [As is](#as-is)
+- [To be](#to-be)
+- [Key decisions](#key-decisions)
+- [Designs](#designs)
 
 ## As is 
-- There is currently no process in place for trial users to request an editor account. 
+Currently, the adoption team have to manually create trial accounts and editor accounts for people.
+
+There is currently no process for people to:
+
+- create a trial account themselves
+- request to upgrade to an editor account
 
 ## To-be
-- Early access journey enables trial users to request an editor account within the GOV.UK Forms. 
+The early access journey enables people to:
 
-## Key Decisions
-It was agreed that we'll build a minimum version that is needed for this journey, while making it available as soon as possible so that more trial users can be upgraded to an editor. 
+- create a trial account
+- try the product out
+- request to upgrade to an editor account
 
-Once we move from private beta, we'll design another version of early access where we wil be focusing on creating a self service model. In this process we will focus on automating some of the tasks adoption team currently takes place and create a model where we don't rely too much on the adoption team.
+## Key decisions
+It was agreed that we'd build a minimum version that is needed for this journey - to make it available as soon as possible so people can try the product and start making forms. 
 
-We are also using Auth0 for this journey. 
+During the early access phase - before we move into public beta - we'll iterate on this process to make it more self-service and to automate some of the tasks the adoption team currently have to do. 
+
+We are using Auth0 for authentication.
 
 ## Designs
 - [Figma files for designs can be found here](https://www.figma.com/file/pCN39S9tIDlgicZ05Nj47J/Early-Access?type=design&node-id=337%3A3586&mode=design&t=0R6O7wWl9Alok9vs-1 "Figma files for designs can be found here")
 - [Protoype can be found here](https://forms-prototypes-pr-201.herokuapp.com/product-pages)
 <br>
 
-### Get started page
+### Product site homepage
+![Forms product site homepage call to action](screenshots-v1/forms-product-site-homepage-call-to-action.png)
+
+We changed the main call to action and header text on the homepage so visitors to the site would know they can now find out if they can use GOV.UK Forms. 
+
+We removed the previous call to action which encouraged people to sign up to our mailing list. 
+
+The button now reads 'Find out if you can use GOV.UK Forms' and when clicked, takes you to the 'Get started' page. 
+
+### Get started page (Product site)
 ![Get Started](/design/features/early-access/screenshots-v1/002.Get-started.png)
+*This shows the ‘Get started’ page and explains what the product is, what it can be used for, how to create a trial account and the criteria you need to meet to be able to upgrade your account to be able to make forms live. It includes a green call-to-action button to ‘create a trial account’.*  
 
-<br>
+In this page we needed to set expectations for potential users and explain the process as concisely as possible. We needed to make it clear that:
 
-*This shows the “Get started” page and the following explanatory text: "GOV.UK Forms is a new platform that makes it easy to create accessible online forms for the GOV.UK website."*  
+- the product can only be used for forms for GOV.UK at the moment
+- the product has fairly limited features, so you need to check if it's suitable for you - you can do this with a trial account and by reading the ‘features’ page - that we link to
+- you can create a trial account, but you cannot make forms live with a trial account
+- you can ask to be upgraded to be able to make forms live from your trial account but you have to meet some criteria
 
-With this page, trial user can read and understand what they can do with a trial account and read more about what they need to do in order to become an editor. 
+We also included a link to sign up for the mailing list for those people who want to use the product but can't yet because they don't meet the criteria or because we haven't built all the features they'd need. 
 
-Once "Create a trial account button" is clicked the trial user is taken to "Auth0 login page"
+Once the 'Create a trial account' button is clicked the user is taken to the Auth0 'create an account' page. They authenticate with their gov.uk email address and that creates a trial account for them in GOV.UK Forms. 
 
 ### Trial account notification banner
 ![Trial account notification banner](/design/features/early-access/screenshots-v1/007.Trial-notification-banner.png)
+*The trial account banner says: 'You have a trial account. You can create a form, preview and test it. You need an editor account to be able to make a form live.' And then there's a link with the test 'Find out if you can upgrade to an editor account.'*  
 
-<br>
+Once the users are authenticated with Auth0 they are taken to the GOV.UK Forms landing page. 
 
-Once the users are aunthenticated using the Auth0 login journey they are taken to the GOV.UK Forms landing page. 
+Here we show a notification banner to inform the user that they have a trial account.
 
-Here we have a notification banner to inform the users that they need have a trial account. *It uses the following text "You have a trial account, you can create a form, preview and test it. You need an editor account to be able to make a form live and if the trial user want to become an editor they need to click "find out if you can upgrade to an editor account"*
-
-Once the users click the link they are taken to "Requirements to upgrade to an editor account" page. 
+When a user clicks the link they are taken to the 'Requirements to upgrade to an editor account' page. 
 
 ### Requirements to upgrade to an editor account
 ![Requirements to upgrade to an editor account](/design/features/early-access/screenshots-v1/004.Requirements-page.png)
 
 <br>
 
-Requirements to upgrade to an editor account is created to help users understand what do they need to become an editor. 
+The 'Requirements to upgrade to an editor account' page describes the requirements the person - and their forms - need to meet to be upgraded to be able to make forms live. 
 
-On this page we have created a description and a list of requirements needed to become an editor and a check box asking the users if they meet these requirements. 
+We also wanted to set expectations that this is not necessarily a super fast process, and that you will be sent an email asking for more information when you confirm that you meet the requirements. 
 
-Once the check boxed is ticked, the users is then asked to click "Continue". Once "Continue" button is clicked user is taken to "What happens next" page. 
+There is a check box for people to select to confirm they meet the requirements. 
+
+Once the check box is ticked, the user then clicks 'Continue' and is taken to the 'What happens next' page. 
 
 ### What happens next page
 ![What happens next](/design/features/early-access/screenshots-v1/005.What-happens-next.png)
 
 <br>
-What happens next page infomrs users about the next steps in the early access journey. 
+This page informs the user about the next steps. 
 
-Here we are using a panel component with a text that says *We've sent you an email to request more information* 
+We are using a panel component with text that says *We've sent you an email to request more information* 
 
-Outside the panel component we incldued a "What happens next" title and a text that says *Check your email and reply with the information requested. we'll then get in contact with you to discuss the next steps. It may take up to 2 weeks.*
+Beneath the panel component there's a 'What happens next' heading and text that says *Check your email and reply with the information requested. we'll then get in contact with you to discuss the next steps. It may take up to 2 weeks.*
 
-We also created a "Back to your forms" link to allow users go back.
+Then there's a 'Back to your forms' link to allow users go back.
 
-At this stage users are directed to email where they hear from the adoption team. 
+The user will also have an email asking for more information. When they reply to that email, it creates a ticket for the adoption team to respond to. 
 
 ### Memorandum of Understanding page
 ![MOU](/design/features/early-access/screenshots-v1/003.Mou.png)
 
 <br>
 
-If the adoption team identifies that this user needs to sign MOU, they send a link to it via email. At this stage users are asked to click to that link and are taken to "Memorandum of Understanding page". In this page we have all the MOU document where user needs to read and sign. 
+If the adoption team identifies that this user is from a department that needs to agree to the MOU, they send a link to it via email. At this stage users are asked to click to that link and are taken to the ‘Memorandum of Understanding’ page. 
 
-At the end of the back we have added a check box where it says *I agree to the MOU on behalf of my organisation*. Once checked the users are asked to click "Save and continue". Users are then taken to "Agreeing to MOU' page. 
+The user then needs to read the MOU and agree to it on behalf of their organisation. 
 
-### Agreeing to MOU
+At the end of the MOU there’s a check box where it says *I agree to the MOU on behalf of my organisation*. Once checked the users are asked to click ‘Save and continue’. Users are then taken to the ‘Agreeing to MOU' page. 
+
+### You’ve agreed to the MOU
 ![Agreeing to MOU](/design/features/early-access/screenshots-v1/006.Agreeing-to-mou.png)
 
 <br>
 
-On this page we inform users that they have signed the MOU with a panel that says *You’ve agreed to the MOU*. We also added a "What happens next" title with a text saying *We’ll email you with any updates to the MOU that are made in the future.* 
+On this page we inform users that they have agreed to the MOU with a panel that says *You’ve agreed to the MOU*. We also have a ‘What happens next’ heading with text saying *We’ll email you with any updates to the MOU that are made in the future.* 
 
-At the top left hand corner we have also included a back button, allowing users to go back to their form. 
+At the top left hand corner we have also included a back button, allowing users to go back to the MOU.
 
-### "You have an editor account" Notification banner
+### ‘You have an editor account’ notification banner
 ![Notificaiton banner](/design/features/early-access/screenshots-v1/001.Editor-notification-banner.png)
 
 <br>
 
-Once the adoption team upgrades the user and the trial user sign back in to their GOV.UK Forms account, they see a notification banner that says *You now have an editor account. You can create a form and make it live.*  
+When the adoption team has upgraded the trial user user and they sign back in to their account, they’re shown a notification banner that says *You now have an editor account. You can create a form and make it live.*  
 
-They also see a button that says "Create a form". Once clciked user is taken to GOV.UK forms landing page. 
-
-
-## Some of the changes we have done after the research;
+## Changes we made after research
 
 <br>
 
-- We have created some content changes for the "Get started" , "Requirements to become an editor" , "What happens next page"
+After research, we made a few content changes to:
+
+- the product site homepage
+- the ‘get started’ page
+- the ‘requirements to become an editor’ page
+- the ‘what happens next’ page
+- the automated email that is sent to you when you request to upgrade
 
 [Back to the top](#early-access-journey-designs)
