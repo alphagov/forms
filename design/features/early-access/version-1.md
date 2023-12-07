@@ -40,6 +40,7 @@ We are using Auth0 for authentication.
 
 ### Product site homepage
 ![Forms product site homepage call to action](screenshots-v1/forms-product-site-homepage-call-to-action.png)
+*This shows 'GOV.UK Forms' product landing page.*
 
 We changed the main call to action and header text on the homepage so visitors to the site would know they can now find out if they can use GOV.UK Forms. 
 
