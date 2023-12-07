@@ -24,7 +24,7 @@ ___
 <br>
 
 ## What
-This journey is designed to allow peopel to create a trial account and request an upgrade to an editor account - so they can make live forms to be published on GOV.UK. 
+This journey is designed to allow people to create a trial account and request an upgrade to an editor account - so they can make live forms to be published on GOV.UK. 
 
 <br>
 
