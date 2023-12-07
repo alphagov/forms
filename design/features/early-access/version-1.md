@@ -78,7 +78,7 @@ When a user clicks the link they are taken to the 'Requirements to upgrade to an
 
 <br>
 
-The 'Requirements to upgrade to an editor account' page describes the requirements the person - and their forms - need to meet to be upgraded to be able to make forms live. 
+*The 'Requirements to upgrade to an editor account' page describes the requirements the person - and their forms - need to meet to be upgraded to be able to make forms live.*
 
 We also wanted to set expectations that this is not necessarily a super fast process, and that you will be sent an email asking for more information when you confirm that you meet the requirements. 
 
@@ -90,7 +90,8 @@ Once the check box is ticked, the user then clicks 'Continue' and is taken to th
 ![What happens next](/design/features/early-access/screenshots-v1/005.What-happens-next.png)
 
 <br>
-This page informs the user about the next steps. 
+
+*This page informs the user about the next steps.* 
 
 We are using a panel component with text that says *We've sent you an email to request more information* 
 
@@ -104,6 +105,8 @@ The user will also have an email asking for more information. When they reply to
 ![MOU](/design/features/early-access/screenshots-v1/003.Mou.png)
 
 <br>
+
+*This page shows the Memorandum of Understanding.*
 
 If the adoption team identifies that this user is from a department that needs to agree to the MOU, they send a link to it via email. At this stage users are asked to click to that link and are taken to the ‘Memorandum of Understanding’ page. 
 
