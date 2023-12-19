@@ -152,19 +152,7 @@ Under the box is a green primary call to action “Add a new question”. Below 
 
 ## Notes
 
-- 
-
-___
-
-<br>
-
-## Research focus
-
-### Things we plan to focus on in testing:
-- 
-
-
-<br>
+- The content for answer types explanation text is still required for the preview question page  
 
 ___
 
