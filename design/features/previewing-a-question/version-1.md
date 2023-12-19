@@ -72,7 +72,13 @@ Below the preview box, there is a green “Create next question” button follow
 #### Check your question page - example with simple question   
 
 ![Check your question. Person’s name answer type summary screen. Screenshot](screenshots-v1/002-check-your-question-simple-answer-type.png)  
-*caption*  
+*Check your question page showing a summary of the question added.*
+
+The page shows an section titled “Answer settings”. It includes a definition list summarising the answer type and specific settings for this answer type. Each row had a change link for form creators make changes if they need to.  
+
+Next is a “Your question” section. Summarising the optional content a form creator has added including the “question text”, “hint text” which is optional and an answer if they needed to add guidance or make the question optional. Each row has a change link.  
+
+There are two call to action buttons. “Save question” as the primary green call to action and “Save and preview” grey button as a secondary call to action. Below is a link “Back to edit question”, the last page the user was on - replicating the back link from the top of the page.  
 
 #### Preview question page - example with simple question   
 
