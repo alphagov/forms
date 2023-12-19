@@ -125,8 +125,28 @@ There are two call to action buttons. “Save question” as the primary green c
 
 #### Preview question page - example with complex question with guidance   
 
-![Preview question. Selection from a list answer type preview screen. Screenshot](screenshots-v1/003-preview-question-complex-answer-type.png)  
-*caption*  
+![Preview question. Selection from a list answer type preview screen. Screenshot](screenshots-v1/003-preview-question-complex-answer-type.png)   
+*Preview question page show what the added question and answer type would look like.*  
+
+Since the form creator has selected to “Save and preview” they are taken to the new “Preview question” screen which shows a green success notification banner at the top of the page.  
+
+> Success  
+> Question 2 has been saved  
+
+The screen starts with the question number as a caption above the page heading, “Preview question”.  
+
+There is content informing the form creator:  
+
+> This is how your question will look.  
+> Answer type: Selection from a list   
+
+The “Answer type” is a placeholder for content to explain what the form creator is seeing and how the input will function for form fillers.  
+
+There is an outline box showing a version of the GOV.UK header with the form name “Apply for a juggling licence”.  
+
+There is a complex question page with a heading of “Prove you have right to abode in the UK”. Below is the Markdown that the form creator added now formatted as HTML so it appears as it would be to the form filler. Next is the question “Which of these countries have you lived in?” with a list of radio options, ‘England’, ‘Northern Ireland’, ‘Scotland’ and ‘Wales’. There is an ‘or’ separator above the final radio of ‘None of the above’.  
+
+Under the box is a green primary call to action “Add a new question”. Below is a link “Back to check your question”, the previous page the form creator was on.  
 
 <br>
 
