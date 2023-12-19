@@ -47,8 +47,24 @@ We want to:
 
 ### Initial Mural design  
 
-![Question X Preview question page. Screenshot](screenshots-v1/001-Helping%20users%20preview%20their%20form%20Mural%20design.png)  
-*caption*  
+![Question X: Preview question page. Screenshot](screenshots-v1/001-Helping%20users%20preview%20their%20form%20Mural%20design.png)  
+*Preview question page giving example of a companies name question.*  
+
+The screen shows some explanatory text:  
+
+> This is how the question will look.
+>
+> For this answer type, people can enter text into the box of up to x characters.
+
+There is some text explaining that the preview does not actually allow interactions, and if the user wants to test the validation and errors they can preview the full form:  
+
+> You cannot ente text into this preview to try it out - you can do this in the preview of the whole form.  
+
+Below is a box with the GOV.UK header including the form’s name.  
+
+Within the box it also shows the question text the form creator has added, “What’s your company called?” with a single line input text box.  
+
+Below the preview box, there is a green “Create next question” button followed by ‘or’ and a link “Edit this question” - used to take the form creator back to edit the current question.  
 
 
 ### Default answer type  
