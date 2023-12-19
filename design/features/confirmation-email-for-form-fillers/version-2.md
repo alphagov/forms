@@ -2,6 +2,7 @@
 Date created:   05.12.23
 
 Developed
+___
 
 ## Contents
 
@@ -12,7 +13,7 @@ Developed
   - [Why we’re doing this](#why-were-doing-this)
   - [Key decisions](#key-decisions)
   - [Designs](#designs)
-
+___
 
 ## What we’re doing
 We’re making some changes to the GOV.UK Forms ‘Confirm that a form’s been submitted’ (or ‘Confirmation emails’) feature. This is in response to findings from usability testing with both form creators and form processors in sprint 41.
@@ -94,12 +95,16 @@ We’ve made the following changes:
 
 See Trello card: [Change sub-heading content in confirmation email Notify template](https://trello.com/c/3ZMmBpDA/1190-change-sub-heading-content-in-confirmation-email-notify-template-following-testing?search_id=a6e7bfc5-2dcc-4fbe-a3a9-6b39598531bc)
 
+___
+
 ## Why we’re doing this
 We decided to address a couple of content-related issues that were highlighted during a first round of usability testing with form creators and form processors.
 
 The main issue was that although most users previewed the form before editing it further - and therefore saw (or even responded to) the optional email confirmation question - they did not notice the extra content we’d added to the existing ‘What happens next’ (WHN) and ‘Contact details’ pages in forms-admin. 
 
 Once this content was pointed out to people they found it easy to understand. However, we wanted to iterate the content to make it clearer to form creators that any content they add to the WHN or contact information pages will also appear in a confirmation email (if requested) as well as on the confirmation screen. 
+
+___
 
 ## Key decisions
 We decided to:
@@ -108,6 +113,8 @@ We decided to:
 - iterate the WHN page content to make it clearer to form creators that any information they add here will be shown on a confirmation page as well as in a confirmation email (if requested) 
 - iterate the ‘Provide contact details for support’ page content to make it clearer to form creators that any information they add here will be shown on a confirmation page as well as in a confirmation email (if requested) 
 - make a small change to the email template in Notify - changing a subheading to ‘Contact details’ instead of ‘Get help with your form’
+
+___
 
 ## Designs
 
@@ -122,10 +129,7 @@ The content has been iterated to make it clearer that this content will now be s
 ### Confirmation email - Notify template
 The second subheading in the updated confirmation email now says ‘Contact details’ instead of ‘Get help with your form’. [Screenshot shows design mock-up in Mural.] 
 
-
-
-
-
+___
 
 
 
