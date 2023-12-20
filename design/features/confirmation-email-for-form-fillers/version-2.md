@@ -91,7 +91,7 @@ See [Mural designs for this feature](https://app.mural.co/t/gaap0347/m/gaap0347/
 We’ve made the following changes: 
 
 - Updated second H2 to ‘Contact details’ instead of ‘Get help with your form’ - it's not really about getting help with the form itself at this stage. Form processors said that most form fillers will follow up about timescales etc. This heading is also consistent with the language used on the task list page and page title - 'Provide contact details for support'
-- We retained the ‘thank you’, after some debate about whether this is necessary (or whether it might make someone think they don’t need to read any further). Some users have previously said they appreciate a ‘thank you’ and expect to see this so we’re leaving it for now.
+- Retained the ‘thank you’ in the end, after some debate about whether this is necessary (or whether it might make someone think they don’t need to read any further) as it's not really house style to say please and thank you. Some users have previously said they appreciate a ‘thank you’ and expect to see this so we’re leaving it for now, particularly as it's in an email rather than the main product content.
 
 See Trello card: [Change sub-heading content in confirmation email Notify template](https://trello.com/c/3ZMmBpDA/1190-change-sub-heading-content-in-confirmation-email-notify-template-following-testing?search_id=a6e7bfc5-2dcc-4fbe-a3a9-6b39598531bc)
 
@@ -123,11 +123,17 @@ The page title has been changed from ‘Form submitted page’ to ‘Add informa
 
 The content has been iterated to make it clearer that this content will now be shown in 2 places - an optional confirmation email as well as a confirmation screen. It uses a bulleted list to do this. 
 
+![New page title and updated content for 'what happens next' page. Screenshot](/design/features/confirmation-email-for-form-fillers/screenshots-v2/what-happens-next-page-new-page-title-and-updated-content.png)
+
 ### ‘Provide contact details for support’ page - updated content
 The content has been iterated to make it clearer that this content will now be shown in 2 places - an optional confirmation email as well as a confirmation screen. It uses a bulleted list to do this. 
 
+![Updated content for 'contact details' page. Screenshot](/design/features/confirmation-email-for-form-fillers/screenshots-v2/provide-contact-details-for-support-page-updated-content.png)
+
 ### Confirmation email - Notify template
-The second subheading in the updated confirmation email now says ‘Contact details’ instead of ‘Get help with your form’. [Screenshot shows design mock-up in Mural.] 
+The second subheading in the updated confirmation email now says ‘Contact details’ instead of ‘Get help with your form’. (Screenshot shows design mock-up in Mural.) 
+
+![New subheading shown on Mural mock-up of Notify template for confirmation email. Screenshot](/design/features/confirmation-email-for-form-fillers/screenshots-v2/confirmation-email-mural-mockup-notify-template.png)
 
 ___
 
