@@ -126,7 +126,7 @@ There are two call to action buttons. “Save question” as the primary green c
 #### Preview question page - example with complex question with guidance   
 
 ![Preview question. Selection from a list answer type preview screen. Screenshot](screenshots-v1/003-preview-question-complex-answer-type.png)   
-*Preview question page show what the added question and answer type would look like.*  
+*Preview question page showing what the added question and answer type would look like.*  
 
 Since the form creator has selected to “Save and preview” they are taken to the new “Preview question” screen which shows a green success notification banner at the top of the page.  
 
