@@ -28,7 +28,7 @@ ___
 
 ## What
 
-This feature introduces functionality in the form building tool to help form creators return to edit their questions more quickly when previewing the form as though they're someone who's filling it in. It introduces a clearer, simpler route for form creators to navigate between previewing and editing their form.  
+This feature introduces functionality in the form building tool to help form creators return to edit their questions more quickly when previewing the form as if they’re someone who’s filling it in. It introduces a clearer, simpler route for form creators to navigate between previewing and editing their form. 
 
 <br>
 
