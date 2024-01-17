@@ -1,5 +1,6 @@
 ## Live and draft
-The ability to make a draft of a live form to prepare changes to it. You can then make all the changes live at the same time, and at an appropriate time.
+
+This feature introduces the ability to make a draft of a live form so that you can prepare changes to it. You can then make all the changes live at the same time, when appropriate.
 
 ### Problems we tried to solve
 
