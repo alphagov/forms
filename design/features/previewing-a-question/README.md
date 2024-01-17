@@ -23,7 +23,7 @@ ___
 
 ## What
 
-This feature introduces a clear and quick way to help form creators understand what an answer type will look like and how it’ll be formatted alongside other content they have added, including hint text and additional guidance.  
+This feature introduces a clear and quick way to help form creators understand what an answer type will look like and how it’ll be formatted alongside other content they’ve added - including hint text and additional guidance.  
 
 It is designed to be an optional journey for form creators who are unsure about what an answer type may look like, while giving them a quick idea of the overall layout as presented to form fillers.  
 
