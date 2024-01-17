@@ -24,7 +24,7 @@ ___
 
 ## What
 
-This feature introduces new functionality to the form building tool to help form creators create simple skip logic for questions. This means that people completing a form only need to be asked relevant questions based on a previously given answer.
+This feature introduces new functionality to the form building tool to help form creators create simple skip logic for questions. This means you can skip someone to a later question in a form based on their response to a question where they have to select one answer from a list.
 
 ### User stories
 

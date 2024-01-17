@@ -1,10 +1,10 @@
-# Prototype version 5
+# Prototype version 3
 
-Dates tested: 
+Dates tested: *2022-06-10 to 2022-06-14*
 
 ## Status
 
-Superceeded by [version 6](../prototype-version-6)
+Superceeded by [version 4](../prototype-version-4)
 
 ___
 
@@ -22,8 +22,13 @@ ___
 
 ## Context
 
-> **Sprint X**
-> In this sprint we want to test
+> **Sprint 5**  
+> Our first round of accessibility testing  
+> Other changes we're making include preparing for civil service live (CSL) 2022 for example, radios and checkboxes
+
+We plan to test a partial creation of a sample form as if the user has already logged into the GOV.UK Forms platform and is re-creating one of their departments existing forms.
+
+We will also test a return journey as though they are returning to make fixes to an existing draft form.
 
 <br>
 <br>
@@ -46,7 +51,7 @@ Below are the screens a form creator will see when making or editing their forms
 ![What is the name of your form question page. Screenshot](screenshots/002-What-is-the-name-of-your-form.png)
 *Page with “What is the name of your form?” question heading.*
 
-There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example, ‘Apply for a juggling licence’.” above a text input.
+There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example, ‘Apply for a licence’.” above a text input.
 
 Below the text input is a green “Save and continue” button.
 
@@ -61,6 +66,10 @@ There is a green “Add a question” button.
 
 Below the button is a secondary heading “Form name”. The form name appears below in a summary list component, with “Apply for a juggling licence” on the left with an “Edit” link on the right.
 
+#### What we changed from the previous version
+
+[Changes to the form overview page](page-detail/form-overview.md)
+
 <br>
 
 ### Edit question 1
@@ -68,37 +77,47 @@ Below the button is a secondary heading “Form name”. The form name appears b
 ![Edit question 1. Screenshot](screenshots/004-Edit-question-1.png)
 *Page with “Question 1” caption above a heading “Edit question”.*
 
-A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’.” and then a text input.
+A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’” and then a text input.
 
-A second secondary heading, “Hint text (optional)”, followed by hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” and then a text input.
+A second secondary heading, “Question short name (optional)”, followed by hint text “The short name will be used when the form’s questions are all displayed in a list. Use a short descriptive name. For example ‘Address’.” and then a text input.
+
+Below these is a detail component, blue link with an arrow before the text, “Add hint text to help people answer the question” that is closed.
 
 Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be validated to check it’s in the selected format.” Below are radio buttons that determine the input type required:
 
-- Single line of text (selected)
+- Single line of text, selected
 - Address
 - Date
 - Email address
 - National Insurance number
 - Phone number
 
-The page ends with a green “Save and add next question” button next to a grey “Save and preview question” button.  
-Below is a blue link “Go to form overview”.
+The page ends with a green “Save question” button, next to a grey “Create next question” button. Below the two buttons is a “Go to form overview” link.
 
 <!-- describe side preview pane -->
-On the right side of the screen there is a secondary heading “Question preview” above a link to “Preview question in a new tab”.
+On the right side of the screen there is a secondary heading, “Question preview” with a link to “Preview question in a new tab”.
 
-Below the link is a smaller version of an empty GOV.UK service page within an iframe. It shows the GOV.UK logo on a black header. Within the body of the page is a disabled green ‘Continue’ button.
+Below the link is a smaller version of an empty GOV.UK service page within an iframe, to mimic a mobile screen. It shows the GOV.UK logo on a black header. Within the body of the page is a disabled green ‘Continue’ button.
+
+![Edit question 1 with add hint text detail component expanded. Screenshot](screenshots/005-Edit-question-1-hint-open.png)<!-- describe expanded hint text -->
+*Page with “Question 1” caption above a heading “Edit question” with detail component expanded.*
+
+The detail component, “Add hint text to help people answer the question”, is now expanded revealing the hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” before a text input.
+
+#### What we changed from the previous version
+
+[Changes to the edit question page](page-detail/edit-question.md)
 
 <br>
 
 ### Edit question 2 - saved question
 
-![Edit question 2 with text inputs filled. Screenshot](screenshots/005-Edit-question-2-What-is-your-date-of-birth.png)
+![Edit question 2 with text inputs filled. Screenshot](screenshots/006-Edit-question-2-What-is-your-date-of-birth.png)
 *Page with “Question 2” caption above a heading “What is your date of birth?”.*
 
 The first text input contains the text that appears as the pages heading, “What is your date of birth?”.
 
-The second text input with the secondary heading label “Hint text (optional)” has the text “Date of birth” in the text input.  
+The second text input with the secondary heading label “Question short name (optional)” has the text “Date of birth” in the text input.  
 
 The ‘Date’ radio is now selected.
 
@@ -109,7 +128,7 @@ On the right side of the screen the iframe has now updated to include the questi
 
 ### Delete a question
 
-![Are you sure you want to delete this question page. Screenshot](screenshots/009-Delete-page.png)
+![Are you sure you want to delete this question page. Screenshot](screenshots/010-Delete-page.png)
 *Page with “Are you sure you want to delete this question?” as the heading.*
 
 There are two radio options, “Yes” and “No”. Below is a green “Continue” button.
@@ -118,7 +137,7 @@ There are two radio options, “Yes” and “No”. Below is a green “Continu
 
 ### Edit check your answers
 
-![Edit check your answers page. Screenshot](screenshots/007-Edit-check-your-answers.png)
+![Edit check your answers page. Screenshot](screenshots/008-Edit-check-your-answers.png)
 *Page with “Check your answers” caption above the heading “Check your answers”.*
 
 There is a secondary heading label, “Page title”, with the hint text “Appears at the top of the page”. Under this is an editable text input containing a provided name, “Check your answers”, also shown in the preview on the right.
@@ -137,7 +156,7 @@ The iframe includes the title “Check your answers” and displays the secondar
 
 ### Edit confirmation page
 
-![Edit confirmation page. Screenshot](screenshots/008-Edit-form-submitted.png)
+![Edit confirmation page. Screenshot](screenshots/009-Edit-form-submitted.png)
 *Page with “Confirmation” caption above the heading “Form submitted”.*
 
 There is a secondary heading label, “Page title”, with the hint text “Appears in the green box”. Under this is an editable text input containing a provided name, “Form submitted”, also shown in the preview on the right.
@@ -156,7 +175,7 @@ The iframe includes the title “Form submitted” above text “Your reference 
 
 ### Publish a form
 
-![Publish form, apply for a juggling licence. Screenshot](screenshots/010-Publish-form-Apply-for-a-juggling-licence.png)
+![Publish form, apply for a juggling licence. Screenshot](screenshots/011-Publish-form-Apply-for-a-juggling-licence.png)
 *Page with “Publish form” caption above the heading “Apply for a juggling licence”.*
 
 There is a question, “Where do you want to publish the form?” with two radio options below, “On the GOV.UK website” and “On my organisation’s website”.
@@ -171,7 +190,18 @@ On the right side of the screen the iframe includes the title “Apply for a jug
 
 ## Some things we changed since last time
 
-For more information, see [v0.0.5 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.5).
+- references to editing ‘page’ have been changed to ‘question’ for example, “Edit question”
+- added “Form name” to the form overview page so form creator has a way to change it
+- content improvements to hint text for question long/short names
+- added secondary heading and made other small changes to the in page preview (iframe on the right on the screen)
+- removed red “Delete” button from edit page if the page has not been saved
+- add delete question journey with confirmation interrupt page
+- set data to pull through to check your answers
+- got prototype ready for civil service live (CSL) 2022
+- improved prototype ready for accessibility testing
+- removed “Start page” from preview journey as we will not be allowing creation or hosting of start pages in our service, it was agreed this would be down on the publishing tools
+
+For more information, see [v0.0.3 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.3).
 
 <br>
 <br>
@@ -187,12 +217,20 @@ Below are the screens the form filler (the end user) would see as they complete 
 ![Preview What is your name question page. Screenshot](screenshots/101-Preview-question-1.png)
 *Page with “What is your name?” question as a label for a text input. There is a green “Continue” button at the bottom.*
 
+This page is an example of the first (and all following) question pages that a form creator has added to their form.  
+
+The basic structure includes a “Back” link which should take the form filler to the previous page, mimicking the browser back button - in this instance it would return the user to the start page.
+
+When the form filler clicks the “Continue” button the product should validate that an input has been given (field is not empty or radio is selected for example) before continuing through to the next question in sequence.
+
 <br>
 
 ### Preview final question
 
 ![Preview What is your National Insurance number question page. Screenshot](screenshots/102-Preview-final-question.png)
 *Page with “What is your National Insurance number?” question as a label for a text input. There is a green “Check your answers” button at the bottom.*
+
+This page is an example of the last question in a form sequence. The difference being a green “Check your answers” button in place of the usual “Continue”.
 
 <br>
 
@@ -225,8 +263,10 @@ ___
 > Give a synopsis of the key findings from the round of research we tested this version.  
 > Include examples of found needs, pain points or quotes to help explain the findings. These do not have to be too detailed, as this should be covered in the research findings packs/decks - which can be linked to from here.
 
+[Sprint 5 analysis slide deck](https://docs.google.com/presentation/d/1IiSQtwY1dBLbKMsny3p8aOauXg-nMkMW/edit?usp=sharing&ouid=103020973445843702447&rtpof=true&sd=true)
+
 <!-- REMOVE ME!!! after write up -->
-<!-- https://drive.google.com/drive/folders/1VOMG9a0XyV371_1LxV9qUaddkyuY_xjE -->
+<!-- https://drive.google.com/drive/folders/1zrfpRnuctPm0Cfk69sOP_R57Uex94tdF?usp=sharing -->
 
 <br>
 
@@ -237,4 +277,4 @@ ___
 
 <br>
 
-[Back to the top](#prototype-version-5)
+[Back to the top](#prototype-version-3)

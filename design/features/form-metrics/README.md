@@ -23,7 +23,7 @@ ___
 
 ## What
 
-This feature introduces new functionality to the form building tool to allow form creators to see how their form is performing. Initially we’ll be starting with a minimum offering of: number of started forms, number of submitted forms, and completion rate.
+This feature introduces new functionality to the form building tool to allow form creators to see how their form is performing. We’ll be starting with a minimum offering of: number of forms started, number of forms submitted, and completion rate.
 
 This information should cover at least a week of data collected. We’ll look to improve this offering over time and will investigate introducing filters to help form creators adapt data for their needs.  
 

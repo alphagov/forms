@@ -1,10 +1,10 @@
-# Prototype version 6
+# Prototype version 5
 
 Dates tested: 
 
 ## Status
 
-Superceeded by [version 7](../prototype-version-7) -->
+Superceeded by [version 6](../prototype-version-6)
 
 ___
 
@@ -46,38 +46,33 @@ Below are the screens a form creator will see when making or editing their forms
 ![What is the name of your form question page. Screenshot](screenshots/002-What-is-the-name-of-your-form.png)
 *Page with “What is the name of your form?” question heading.*
 
-There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example ‘Apply for a juggling licence’.” above a text input.
+There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example, ‘Apply for a juggling licence’.” above a text input.
 
 Below the text input is a green “Save and continue” button.
 
 <br>
 
-### Create a form (task list page)
+### Form overview page
 
-![Create a form task list page. Screenshot](screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
-
-<br>
-
-### Add and edit your questions page
-
-![Add and edit your questions page. Screenshot](screenshots/004-Add-and-edit-your-questions.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Add and edit your questions”.*
+![Form overview page. Screenshot](screenshots/003-Form-overview-Apply-for-a-juggling-licence.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Form overview”.*
 
 There is a green “Add a question” button.
+
+Below the button is a secondary heading “Form name”. The form name appears below in a summary list component, with “Apply for a juggling licence” on the left with an “Edit” link on the right.
 
 <br>
 
 ### Edit question 1
 
-![Edit question 1. Screenshot](screenshots/005-Edit-question-1.png)
+![Edit question 1. Screenshot](screenshots/004-Edit-question-1.png)
 *Page with “Question 1” caption above a heading “Edit question”.*
 
-A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’” and then a text input.
+A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’.” and then a text input.
 
 A second secondary heading, “Hint text (optional)”, followed by hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” and then a text input.
 
-Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be checked to make sure it’s in the selected format.” Below are radio buttons that determine the input type required:
+Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be validated to check it’s in the selected format.” Below are radio buttons that determine the input type required:
 
 - Single line of text (selected)
 - Address
@@ -98,7 +93,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 
 ### Edit question 2 - saved question
 
-![Edit question 2 with text inputs filled. Screenshot](screenshots/006-Edit-question-2-What-is-your-date-of-birth.png)
+![Edit question 2 with text inputs filled. Screenshot](screenshots/005-Edit-question-2-What-is-your-date-of-birth.png)
 *Page with “Question 2” caption above a heading “What is your date of birth?”.*
 
 The first text input contains the text that appears as the pages heading, “What is your date of birth?”.
@@ -114,62 +109,54 @@ On the right side of the screen the iframe has now updated to include the questi
 
 ### Delete a question
 
-![Are you sure you want to delete this question page. Screenshot](screenshots/008-Delete-page.png)
+![Are you sure you want to delete this question page. Screenshot](screenshots/009-Delete-page.png)
 *Page with “Are you sure you want to delete this question?” as the heading.*
 
 There are two radio options, “Yes” and “No”. Below is a green “Continue” button.
 
 <br>
 
-### Edit check your answers / form summary page
+### Edit check your answers
 
-![Edit form summary page. Screenshot](screenshots/010-Edit-form-summary-page.png)
-*Page with “Apply for a juggling licence” caption above the heading “Form summary page”.*
+![Edit check your answers page. Screenshot](screenshots/007-Edit-check-your-answers.png)
+*Page with “Check your answers” caption above the heading “Check your answers”.*
 
-There is a paragraph describing what the summary page is to help the form creator, “This page lists all the questions and answers so people can check them before they submit the form.”
+There is a secondary heading label, “Page title”, with the hint text “Appears at the top of the page”. Under this is an editable text input containing a provided name, “Check your answers”, also shown in the preview on the right.
 
-This is followed by some additional help text about what this page is for by giving additional context “You can add a declaration for people to confirm their answers. For example:” and an example “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”
+There is another secondary heading label, “Declaration”, with hint text “The declaration that people make when they submit the form”. Below this is an editable text area containing a provided example of what the form filler needs to agree to, “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”  
+Below the text area is a character counter, “You have 1878 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
 
-There is a secondary heading label, “Declaration” before a text area with a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
-
-At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
+At the end of the page is a green “Save changes” button above a “Go to form overview” link.
 
 <!-- describe side preview pane -->
-On the right side of the screen there is a secondary heading, “Page preview” above an iframe.
+On the right side of the screen there is a secondary heading, “Page preview” with a link to “Preview page in a new tab”.
 
-The iframe includes the title “Check your answers before submitting your form” and the questions that have been added to the form so far, each having a corresponding “Change” link. There is a faded green “Agree and submit” button for illustrative purposes.
-
-![Preview iframe of form summary page. Screenshot](screenshots/010-Edit-form-summary-page-iframe.png)
-*Close up of preview iframe showing the second level heading “Declaration” followed by added content “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”*
+The iframe includes the title “Check your answers” and displays the secondary heading, “Declaration”, above the text input content provided on the left, “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”
 
 <br>
 
-### Edit confirmation / form submitted page
+### Edit confirmation page
 
-![Edit form submitted page. Screenshot](screenshots/012-Edit-form-submitted-page.png)
-*Page with “Apply for a juggling licence” caption above the heading “Form submitted page”.*
+![Edit confirmation page. Screenshot](screenshots/008-Edit-form-submitted.png)
+*Page with “Confirmation” caption above the heading “Form submitted”.*
 
-There is a paragraph describing what the submitted page is to help the form creator, “This page will be shown after someone has completed and submitted the form to let them know that the form has been submitted successfully.”
+There is a secondary heading label, “Page title”, with the hint text “Appears in the green box”. Under this is an editable text input containing a provided name, “Form submitted”, also shown in the preview on the right.
 
-This is followed by some additional help text about what this page is for by giving additional context “Add some content to let people know what will happen next and when, so they know what to expect. For example:” and an example “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”
+There is another secondary heading label, “What happens next”, with hint text “Tell people what will happen next and anything that they need to do”. Below this is an editable text area containing a provided example of what the form filler should expect, “We’ve sent you an email to confirm we have received your form.”  
+Below the text area is a character counter, “You have 1938 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
 
-There is a secondary heading label, “What happens next” before a text area with a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
-
-At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
+At the end of the page is a green “Save changes” button above a “Go to form overview” link.
 
 <!-- describe side preview pane -->
-On the right side of the screen there is a secondary heading, “Page preview”.
+On the right side of the screen there is a secondary heading, “Page preview” with a link to “Preview page in a new tab”.
 
-The iframe includes the title “Your form has been submitted” inside a green box. There is also a secondary heading, “What happens next”, above where the text input content provided on the left would appear.
-
-![Preview iframe of form submitted page. Screenshot](screenshots/012-Edit-form-submitted-page-iframe.png)
-*Close up of preview iframe showing the second level heading “What happens next” followed by added content “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”*
+The iframe includes the title “Form submitted” above text “Your reference number is HDJ2123F” in a green box. There is also a secondary heading, “What happens next”, above the text input content provided on the left, “We’ve sent you an email to confirm we have received your form.”
 
 <br>
 
 ### Publish a form
 
-![Publish form, apply for a juggling licence. Screenshot](screenshots/021-Publish-form-Apply-for-a-juggling-licence.png)
+![Publish form, apply for a juggling licence. Screenshot](screenshots/010-Publish-form-Apply-for-a-juggling-licence.png)
 *Page with “Publish form” caption above the heading “Apply for a juggling licence”.*
 
 There is a question, “Where do you want to publish the form?” with two radio options below, “On the GOV.UK website” and “On my organisation’s website”.
@@ -184,7 +171,7 @@ On the right side of the screen the iframe includes the title “Apply for a jug
 
 ## Some things we changed since last time
 
-For more information, see [v0.0.6 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.6).
+For more information, see [v0.0.5 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.5).
 
 <br>
 <br>
@@ -250,4 +237,4 @@ ___
 
 <br>
 
-[Back to the top](#prototype-version-6)
+[Back to the top](#prototype-version-5)

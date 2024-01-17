@@ -1,4 +1,4 @@
-# Early access journey
+# ‘Early access’ journey
 
 ## Status
 
@@ -11,7 +11,7 @@ ___
 
 ## Contents
 
-- [Early access journey](#early-access-journey)
+- [‘Early access’ journey](#early-access-journey)
   - [Status](#status)
   - [What](#what)
   - [Problems we tried to solve](#problems-we-tried-to-solve)
@@ -24,7 +24,7 @@ ___
 <br>
 
 ## What
-This journey is designed to allow people to create a trial account and request an upgrade to an editor account - so they can make live forms to be published on GOV.UK. 
+This journey is designed to allow people to create a trial account and request an upgrade to an editor account - so they can make live forms to be published on GOV.UK.
 
 <br>
 

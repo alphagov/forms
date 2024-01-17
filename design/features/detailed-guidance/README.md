@@ -23,7 +23,7 @@ ___
 
 ## What
 
-This feature introduces new functionality to the form building tool to allow form creators to add more complex help text to a question page. This 'guidance' text will appear above the question, on the same page.  
+This feature introduces new functionality to the form building tool, allowing form creators to add more complex help text to a question page. This ‘guidance’ text will appear above the question, on the same page.
 
 This is considered the best way to introduce complex information when most (if not all) form fillers will need to read that information in order to complete a single question.  
 
