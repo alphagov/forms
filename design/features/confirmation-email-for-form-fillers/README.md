@@ -23,7 +23,7 @@ ___
 
 ## What
 
-This feature introduces new functionality to the form filler's journey, allowing them to request an email confirming that they've successfully submitted a form. 
+This feature introduces new functionality to the form filler’s journey, allowing them to request an email confirming that they’ve successfully submitted a form.
 
 ### User stories
 
