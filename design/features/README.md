@@ -4,17 +4,17 @@ We use this area to record design work and decisions made, and any iterations ma
 
 ## Explore the features we’ve designed  
 
-### [Confirm that a form's been submitted (form fillers)](confirmation-email-for-form-fillers)  
-This feature introduces new functionality to the form filler's journey, allowing them to request an email confirming that they've successfully submitted a form.
+### [Confirm that a form’s been submitted (form fillers)](confirmation-email-for-form-fillers)  
+This feature introduces new functionality to the form filler’s journey, allowing them to request an email confirming that they’ve successfully submitted a form.
 
-### [Add guidance to help people answer the question ('detailed guidance')](detailed-guidance)  
-This feature introduces new functionality to the form building tool, allowing form creators to add more complex help text to a question page. This 'guidance' text will appear above the question, on the same page.
+### [Add guidance to help people answer the question (‘detailed guidance’)](detailed-guidance)  
+This feature introduces new functionality to the form building tool, allowing form creators to add more complex help text to a question page. This ‘guidance’ text will appear above the question, on the same page.
 
 ### [‘Early access’ journey](early-access)  
 This journey is designed to allow people to create a trial account and request an upgrade to an editor account - so they can make live forms to be published on GOV.UK.
 
 ### [Editing pages when looking at a preview of a form](editing-drafts)  
-This feature introduces functionality in the form building tool to help form creators return to edit their questions more quickly when previewing the form as if they're someone who's filling it in. It introduces a clearer, simpler route for form creators to navigate between previewing and editing their form.
+This feature introduces functionality in the form building tool to help form creators return to edit their questions more quickly when previewing the form as if they’re someone who’s filling it in. It introduces a clearer, simpler route for form creators to navigate between previewing and editing their form.
 
 ### [Metrics for form creators](form-metrics)  
 This feature introduces new functionality to the form building tool to allow form creators to see how their form is performing. We’ll be starting with a minimum offering of: number of forms started, number of forms submitted, and completion rate.
