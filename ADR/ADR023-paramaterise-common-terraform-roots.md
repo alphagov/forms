@@ -85,4 +85,4 @@ infra/
 * this reduces the chance that environments will differ due to human error, since paramaterised inputs are stored together within the root
 
 ### Cons
-* manually deploying terraform is now a bit more complicated. We have remedied this with the addition of a [makefile](https://github.com/alphagov/forms-deploy/blob/main/Makefile) which can now be used to run terraform locally
+* manually deploying terraform is now more complicated. To address this, we have added a [makefile](https://github.com/alphagov/forms-deploy/blob/main/Makefile), alongside some [bash script tooling](https://github.com/alphagov/forms-deploy/blob/main/support/invoke-terraform.sh), which can now be used to run terraform locally. This script encapsulates the additional complexity, but brings an additional burden in that this tooling will need to be understood, maintained and modified as necessary going forward.
