@@ -152,7 +152,7 @@ Under the box is a green primary call to action “Add a new question”. Below 
 
 ## Notes
 
-- The content for answer types explanation text is still required for the preview question page  
+- The content for answer types explanation text was not drafted when this functionality was first added to the prototype. It has now been drafted, but not yet added to the prototype. [Members of the Forms team can see the drafts of this content here](https://docs.google.com/document/d/1QlzCLyoBq0UGqbekcsfnRZEAcZtmlEOUqBN_kYPltHc/edit?pli=1#heading=h.oy48b59szv9o). 
 
 ___
 
