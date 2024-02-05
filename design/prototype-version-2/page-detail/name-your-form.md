@@ -2,11 +2,9 @@
 
 ## Context
 
-> Give a brief overview of
-> - what we wanted to test for example, user needs or design changes
-> - what tasks we gave to users
+For this round of testing we updated the content of the hint text to help give form creators more guidance about where the name of their form will be used.  
 
-<br>
+As part of the testing we asked users to create a form, and then explored returning to edit an existing form, including the task of changing the name of a form, based on feedback from a colleague.  
 
 ## What we tested last time
 
@@ -24,8 +22,6 @@ When testing some users were unsure what to call their forms, with some suggesti
 We also heard from some users that they were unsure what the name would be used for and who would see it.  
 > “we should better explain what the name of the form will be used for - that the end user will see it” - P2
 
-<br>
-
 ## What we changed and why
 
 We updated the hint text content to help give form creators more context of what the name they give will be used for and where they can expect to see it. We believe that this will give them confidence and a nudge to give the form a useful name that reflects the [service manual](https://www.gov.uk/service-manual/design/naming-your-service).
@@ -36,3 +32,13 @@ We updated the hint text content to help give form creators more context of what
 There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example, ‘Apply for a licence’.” above a text input.
 
 Below the text input is a green “Save and continue” button.
+
+### Feedback from testing this version 
+
+- Name your form page: This page works well for users and it received positive feedback. The use of additional hint text made it clearer what users were being asked for and it overcomes problems with uncertainty of what the form should be named
+> “I’m guessing ‘the form name will be shown at the top of the page’ is new - that’s a good addition. That makes it clear that what you’re doing here is actually what’s going to be shown on the form.” (P1)  
+> "Super clear, no problems" (P2)  
+
+- Form overview page: Users wanted an explicit option to change / edit the name of a form rather than use the ‘back button’
+> "I wouldn't know how to fix a typo in the form name." (P3)  
+> "If I click back will it delete everything if I'd added questions." (P3)  
