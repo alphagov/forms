@@ -58,7 +58,7 @@ The follow work was done in this order to add proper state management:
 - [Integrate FormStateMachine into Form model and start tracking state through events](https://github.com/alphagov/forms-api/pull/425)
 - [Change has_draft_version & has_live_version to use form state column](https://github.com/alphagov/forms-api/pull/429)
 
-While implementing the above, we discovered we needed to temporaryly introduce a new state to transistion from `live` to `draft`
+While implementing the above, we discovered we needed to temporarily introduce a new state to transition from `live` to `draft`
 in time to take a high profile form offline and not leave it in an invalid state of `live` with no `made_live_forms` records.
 - [add archive_live_form state machine event to transition live form to draft](https://github.com/alphagov/forms-api/pull/430)
 
