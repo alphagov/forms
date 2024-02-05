@@ -51,7 +51,7 @@ Below the text input is a green “Save and continue” button.
 
 #### What we changed from the previous version
 
-[Changes to the name your form page](page-detail/name-your-form.md)
+[Changes to the ‘name your form’ page](name-your-form)
 
 
 ### Form overview page
