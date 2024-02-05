@@ -9,7 +9,7 @@ We then set the task of asking the participant to update an existing form, makin
 
 ## What we tested last time
 
-![Old version of edit page 1. Screenshot](../prototype-version-1/screenshots/006-Edit-question-1-hint-open.png)
+![Old version of edit page 1. Screenshot](../../prototype-version-1/screenshots/006-Edit-question-1-hint-open.png)
 *Page with “Page 1” caption above heading “Edit page”.*
 
 A secondary heading, “Question”, comes directly before the hint text “Long version - for example, What is your name?” and a text input.  
@@ -44,7 +44,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 We updated the...
 
 
-![Newer version of edit question 1 page. Screenshot](screenshots/005-Edit-question-1-hint-open.png)
+![Newer version of edit question 1 page. Screenshot](../screenshots/005-Edit-question-1-hint-open.png)
 *Page with “Question 1” caption above a heading “Edit question”.*
 
 A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’” and then a text input.
