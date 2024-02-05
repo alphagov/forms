@@ -86,7 +86,7 @@ Next is a secondary heading, “What kind of answer do you need to this question
 - National Insurance number
 - Phone number
 
-The page ends with a green “Save changes” button, next to a grey “Create next question” button before a red “Delete page” button. Below the three buttons is a “Go to form overview” link.
+The page ends with a green “Save changes” button, next to a grey “Create next question” button before a red “Delete question” button. Below the three buttons is a “Go to form overview” link.
 
 <!-- describe side preview pane -->
 On the right side of the screen there is a secondary heading, “Question preview” with a link to “Preview question in a new tab”.
@@ -97,10 +97,6 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 *Page with “Question 1” caption above a heading “Edit question” with detail component expanded.*
 
 The detail component, “Add hint text to help people answer the question”, is now expanded revealing the hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” before a text input.
-
-#### What we changed from the previous version
-
-[Changes to the edit question page](page-detail/edit-question.md)
 
 
 ### Edit question 2 - saved question
@@ -170,7 +166,7 @@ On the right side of the screen the iframe includes the title “Apply for a jug
 ### Some things we changed since last time
 
 - standard pages call to action button text changed from “Create a new page” to “Save changes”
-- standard pages rework of the in page preview (iframe on the right side of the screen) including adding a secondary heading, “Page preview” and adding a “Preview page in a new tab” link above the iframe
+- standard pages rework of the in page preview (iframe on the right side of the screen) including adding a secondary heading, “Page preview” and adding a “Preview question in a new tab” or “Preview page in a new tab” link above the iframe
 
 For more information, see [v0.0.2 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.2).
 
@@ -227,16 +223,27 @@ ___
 
 ## What we learned
 
-[MURAL board playback](https://app.mural.co/t/gaap0347/m/gaap0347/1652262618825/de85a467bad90d061809431a9fa8007393135c43?wid=0-1652696148470)
+There were several key issues identified that we should explore in the next iteration, including: 
 
-<!-- REMOVE ME!!! after write up -->
-<!-- https://drive.google.com/drive/folders/1ePhbd9quZvA8Z4l8WB9sMjmsWDI5rZd- -->
+- users wanted an explicit option to change/ edit the name of a form rather than use the ‘back button’
+- there is still some confusion over what value a short name provides
+- there was still uncertainty around saving/ how to save the form
+- Preview pane is confusing initially and users don't know what's its for. However, it becomes much more useful when editing/ or going back to a question
+
+### User resaearch documentation
+- [2022-05-23 Basic Form Building](https://github.com/alphagov/forms/blob/main/research/2022-05-23_Basic_Form_Building.md)  
+- [MURAL board playback](https://app.mural.co/t/gaap0347/m/gaap0347/1652262618825/de85a467bad90d061809431a9fa8007393135c43?wid=0-1652696148470)
+- [Supporting documents (Google drive)](https://drive.google.com/drive/folders/1ePhbd9quZvA8Z4l8WB9sMjmsWDI5rZd-)
 
 ___
 
 ## Opportunities
 
+Key decisions
 
+1. we are ready to implement th basic first steps of the form builder
+2. we want to test the prototype with users who have never seen the tool before
+3. we need to understand the needs around processing emails and if we should make it a default part of the tool
 
 <br>
 
