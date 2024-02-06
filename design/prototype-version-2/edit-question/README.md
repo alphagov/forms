@@ -34,9 +34,17 @@ On the right side of the screen there is a grey “Update preview” button abov
 Below the link is a smaller version of an empty GOV.UK service page within an iframe, mimicking a mobile screen. It shows the GOV.UK logo on a black header. Within the body of the page is a ‘Back’ link and below this is a green ‘Continue’ button.  
 
 
-### What we saw
+### What we saw  
 
-...
+- All users were unsure what a ‘short’ and ‘long’ version question was and why they would need to have or use both, this caused some hesitation
+- All users mentioned the number of options for an ‘answer’, each questioning if this covered all potential answers they might want or need before coming up with a text box as a needed amount of information. 1 user suggested a name as an answer type
+- All users were able to use the hint text feature to add content about the reference number and expected format, but 1 user mentioned they wanted a numerical field rather than an open text field so they could restrict what was entered
+> “Here I’m being forced into using a single line of text” - P1
+
+- Preview pane: many users were either:  
+  - unsure of what the preview pane was and as a result ignored it; or  
+  - expected it to auto populate with questions  
+In both scenarios users missed out on the ability to preview the question.
 
 
 ## What we changed and why
