@@ -37,15 +37,19 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 ### What we saw  
 
 - All users were unsure what a ‘short’ and ‘long’ version question was and why they would need to have or use both, this caused some hesitation
-- All users mentioned the number of options for an ‘answer’, each questioning if this covered all potential answers they might want or need before coming up with a text box as a needed amount of information. 1 user suggested a name as an answer type
-- All users were able to use the hint text feature to add content about the reference number and expected format, but 1 user mentioned they wanted a numerical field rather than an open text field so they could restrict what was entered
-> “Here I’m being forced into using a single line of text” - P1
-
-- Preview pane: many users were either:  
-  - unsure of what the preview pane was and as a result ignored it; or  
-  - expected it to auto populate with questions  
-In both scenarios users missed out on the ability to preview the question.
-
+  > “It’s an unexpected question I guess” - P3  
+- 2 users questioned what the ‘answer’ options were doing. 1 guessed that it would check format of the answers from people filling in the form. The other questioned if that was what was happening as they were unsure  
+  > “I like that it gives these options here (answer types) I don’t know how that will change the formatting when people are asked these questions. If I say date will it come up with boxes? Is that what this does? Does it change the format?” - P2  
+- When asked 2 users commented about potentially missing ‘answer’ types. Both suggesting the need for multiple lines of text, or “free text” boxes. 1 also suggesting an ‘answer’ type option for ‘name’
+  > “I would call it ‘free text’, we have had answers like that, not sure ‘multiple lines’ is common language” - P3   
+  > “...you might want Name as a type here too. If you wanted first name and last name separately. At the moment you’d have to do two separate form fields.” - P1  
+- All users were able to use the hint text feature to add content about the reference number and expected format, but 1 user mentioned they wanted a numerical field rather than an open text field so they could restrict what was entered  
+  > “Here I’m being forced into using a single line of text” - P1  
+- None of the users naturally noticed the preview pane on the right of the screen. When asked about it  
+  - users were unsure what it was, until they came back to edit an existing question    
+  - 1 user expected it to auto populate with questions as they built their form    
+  > “When you’re creating things on Whitehall, preview isn’t always a preview. [It doesn’t actually show you how it’s going to look] So that’s maybe shifted my mistrust of preview buttons.” - P1  
+  > “If they [previews of each question] could all be there at once it would be a lot quicker.” - P2    
 
 ## What we changed and why
 
