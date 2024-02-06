@@ -24,7 +24,7 @@ Below is another secondary heading, “Answer”, with the hint text “What kin
 - A National Insurance number
 - A date
 
-There is a detail component, blue link with an arrow before the text, “Add hint text”, that is currently collapsed.
+There is a detail component, blue link with an arrow before the text, “Add hint text”, that is expanded revealing the hint text “A short hint to help people answer the question” before a text input.
 
 The page ends with a green “Save and create next page” button; a red “Delete page” button; the word ‘or’; and finally a “go to page list” link.
 
@@ -79,7 +79,7 @@ A secondary heading, “Question text”, comes directly before the hint text �
 
 A second secondary heading, “Question short name (optional)”, followed by hint text “The short name will be used when the form’s questions are all displayed in a list. Use a short descriptive name. For example ‘Address’.” and then a text input.
 
-Below these is a detail component, blue link with an arrow before the text, “Add hint text to help people answer the question” that is closed.
+Below these is a detail component, blue link with an arrow before the text, “Add hint text to help people answer the question” that is expanded. This reveals the hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” before a text input.  
 
 Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be validated to check it’s in the selected format.” Below are radio buttons that determine the input type required:
 
