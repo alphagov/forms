@@ -53,7 +53,23 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 
 ## What we changed and why
 
-We updated the...
+- Improved the content for the ‘question’ input labels - adding a label specific to the ‘short version’ of the question
+- Added new hint text for each ‘question’ input to help guide the user into what content to consider for the long version and the short version - including how the ‘short name’ will be used
+- Moved the hint text up to just below the ‘question’ inputs, as suggested by one of the participants - as it felt dicsonnected from the content, and was displayed in a different order than the person filling in the form would see it
+  > “This is a guidance note to that question, so I’d expect it to be directly underneath.” - P2  
+- Improved the hint text details link, and added more complete hint text for the hint text input. This is to give a better idea of what informaiton might be useful to include here
+- Made the ‘answer’ types a question, “What kind of answer do you need to this question?” - using the previous hint text as the question, so we could inform users that the ‘answer’ types will validate based on the selected formats
+- Updated ‘answer’ radio options content to remove repetative content, “A(n)”, to reduce cognitive load and unnecessary repetition for screen reader users
+  - We also reordered this list to be alphabetical, while keeping what we thought would be the most common ‘answer’ type - “Single line of text” - at the top
+- “go to page list” updated to “Go to form overview” and moved to under neat buttons to improve expectation management, and accessibility for users of zoom text technology 
+- Content across the screen - and throughout the platform - that referred to ‘page’ changed to ‘question’ as that is more aligned with what the user is adding, editing, moving or deleting
+
+### Preview pane updates  
+- Made the position absolute, so it no longer followed the user as they scrolled - this felt confusing and could cause accessibility issues
+- Added a secondary heading to the right side, “Question preview” to help users understand what they should expect to see
+- Removed the “Update preview” button from the right side, and made the primary call to action a “Save changes” button which will reload the page - with the newly updated preview
+- Updated the preview link content to be more explicit about what the link will do “Preview question in a new tab”
+- Disabled the button inside the preview pane, as this could cause accessibility issues or confuse users into thinking it was functional
 
 
 ![Newer version of edit question 1 page. Screenshot](../screenshots/005-Edit-question-1-hint-open.png)
