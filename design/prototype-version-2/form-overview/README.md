@@ -58,7 +58,7 @@ There is a green “Add a question” button.
 
 Below this is a section titled ‘Form name’ with a summary list showing the form name as the user had entered it with an ‘Edit’ link to the right of the row.  
 
-The next section is title ‘Your questions’. There is a summary list showing the questions the user has added; “What is your name?”; “What is your date of birth?”; and “What is your National Insurance number?”. In each row alongside the questions are actions the user can take. There is a ‘Down’ button for the first and second question. An ‘Up’ button for the second and last question. Each row ends with an ‘Edit’ link.  
+The next section is titled ‘Your questions’. There is a summary list showing the questions the user has added; “What is your name?”; “What is your date of birth?”; and “What is your National Insurance number?”. In each row alongside the questions are actions the user can take. There is a ‘Down’ button for the first and second question. An ‘Up’ button for the second and last question. Each row ends with an ‘Edit’ link.  
 
 The next section ‘Standard pages’ shows the pages that the platform automatically adds for each form. These include: 
 - ‘Check your answers’ which has hint text of “This page lists all the questions and answers so people can check before they submit the form. You can add a declaration for people to confirm their answers.” under the name. On the right side of the row is an ‘Edit’ link.  
