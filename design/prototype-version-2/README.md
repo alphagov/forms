@@ -63,7 +63,7 @@ There is a green “Add a question” button.
 
 #### What we changed from the previous version
 
-[Changes to the form overview page](form-overview)
+[Changes to the ‘form overview’ page](form-overview)
 
 
 ### Edit question 1
@@ -116,7 +116,7 @@ On the right side of the screen the iframe has now updated to include the questi
 
 #### What we changed from the previous version
 
-[Changes to the edit question page](edit-question)
+[Changes to the ‘edit question’ page](edit-question)
 
 
 ### Edit check your answers
