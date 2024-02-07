@@ -99,25 +99,25 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 
 ### Feedback from testing this version 
 
--  All users found the new hint text for ‘long’ and ‘short’ version of the question useful. It helped them understand what the difference is and how they might want to write their longer questions
-  > P1: “‘Ask a question the way you would in person’ - I like that wording. That’s clear.”
-  > P3: “This seems a lot clearer than the last time”
-- However, all users stated that they wouldn’t use ‘short’ version, as it’s still not entirely clear what the value of it is
-  > P1: “...the idea of this is good. I mean, my immediate thought is that it’s optional, why bother? What’s going to happen if I don’t opt to do that?”
-  > P2: “When they’re displayed in a list. What’s the list? Like a summary where they’re condensed?”
-- 2 users noticed the hint text, but didn’t comment on it having moved. 1 commented as though it wasn’t in the previous version
-  > P3: “I like that you now have an option to put something to explain the question”
-- Participant 1 made comment that the ‘delete question’ button was there when the page loaded, causing them confusion
-  > “Oh and you also have the option to delete a question - I think that’s new. It’s odd to have that here? You haven’t created a question so there’s nothing to delete. That’s confusing to be honest.”
-- Participant 1 also saw the ‘save changes’ button as an unnecessary step and just wanted to be moved on, and didn’t seem to notice the ‘create next question’ button. However, when they did save the question they noticed that the preview pane had updated offering a preview of the current screen as it would appear to the form filler
-  > “Oh so that’s different. That’s annoying. I’ve saved changes but then I have to click on the next question.”
-  > “Ah ok. So the preview isn’t really a preview. It’s just a preview of what I’m doing now.”
-  > “I would have liked to see it building as I go along - now I’m like what’s happened to my first question.”
-- Participant 2 was unsure about what would happen if they pressed to ‘create next question’. They were worried this would lose their progress
-  > “If I press create next question will it save what I’ve done? Or do I need to click Save changes first?”
-  > “I’d hope if I click next question it would save what I’ve done. But because there’s a save button next to it I’m not sure.”
-- Particiapnt 3 commented that they would always press the new ‘save changes’ button, and felt reassured that the page reloaded. This was seen as positive and gave them confidence that the save was made
-  > “Personally I would always do a save changes before I go to the next question. The fact that it’s refreshed itself makes me happy that it’s a saved question”
-- 2 users seemed to notice the preview pane after saving their question, 1 finding this useful to double check formatting before moving on. 1 user needed to be prompted by the user researcher before noticing the preview pane. The users questioned it’s usefulness and expected it to show the form as they built it
-  > P1: “I would have liked to see it building as I go along - now I’m like what’s happened to my first question.”
-  > P2: ask if the preview pane will show all of the questions: “That would be great. Without me having to use this button. But at the same time it’s helpful if you just want to check the one you’re looking at at the moment.”
+- All users found the new hint text for ‘long’ and ‘short’ version of the question useful. It helped them understand what the difference is and how they might want to write their longer questions  
+  > P1: “‘Ask a question the way you would in person’ - I like that wording. That’s clear.”  
+  > P3: “This seems a lot clearer than the last time”  
+- However, all users stated that they wouldn’t use ‘short’ version, as it’s still not entirely clear what the value of it is  
+  > P1: “...the idea of this is good. I mean, my immediate thought is that it’s optional, why bother? What’s going to happen if I don’t opt to do that?”  
+  > P2: “When they’re displayed in a list. What’s the list? Like a summary where they’re condensed?”  
+- 2 users noticed the hint text, but didn’t comment on it having moved. 1 commented as though it wasn’t in the previous version  
+  > P3: “I like that you now have an option to put something to explain the question”  
+- Participant 1 made comment that the ‘delete question’ button was there when the page loaded, causing them confusion  
+  > “Oh and you also have the option to delete a question - I think that’s new. It’s odd to have that here? You haven’t created a question so there’s nothing to delete. That’s confusing to be honest.”  
+- Participant 1 also saw the ‘save changes’ button as an unnecessary step and just wanted to be moved on, and didn’t seem to notice the ‘create next question’ button. However, when they did save the question they noticed that the preview pane had updated offering a preview of the current screen as it would appear to the form filler  
+  > “Oh so that’s different. That’s annoying. I’ve saved changes but then I have to click on the next question.”  
+  > “Ah ok. So the preview isn’t really a preview. It’s just a preview of what I’m doing now.”  
+  > “I would have liked to see it building as I go along - now I’m like what’s happened to my first question.”  
+- Participant 2 was unsure about what would happen if they pressed to ‘create next question’. They were worried this would lose their progress  
+  > “If I press create next question will it save what I’ve done? Or do I need to click Save changes first?”  
+  > “I’d hope if I click next question it would save what I’ve done. But because there’s a save button next to it I’m not sure.”  
+- Particiapnt 3 commented that they would always press the new ‘save changes’ button, and felt reassured that the page reloaded. This was seen as positive and gave them confidence that the save was made  
+  > “Personally I would always do a save changes before I go to the next question. The fact that it’s refreshed itself makes me happy that it’s a saved question”  
+- 2 users seemed to notice the preview pane after saving their question, 1 finding this useful to double check formatting before moving on. 1 user needed to be prompted by the user researcher before noticing the preview pane. The users questioned it’s usefulness and expected it to show the form as they built it  
+  > P1: “I would have liked to see it building as I go along - now I’m like what’s happened to my first question.”  
+  > P2: ask if the preview pane will show all of the questions: “That would be great. Without me having to use this button. But at the same time it’s helpful if you just want to check the one you’re looking at at the moment.”  
