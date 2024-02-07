@@ -32,7 +32,15 @@ Each new row also has a relevant “Edit” link to make changes to the correspo
 
 ### What we saw
 
-When testing...
+When testing all the users were quickly and easily able to proceed with the task of adding a question to their form. All 3 users either go straight into adding their questions, or ask if they can. There was little hesitation and users appeared confident in the approach. We later heard from users - when they returned to the screen with their added questions - that there was some confusion.  
+
+- 1 user was a little confused by the ‘Down’ and ‘Up’ buttons next to each question, feeling unsure what they were for to begin with until tasked with moving questions about  
+  > P2: “Now I get what these buttons [up and down buttons] are for, but before they were a mystery to me.”  
+- The other 2 users were able to guess and use the ‘Down’ and ‘Up’ buttons without an issue, but commented about the page reloading without acknoledgement of the change - having to scroll to find if the change had happened - and that this way of re-ordering questions would be painful where forms started getting longer - suggesting click and drag functionality as a potential option  
+  > P1: “It’s maybe a bit annoying that it drops you up to the top of the page so you have to scroll down to see if it works.”  
+- 1 user - who described themselves as neurotypical - told us the way we were dislpaying the questions would cause them some difficulty in reading and keeping track of where they were and if an action had taken place. They suggested visually separating the questions a bit more, or maybe numbering them [this idea came up again in version 2 research, with this participant]   
+  > P3: “This might be a bit hard to read actually... quite tricky for me as someone who’s not neurotypical”  
+  > P3: “Maybe have some numbers, visually separate the questions a bit more - the line definitely helps”   
 
 ## What we changed and why
 
@@ -48,15 +56,15 @@ There is a green “Add a question” button.
 
 There is a green “Add a question” button.
 
-‘Form name’ ... 
+Below this is a section titled ‘Form name’ with a summary list showing the form name as the user had entered it with an ‘Edit’ link to the right of the row.  
 
-‘Your questions’ ... summary list, ‘Down’, ‘Up’ and ‘Edit’ actions
+The next section is title ‘Your questions’. There is a summary list showing the questions the user has added; “What is your name?”; “What is your date of birth?”; and “What is your National Insurance number?”. In each row alongside the questions are actions the user can take. There is a ‘Down’ button for the first and second question. An ‘Up’ button for the second and last question. Each row ends with an ‘Edit’ link.  
 
-‘Standard pages’ section ... 
-‘check your answers’ with hint text, ‘Edit’ link on the right
-‘confirmation’ with hint text, ‘Edit’ link on the right
+The next section ‘Standard pages’ shows the pages that the platform automatically adds for each form. These include: 
+- ‘Check your answers’ which has hint text of “This page lists all the questions and answers so people can check before they submit the form. You can add a declaration for people to confirm their answers.” under the name. On the right side of the row is an ‘Edit’ link.  
+- ‘Confirmation’ with hint text “This page will be shown to confirm the form has been submitted. You can add information to tell people what will happen next.” There is an ‘Edit’ link on the right.  
 
-‘Next steps’ section ... link to “Test the form in a new tab” above a grey ‘Publish form’ button.  
+The final section is titled ‘Next steps’. There is a link to “Test the form in a new tab” above a grey ‘Publish form’ button.  
 
 
 ### Feedback from testing this version 
