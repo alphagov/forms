@@ -230,10 +230,10 @@ ___
 
 There were several key issues identified that we should explore in the next iteration, including: 
 
-- users wanted an explicit option to change/ edit the name of a form rather than use the ‘back button’
-- there is still some confusion over what value a short name provides
-- there was still uncertainty around saving/ how to save the form
-- Preview pane is confusing initially and users don't know what's its for. However, it becomes much more useful when editing/ or going back to a question
+- users wanted an explicit option to change / edit the name of a form rather than use the ‘back button’  
+- there is still some confusion over what value a short name provides  
+- there was still uncertainty around saving / how to save the form  
+- Preview pane is confusing initially and users don't know what it’s for. However, it becomes much more useful when editing / or going back to a question  
 
 ### User resaearch documentation
 - [2022-05-23 Basic Form Building](https://github.com/alphagov/forms/blob/main/research/2022-05-23_Basic_Form_Building.md)  
@@ -246,7 +246,7 @@ ___
 
 Key decisions
 
-1. we are ready to implement th basic first steps of the form builder
+1. we are ready to implement the basic first steps of the form builder
 2. we want to test the prototype with users who have never seen the tool before
 3. we need to understand the needs around processing emails and if we should make it a default part of the tool
 
