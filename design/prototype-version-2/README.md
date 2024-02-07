@@ -63,7 +63,7 @@ There is a green “Add a question” button.
 
 #### What we changed from the previous version
 
-[Changes to the form overview page](page-detail/form-overview.md)
+[Changes to the form overview page](form-overview)
 
 
 ### Edit question 1
@@ -112,6 +112,11 @@ The ‘Date’ radio is now selected.
 
 <!-- describe side preview pane -->
 On the right side of the screen the iframe has now updated to include the question text “What is your date of birth?” and displays the date component underneath with inputs for ‘Day’, ‘Month’ and ‘Year’. The green “Continue” button is still disabled.
+
+
+#### What we changed from the previous version
+
+[Changes to the edit question page](edit-question)
 
 
 ### Edit check your answers
