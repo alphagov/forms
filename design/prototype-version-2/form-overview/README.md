@@ -32,7 +32,7 @@ Each new row also has a relevant “Edit” link to make changes to the correspo
 
 ### What we saw
 
-When testing all the users were quickly and easily able to proceed with the task of adding a question to their form. All 3 users either go straight into adding their questions, or ask if they can. There was little hesitation and users appeared confident in the approach. We later heard from users - when they returned to the screen with their added questions - that there was some confusion.  
+When testing, all the users were quickly and easily able to proceed with the task of adding a question to their form. All 3 users either went straight into adding their questions, or ask if they can. There was little hesitation and users appeared confident in the approach. We later heard from users - when they returned to the screen with their added questions - that there was some confusion.  
 
 - 1 user was a little confused by the ‘Down’ and ‘Up’ buttons next to each question, feeling unsure what they were for to begin with until tasked with moving questions about  
   > P2: “Now I get what these buttons [up and down buttons] are for, but before they were a mystery to me.”  
