@@ -4,7 +4,7 @@
 
 For this round there we made a large change to the level of information we gave form creators for each of the options when creating their form questions. This included more useful hint text and more explicit input labels.  
 
-As part of the testing we asked users to create a form exploring how they experienced the iterated version of adding a short answers and date question type. We also tested how they previewed a question.  
+As part of the testing we asked users to create a form exploring how they experienced the iterated version of adding a short answer and date question type. We also tested how they previewed a question.  
 We then set the task of asking the participant to update an existing form, making changes based on feedback from a colleague.  
 
 ## What we tested last time
