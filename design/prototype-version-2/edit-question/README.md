@@ -118,6 +118,6 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
   > “I’d hope if I click next question it would save what I’ve done. But because there’s a save button next to it I’m not sure.”  
 - Particiapnt 3 commented that they would always press the new ‘save changes’ button, and felt reassured that the page reloaded. This was seen as positive and gave them confidence that the save was made  
   > “Personally I would always do a save changes before I go to the next question. The fact that it’s refreshed itself makes me happy that it’s a saved question”  
-- 2 users seemed to notice the preview pane after saving their question, 1 finding this useful to double check formatting before moving on. 1 user needed to be prompted by the user researcher before noticing the preview pane. The users questioned it’s usefulness and expected it to show the form as they built it  
+- 2 users seemed to notice the preview pane after saving their question, 1 finding this useful to double check formatting before moving on. 1 user needed to be prompted by the user researcher before noticing the preview pane. The users questioned its usefulness and expected it to show the form as they built it  
   > P1: “I would have liked to see it building as I go along - now I’m like what’s happened to my first question.”  
   > P2: ask if the preview pane will show all of the questions: “That would be great. Without me having to use this button. But at the same time it’s helpful if you just want to check the one you’re looking at at the moment.”  
