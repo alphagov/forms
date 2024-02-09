@@ -77,7 +77,7 @@ The final section is titled ‘Next steps’. There is a link to “Test the for
   > P3: “I think having the questions numbered would make this a tiny bit easier to understand at a glance”  
 - Only 1 user commented on the newly added hint text for the generated pages  
   > P3: “I don’t know what differences you’ve made from the last one but this is a lot easier to read. This feels a bit simpler.”  
-- When asked about finalising the form, 2 users said they would definitely want to test the form our as though they were form fillers, with the other saying they would only test it if the were “feeling insecure” (P1)  
+- When asked about finalising the form, 2 users said they would definitely want to test the form out as though they were form fillers, with the other saying they would only test it if they were “feeling insecure” (P1)  
   > P2: “I’d expect there to be a full preview where I could go through all the questions one by one”  
   > P3: “‘Test the form in a new tab’ that is great. That’s 100% what I’d want to do.”  
 - 1 user brought up the fact that they still hadn’t set up an email for form submissions to be sent to
