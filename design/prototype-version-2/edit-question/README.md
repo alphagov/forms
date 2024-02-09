@@ -61,7 +61,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 - Made the ‘answer’ types a question, “What kind of answer do you need to this question?” - using the previous hint text as the question, so we could inform users that the ‘answer’ types will validate based on the selected formats  
 - Updated ‘answer’ radio options content to remove repetative content, “A(n)”, to reduce cognitive load and unnecessary repetition for screen reader users  
   - We also reordered this list to be alphabetical, while keeping what we thought would be the most common ‘answer’ type - “Single line of text” - at the top  
-- “go to page list” updated to “Go to form overview” and moved to under neat buttons to improve expectation management, and accessibility for users of zoom text technology  
+- “go to page list” updated to “Go to form overview” and moved to underneath the buttons to improve expectation management, and accessibility for users of zoom text technology  
 - Content across the screen - and throughout the platform - that referred to ‘page’ changed to ‘question’ as that is more aligned with what the user is adding, editing, moving or deleting  
 
 ### Preview pane updates  
