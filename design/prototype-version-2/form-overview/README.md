@@ -38,7 +38,7 @@ When testing, all the users were quickly and easily able to proceed with the tas
   > P2: “Now I get what these buttons [up and down buttons] are for, but before they were a mystery to me.”  
 - The other 2 users were able to guess and use the ‘Down’ and ‘Up’ buttons without an issue, but commented about the page reloading without acknowledgement of the change - having to scroll to find if the change had happened - and that this way of re-ordering questions would be painful where forms started getting longer - suggesting click and drag functionality as a potential option  
   > P1: “It’s maybe a bit annoying that it drops you up to the top of the page so you have to scroll down to see if it works.”  
-- 1 user - who described themselves as neurotypical - told us the way we were dislpaying the questions would cause them some difficulty in reading and keeping track of where they were and if an action had taken place. They suggested visually separating the questions a bit more, or maybe numbering them [this idea came up again in version 2 research, with this participant]   
+- 1 user - who described themselves as neuroatypical - told us the way we were displaying the questions would cause them some difficulty in reading and keeping track of where they were and if an action had taken place. They suggested visually separating the questions a bit more, or maybe numbering them [this idea came up again in version 2 research, with this participant]   
   > P3: “This might be a bit hard to read actually... quite tricky for me as someone who’s not neurotypical”  
   > P3: “Maybe have some numbers, visually separate the questions a bit more - the line definitely helps”   
 
