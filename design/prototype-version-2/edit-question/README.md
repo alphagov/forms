@@ -57,7 +57,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 - Added new hint text for each ‘question’ input to help guide the user into what content to consider for the long version and the short version - including how the ‘short name’ will be used  
 - Moved the hint text up to just below the ‘question’ inputs, as suggested by one of the participants - as it felt dicsonnected from the content, and was displayed in a different order than the person filling in the form would see it  
   > P2: “This is a guidance note to that question, so I’d expect it to be directly underneath.”    
-- Improved the hint text details link, and added more complete hint text for the hint text input. This is to give a better idea of what informaiton might be useful to include here  
+- Improved the hint text details link, and added more complete hint text for the hint text input. This is to give a better idea of what information might be useful to include here  
 - Made the ‘answer’ types a question, “What kind of answer do you need to this question?” - using the previous hint text as the question, so we could inform users that the ‘answer’ types will validate based on the selected formats  
 - Updated ‘answer’ radio options content to remove repetative content, “A(n)”, to reduce cognitive load and unnecessary repetition for screen reader users  
   - We also reordered this list to be alphabetical, while keeping what we thought would be the most common ‘answer’ type - “Single line of text” - at the top  
