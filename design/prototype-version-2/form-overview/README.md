@@ -2,7 +2,7 @@
 
 ## Context
 
-For this round of testing we removed clutter from teh screen, only making certain elements appear when the user had added questions to their form and returned to the ‘form overview’ screen. We introduced sections to help the user identify what they were seeing - questions they had added versus pages added by the tool and what their next steps should be. We wanted to understand if this made sense to users and if it would be helpful to offer more handholding throughout the creation journey.  
+For this round of testing we removed clutter from the screen, only making certain elements appear when the user had added questions to their form and returned to the ‘form overview’ screen. We introduced sections to help the user identify what they were seeing - questions they had added versus pages added by the tool and what their next steps should be. We wanted to understand if this made sense to users and if it would be helpful to offer more handholding throughout the creation journey.  
 
 As part of the testing we asked users to create a form, and then explored returning to edit an existing form, including the task of changing the name of a form, based on feedback from a colleague.  
 
