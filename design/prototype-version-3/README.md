@@ -61,7 +61,7 @@ Below the button is a secondary heading “Form name”. The form name appears b
 
 #### What we changed from the previous version
 
-[Changes to the form overview page](page-detail/form-overview.md)
+[Changes to the ‘form overview’ page](form-overview/README.md)
 
 
 ### Edit question 1
