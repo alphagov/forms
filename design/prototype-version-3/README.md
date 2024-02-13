@@ -98,7 +98,9 @@ The detail component, “Add hint text to help people answer the question”, is
 
 #### What we changed from the previous version
 
-[Changes to the edit question page](page-detail/edit-question.md)
+As part of the minor fixes we made based on the previous round, we removed the “Delete question” button from the first time the user lands on a new “Edit question” screen where the question has not been saved yet. This is reduce confusion as they haven’t added the question yet so there is nothing to delete at this point.  
+
+We also update the ‘save’ button content to “Save question” for the first time the user adds a new question. This then changes to “Save changes” once they have saved their question. The ‘delete’ button also appears once the question has been saved.  
 
 
 ### Edit question 2 - saved question
