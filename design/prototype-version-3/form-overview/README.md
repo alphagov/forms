@@ -43,4 +43,11 @@ The final section is titled ‘Next steps’. There is a link to “Test the for
 
 ### What we saw
 
-- 
+- Participant 1 wasn’t sure what the ‘up’ and ‘down’ buttons were for. When they tried them it still wasn’t clear what they did
+  > “I’m not quite sure on what up and down button are for really”  
+- Participant 1 also suggested that numbering the questions would have helped them identify if the question ‘move’ had taken place  
+
+After the first session, we updated the button content to include “Move” before the ‘up’ or ‘down’ action.  
+
+- The next 5 participants saw the new version of ‘move’ buttons. None seemed to have any issues with understanding what their purpose was now. However, a couple of users were unsure if the ‘move’ action had happened and struggled to check
+  > P3: “There is no save changes option here so I wonder if these are changed”  
