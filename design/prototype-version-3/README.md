@@ -239,6 +239,20 @@ ___
 
 ## What we learned  
 
+- All users successfully created a form, including participant using a screen reader
+- The product was compared favourably to inaccessible forms by several users. It was also compared favourably to other form building tools.
+- Users appreciated simple, clear design and language, and one question per page design
+- There were some issues experienced by the user using a screen reader to navigate the site
+  - Radio buttons in the question type selection did not seem to be immediately discoverable
+  - User was unsure whether the save button would move them to another page. They were hesitant to use it as when using a screen reader moving to another page requires users to undertake the effort to re-orient themselves to the new page.
+  - Preview in a new tab caused a navigation challenge with getting out of the preview and back to form editing
+- We saw some similar challenges to other usability testing
+  - Some challenges being clear when user was taking the role of 'form creator' and when they were previewing as 'form completer'
+  - Re-ordering questions was not clear to all users
+  - Some uncertainty around whether work had been saved when creating a question
+  - Some uncertainty as to what the preview pane did, particularly before users had saved a question and it had populated with their content
+  - Users often needed to consider answer type before they were able to write useful hint text, but the current interface asks for hint text first  
+
 ### User research documentaiton  
 
 - [2022-07-20 Accessibility Testing](https://github.com/alphagov/forms/blob/main/research/2022-07-20_Accessibility_Testing.md)  
