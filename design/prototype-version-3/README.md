@@ -263,4 +263,13 @@ ___
 
 ## Opportunities
 
+Based on the findings from this version and the previous round we think we should  
+- re-consider the call to action buttons, being more explicit about what happens when the user clicks one
+- explore the idea of providing feedback to users when they make an action such as ‘save’ or ‘move’
+- explore potential ways to help form creators distinguish when they are creating a form versus viewing a preview of their form
+- explore if we can make the preview pane more useful, or if we should consider removing it altogether
+- users wanted to add hint text after they knew how the input looked, is there anything we should consider to help them know how their question might look, or guide them better to create hint text?
+
+We also had another discussion about removing the ‘short version’ question as it wasn’t really adding anything and continued to not be seen as useful.  
+
 [Back to the top](#prototype-version-3)
