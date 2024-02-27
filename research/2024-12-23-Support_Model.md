@@ -16,7 +16,8 @@
 
 ## Key Headlines 
 
-- Only 4% of support tickets were related to user issues. Interviews confirm that people see Forms as reliable and low risk.
+- Only 4% of support tickets were related to user issues. 
+- Interviews confirm that people see Forms as reliable and low risk.
 - 25% of tickets were requests for information on the product, often information that is already available somewhere.
 - Users have expectations of support related to their experience of other GDS products and GOV.UK. They expect quick initial responses, but understand fixes to issues may take several days.
 - They want clear information so they can take action their side, such as updating landing pages or putting in place mitigations.
