@@ -1,5 +1,17 @@
 # Understanding the review process
 
+## 2022-07-04 / Sprint 6
+
+## Aims
+- To understand how the review process works
+
+## Users
+- Civil Servant
+- 1 user
+
+## Methodology
+- Interview
+
 ## Key Headlines
 
 - The need to change a form comes from one of three teams: the policy team, the customer service team, or the processing team.

@@ -1,5 +1,18 @@
 # Data and Analytics
 
+## 2023-10-11 / Sprint 38
+
+## Aims
+- Understand the needs and capabilities of our existing partners for using data and analytics
+- Understand how partners are using the analytics provided to them so far
+
+## Users
+- Civil Servants
+- 6 users
+
+## Methodology
+- Interviews
+
 ## Key Headlines 
 
 - The data is being used at two different levels. First a very general check, which our planned MVP would support. Second as a guide to problems with specific questions, which it would not.

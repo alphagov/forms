@@ -1,5 +1,20 @@
 # Usability testing: 'Select multiple items from a list' and interations on 'Autofill' features
 
+## 2023-02-06 / Sprint 21
+
+## Aims
+- Compare the usability of two options for the ‘Select multiple options from a list’ feature
+- To test the usability of the ‘autofill’ features
+- To get feedback on the success messages
+- To test the usability of the latest iteration of the flow to set shared inbox address
+
+## Users
+- Members of the public with some form building experience
+- 6 users
+
+## Methodology
+- Usability testing
+
 ## Key Headlines 
 
 - General feedback was largely positive.There were some comments that there were too many steps to complete per question.

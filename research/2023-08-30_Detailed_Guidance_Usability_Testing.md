@@ -1,5 +1,19 @@
 # Detailed Guidance' and 'Check Your Questions' - Usability Testing
 
+## 2023-08-30 / Sprint 35
+
+## Aims
+- To test the usability of the new iteration on the design for the ‘add a question’ journey.
+- To test the usability of the ‘detailed guidance’ feature.
+- To understand how well people are able to add markdown formatting to ‘detailed guidance’ using the ‘detailed guidance’ feature and the associated content
+
+## Users
+- Civil Servants
+- 5 users
+
+## Methodology
+- Usability Testing
+
 ## Key Headlines 
 
 - ‘Check your question’ was used well, and came across as a natural part of the process. Several users commented on how useful it was for them.

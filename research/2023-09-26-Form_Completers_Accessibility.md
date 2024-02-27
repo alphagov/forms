@@ -1,5 +1,17 @@
 # Accessibility Research: Form Completers
 
+## 2023-09-26 / Sprint 35
+
+## Aims
+- To observe and draw insights from the experiences of ‘Form Completers’ with access needs
+
+## Users
+- Members of the public with access needs
+- 6
+
+## Methodology
+- Usability Testing (Accessibility focus)
+
 ## Key Headlines 
 
 - There was lots of positive feedback on how online forms help people with access needs complete forms.

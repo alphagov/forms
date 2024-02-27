@@ -1,5 +1,25 @@
 # Basic Form Building
 
+## 2022-05-23 / Sprint 3
+
+## Aims
+To test basic form builder journeys, including:
+- Adding a short answer question (iterated user story)
+- Adding a date question (iterated user story)
+- Previewing a question (iterated user story)
+- Change the name of a form (new)
+- Change/ edit the content of questions (new)
+- Change preview formatting (new)
+- Delete a question (new) 
+- Test a form (new)
+
+## Users
+- Civil Servants
+- 4
+
+## Methodology
+- Usability Testing
+
 ## Key Headlines
 
 - Name your form page: This page works well for users and it received positive feedback. The use of additional hint text made it clearer what users were being asked for and it overcomes problems with uncertainty of what the form should be named

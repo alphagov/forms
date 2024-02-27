@@ -1,5 +1,20 @@
 # Usability Testing: Early Access Journey
 
+## 2023-09-06 / Sprint 37
+
+## Aims
+- Test acceptance of the early access sign up journey
+- Understand how new users feel about the journey / process
+- Understand how dept admin users feel about the process
+- Identify any barriers to adoption of Forms through an Early Access model
+
+## Users
+- Civil Servants
+- 6 users
+
+## Methodology
+- Usability Testing
+
 ## Key Headlines 
 
 - Participants were clear about the journey from trial account to editors, and were keen to explore the tool for their uses.

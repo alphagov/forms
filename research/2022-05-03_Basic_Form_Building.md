@@ -1,5 +1,22 @@
 # Basic form building
 
+## 2022-05-03 / Sprint 2
+
+## Aims
+To test basic form builder journeys, including:
+- Adding a short answer question 
+- Adding a date question 
+- Adding a numerical question 
+- Previewing a form
+- Reordering question logic
+
+## Users
+- Civil Servants
+- 4 users
+
+## Methodology
+- Usability Testing
+
 ## Key Headlines
 
 - The landing page: users were initially confused when arriving on the landing page and had a need to see a summary and preview of all the steps they needed to complete at this stage. This led to the idea of a ‘task list’ which outlines all the steps involved. Users felt that a drop down with relevant forms would be useful as not everyone in the organisation would know what a form was called.  

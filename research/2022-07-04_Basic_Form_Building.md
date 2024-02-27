@@ -1,9 +1,36 @@
 # Basic Form Building
 
+## 2022-07-04 / Sprint 6
+
+## Aims
+To test usability of basic form builder journeys, including:
+Basic building a form journeys: 
+- Name the form
+- Add a long answer question and a date question (combination task)
+- Add a short answer question 
+- Add a National Insurance number 
+- Add a phone number
+- Preview a question 
+
+Return to a form journeys: 
+- Change the name of a form 
+- Change/ edit the content of questions 
+- Change preview formatting
+- Delete a question 
+- Test a form 
+- Re order questions
+
+## Users
+- Civil Servants
+- 3
+
+## Methodology
+- Usability Testing
+
 ## Key Headlines
 
 - There were consistently high scores across the tasks and some genuine moments of delight. Many elements of the prototype work well from a user perspective. However, there was also some familiar problems.
-- The preview pane appeared to work more effectively than previous rounds. The addition of the 'preview and save' button was often used to discover the preview function. However, it suffers still from visually recessive (esepcially ajacent to the vivid green 'save and contonue button) and, for some, features too far down the page
+- The preview pane appeared to work more effectively than previous rounds. The addition of the 'preview and save' button was often used to discover the preview function. However, it suffers still from visually recessive (especially adjacent to the vivid green 'save and contine button) and, for some, features too far down the page
 - Encouragingly, where users struggled or hesitated, they were able to resolve the problem themselves and there was a fairly quick learning curve.  
 - Generally participants were able to add two questions with minimal difficulty. There were some minor problems
 - Throughout task users began to use the preview pane spontaneously (unprompted) but we're also seeing an emerging pattern with users wanting to add questions first and preview at the end or if they were unsure about something. "

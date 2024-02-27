@@ -1,5 +1,19 @@
 # Usability Testing: Authentication and trial accounts
 
+## 2023-08-09 / Sprint 31-34
+
+## Aims
+- To understand attitudes towards signing up for a new online tool
+- To test the usability of two authentication methods
+- To understand attitudes towards and needs for trial account
+
+## Users
+- Civil Servants
+- 5 users
+
+## Methodology
+- Usability Testing
+
 ## Key Headlines 
 
 - Using an email code rather than a password felt different to participants, but they were all relatively comfortable with it.

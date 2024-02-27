@@ -1,5 +1,19 @@
 # Autofill Feature Usability Testing
 
+## 2022-12-05 / Sprint 16
+
+## Aims
+- To test the usability of the new autocomplete feature, which allows form creators to make questions that can be autocompleted by a form completer's browser.
+- To test the usability of new question templates for form creators.
+- To test the usbaility optional questions and list based questions for form creators.
+
+## Users
+- Civil Servants
+- 6
+
+## Methodology
+- Focus Group / Interview
+
 ## Key Headlines
 
 - The question type page is visually easy for users to engage with but for some it is just on the edge of being too long and some believe it is important to be able to see all the questions on one page without scrolling down.

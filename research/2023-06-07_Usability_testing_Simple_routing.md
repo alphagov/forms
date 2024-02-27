@@ -1,5 +1,19 @@
 ## Usability Testing: Simple Routing
 
+## 2023-06-07 / Sprint 29-30
+
+## Aims
+- To test current design for simple routing with users
+- To get feedback on how the language used to describe simple routing resonates with users and communicates the concepts
+- To test error messages relating to simple routing with users
+
+## Users
+- Members of the public, one Civil Servant (who had immediate need for this feature)
+- 7 users
+
+## Methodology
+- Usability Testing
+
 ## Key Headlines 
 - Most people looked for routing in the edit page of the question they wanted to skip. Most of them did not discover the ‘add question route’ button without prompting.
 - When people were prompted to use the button, most successfully set up routes for forms with existing questions.

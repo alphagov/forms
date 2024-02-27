@@ -1,5 +1,19 @@
 # Accessibility Testing- Detailed Guidance and Simple Routing
 
+## 2023-11-17 / Sprint 41
+
+## Aims
+Test the usability of the form builder for people with access needs, with a particular focus on:
+- Creating ‘detailed guidance’
+- Adding a question route
+
+## Users
+- Members of the public with access needs
+- 6 users
+
+## Methodology
+- Usability Testing (Accessibility)
+
 ## Key Headlines 
 
 - The ‘add a question route’ journey was accessible and straightforward for users.
