@@ -18,8 +18,6 @@ ___
 
 ___
 
-<br>
-
 ## Context
 
 > **Sprint 5**  
@@ -30,21 +28,17 @@ We plan to test a partial creation of a sample form as if the user has already l
 
 We will also test a return journey as though they are returning to make fixes to an existing draft form.
 
-<br>
-<br>
 
 ## Admin interface screenshots
 
 Below are the screens a form creator will see when making or editing their forms.
 
-<br>
 
 ### GOV.UK Forms landing page
 
 ![GOV.UK Forms landing page. Screenshot](screenshots/001-GOV.UK-Forms.png)
 *Page with “GOV.UK Forms” heading and green “Create a form” start button.*
 
-<br>
 
 ### Name your form page
 
@@ -55,7 +49,6 @@ There is hint text that says, “The form name will be shown at the top of each 
 
 Below the text input is a green “Save and continue” button.
 
-<br>
 
 ### Form overview page
 
@@ -68,9 +61,8 @@ Below the button is a secondary heading “Form name”. The form name appears b
 
 #### What we changed from the previous version
 
-[Changes to the form overview page](page-detail/form-overview.md)
+[Changes to the ‘form overview’ page](form-overview)
 
-<br>
 
 ### Edit question 1
 
@@ -106,9 +98,10 @@ The detail component, “Add hint text to help people answer the question”, is
 
 #### What we changed from the previous version
 
-[Changes to the edit question page](page-detail/edit-question.md)
+As part of the minor fixes we made based on the previous round, we removed the “Delete question” button from the first time the user lands on a new “Edit question” screen where the question has not been saved yet. This is reduce confusion as they haven’t added the question yet so there is nothing to delete at this point.  
 
-<br>
+We also update the ‘save’ button content to “Save question” for the first time the user adds a new question. This then changes to “Save changes” once they have saved their question. The ‘delete’ button also appears once the question has been saved.  
+
 
 ### Edit question 2 - saved question
 
@@ -124,7 +117,6 @@ The ‘Date’ radio is now selected.
 <!-- describe side preview pane -->
 On the right side of the screen the iframe has now updated to include the question text “What is your date of birth?” and displays the date component underneath with inputs for ‘Day’, ‘Month’ and ‘Year’. The green “Continue” button is still disabled.
 
-<br>
 
 ### Delete a question
 
@@ -133,7 +125,6 @@ On the right side of the screen the iframe has now updated to include the questi
 
 There are two radio options, “Yes” and “No”. Below is a green “Continue” button.
 
-<br>
 
 ### Edit check your answers
 
@@ -152,7 +143,6 @@ On the right side of the screen there is a secondary heading, “Page preview”
 
 The iframe includes the title “Check your answers” and displays the secondary heading, “Declaration”, above the text input content provided on the left, “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”
 
-<br>
 
 ### Edit confirmation page
 
@@ -171,7 +161,6 @@ On the right side of the screen there is a secondary heading, “Page preview”
 
 The iframe includes the title “Form submitted” above text “Your reference number is HDJ2123F” in a green box. There is also a secondary heading, “What happens next”, above the text input content provided on the left, “We’ve sent you an email to confirm we have received your form.”
 
-<br>
 
 ### Publish a form
 
@@ -185,8 +174,7 @@ There is a green “Publish form” button, the word ‘or’, and then a link t
 <!-- describe side preview pane -->
 On the right side of the screen the iframe includes the title “Apply for a juggling licence” above a green “Start now” button to simulate the journey from the start page.
 
-<br>
-<br>
+___
 
 ## Some things we changed since last time
 
@@ -203,14 +191,12 @@ On the right side of the screen the iframe includes the title “Apply for a jug
 
 For more information, see [v0.0.3 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.3).
 
-<br>
-<br>
+___
 
 ## Form runner screenshots
 
 Below are the screens the form filler (the end user) would see as they complete the form.
 
-<br>
 
 ### Preview question 1
 
@@ -223,7 +209,6 @@ The basic structure includes a “Back” link which should take the form filler
 
 When the form filler clicks the “Continue” button the product should validate that an input has been given (field is not empty or radio is selected for example) before continuing through to the next question in sequence.
 
-<br>
 
 ### Preview final question
 
@@ -232,7 +217,6 @@ When the form filler clicks the “Continue” button the product should validat
 
 This page is an example of the last question in a form sequence. The difference being a green “Check your answers” button in place of the usual “Continue”.
 
-<br>
 
 ### Preview check your answers (summary page)
 
@@ -243,7 +227,6 @@ The summary list component lists rows of the “Short version” of the question
 
 Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button. The text of the declaration is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department.
 
-<br>
 
 ### Preview form submitted (confirmation page)
 
@@ -252,29 +235,39 @@ Below is a secondary heading, “Declaration”, before the text “By submittin
 
 This page includes a secondary heading “What happens next” followed by the content “We’ve sent you an email to confirm we have received your form.” This text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department and should match their internal service level agreements (SLAs).
 
-<br>
-
 ___
 
-<br>
+## What we learned  
 
-## What we learned
+- All users successfully created a form, including participant using a screen reader
+- The product was compared favourably to inaccessible forms by several users. It was also compared favourably to other form building tools.
+- Users appreciated simple, clear design and language, and one question per page design
+- There were some issues experienced by the user using a screen reader to navigate the site
+  - Radio buttons in the question type selection did not seem to be immediately discoverable
+  - User was unsure whether the save button would move them to another page. They were hesitant to use it as when using a screen reader moving to another page requires users to undertake the effort to re-orient themselves to the new page.
+  - Preview in a new tab caused a navigation challenge with getting out of the preview and back to form editing
+- We saw some similar challenges to other usability testing
+  - Some challenges being clear when user was taking the role of 'form creator' and when they were previewing as 'form completer'
+  - Re-ordering questions was not clear to all users
+  - Some uncertainty around whether work had been saved when creating a question
+  - Some uncertainty as to what the preview pane did, particularly before users had saved a question and it had populated with their content
+  - Users often needed to consider answer type before they were able to write useful hint text, but the current interface asks for hint text first  
 
-> Give a synopsis of the key findings from the round of research we tested this version.  
-> Include examples of found needs, pain points or quotes to help explain the findings. These do not have to be too detailed, as this should be covered in the research findings packs/decks - which can be linked to from here.
+### User research documentaiton  
 
-[Sprint 5 analysis slide deck](https://docs.google.com/presentation/d/1IiSQtwY1dBLbKMsny3p8aOauXg-nMkMW/edit?usp=sharing&ouid=103020973445843702447&rtpof=true&sd=true)
-
-<!-- REMOVE ME!!! after write up -->
-<!-- https://drive.google.com/drive/folders/1zrfpRnuctPm0Cfk69sOP_R57Uex94tdF?usp=sharing -->
-
-<br>
+- [Accessibility testing write up (GitHub)](https://github.com/alphagov/forms/blob/main/research/2022-07-20_Accessibility_Testing.md)    
+ 
+___
 
 ## Opportunities
 
-> Are there any opportunities we would like to explore, or ideas that we think we could consider?  
-> List these here. They do not have to be full formulated at this point, but will inform our work (and should be added to Trello to discuss and ideate as a team).
+Based on the findings from this version and the previous round we think we should  
+- re-consider the call to action buttons, being more explicit about what happens when the user clicks one
+- explore the idea of providing feedback to users when they make an action such as ‘save’ or ‘move’
+- explore potential ways to help form creators distinguish when they are creating a form versus viewing a preview of their form
+- explore if we can make the preview pane more useful, or if we should consider removing it altogether
+- users wanted to add hint text after they knew how the input looked, is there anything we should consider to help them know how their question might look, or guide them better to create hint text?
 
-<br>
+We also had another discussion about removing the ‘short version’ question as it wasn’t really adding anything and continued to not be seen as useful.  
 
 [Back to the top](#prototype-version-3)
