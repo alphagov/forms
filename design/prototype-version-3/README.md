@@ -255,9 +255,7 @@ ___
 
 ### User research documentaiton  
 
-- [2022-07-20 Accessibility Testing](https://github.com/alphagov/forms/blob/main/research/2022-07-20_Accessibility_Testing.md)  
-- [Accessibility Testing Mural board](https://app.mural.co/t/gaap0347/m/gaap0347/1654781687567/0191bfd6e08b968770d46ffb9419b5ef2ef12a91?sender=uac1457e37aa6525eed627424)  
-- [Supporting documents (Google drive)](https://drive.google.com/drive/folders/1zrfpRnuctPm0Cfk69sOP_R57Uex94tdF?usp=sharing)   
+- [Accessibility testing write up (GitHub)](https://github.com/alphagov/forms/blob/main/research/2022-07-20_Accessibility_Testing.md)    
  
 ___
 
