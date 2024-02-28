@@ -1,6 +1,6 @@
 # Confirmation emails
 
-## 2023-11-10 / Sprint 40
+2023-11-10 / Sprint 40
 
 ## Aims
 - Understand the needs of form creators to provide information to form fillers after submission.
