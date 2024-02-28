@@ -5,7 +5,7 @@
 ## Aims
 - To test the usability of the new autocomplete feature, which allows form creators to make questions that can be autocompleted by a form completer's browser.
 - To test the usability of new question templates for form creators.
-- To test the usbaility optional questions and list based questions for form creators.
+- To test the usability optional questions and list based questions for form creators.
 
 ## Users
 - Civil Servants
