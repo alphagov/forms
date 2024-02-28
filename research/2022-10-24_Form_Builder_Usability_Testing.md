@@ -4,7 +4,7 @@
 
 ## Aims
 To test form builder journeys required to digitise a specific partner department's form. This included testing specific features for creating questions, as well as publishing a live version of the form:
-- Add a new name to the fom 
+- Add a new name to the form 
 - Add a name question 
 - Add a address question
 - Add content before a question
