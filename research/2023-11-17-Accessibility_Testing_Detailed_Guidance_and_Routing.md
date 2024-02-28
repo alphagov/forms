@@ -1,6 +1,6 @@
 # Accessibility Testing- Detailed Guidance and Simple Routing
 
-## 2023-11-17 / Sprint 41
+2023-11-17 / Sprint 41
 
 ## Aims
 Test the usability of the form builder for people with access needs, with a particular focus on:
