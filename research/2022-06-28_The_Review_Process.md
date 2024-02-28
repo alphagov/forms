@@ -1,6 +1,6 @@
 # Understanding the review process
 
-## 2022-07-04 / Sprint 6
+## 2022-06-28 / Sprint 6
 
 ## Aims
 - To understand how the review process works
