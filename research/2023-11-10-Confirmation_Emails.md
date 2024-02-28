@@ -1,4 +1,4 @@
-# Confirmation emails
+# Usability testing: Confirmation emails
 
 2023-11-10 / Sprint 40
 
