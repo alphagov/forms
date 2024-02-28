@@ -1,4 +1,4 @@
-# Accessibility Testing- Detailed Guidance and Simple Routing
+# Accessibility testing: ‘Detailed Guidance’ and ‘Simple Routing’
 
 2023-11-17 / Sprint 41
 
