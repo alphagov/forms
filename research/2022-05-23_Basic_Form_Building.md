@@ -1,6 +1,6 @@
 # Usability testing: Basic Form Building
 
-## 2022-05-23 / Sprint 3
+2022-05-23 / Sprint 3
 
 ## Aims
 To test basic form builder journeys, including:
