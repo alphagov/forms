@@ -1,6 +1,6 @@
 # Add a payment link - usability testing
 
-## 2024-02-21 / Sprint 47
+2024-02-21 / Sprint 47
 
 ## Aims
 - Explore participants’ understanding of the payment link process acquired from three options for content on the payment link page.
