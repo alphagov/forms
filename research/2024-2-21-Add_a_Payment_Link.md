@@ -1,4 +1,4 @@
-# Add a payment link - usability testing
+# Usability testing: Add a payment link
 
 2024-02-21 / Sprint 47
 
