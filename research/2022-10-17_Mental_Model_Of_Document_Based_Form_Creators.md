@@ -1,6 +1,6 @@
 # Understanding mental models of document-based form creators with a specific focus on the multiple responses to a question question type
 
-## 2022-10-17 / Sprint 11,12,13
+2022-10-17 / Sprint 11,12,13
 
 ## Aims
 - To understand the mental models for document-based form creators when creating forms and authoring questions
