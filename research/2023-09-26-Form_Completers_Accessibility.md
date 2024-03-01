@@ -1,6 +1,6 @@
 # Accessibility Research: Form Completers
 
-## 2023-09-26 / Sprint 35
+2023-09-26 / Sprint 35
 
 ## Aims
 - To observe and draw insights from the experiences of ‘Form Completers’ with access needs
