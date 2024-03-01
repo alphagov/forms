@@ -6,7 +6,7 @@
 - Test acceptance of the early access sign up journey
 - Understand how new users feel about the journey / process
 - Understand how dept admin users feel about the process
-- Identify any barriers to adoption of Forms through an Early Access model
+- Identify any barriers to adoption of GOV.UK Forms through an ‘early access’ model
 
 ## Users
 - Civil Servants
