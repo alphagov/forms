@@ -4,7 +4,7 @@
 
 ## Aims
 - Test usability of the task list design for understanding the process to get a form live and navigating through the tasks
-- Test user story: 'I need to set the email address a completed form is sent to'
+- Test user story: “I need to set the email address a completed form is sent to”
 - Test user story: “I need to add content about ‘what happens next’ to a confirmation page”
 - Test user story: “I need to add a declaration”
 
