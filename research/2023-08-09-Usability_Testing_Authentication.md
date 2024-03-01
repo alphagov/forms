@@ -1,6 +1,6 @@
 # Usability testing: Authentication and trial accounts
 
-## 2023-08-09 / Sprint 31-34
+2023-08-09 / Sprint 31-34
 
 ## Aims
 - To understand attitudes towards signing up for a new online tool
