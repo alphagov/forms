@@ -15,7 +15,7 @@
 - Usability Testing
 
 ## Key Headlines 
-- Most people looked for routing in the edit page of the question they wanted to skip. Most of them did not discover the ‘add question route’ button without prompting.
+- Most people looked for routing in the ‘edit page’ of the question they wanted to skip. Most of them did not discover the ‘add question route’ button without prompting.
 - When people were prompted to use the button, most successfully set up routes for forms with existing questions.
 - Those users who understood routing largely understood error messages. It might be worth further testing on those involving question order changing.
 - The more experienced user applied their mental model of ‘branching’ at times, and this led them to experience some friction with simple routing.
