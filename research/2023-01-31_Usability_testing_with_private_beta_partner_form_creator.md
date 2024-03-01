@@ -3,11 +3,11 @@
 2023-01-31 / Sprint 21
 
 ## Aims
-Test the usability of the form builder for creating a draft version of a partner department's form
+Test the usability of the form builder for creating a draft version of a partner department’s form
 
 ## Users
 - Civil Servants
-- 1
+- 1 user
 
 ## Methodology
 - Usability Testing
