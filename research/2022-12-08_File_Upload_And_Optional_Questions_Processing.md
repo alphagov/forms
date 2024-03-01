@@ -6,7 +6,8 @@
 - How do form processors currently receive and work with forms that require additional evidence or documents to be sent?
 - Can we use Notify to send forms with additional evidence or documents? 
 - Does the Notify approach work for processors?
-- How do processors feel about receiving files as attachments? How do they feel about receiving links?
+- How do processors feel about receiving files as attachments?
+- How do they feel about receiving links?
 
 ## Users
 - Civil Servants
