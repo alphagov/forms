@@ -1,6 +1,6 @@
 # File upload and optional questions processing
 
-## 2022-12-08 / Sprint 17
+2022-12-08 / Sprint 17
 
 ## Aims
 - How do form processors currently receive and work with forms that require additional evidence or documents to be sent?
