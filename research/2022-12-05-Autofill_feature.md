@@ -1,6 +1,6 @@
 # Usability testing: Autofill Feature
 
-## 2022-12-05 / Sprint 16
+2022-12-05 / Sprint 16
 
 ## Aims
 - To test the usability of the new autocomplete feature, which allows form creators to make questions that can be autocompleted by a form completer's browser.
