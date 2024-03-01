@@ -1,4 +1,4 @@
-## Usability Testing: Simple Routing
+## Usability testing: Simple Routing
 
 ## 2023-06-07 / Sprint 29-30
 
