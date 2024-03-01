@@ -23,7 +23,7 @@ To test form builder journeys required to digitise a specific partner department
 
 ## Key Headlines
 
-- Overall, a very positive experience for all users with many competing the tasks quickly and easily.
+- Overall, a very positive experience for all users with many completing the tasks quickly and easily.
 - Adding a name question: some users were uncertain how to create a name question with multiple parts to it such as first name, last name, prefix.
 - Preview pane: users found and used preview pane more easily than in some preview sessions.Users were looking for an option to preview the entire form on the task list page.
 - Add content to a page: one user copied and pasted a very long question, which displayed poorly. This led them to simplify the question they were asking.
