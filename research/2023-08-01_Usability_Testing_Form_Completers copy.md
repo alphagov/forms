@@ -1,6 +1,6 @@
 # Usability testing: Form Completers
 
-## 2023-08-01 / Sprint 31-32
+2023-08-01 / Sprint 31-32
 
 ## Aims
 - Test usability of forms created using GOV.UK Forms, including all current answer types.
