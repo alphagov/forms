@@ -1,6 +1,6 @@
 # Feedback on processing of the first form
 
-## 2022-11-23 / Sprint 16
+2022-11-23 / Sprint 16
 
 ## Aims
 - Collect feedback from their processing team on what the experience with GOV.UK Forms has been like generally 
