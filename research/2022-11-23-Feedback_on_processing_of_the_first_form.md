@@ -15,7 +15,7 @@
 
 ## Key Headlines
 
-- The form processors reported a positive overall  experience, although there have been some teething issues along the way
+- The form processors reported a positive overall experience, although there have been some teething issues along the way
 - Including a question with ‘LN numbers or case reference numbers’ led to an increase in processing time.
 - The processors reported an issue with receiving information that required a decimal point e.g. number of days taken. This has been resolved.
 - An inconsistent experience for claimants where some similar forms can be completed via a webform, and other forms need to be completed with document-based submissions.
