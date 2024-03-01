@@ -1,6 +1,6 @@
 # Accessibility testing: Form building
 
-## 2022-10-25 / Sprint 12
+2022-10-25 / Sprint 12
 
 ## Aims
 - Test the task list: we have a new design to help users complete a form and make it live
