@@ -1,6 +1,6 @@
 # Accessibility testing: Form building
 
-## 2022-07-20 / Sprint 5
+2022-06-16 / Sprint 5
 
 ## Aims
 To test accessibility of basic form builder journeys, including:
