@@ -18,7 +18,7 @@ Return to a form journeys:
 - Change preview formatting
 - Delete a question 
 - Test a form 
-- Re order questions
+- Reorder questions
 
 ## Users
 - Members of the public
