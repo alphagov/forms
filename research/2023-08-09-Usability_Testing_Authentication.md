@@ -1,4 +1,4 @@
-# Usability Testing: Authentication and trial accounts
+# Usability testing: Authentication and trial accounts
 
 ## 2023-08-09 / Sprint 31-34
 
