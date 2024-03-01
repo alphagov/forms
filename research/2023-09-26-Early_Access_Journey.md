@@ -1,4 +1,4 @@
-# Usability Testing: Early Access Journey
+# Usability testing: Early Access Journey
 
 ## 2023-09-06 / Sprint 37
 
