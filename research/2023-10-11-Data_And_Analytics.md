@@ -1,6 +1,6 @@
 # Data and Analytics
 
-## 2023-10-11 / Sprint 38
+2023-10-11 / Sprint 38
 
 ## Aims
 - Understand the needs and capabilities of our existing partners for using data and analytics
