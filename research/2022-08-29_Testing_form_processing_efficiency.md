@@ -1,6 +1,6 @@
 # Testing form processing efficiency (GOV.UK Forms vs document-based)
 
-## 2022-08-29 / Sprint 10
+2022-08-29 / Sprint 10
 
 ## Aims
 - To capture estimated timings for current forms compared to GOV.UK Forms outputs
