@@ -9,7 +9,7 @@ To test form builder journeys required to digitise a specific partner department
 - Add a address question
 - Add content before a question
 - Preview a form
-- Add 'what happens next' page
+- Add ‘what happens next’ page
 - Set up emial address for completed form
 - Add declaration 
 - Add a privacy notice
