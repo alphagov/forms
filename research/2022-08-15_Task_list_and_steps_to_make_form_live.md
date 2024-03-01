@@ -1,6 +1,6 @@
 # Usability testing: Task list and steps to make form live
 
-## 2022-08-15 / Sprint 9
+2022-08-15 / Sprint 9
 
 ## Aims
 - Test usability of the task list design for understanding the process to get a form live and navigating through the tasks
