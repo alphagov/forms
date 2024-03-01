@@ -1,6 +1,6 @@
 # Testing form processing efficiency (GOV.UK Forms vs document-based)
 
-## 2022-07-04/ Sprint 6
+2022-07-04/ Sprint 6
 
 ## Aims
 - To understand how ODT forms are processed
