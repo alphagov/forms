@@ -1,6 +1,6 @@
 # Accessibility testing: Form building
 
-## 2023-03-03 / Sprint 22
+2023-03-03 / Sprint 22
 
 ## Aims
 To understand the user experience of our form builder product for people with access needs. Including:
