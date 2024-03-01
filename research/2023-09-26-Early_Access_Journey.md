@@ -1,6 +1,6 @@
 # Usability testing: Early Access Journey
 
-## 2023-09-06 / Sprint 37
+2023-09-06 / Sprint 37
 
 ## Aims
 - Test acceptance of the ‘early access’ sign up journey
