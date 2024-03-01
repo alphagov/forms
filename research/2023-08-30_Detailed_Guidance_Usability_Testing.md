@@ -1,4 +1,4 @@
-# Detailed Guidance' and 'Check Your Questions' - Usability Testing
+# Usability testing: ’Detailed Guidance‘ and ‘Check Your Questions’
 
 ## 2023-08-30 / Sprint 35
 
