@@ -1,6 +1,6 @@
 # Usability testing: Draft / Live feature 
 
-## 2023-04-14 / Sprint 26
+2023-04-14 / Sprint 26
 
 ## Aims
 To test the new designs for:
