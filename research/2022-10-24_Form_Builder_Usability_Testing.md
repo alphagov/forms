@@ -10,7 +10,7 @@ To test form builder journeys required to digitise a specific partner department
 - Add content before a question
 - Preview a form
 - Add ‘what happens next’ page
-- Set up emial address for completed form
+- Set up email address for completed form
 - Add declaration 
 - Add a privacy notice
 
