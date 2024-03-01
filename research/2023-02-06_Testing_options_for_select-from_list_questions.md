@@ -1,4 +1,4 @@
-# Usability testing: 'Select multiple items from a list' and interations on 'Autofill' features
+# Usability testing: ‘Select multiple items from a list’ and interactions on ‘autofill’ features
 
 ## 2023-02-06 / Sprint 21
 
