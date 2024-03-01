@@ -1,6 +1,6 @@
 # Usability testing: ‘Select multiple items from a list’ and interactions on ‘autofill’ features
 
-## 2023-02-06 / Sprint 21
+2023-02-06 / Sprint 21
 
 ## Aims
 - Compare the usability of two options for the ‘Select multiple options from a list’ feature
