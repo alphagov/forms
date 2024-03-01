@@ -1,6 +1,6 @@
 ## Usability testing: Simple Routing
 
-## 2023-06-07 / Sprint 29-30
+2023-06-07 / Sprint 29-30
 
 ## Aims
 - To test current design for simple routing with users
