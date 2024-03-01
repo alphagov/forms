@@ -1,6 +1,6 @@
 # Usability testing: ’Detailed Guidance‘ and ‘Check Your Questions’
 
-## 2023-08-30 / Sprint 35
+2023-08-30 / Sprint 35
 
 ## Aims
 - To test the usability of the new iteration on the design for the ‘add a question’ journey.
