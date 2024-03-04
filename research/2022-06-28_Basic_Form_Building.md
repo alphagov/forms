@@ -31,7 +31,7 @@ Return to a form journeys:
 
 - There were consistently high scores across the tasks and some genuine moments of delight. Many elements of the prototype work well from a user perspective. However, there was also some familiar problems.
 - The preview pane appeared to work more effectively than previous rounds. 
-- The addition of the 'preview and save' button was often used to discover the preview function. However, it suffers still from being visually recessive (especially adjacent to the vivid green 'save and continue button) and, for some, features too far down the page
+- The addition of the ‘preview and save’ button was often used to discover the preview function. However, it suffers still from being visually recessive (especially adjacent to the vivid green 'save and continue button) and, for some, features too far down the page
 - Encouragingly, where users struggled or hesitated, they were able to resolve the problem themselves and there was a fairly quick learning curve.  
 - Generally participants were able to add two questions with minimal difficulty. There were some minor problems
 - Throughout task users began to use the preview pane spontaneously (unprompted).
