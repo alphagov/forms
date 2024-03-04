@@ -10,7 +10,7 @@
 
 ## Users
 - Members of the public with access needs
-- 6
+- 6 users
 
 ## Methodology
 - Usability Testing (Accessibility focus)
