@@ -9,7 +9,7 @@
 
 ## Users
 - Civil Servants
-- 10
+- 10 users
 
 ## Methodology
 - User interviews, interactive activities / observation of activities
