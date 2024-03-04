@@ -16,7 +16,7 @@ To test form builder journeys required to digitise a specific partner department
 
 ## Users
 - Civil Servants
-- 6
+- 6 users
 
 ## Methodology
 - Usability testing
