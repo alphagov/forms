@@ -11,7 +11,7 @@
 
 ## Users
 - Civil Servants
-- 8
+- 8 users
 
 ## Methodology
 - Interviews
