@@ -8,7 +8,7 @@
 
 ## Users
 - Civil Servants
-- 1
+- 1 user
 
 ## Methodology
 - Unmoderated interactive activity
