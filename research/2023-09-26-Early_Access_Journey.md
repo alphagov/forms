@@ -1,4 +1,19 @@
-# Usability Testing: Early Access Journey
+# Usability testing: Early Access Journey
+
+2023-09-06 / Sprint 37
+
+## Aims
+- Test acceptance of the ‘early access’ sign up journey
+- Understand how new users feel about the journey / process
+- Understand how dept admin users feel about the process
+- Identify any barriers to adoption of GOV.UK Forms through an ‘early access’ model
+
+## Users
+- Civil Servants
+- 6 users
+
+## Methodology
+- Usability Testing
 
 ## Key Headlines 
 

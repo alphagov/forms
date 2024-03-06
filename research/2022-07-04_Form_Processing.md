@@ -1,5 +1,17 @@
 # Testing form processing efficiency (GOV.UK Forms vs document-based)
 
+2022-07-04/ Sprint 6
+
+## Aims
+- To understand how ODT forms are processed
+
+## Users
+- Civil Servant
+- 1 user
+
+## Methodology
+- Interview
+
 ## Key Headlines
 
 - The service operates over two stages: A closed time frame (statutory payment made within 14 days), and an open timeframe (claims can be made over years).

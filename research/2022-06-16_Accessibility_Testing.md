@@ -1,4 +1,32 @@
-# Accessibility testing
+# Accessibility testing: Form building
+
+2022-06-16 / Sprint 5
+
+## Aims
+To test accessibility of basic form builder journeys, including:
+- Basic building a form journeys
+- Name the form
+- Add a long answer question and a date question (combination task)
+- Add a short answer question 
+- Add a National Insurance number 
+- Add a phone number
+- Preview a question 
+
+Return to a form journeys:
+- Change the name of a form 
+- Change/ edit the content of questions 
+- Change preview formatting
+- Delete a question 
+- Test a form 
+- Reorder questions
+
+## Users
+- Members of the public
+- People with accessibility needs
+- 6 users
+
+## Methodology
+- Usability Testing (Accessibility)
 
 ## Key Headlines
 

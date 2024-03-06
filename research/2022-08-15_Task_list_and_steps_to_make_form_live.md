@@ -1,4 +1,20 @@
-# Task list and steps to make form live
+# Usability testing: Task list and steps to make form live
+
+2022-08-15 / Sprint 9
+
+## Aims
+- Test usability of the task list design for understanding the process to get a form live and navigating through the tasks
+- Test user story: “I need to set the email address a completed form is sent to”
+- Test user story: “I need to add content about ‘what happens next’ to a confirmation page”
+- Test user story: “I need to add a declaration”
+
+## Users
+- Civil Servants
+- Low digital confidence
+- 5 users
+
+## Methodology
+- Usability Testing
 
 ## Key Headlines
 

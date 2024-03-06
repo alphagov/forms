@@ -1,4 +1,17 @@
-# Usability Testing: Form Completers
+# Usability testing: Form Completers
+
+2023-08-01 / Sprint 31-32
+
+## Aims
+- Test usability of forms created using GOV.UK Forms, including all current answer types.
+- Compare usability and time taken for these with document based forms
+
+## Users
+- Members of the public
+- 6 users
+
+## Methodology
+- Usability Testing
 
 ## Key Headlines 
 

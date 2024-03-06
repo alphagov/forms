@@ -1,4 +1,18 @@
-# Confirmation emails
+# Usability testing: Confirmation emails
+
+2023-11-10 / Sprint 40
+
+## Aims
+- Understand the needs of form creators to provide information to form fillers after submission.
+- Test the usability of content on confirmation emails as part of the form building journey.
+- Understand the needs of form processors for information provided to form completers after submitting a form.
+
+## Users
+- Civil Servants
+- 8 users
+
+## Methodology
+- Usability Testing and Interview
 
 ## Key Headlines 
 

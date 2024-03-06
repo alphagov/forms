@@ -1,5 +1,21 @@
 # File upload and optional questions processing
 
+2022-12-08 / Sprint 17
+
+## Aims
+- How do form processors currently receive and work with forms that require additional evidence or documents to be sent?
+- Can we use Notify to send forms with additional evidence or documents? 
+- Does the Notify approach work for processors?
+- How do processors feel about receiving files as attachments?
+- How do they feel about receiving links?
+
+## Users
+- Civil Servants
+- 8 users
+
+## Methodology
+- Interviews
+
 ## Key Headlines
 
 - Form processors preferred documents sent to them as attachments, not as individual links. This is largely because of the convenience of having files to preview in an inbox, and the time it takes to follow and download links.

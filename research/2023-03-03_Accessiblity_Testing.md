@@ -1,4 +1,20 @@
-# Accessibility Testing 
+# Accessibility testing: Form building
+
+2023-03-03 / Sprint 22
+
+## Aims
+To understand the user experience of our form builder product for people with access needs. Including:
+- Autocomplete questions
+- Select from list
+- Saving questions
+- Status labels on tasks
+
+## Users
+- Members of the public with access needs
+- 6 users
+
+## Methodology
+- Usability testing (Accessiblity focus)
 
 ## Key Headlines 
 

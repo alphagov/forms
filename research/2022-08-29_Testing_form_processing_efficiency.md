@@ -1,5 +1,18 @@
 # Testing form processing efficiency (GOV.UK Forms vs document-based)
 
+2022-08-29 / Sprint 10
+
+## Aims
+- To capture estimated timings for current forms compared to GOV.UK Forms outputs
+- To understand challenges and needs for processing the output of forms created with GOV.UK Forms
+
+## Users
+- Civil Servants
+- 1 user
+
+## Methodology
+- Unmoderated interactive activity
+
 ## Key Headlines
 
 The average times spent processing a form for each pot were:

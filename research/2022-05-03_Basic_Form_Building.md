@@ -1,8 +1,27 @@
-# Basic form building
+# Usability testing: Basic form building
+
+2022-05-03 / Sprint 2
+
+## Aims
+To test basic form builder journeys, including:
+- Adding a short answer question 
+- Adding a date question 
+- Adding a numerical question 
+- Previewing a form
+- Reordering question logic
+
+## Users
+- Civil Servants
+- 4 users
+
+## Methodology
+- Usability Testing
 
 ## Key Headlines
 
-- The landing page: users were initially confused when arriving on the landing page and had a need to see a summary and preview of all the steps they needed to complete at this stage. This led to the idea of a ‘task list’ which outlines all the steps involved. Users felt that a drop down with relevant forms would be useful as not everyone in the organisation would know what a form was called.  
+- The landing page  
+  - users were initially confused when arriving on the landing page and had a need to see a summary and preview of all the steps they needed to complete at this stage. This led to the idea of a ‘task list’ which outlines all the steps involved.  
+  - Users felt that a drop down with relevant forms would be useful as not everyone in the organisation would know what a form was called   
 - Add a short answer question: there was some confusion as to what a ‘short’ and ‘long’ answer question was and this caused some hesitation - is a name a short question type or long?
 - Add a number question: fairly easy to complete but some users wanted a numerical field rather than an open text field so they cold control the information they were receiving
 - Previewing: some users were concerned that previewing a form would result them losing changes. This lea to the creation of the ‘save and preview’ button

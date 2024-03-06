@@ -1,4 +1,19 @@
-# Accessibility research
+# Accessibility testing: Form building
+
+2022-10-25 / Sprint 12
+
+## Aims
+- Test the task list: we have a new design to help users complete a form and make it live
+- Test question types: we have new designs for how users can select different answer types as well as the inclusion of radio buttons
+- Explore use of the preview pane by users with access needs
+- Understand more about what the experience of creating a form on GOV.UK Forms is like via a mobile device
+
+## Users
+- Members of the public with access needs
+- 6 users
+
+## Methodology
+- Usability Testing (Accessibility focus)
 
 ## Key Headlines
 

@@ -1,4 +1,24 @@
-# Basic Form Building
+# Usability testing: Basic Form Building
+
+2022-05-23 / Sprint 3
+
+## Aims
+To test basic form builder journeys, including:
+- Adding a short answer question (iterated user story)
+- Adding a date question (iterated user story)
+- Previewing a question (iterated user story)
+- Change the name of a form (new)
+- Change / edit the content of questions (new)
+- Change preview formatting (new)
+- Delete a question (new) 
+- Test a form (new)
+
+## Users
+- Civil Servants
+- 4
+
+## Methodology
+- Usability Testing
 
 ## Key Headlines
 

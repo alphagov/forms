@@ -1,4 +1,19 @@
-# Usability Testing: Draft / Live feature 
+# Usability testing: Draft / Live feature 
+
+2023-04-14 / Sprint 26
+
+## Aims
+To test the new designs for:
+- creating a new draft of a live form
+- preparing changes in a draft of a live form
+- making your changes live
+
+## Users
+- Civil Servants
+- 5 users
+
+## Methodology
+- Usability Testing
 
 ## Key Headlines 
 

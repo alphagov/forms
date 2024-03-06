@@ -1,5 +1,19 @@
 # Understanding mental models of document-based form creators with a specific focus on the multiple responses to a question question type
 
+2022-10-17 / Sprint 11, 12 and 13
+
+## Aims
+- To understand the mental models for document-based form creators when creating forms and authoring questions
+- To gather examples of language used by document-based form creators to describe the process of building a form, and different types of questions
+- To understand how document-based form creators approach questions collecting information about multiple things or people
+
+## Users
+- Civil Servants
+- 10 users
+
+## Methodology
+- User interviews, interactive activities / observation of activities
+
 ## Key Headlines
 
 - Form creators expect our online forms to be different to their document based forms, although they didn’t have strong expectations of what the form builder would be like.
