@@ -78,3 +78,11 @@ On the right side of the screen there is a secondary heading “Question preview
 
 Below the link is a smaller version of an empty GOV.UK service page within an iframe. It shows the GOV.UK logo on a black header. Within the body of the page is a disabled green ‘Continue’ button.
 
+### Feedback from this version
+
+- In this round we saw no more confusion or concern about ‘short version’ and why it was different to the ‘long version’
+- The move of the ‘hint text’ seemed to have little to no impact on users experience and ability to use it effectively
+- Users started using the in page preview pane (aside) more spontaneously checking how their questions might look, but it wasn’t immediately clear the value and to begin with users did still seem to be ignoring it 
+- 1 user wanted the preview to update as they typed
+- 1 user commented on expecting to be asked for the answer type earlier/further up the page - feeling that the ‘hint text’ was too high
+  > P1: ‘What kind of answer do you need to this question, I’d expect this to be higher up instead of the hint text’
