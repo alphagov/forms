@@ -2,9 +2,10 @@
 
 ## Context
 
-> Give a brief overview of
-> - what we wanted to test for example, user needs or design changes
-> - what tasks we gave to users
+With version 3 we tested with members of the public with access needs. This provided us with some valuable insight and formed our basis for version 4. 
+
+For this version we wanted to re-test the overall usability of creating a form from the start and then returning to make changes to an existing form. Based on previous rounds we decided to remove the ‘short version’ of a question and made the ‘hint text’ always visible.  
+We also went back slightly to previous ‘save’ buttons making them clearer the action the user would take when clicking one.  
 
 
 ## What we tested last time
@@ -37,11 +38,21 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 
 ### What we saw
 
-> Give a synopsis of the key findings from the round of research we tested this version.  
-> Include examples of found needs, pain points or quotes to help explain the findings. These do not have to be too detailed, as this should be covered in the research findings packs/decks - which can be linked to from here.
-
+- User was unsure whether the save button would move them to another page
+- Preview in a new tab caused a navigation challenge with getting out of the preview and back to form editing  
+- Some uncertainty around whether work had been saved when creating a question  
+- Some uncertainty as to what the preview pane did, particularly before users had saved a question and it had populated with their content  
+- Users often needed to consider answer type before they were able to write useful hint text, but the current interface asks for hint text first  
+- They are also not shown how the answer type will display in the preview pane until they have saved a question. Some users re-wrote their hint text after saving and previewing  
 
 ## What we changed and why
+
+- Removed the ‘short version’ input for a question. Users continued to query the need for it, and were unsure when or how they could use it. We decided that this is probably not needed as basic feature, and if we return to consider it in the future it may be a more ‘advanced’ feature
+- Made the ‘hint text’ question and input always visible - no longer in a ‘details’ component - meaning it is more prominent
+- Added more context to the ‘save’ buttons making them clearer what action each will take
+- Made the ‘save and add next question’ the main call to action when adding a new question to the end position in the form
+- Made the ‘save and edit next question’ the main call to action when editing a question within the form journey, not last
+- Secondary action button now saves the question reloading the page
 
 ![Edit question 1. Screenshot](../screenshots/004-Edit-question-1.png)
 *Page with “Question 1” caption above a heading “Edit question”.*
@@ -67,5 +78,3 @@ On the right side of the screen there is a secondary heading “Question preview
 
 Below the link is a smaller version of an empty GOV.UK service page within an iframe. It shows the GOV.UK logo on a black header. Within the body of the page is a disabled green ‘Continue’ button.
 
-> What changes did we decide to make in order to improve the user experience, and why do we think this will help.  
-> List any changes and the hypothesis behind them, or the problem they intend to solve.
