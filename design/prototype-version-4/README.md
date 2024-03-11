@@ -84,7 +84,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 
 #### What we changed from the previous version
 
-[Changes to the edit question page](page-detail/edit-question.md)
+[Changes to the ‘edit question’ page](edit-question)
 
 
 ### Edit question 2 - saved question
