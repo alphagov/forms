@@ -211,6 +211,9 @@ ___
 
 ## What we learned
 
+This round of testing saw a reduction in issues with creating and editing a question.  
+
+We continued to see problems when form creators were previewing their form in a new tab, with users being confused where they were and also changing ‘hats’ from form creator to form filler.  
 
 ### User research documentation
 
@@ -220,5 +223,8 @@ ___
 
 ## Opportunities
 
+No major opportunities were identified this version.  
+
+We have some potential issues and future iterations we think may be worth exploring next, but believe we are at a point where we can start implementing parts of the form creation journey.   
 
 [Back to the top](#prototype-version-4)
