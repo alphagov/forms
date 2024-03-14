@@ -196,11 +196,11 @@ There is a new visually recessive ‘watermark’ “DRAFT” across the backgro
 ![Preview check your answers page. Screenshot](screenshots/103-Preview-Check-your-answers.png)
 *Page with “Check your answers” heading followed by a summary list component.*
 
-The summary list component lists rows of the “Short version” of the questions the form creator has added with a space to the right where the form fillers answer would appear. Finally there is a “Change” link for the form filler to correct or change any answer they feel is incorrect.
+The summary list component lists rows of the full questions of the form. There is a space to the right where the form fillers answer would appear, which has placeholder text “Not completed”. Finally there is a “Change” link for the form filler to correct or change any answer they feel is incorrect.
 
 Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button. The text of the declaration is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department.
 
-There is a new visually recessive ‘watermark’ “DRAFT” across the background of the page.  
+There is a new visually recessive ‘watermark’ “DRAFT” which strecthes across the background of the page.  
 
 ### Preview form submitted (confirmation page)
 
@@ -209,6 +209,6 @@ There is a new visually recessive ‘watermark’ “DRAFT” across the backgro
 
 This page includes a secondary heading “What happens next” followed by the content “We’ve sent you an email to confirm we have received your form.” This text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department and should match their internal service level agreements (SLAs).
 
-There is a new visually recessive ‘watermark’ “DRAFT” across the background of the page.  
+There is a new visually recessive ‘watermark’ “DRAFT” across the background of the page mostly hidden behind the green success panel.  
 
 [Back to the top](#prototype-version-5)
