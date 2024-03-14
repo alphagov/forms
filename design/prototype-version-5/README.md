@@ -158,6 +158,15 @@ ___
 
 ## Some things we changed since last time
 
+For version 5 of the prototype a feature flag was added to re-instate a ‘number’ answer type to the ‘edit question’ page. This was used as part of the CSL demonstration session the team did. 
+
+To try and reduce the ‘hat’ confusion we saw form creators have going between the form creation journey and the form preview journey we added:
+
+- a new ‘draft’ watermark to all the preview screens
+- ‘preview’ to the tab title and as hidden text after the page heading (H1)
+
+We plan to test these going forward.  
+
 For more information, see [v0.0.5 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.5).
 
 ___
@@ -172,12 +181,15 @@ Below are the screens the form filler (the end user) would see as they complete 
 ![Preview What is your name question page. Screenshot](screenshots/101-Preview-question-1.png)
 *Page with “What is your name?” question as a label for a text input. There is a green “Continue” button at the bottom.*
 
+There is a new visually recessive ‘watermark’ “DRAFT” across the background of the page.  
+
 
 ### Preview final question
 
 ![Preview What is your National Insurance number question page. Screenshot](screenshots/102-Preview-final-question.png)
 *Page with “What is your National Insurance number?” question as a label for a text input. There is a green “Check your answers” button at the bottom.*
 
+There is a new visually recessive ‘watermark’ “DRAFT” across the background of the page.  
 
 ### Preview check your answers (summary page)
 
@@ -188,6 +200,7 @@ The summary list component lists rows of the “Short version” of the question
 
 Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button. The text of the declaration is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department.
 
+There is a new visually recessive ‘watermark’ “DRAFT” across the background of the page.  
 
 ### Preview form submitted (confirmation page)
 
@@ -196,5 +209,6 @@ Below is a secondary heading, “Declaration”, before the text “By submittin
 
 This page includes a secondary heading “What happens next” followed by the content “We’ve sent you an email to confirm we have received your form.” This text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department and should match their internal service level agreements (SLAs).
 
+There is a new visually recessive ‘watermark’ “DRAFT” across the background of the page.  
 
 [Back to the top](#prototype-version-5)
