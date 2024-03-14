@@ -12,9 +12,8 @@ ___
 
 - [Context](#context)
 - [Admin interface screenshots](#admin-interface-screenshots)
+- [Some things we changed since last time](#some-things-we-changed-since-last-time)
 - [Form runner screenshots](#form-runner-screenshots)
-- [What we learned](#what-we-learned)
-- [Opportunites](#opportunities)
 
 ___
 
