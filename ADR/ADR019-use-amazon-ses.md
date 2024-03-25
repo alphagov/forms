@@ -54,4 +54,4 @@ Use [Amazon SES](https://aws.amazon.com/ses/) directly instead of GOV.UK Notify 
 * A `from` email address needs to be chosen and DNS needs to be configured by following the guidance to [Set up government email services securely
 ](https://www.gov.uk/guidance/set-up-government-email-services-securely)
 * An email template will need to be created
-* GOV.UK Forms doesn't yet send email confirmations to members of the public who have completed forms. If / when this functionality is added, we need to decide if GOV.UK Notify is the most appropriate option.
+* GOV.UK Forms now sends email confirmations to members of the public who have completed forms. At the moment this uses GOV.UK Notify as the most appropriate option.
