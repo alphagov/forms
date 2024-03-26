@@ -159,7 +159,7 @@ ___
 
 For version 5 of the prototype a feature flag was added to re-instate a ‘number’ answer type to the ‘edit question’ page. This was used as part of the CSL demonstration session the team did. 
 
-To try and reduce the ‘hat’ confusion we saw form creators have going between the form creation journey and the form preview journey we added:
+To try and reduce the ‘hat’ confusion we saw form creators experiencing when going between the form creation journey and the form preview journey, we added:
 
 - a new ‘draft’ watermark to all the preview screens
 - ‘preview’ to the tab title and as hidden text after the page heading (H1)
@@ -180,7 +180,7 @@ Below are the screens the form filler (the end user) would see as they complete 
 ![Preview What is your name question page. Screenshot](screenshots/101-Preview-question-1.png)
 *Page with “What is your name?” question as a label for a text input. There is a green “Continue” button at the bottom.*
 
-There is a new visually recessive ‘watermark’ “DRAFT” across the background of the page.  
+There is a new visually recessive ‘watermark’ saying “DRAFT” across the background of the page.  
 
 
 ### Preview final question
@@ -188,18 +188,18 @@ There is a new visually recessive ‘watermark’ “DRAFT” across the backgro
 ![Preview What is your National Insurance number question page. Screenshot](screenshots/102-Preview-final-question.png)
 *Page with “What is your National Insurance number?” question as a label for a text input. There is a green “Check your answers” button at the bottom.*
 
-There is a new visually recessive ‘watermark’ “DRAFT” across the background of the page.  
+There is a new visually recessive ‘watermark’ saying “DRAFT” across the background of the page.  
 
 ### Preview check your answers (summary page)
 
 ![Preview check your answers page. Screenshot](screenshots/103-Preview-Check-your-answers.png)
 *Page with “Check your answers” heading followed by a summary list component.*
 
-The summary list component lists rows of the full questions of the form. There is a space to the right where the form fillers answer would appear, which has placeholder text “Not completed”. Finally there is a “Change” link for the form filler to correct or change any answer they feel is incorrect.
+The summary list component lists rows showing the form’s full questions. There is a space to the right where the form filler's answer would appear: this has placeholder text saying “Not completed”. Finally, there is a “Change” link for the form filler to correct or change any answer they feel is incorrect.
 
-Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button. The text of the declaration is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department.
+Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button. The text of the declaration is editable by the form creator within the admin side of the builder, meaning it can be customised to suit the needs of the different forms or department.
 
-There is a new visually recessive ‘watermark’ “DRAFT” which strecthes across the background of the page.  
+There is a new visually recessive ‘watermark’ saying “DRAFT” which stretches across the background of the page.  
 
 ### Preview form submitted (confirmation page)
 
@@ -208,6 +208,6 @@ There is a new visually recessive ‘watermark’ “DRAFT” which strecthes ac
 
 This page includes a secondary heading “What happens next” followed by the content “We’ve sent you an email to confirm we have received your form.” This text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department and should match their internal service level agreements (SLAs).
 
-There is a new visually recessive ‘watermark’ “DRAFT” across the background of the page mostly hidden behind the green success panel.  
+There is a new visually recessive ‘watermark’ saying “DRAFT” across the background of the page - this is mostly hidden behind the green success panel.  
 
 [Back to the top](#prototype-version-5)
