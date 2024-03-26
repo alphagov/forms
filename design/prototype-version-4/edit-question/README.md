@@ -83,7 +83,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 
 ### Feedback from this version
 
-- In this round we did not see any more confusion or concern about ‘short version’ and why it was different to the ‘long version’
+- In this round we no longer saw any confusion or concern about ‘short version’ and why it was different to the ‘long version’
 - Moving the ‘hint text’ seemed to have little to no impact on users' experience and ability to use it effectively
 - Users started using the in-page preview pane (aside) more spontaneously, checking how their questions might look. However, the value of this wasn’t immediately clear and to begin with users did still seem to be ignoring it 
 - One user wanted the preview to update as they typed
