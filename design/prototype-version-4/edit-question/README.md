@@ -54,7 +54,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 - Made the ‘hint text’ question and input always visible - no longer in a ‘details’ component - meaning it is more prominent
 - Added more context to the ‘save’ buttons making it clearer what action each will take
 - Made ‘save and add next question’ the main call to action when adding a new question to the end position in the form
-- Made ‘save and edit next question’ the main call to action when editing a question within the form journey, not last
+- Made ‘save and edit next question’ the main call to action when editing a question that is not the last question within the form journey
 - Secondary action button now saves the question reloading the page
 
 ![Edit question 1. Screenshot](../screenshots/004-Edit-question-1.png)
