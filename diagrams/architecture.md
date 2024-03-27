@@ -1,98 +1,78 @@
-# Architecture Diagram
-
-This diagram represents our most up to date view of the GOV.UK Forms architecture.
-
-Each box doesn't necessarily correspond to a different application running, but instead "components" that form part of the entire GOV.UK Forms platform (E.g. The designer/manager could be the same application, but are distinct components to talk about).
+# GOV.UK Forms Architecture
 
 ```mermaid
-graph
-  proposed[Proposed component]
-  proposedLater[Proposed for later in private beta]
-  existing(Existing system)
+---
+title: Form submission
+---
 
-  classDef futureComponent stroke-dasharray:3;
-  class proposedLater futureComponent
-```
+graph TD
 
-```mermaid
-flowchart
-  classDef subgraphPadding fill:none,stroke:none
-  classDef futureComponent stroke-dasharray:3;
+    classDef default fill:#fff,stroke:#333,stroke-width:2px;
 
-  subgraph github[Github]
-    alphagov/forms
-  end
+    classDef govuk fill:#1d70b8,stroke:#333,stroke-width:0px,color:#fff,text-align:left,font:arial;
+    classDef forms fill:#000,stroke:#333,stroke-width:5px,color:#fff,font-size:28px;
+    classDef notify fill:#000,stroke:#000,stroke-width:1px,color:#fff;
+    classDef pay fill:#000,stroke:#000,stroke-width:1px,color:#fff;
 
-  subgraph monitoring[Monitoring services]
-    logit(Logit)
-    splunk(Splunk)
-    sentry(Sentry)
-  end
+    %%classDef gds fill:#fff,stroke:#333,stroke-width:1px,color:#888,padding:10px,font-size:28px;
+    classDef org fill:#fe6,stroke:#fc3,stroke-width:5px,color:#000,padding:10px,font-size:20px;
 
-  subgraph paas[GOV.UK PaaS]
-    subgraph paasPadding[ ]
-      subgraph paasForms[GOV.UK Forms]
-        subgraph paasFormsPadding[ ]
-          subgraph internal["Internal Users (Government Departments)"]
-            authorisation[Authorisation]
-            authentication[Authentication]
-            manager[Forms manager]
-            designer[Forms designer]
-            api[Forms persistence API]
-            formDb[(Form data)]
-            userDb[(User data)]
+    classDef user fill:#dfd,stroke:#333,stroke-width:3px,color:#000;
 
-            manager --> api
-            designer --> api
-            api --> formDb
-            manager --> userDb
-            authorisation --> manager
-            authorisation --> designer
-            authentication --> manager
-            authentication --> designer
-          end
-          
-          subgraph external["External Users (Members of the public)"]
-            runner[Form runner]
-            submitter[Form submitter]
-            userSessions[(User session data)]
-            fileUpload[Form file upload]
+    classDef optional stroke-dasharray: 10 5;
 
-            runner --> userSessions
-            runner --> submitter
-            class fileUpload futureComponent
-          end
+    user((form<br>completer))
 
-          events[Events collector]
-          api --> runner
-        end
-      end
+    %% subgraph gds [Government Digital Service]
+        %% gov.uk[GOV.UK]
+        gov.uk[GOV.UK
+        <font color=#d2e2f1>The best place to find
+        government services
+        and information</font>]
+        forms[GOV.UK Forms]
+        notify[GOV.UK Notify]
+        pay[GOV.UK Pay]
+    %% end
+
+    class gov.uk govuk
+    class forms forms
+    class notify notify
+    class pay pay
+    class gds gds
+
+
+    subgraph org [Organisation]
+        inbox[team<br>email<br/>inbox]
+        case[Case<br>Management<br>System]
+        %%rpa[Robotic<br/>Process<br/>Automation]
+        integration([system integration])
+
+        processor((form<br>processor))
+
+        integration -..-> case
+        inbox --> processor --> case
+        %%inbox-.->rpa-.->case
+        
     end
-  end
+    
+    class org org
 
-  subgraph dependencies[External dependencies]
-    pay(GOV.UK Pay)
-    places(OS Places API)
-    signin(GOV.UK Sign In)
-  end
+    confirmation[/confirmation<br/>email/]
+    email[/submitted<br/>form/]
+    data[/structured<br/>data/]
 
-  notify(GOV.UK Notify)
-  formUser{{Form user}}
-  formProcessor{{Form processor}}
-  adapter(Adapter)
-  existingApi(Existing API)
+class integration,data optional
 
-  submitter --> notify
-  notify --> formUser
-  notify --> formProcessor
-  submitter --> adapter
-  adapter --> existingApi
-  runner -.-> dependencies
+    user -- browse --> gov.uk -- links to --> forms --> notify -. optional .-> confirmation -.-> user
 
-  github --"CI/CD"--> paasForms
-  paasForms --> monitoring
+    notify --> email --> inbox
 
-  class paasPadding subgraphPadding
-  class paasFormsPadding subgraphPadding
-  class adapter futureComponent
+    
+
+    forms -. being investigated .-> data  -.-> integration
+
+    forms -. optional link to .-> pay
+
+    class user,processor user
+
 ```
