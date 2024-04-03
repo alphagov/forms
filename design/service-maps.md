@@ -1,22 +1,38 @@
-# Design documentation
+# Service maps
 
-We use this part of the GOV.UK Forms repo to record design work and decisions we’ve made.  
+This document gives details and links to service maps we have created over time during the GOV.UK Forms design process.  
 
-You can explore our initial versions of GOV.UK Forms, the prototypes we tested, and new features as they’ve been iterated and adapted based on user research, data and new design patterns.  
+What is a service map, sometimes called a service blueprint:
 
-## Prototype version history
+“A service blueprint is a diagram that visualizes the relationships between different service components — people, props (physical or digital evidence), and processes — that are directly tied to touchpoints in a specific customer journey." [Source Nielsen Norman Group](https://www.nngroup.com/articles/service-blueprints-definition/)
 
-At the start of alpha we explored the wider product, focusing on quick iterations across whole journeys. This helped us get a clearer picture of our minimum viable product (MVP) so we could baseline where we wanted to start work from.  
+In GOV.UK Forms, we create service maps to visually represent users’ journeys and their interactions with the platfrom as they create forms. The maps are designed for a specific purpose and therefore contain varying levels of detail and information also depending on the product's phase at the time of creation. 
 
-* [Prototype version 1](prototype-version-1)
-* [Prototype version 2](prototype-version-2)
-* [Prototype version 3](prototype-version-3)
-* [Prototype version 4](prototype-version-4)
-* [Prototype version 5](prototype-version-5)
-* [Prototype version 6](prototype-version-6)
+## Collecting data journey map
 
-## Features
 
-Once we had a baseline that worked for form creators we shifted focus onto key features. The aim was to help align GOV.UK Forms with the key functionality that would help form creators make more of their forms with our product. We used the team’s analysis of feature coverage of forms across GOV.UK to help us priorititse this work. 
+Last updated 
 
-You can explore the [features](features) as we’ve designed them and see how they’ve been iterated based on user research and feedback through private beta and ‘early access’. ('Early access' is the period in which we’re encouraging people to try out GOV.UK Forms to see if it’s suitable for them). 
+Link to the map on mural 
+
+## Collecting data journey map
+About the map and its purpose
+
+Last updated 
+
+Link to the map on mural 
+
+## Collecting data journey map
+About the map and its purpose
+
+Last updated 
+
+
+Link to the map on mural 
+
+
+
+## Collecting data journey map
+<p>About the map and its purpose
+<p>Last updated 
+<p>Link to the map on mural
