@@ -4,7 +4,7 @@ This gives details and links to service maps we have created during the GOV.UK F
 
 A service map, sometimes called a service blueprint, is “a diagram that visualizes the relationships between different service components — people, props (physical or digital evidence), and processes — that are directly tied to touchpoints in a specific customer journey." [Source Nielsen Norman Group](https://www.nngroup.com/articles/service-blueprints-definition/)
 
-GOV.UK Forms service maps visually represent users’ journeys and their interactions with the platform as they create forms. The maps have different levelw of detail and information depending on the specific purpose they’re created for and the product’s phase at the time of creation. 
+GOV.UK Forms service maps visually represent users’ journeys and their interactions with the platform as they create forms. The maps have different levels of detail and information depending on the specific purpose they’re created for and the product’s phase at the time of creation. 
 
 ## Collecting data journey map - from early alpha
 Early in the alpha phase, we created a process map to show the journey a service team takes to create a form to collect data, and the various people who would be involved in each step.
