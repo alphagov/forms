@@ -9,7 +9,7 @@ The diagrams in this folder (created using [Mermaid](https://docs.github.com/en/
 ```mermaid
 graph TD
     subgraph users
-        super_admin((Super Admin))
+        super_admin((GOV.UK Forms<br/>Team<br/><br/>Super Admin))
         creator((form creator))
         content((content designer))
         user((Person filling in a form))
@@ -17,9 +17,10 @@ graph TD
     end
 
     auth0(Auth0)
+    sso(Google Workspace)
     govuk(GOV.UK website)
 
-    super_admin --- auth0
+    super_admin --- sso --- auth0
     creator --- auth0
     content --- govuk
 
@@ -29,15 +30,22 @@ graph TD
         runner(forms-runner)
     end
 
+    creator---runner
+
     auth0 --- admin --- api
     user --- govuk
     user --- runner --- api
 
     notify(GOV.UK Notify)
-    inbox(shared email inbox)
 
-    runner --- notify
-    processor --- inbox --- notify
+    pay(GOV.UK Pay)
+    user -.- pay -.- runner
+
+    user -.- notify
+    notify --- runner
+    processor --- notify
+
+
 ```
 
 ## Links to Sequence Diagrams
