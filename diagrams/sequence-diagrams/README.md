@@ -4,6 +4,8 @@
 
 The diagrams in this folder (created using [Mermaid](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams)) show the interactions between users and GOV.UK Forms, including the 3 applications [forms-admin](https://github.com/alphagov/forms-admin), [forms-api](https://github.com/alphagov/forms-api), and [forms-runner](https://github.com/alphagov/forms-runner).
 
+The diagram below is to provide an overview of the different users and systems that interact with each other. For clarity, not all interactions are shown. Please refer to individual sequence diagrams for detailed interactions.
+
 ## High Level Architecture of GOV.UK Forms
 
 ```mermaid
