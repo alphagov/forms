@@ -12,9 +12,9 @@ The diagram below is to provide an overview of the different users and systems t
 graph TD
     subgraph users
         super_admin((GOV.UK Forms<br/>Team<br/><br/>Super Admin))
-        creator((form creator))
+        editor((form editor))
         content((content designer))
-        user((Person filling in a form))
+        filler((Person filling in a form))
         processor((form processor))
     end
 
@@ -23,7 +23,7 @@ graph TD
     govuk(GOV.UK website)
 
     super_admin --- sso --- auth0
-    creator --- auth0
+    editor --- auth0
     content --- govuk
 
     subgraph sg1 [GOV.UK Forms]
@@ -32,18 +32,18 @@ graph TD
         runner(forms-runner)
     end
 
-    creator---runner
+    editor---runner
 
     auth0 --- admin --- api
-    user --- govuk
-    user --- runner --- api
+    filler --- govuk
+    filler --- runner --- api
 
     notify(GOV.UK Notify)
 
     pay(GOV.UK Pay)
-    user -.- pay -.- runner
+    filler -.- pay -.- runner
 
-    user -.- notify
+    filler -.- notify
     notify --- runner
     processor --- notify
 
