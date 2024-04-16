@@ -1,0 +1,31 @@
+# Usability testing: User Managment
+
+## 2024-04-16 / Sprints 49-50
+
+## Aims
+Test user management designs with various users.
+- Do users understand the model for managing users, groups and forms?
+- Does the interface clearly communicate this model to them?
+- Does the model meet their needs for managing users and forms?
+
+## Users
+- Civil Servants
+- 6 organisation admins, 2 group admins
+
+## Methodology
+- Usability Testing
+
+## Key Headlines 
+- The model came across clearly to participants from using and exploring the tool.
+- Most of the assumptions they developed were correct, and the only areas of ambiguity were on very specific details.
+- Few participants saw people outside UCD roles creating forms. Central UCD teams want to have control of form creation from the start to ensure only forms that are fit for purpose and high quality are created and made live.
+- People saw groups as primarily a way of organising forms in similar topic areas or categories. Permissions at group level were seen as secondary.
+- With people seeing groups primarily for organisation, reorganisation is important and that requires the ability to move items around the system. Moving forms between groups came up regularly.
+- Participants wanted control of the publication of forms at the form level, and the ability to run a 2i style process around publishing a form.
+- There are differences in the mental models people had for how they want to organise and work with forms and how the features are implemented.
+- Participants were confident that the features could support them to work in the way they wanted to, but this would require some thinking through in some cases to map their needs to the feature.
+
+## Supporting Evidence
+- [Report](https://docs.google.com/presentation/d/1_zEEa2xm1VU2ekWNPktspRpvi9rOEgYQSkzbOJ8hibs/)
+- [Playback](https://drive.google.com/file/d/1Iazd_x0sdwYnFRtR9FGd4mrVbNeJBFge/view?usp=drive_link)
+- [Further documentation](https://drive.google.com/drive/folders/16430JQKnHiLmRSx_uI-_a6RpKDkVqDNk)
