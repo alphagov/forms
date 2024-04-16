@@ -1,0 +1,31 @@
+# Usability testing: User management
+
+## 2024-04-16 / Sprints 49 to 50
+
+## Aims
+Test user management designs with various users:
+- Do users understand the model for managing users, groups and forms?
+- Does the interface clearly communicate this model to them?
+- Does the model meet their needs for managing users and forms?
+
+## Users
+- Civil servants
+- 6 organisation admins, 2 group admins
+
+## Methodology
+- Usability testing
+
+## Key findings 
+- The model came across clearly to participants from using and exploring the tool.
+- Most of their assumptions were correct, and the only areas of ambiguity were about very specific details.
+- Few participants saw people outside user-centred design (UCD) roles creating forms. Central UCD teams want to have control of form creation from the start - this is to ensure that only forms that are fit for purpose and high quality are created and made live.
+- People saw groups as mainly a way of organising forms in similar topic areas or categories. Permissions at group level were seen as secondary.
+- As people see groups as being useful mainly for organising forms, being able to reorganise them is important. That requires the ability to move items around the system. A desire to move forms between groups came up regularly.
+- Participants wanted control of publishing forms at form level, and the ability to run a 2i-style process around publishing a form.
+- There are differences in the mental models people had for how they want to organise and work with forms and how the features are implemented.
+- Participants were confident that the features could support them to work in the way they wanted to. However, in some cases this would require some thinking through in order to map their needs to the feature.
+
+## Supporting evidence
+- [Report](https://docs.google.com/presentation/d/1_zEEa2xm1VU2ekWNPktspRpvi9rOEgYQSkzbOJ8hibs/)
+- [Playback](https://drive.google.com/file/d/1Iazd_x0sdwYnFRtR9FGd4mrVbNeJBFge/view?usp=drive_link)
+- [Further documentation](https://drive.google.com/drive/folders/16430JQKnHiLmRSx_uI-_a6RpKDkVqDNk)
