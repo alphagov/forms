@@ -25,16 +25,14 @@ ___
 
 ## What
 -‘Groups’ will give departments more granular control over who has access to groups of forms - and what permissions they have.
-
 -This will also help move us towards a model that requires less manual intervention from the adoption team.
-
 -This work is important in terms of scaling up our product.
 
 <br>
 
 ## Problems we tried to solve
-* 
-* 
+* With the current process, anyone can create a form and make it live. Other departments have told us that they need a control over who has access to forms and what it is being published. 
+* In order to scale up our service, the Forms team also need to create a self service model to help free up some of the adoption team's capacity. 
 
 <br>
 
