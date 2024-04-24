@@ -26,7 +26,7 @@ ___
 ## What
 -‘Groups’ will give departments more granular control over who has access to groups of forms - and what permissions they have.
 
-- This will also help move us towards a model that requires less manual intervention from the adoption team.
+-This will also help move us towards a model that requires less manual intervention from the adoption team.
 
 -This work is important in terms of scaling up our product.
 
@@ -39,9 +39,11 @@ ___
 <br>
 
 ## User needs 
- * As someone
- * As an organisation admin
-
+ * As an organisation admin I need to know and control who has access to which forms in my organisation.
+ * As a group admin I need to create and edit a form and be able to publish it on GOV.UK
+ * As a group admin I need to know which forms are being created and by who
+ * As an editor I need to edit forms
+ * As a super admin I need to be able to see all the forms created different departments. 
 <br>
 
 
