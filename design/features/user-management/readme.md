@@ -5,7 +5,7 @@
 Date created: *2024-04-18*  
 
 - [Trello card](https://trello.com/c/m4pPEZmT/1280-epic-user-management-allow-accounts-to-be-upgraded-and-mous-to-be-signed?filter=member:hazalarpalikli2 "Trello card")
-- [Mural working board] (https://app.mural.co/t/gaap0347/m/gaap0347/1691659258399/af093136c3f86be05860120cb92d6810e98f3643?sender=u61ceb93b0f861033ca7c7448 "Mural working board")
+- [Mural working board](https://app.mural.co/t/gaap0347/m/gaap0347/1691659258399/af093136c3f86be05860120cb92d6810e98f3643?sender=u61ceb93b0f861033ca7c7448 "Mural working board")
 
 ___
 
