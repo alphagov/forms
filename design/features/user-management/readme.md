@@ -24,6 +24,9 @@ ___
 <br>
 
 ## What
+We are propsing a new user management model made out of 3 main user types. These are organisation admins, super admins and standard users (group admins & editors. We are also keeping the trial accounts. 
+
+With this new journey we are proposing these:
 -‘Groups’ will give departments more granular control over who has access to groups of forms - and what permissions they have.
 -This will also help move us towards a model that requires less manual intervention from the adoption team.
 -This work is important in terms of scaling up our product.
