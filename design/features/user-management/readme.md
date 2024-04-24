@@ -65,7 +65,16 @@ The prototype can be found here: [https://forms-prototypes-pr-201.herokuapp.com/
 <br>
 
 ## Outcome 
-* 
+* User research told us that the model came across clearly to participants from using and exploring the tool.
+* Most of the assumptions they developed were correct, and the only areas of ambiguity were on very specific details.
+* Central UCD teams want to have control of form creation from the start to ensure only forms that are fit for purpose and high quality are created and made live.
+* People saw groups as primarily a way of organising forms in similar topic areas or categories. Permissions at group level were seen as secondary.
+* Participants wanted control of the publication of forms at the form level, and the ability to run a 2i style process around publishing a form.
+* Participants were confident that the features could support them to work in the way they wanted to, but this would require some thinking through in some cases to map their needs to the feature.
+
+
+
+Research link: https://docs.google.com/presentation/d/1_zEEa2xm1VU2ekWNPktspRpvi9rOEgYQSkzbOJ8hibs/edit#slide=id.g2cb8f0e5c8b_0_33 
 
 <br>
 
