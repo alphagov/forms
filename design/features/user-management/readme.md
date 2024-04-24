@@ -24,7 +24,11 @@ ___
 <br>
 
 ## What
+-‘Groups’ will give departments more granular control over who has access to groups of forms - and what permissions they have.
 
+- This will also help move us towards a model that requires less manual intervention from the adoption team.
+
+-This work is important in terms of scaling up our product.
 
 <br>
 
