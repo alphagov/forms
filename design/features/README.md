@@ -10,7 +10,7 @@ This feature introduces new functionality to the form filler’s journey, allowi
 ### [Add guidance to help people answer the question (‘detailed guidance’)](detailed-guidance)  
 This feature introduces new functionality to the form building tool, allowing form creators to add more complex help text to a question page. This ‘guidance’ text will appear above the question, on the same page.
 
-### [‘Early access’ journey](early-access)  
+### [Early access journey](early-access)  
 This journey is designed to allow people to create a trial account and request an upgrade to an editor account - so they can make live forms to be published on GOV.UK.
 
 ### [Editing pages when looking at a preview of a form](editing-drafts)  
@@ -28,3 +28,5 @@ This feature introduces a clear and quick way to help form creators understand w
 ### [Simple routing logic (skip questions)](routing)  
 This feature introduces new functionality to the form building tool to help form creators create simple skip logic for questions. This means you can skip someone to a later question in a form based on their response to a question where they have to select one answer from a list.
 
+### [User management journey](user-management)  
+This journey enables other departments having more control over who creates and publishes forms. 
