@@ -47,6 +47,9 @@ With this new journey we are proposing these:
  * As a super admin I need to be able to see all the forms created different departments. 
 <br>
 
+* As a form owner, I need to control who on the team can create, edit, and make a form live so that the risk of incorrect forms being published is reduced.
+* As a content or publisher in my organisation, I need to know and control who has access and can create forms on GOV.UK Forms in my organisation, so that I can review and ensure UCD practices in form creation are being followed 
+
 
 ## Changes
  
