@@ -32,6 +32,8 @@ This feature introduces new functionality to the form building tool to allow for
 **As a form filler**, I need to be able to pay, so that I can get the outcome in a timely manner.  
 **As a form filler**, I need to clearly know what to do next after completing the form, so I don’t waste effort.  
 **As a form filler**, I need to get a confirmation that my payment has been received.  
+**As a form filler**, I need a copy of the payment confirmation, so I have proof that I've completed what I needed to and don’t have any issues proving this later on.  
+**As a form filler**, I need to know what part of the process I’m doing, so that I know I’m doing the right thing.  
 
 **As a form processor**, I need to be able to reconcile who has filled a form and who has paid.  
 
