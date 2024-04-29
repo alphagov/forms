@@ -27,20 +27,13 @@ This feature introduces new functionality to the form building tool to allow for
 ### User stories  
 
 **As a form creator**, I need to request payment, so that I can provide the service to the form filler.  
-
 **As a form creator**, I need to know how to set up payments, so I can take the relevant steps.   
-
-<br>
 
 **As a form filler**, I need to be able to pay, so that I can get the outcome in a timely manner.  
 **As a form filler**, I need to clearly know what to do next after completing the form, so I don’t waste effort.  
 **As a form filler**, I need to get a confirmation that my payment has been received.  
 
-<br>
-
 **As a form processor**, I need to be able to reconcile who has filled a form and who has paid.  
-
-<br>
 
 **As a department**, I need to collect the money owed for the services we provide, so we can cover costs of running an effective service (and clear our debt).  
 **As a department**, I need to know when to set up a Pay account and how to do it, so it is in place by the time we need it.  
