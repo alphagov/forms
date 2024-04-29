@@ -1,4 +1,4 @@
-# Payment links
+# Add a payment link
 
 ## Status
 
@@ -10,7 +10,7 @@ ___
 
 ## Contents  
 
-- [Payment links](#payment-links)
+- [Add a payment link](#add-a-payment-link)
   - [Status](#status)
   - [Contents](#contents)
   - [What](#what)
@@ -42,4 +42,4 @@ ___
 
 <br> 
 
-[Back to the top](#payment-links)
+[Back to the top](#add-a-payment-link)
