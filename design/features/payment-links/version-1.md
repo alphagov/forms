@@ -19,8 +19,6 @@ ___
 
 ___
 
-<br>
-
 ## What
 
 ### As-is
@@ -33,6 +31,7 @@ ___
 - Form creators can add payment links they have created via GOV.UK Pay
 - GOV.UK Forms will handle the journey to make it consistent across forms - this means payments are taken after the form has been submitted (this aligns us with MoJ Forms, and means we don’t need to wait or worry about any work or timelines of the GOV.UK Pay team)  
 
+___
 
 ## Key decisions
 
@@ -50,11 +49,60 @@ ___
   - using the blue banner with content “You still need to pay” to make it clear to form fillers that they have not finished yet  
   - we will include a clear call to action on this new confirmation screen to make a payment  
 
-<br>
+___
 
 ## Designs
 
-### screens
+### Create a form - new ‘optional tasks’ section
+
+![Create a form task list page showing new ‘optional’ task to “Add a link to a payment page on GOV.UK Pay”. Screenshot](./screenshots-v1/001-create-a-form-optional-task.png)
+
+
+### Add a link to a payment page on GOV.UK Pay
+
+![Add a link to a payment page on GOV.UK Pay page showing guidance to help form creators set up a payment link. Screenshot](./screenshots-v1/002-add-a-link-to-a-payment-page-on-govuk-pay.png)
+
+
+#### Add a link error summary
+
+![“There is a problem” error summary notification. Screenshot](./screenshots-v1/002-add-a-link-to-a-payment-page-on-govuk-pay-error-summary.png)
+*The error message that is linked to the input says “Enter a link in the correct format, like https​://www.gov.uk/payments/organisation/service”*  
+
+### Create a form - payment link added
+
+![Create a form task list page showing green “Your payment link has been saved” success notification at the top. Screenshot](./screenshots-v1/003-create-a-form-added-payment-link.png)
+
+
+#### Payment link successfully added notification
+
+![“Your payment link has been saved” success notification. Screenshot](./screenshots-v1/003-success-notification.png)
+
+
+### Create a form - landing on the task list page that already has a payment link  
+
+![Create a form task list page showing “Add a link to a payment page on GOV.UK Pay” marked as ‘completed’. Screenshot](./screenshots-v1/004-create-a-form-return.png)
+
+
+___
+
+## Preveiwing the form fillers journey
+
+### Confirmation screen preview 
+
+![You still need to pay heading inside a blue box replacing the usual green confirmaiton box. Screenshot](./screenshots-v1/1000-preview-confirmation-still-need-to-pay.png)
+
+
+### Confirmation email   
+
+![Email inbox showing an test email confirming submission that form fillers would receive. Screenshot](./screenshots-v1/1002-preview-test-email-with-payment-link.png)
+
+
+### Example of a GOV.UK Pay payment link start page   
+
+This is an example of a GOV.UK Pay start page. It shows what the form filler would see when they click through to make a payment. 
+In this example it shows the service name, “Apply for a licence”, the task or name of the payment as set in GOV.UK Pay, “Pay for a parking permit”. There is no additional content added, but this can be done as part of setting up the payment link within GOV.UK Pay. There is a ‘continue’ button call to action to take the form filler into their payment journey.  
+
+![Pay for a parking permit headed page with a green ‘continue’ button. Screenshot](./screenshots-v1/1001-preview-journey.png)
 
 
 ### Notes
@@ -62,8 +110,6 @@ ___
 - 
 
 ___
-
-<br>
 
 ## Research focus
 
