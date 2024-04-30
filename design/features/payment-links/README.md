@@ -21,7 +21,7 @@ ___
 
 ## What  
 
-This feature introduces new functionality to the form building tool to allow form creators to take a payment for their service. This means that form fillers can pay for the service making things quicker and easier to get the outcome they want.  
+This feature introduces new functionality to the form building tool to allow form creators to take a payment for their service. This way of taking payments is utilising the [payment page](https://payments.service.gov.uk/govuk-payment-pages/), or payment link, feature developed by GOV.UK Pay. This feature allows form fillers to pay for the service after submitting their form, making it quicker and easier to get the outcome they need.  
 
 
 ### User stories  
@@ -43,11 +43,13 @@ This feature introduces new functionality to the form building tool to allow for
 
 ## Why  
 
-When users fill in a form... 
+When users fill in a form they may often be asked for a payment for the service. This can be as a Bacs (Bankers Automated Clearing System) payment, cheque or may be followed up with a link or phone call to request payment. This can make the process take longer meaning the user doesn’t receive an answer or outcome in a timely manner. This process can also mean more work for internal staff as they may need to chase for payment or make follow up calls before they can proceed.  
+
+Introducing payment links to the GOV.UK Forms tool allows us to meet the needs of more forms that require payments, reducing the manual process for staff. Allowing form creators to add a link that can be quickly generated using GOV.UK Pay reduces the complexity of implementation for form creators, and reduces the need for technical knowledge or special guidance within the Forms platform.   
 
 ## Hypothesis  
 
-We believe... 
+We believe that by offering the option to add a payment link to a form we can cater for more forms, helping us meet the needs of form owners to digitise their forms reducing the ‘long tail’ of online document-based forms.  
 
 ___
 
