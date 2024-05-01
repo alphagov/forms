@@ -57,6 +57,19 @@ ___
 
 ![Create a form task list page showing new ‘optional’ task to “Add a link to a payment page on GOV.UK Pay”. Screenshot](./screenshots-v1/001-create-a-form-optional-task.png)
 
+As part of the journey designs we explored how best to include a new task for payment links. Whether this should be within the ‘what happens next’ information task, a new task as part of the first section on the “create a form” task list or as a new section all together.  
+
+For this version we wanted to make it clear that this new task was ‘optional’ while allowing room for expansion later. Due to this we introduced a new heading within the first “Create your form” section. We also left the total number of ‘completed tasks’ the same, totalling ‘9’. We believe this will help remove the confusion, or ambiguity, of whether a payment link needs to be added to a form to make it live.    
+
+The task list has section “1. Create your form” with the same four tasks: 
+
+- “Edit the name of your form”
+- “Add and edit your questions”
+- “Add a declaration for people to agree to”
+- “Add information about what happens next”
+
+Below this summary list of tasks is the new heading level 3, “Optional tasks”. This heading is followed by a summary list with a single item to “Add a link to a payment page on GOV.UK Pay”. This row has a grey tag with the word “Optional” in it. We decided that this task could only ever be in one of two state; ‘Optional’ or ‘Completed’.  
+
 
 ### Add a link to a payment page on GOV.UK Pay
 
