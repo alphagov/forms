@@ -117,14 +117,14 @@ The next section “How this will work for people filling in your form” gives 
 >
 > The reference number, payment link and ‘what happens next’ information will also be included in a confirmation email for form fillers - if they choose to receive this.
 
-Finally the page ends with a text input labelled “Enter the URL of your GOV.UK Pay payment link”, giving the hint text “For example, https://\gov.uk/payments/your-payment-link” to help form creators find the correct link format for their payment link that they need to share with GOV.UK Forms.  
+Finally the page ends with a text input labelled “Enter the URL of your GOV.UK Pay payment link”, giving the hint text “For example, https://gov.uk/payments/your-payment-link” to help form creators find the correct link format for their payment link that they need to share with GOV.UK Forms.  
 
 Finally there’s a green “Save and continue” button taking the form creator back to the “Create a form” task list page.  
 
 #### Add a link error summary
 
 ![“There is a problem” error summary notification. Screenshot](./screenshots-v1/002-add-a-link-to-a-payment-page-on-govuk-pay-error-summary.png)
-*The error message that is linked to the input says “Enter a link in the correct format, like https​://\www.gov.uk/payments/organisation/service”*  
+*The error message that is linked to the input says “Enter a link in the correct format, like https​://www.gov.uk/payments/organisation/service”*  
 
 ### Create a form - payment link added
 
