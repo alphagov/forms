@@ -149,7 +149,17 @@ ___
 
 ### Confirmation screen preview 
 
-![“You still need to pay” heading inside a blue box replacing the usual green confirmaiton box. Screenshot](./screenshots-v1/1000-preview-confirmation-still-need-to-pay.png)
+![“You still need to pay” heading inside a blue box replacing the usual green confirmaiton box. Screenshot](./screenshots-v1/1000-preview-confirmation-still-need-to-pay.png)  
+
+This is an alternative confirmation screen used where a payment link has been added to a form. It shows a blue background panel with the heading “You still need to pay” followed by “Your form reference number is:” and the unique generated reference number for this forms submission.  
+
+We have the usual “We have sent you a confirmation email” text where the form filler has asked for one.  
+
+Next is the heading level 2 “What happens next” below which is the content the form creator has added to inform their form fillers of their internal service level agreements (SLAs) and any next steps the person needs to take.  
+
+The screen ends with a green “Continue to pay” call to action button. This takes the form filler to the payment page that the form creator will have added from GOV.UK Pay. They are then able to make their payment through this journey. The button is a link which we pass the reference number through to Pay to allow matching by the form processor or financial team in the department.  
+
+This journey was adopted from the MoJ Forms teams implementation of [taking payments through GOV.UK Pay](https://moj-forms.service.justice.gov.uk/settings/#payment-links).  
 
 
 ### Confirmation email   
