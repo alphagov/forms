@@ -15,6 +15,7 @@ ___
 - [What](#what)
 - [Key decisions](#key-decisions)
 - [Designs](#designs)
+- [Preveiwing the form fillers journey](#preveiwing-the-form-fillers-journey)
 - [Research focus](#research-focus)
 
 ___
