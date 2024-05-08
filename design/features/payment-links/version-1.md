@@ -165,7 +165,31 @@ This journey was adopted from the MoJ Forms teams implementation of [taking paym
 
 ### Confirmation email   
 
+Where a form filler chooses to receive one, and a valid email address is provided, GOV.UK Forms will send an email confirming their submission with basic information such as; date and time; name of the form; what happens next; and contact details to get support if it’s needed.  
+
+As part of the payment link feature we also include a section of content telling form fillers that if they haven’t done so already they should pay for the service.  
+
 ![Email inbox showing an test email confirming submission that form fillers would receive. Screenshot](./screenshots-v1/1002-preview-test-email-with-payment-link.png)
+
+The email is a test version titled “TEST EMAIL CONFIRMING SUBMISSION: Your form has been successfully submitted”. Beneath the title is some of the basic information about the submission.  
+
+> This is a test email confirming that a form’s been submitted.
+> “Test form” was successfully submitted at 4:16pm on 29 April 2024.
+> Your form reference number is SW5DE24D.
+
+There is some inset text to inform users that this email shouldn’t be used to reply to if they need help.  
+
+> You cannot reply to this email. Use the contact details below if you need help with your form.
+
+Next is the new section, “If you still need to pay”, that will display when a payment link is added to the form. The next paragraph is used to nudge form fillers who haven’t paid to do so.  
+
+> If you need to make a payment and have not done so already, use this payment link to pay now: https://www.gov.uk/payments/your-payment-link-for?reference=SW5DE24D
+
+The link also includes the unique reference for the form submission to link payments with submissions.  
+
+Next is the “What happens next” under which is the information the form creator has added, as per their confirmation page.  
+
+The email body ends with a “Contact details” section displaying the contact information provided by the form creator.  
 
 
 ### Example of a GOV.UK Pay payment link start page   
@@ -178,7 +202,19 @@ In this example it shows the service name, “Apply for a licence”, the task o
 
 ### Notes
 
-- 
+Through designing and developing the feature the team wanted to know more information about how we could better align with GOV.UK Pay and if there were any small wins we could work with them to implement, we were able to ask this at a show and tell we attended with the Pay team: 
+
+1. Can you add content for us around payment references? - Maybe a new radio option?  
+  - Something sure they could look at  
+2. Do you validate reference numbers, to make sure they aren’t paid already?   
+  - Something we were looking at - some complexity about this and who can do what in the API  
+  - Need to figure out permissions - so one service can’t lookup another service  
+3. Can the information on the landing page be formattable? Markdown?   
+  - Possibly - not sure … answer is no at the moment  
+4. Is there an API we can use to validate payment link URLs are real and/or set up correctly?   
+  - Think it's possible for reference number to be reused...  
+5. If we send a reference number through but the person has set up the link to use Pay reference will our reference in the URL overwrite the Pay one?  
+  - Not asked   
 
 ___
 
