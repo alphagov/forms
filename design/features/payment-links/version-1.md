@@ -220,8 +220,16 @@ ___
 
 ## Research focus
 
-### To test:
-- 
+### To test
+- the journey for form creators in adding payment links
+- focus on the content to get a clearer idea of the minimum amount of detail required by most form creators
+- unique reference numbers and how they are seen
+
+### Aims
+- Explore participants’ understanding of the payment link process acquired from three options for content on the payment link page.
+- Understand the amount of content and context that users need to have a good understanding of the payment link feature.
+
+[Usability testing: Add a payment link (GitHub documentation)](../../../research/2024-2-21-Add_a_Payment_Link.md)
 
 <br>
 
