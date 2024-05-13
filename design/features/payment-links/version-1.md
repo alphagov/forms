@@ -24,6 +24,7 @@ ___
 
 ### As-is
 
+- We don't currently provide any specific guidance or functionality for form creators to collect payment along with a form.
 - With the introduction of detailed guidance, form creators can now add links to question pages. This in theory allows them to add payment links they generate in GOV.UK Pay - but this is not built into the form building process and it would create a disjointed journey for the form filler. 
 - Form creators can also add links to the 'What happens next' information. This in theory allows them to add payment links they generate in GOV.UK Pay - but it's not part of the form building process and we don't provide any guidance about how to do this. 
 
