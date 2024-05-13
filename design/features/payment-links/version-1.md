@@ -24,7 +24,7 @@ ___
 
 ### As-is
 
-- With the introduction of detailed guidance form creators can now add links to pages - this in theory allows them to add payment links they generate in GOV.UK Pay - but is not part of the form validation or checks
+- With the introduction of detailed guidance, form creators can now add links to question pages. This in theory allows them to add payment links they generate in GOV.UK Pay - but this is not built into the form building process and it would create a disjointed journey for the form filler. 
 - Using the WHN information form creators can add links - this in theory allows them to add payment links they generate in GOV.UK Pay - but is not part of the form validation or checks  
 
 ### To-be
