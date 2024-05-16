@@ -151,7 +151,7 @@ ___
 
 ### Confirmation screen preview 
 
-![“You still need to pay” heading inside a blue box replacing the usual green confirmaiton box. Screenshot](./screenshots-v1/1000-preview-confirmation-still-need-to-pay.png)  
+![“You still need to pay” heading inside a blue box replacing the usual green confirmation box. Screenshot](./screenshots-v1/1000-preview-confirmation-still-need-to-pay.png)  
 
 This is an alternative confirmation screen used where a payment link has been added to a form. It shows a blue background panel with the heading “You still need to pay” followed by “Your form reference number is:” and the unique generated reference number for this forms submission.  
 
