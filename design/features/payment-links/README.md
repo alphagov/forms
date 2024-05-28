@@ -28,19 +28,19 @@ The feature allows form fillers to pay for the service after submitting their fo
 
 ### User stories  
 
-**As a form creator**, I need to request payment, so that I can provide the service to the form filler.  
-**As a form creator**, I need to know how to set up payments, so I can take the relevant steps.   
+**As a form creator**, I need to request payment, so that I can provide a paid-for service to the form filler.  
+**As a form creator**, I need to know how to set up payments, so I can take the steps needed to receive these.   
 
-**As a form filler**, I need to be able to pay, so that I can get the outcome in a timely manner.  
-**As a form filler**, I need to clearly know what to do next after completing the form, so I don’t waste effort.  
-**As a form filler**, I need to get a confirmation that my payment has been received.  
+**As a form filler**, I need to be able to pay, so that I can access the service or outcome I’m seeking  in a timely manner.  
+**As a form filler**, I need to know what to do after completing the form, or what will happen next, so I don’t feel confused or waste effort chasing things up unnecessarily.  
+**As a form filler**, I need confirmation that my payment has been received, so I can feel confident that the transaction has gone through.  
 **As a form filler**, I need a copy of the payment confirmation, so I have proof that I've completed what I needed to and don’t have any issues proving this later on.  
 **As a form filler**, I need to know what part of the process I’m doing, so that I know I’m doing the right thing.  
 
-**As a form processor**, I need to be able to reconcile who has filled a form and who has paid.  
+**As a form processor**, I need to be able to check whether someone who’s filled in a form has paid, so I know what action to take next.  
 
-**As a department**, I need to collect the money owed for the services we provide, so we can cover costs of running an effective service (and clear our debt).  
-**As a department**, I need to know when to set up a Pay account and how to do it, so it is in place by the time we need it.  
+**As a department**, I need to collect the money owed for the services we provide, so we can cover the costs of running an effective service (and clear our debt).  
+**As a department**, I need to know when to set up a Pay account and how to do this, so that it’s in place by the time we need to receive payments.  
 
 
 ## Why  
