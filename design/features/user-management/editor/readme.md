@@ -12,9 +12,10 @@
 - [Designs](#designs)
 
 ## As is 
-- Currently anyone who uses Forms can create a from and make it online
-- Departments don't have a way to check which forms are being made.
-- At the moment Adoption team manually updates users name and organisation. 
+- Currently, any user with a trial account can create a form
+- Once a user's trial account is ugraded to an editor account, the editor user can make the form live
+- Departments don't have a way to control who creates and makes forms live
+- When upgrading a trial account, a member of the GOV.UK Forms adoption team manually adds the user's name and organisation details and changes their role from trial to editor. 
 
 ## To-be
 Editor journey enables editors to:
@@ -25,14 +26,14 @@ Editor journey enables editors to:
 - We decided to make the MVP version of this journey so we enable departments have control over their forms and learn more from the users.
 
 **Select an organisation**
-- Created an extra html page and  made it necessary for all users to select their organization after they logged in the Forms service. This helps the adoption team see if their department has an MOU. This process is only done once when the users signs in for the first time.
-- We are using autofill feature with the search functionality. 
-- Dev & Design team decided not to validate email addresses against name and organisation for this mvp.
+- Created an extra html page and  made it necessary for all users to enter their name and select their organization from a list when they create an account. This helps the adoption team see if their department has an MOU. This process is only done once when the users signs in for the first time.
+- We are using autofill feature with the organisation search functionality. 
+- Dev and design team decided not to validate email addresses against name and organisation for this mvp.
 - Added a details component to explain users what to expect if their organisation is not listed on the organisation list. This was done to help reduce support tickets.
-- We decided to ask for users to input their organisation first to avoid users who can't use Forms yet.
+- We decided to require users to set their organisation to prevent users who aren't from a central governmnet organisation from using the platfrom.
 
 **Groups landing page**
-- Created an page for users to see groups they are part of while allowing them to create their own groups. We decided that whoever creates a group becomes a group admin and can only publish forms if they have their form upgraded by an organisation admin.
+- Created a page for users to see groups they are part of while allowing them to create their own groups. We decided that whoever creates a group becomes a group admin. The group admin can make a form live if the group is upgraded from trial to active by an organisation admin.
 
 **Groups landing page with an upgrade request**
 - Added an extra line for upgrade request so the users can see which groups have requested to upgrade.
@@ -45,13 +46,13 @@ Editor journey enables editors to:
 - Added a link to view members of the group
 
 **View or edit members of this group**
-- Added a HTML page to show a list of users.
+- Added a HTML page to show a list of users who belong to the group.
 
  **Task list page-trial group**
-- Using the same task list page and only changing the content for Make your form live.
+- Using the current task list page and only changing the content for "Make your form live" task.
 
  **Task list page-active group**
-- Using the same task list page and only changing the back link to "back to <name of group> " and content for "Make your form live"
+- Using the current task list page and only changing the back link to "back to <name of group> " and content for "Make your form live" task.
 
   
 ## Designs
@@ -93,16 +94,16 @@ Once a user clicks the button they are taken to group page.
 
 ### Group page
 ![Group landing page](/design/features/user-management/screenshots-v1/editor-screenshots/006-grouppageforatrialgroup.png)
-This shows the group landing page where a user can see all the forms inside this group. With a functionality of viewing members of this group. 
+This shows the group landing page where a user can see all the forms inside this group. With a link to view members of this group. 
 
 ### Members of this group
 ![Members of this page](/design/features/user-management/screenshots-v1/editor-screenshots/005-membersofthisgroup.png)
-This shows the a list of members in a group.
+This shows the list of members in a group.
 
 ### Task list page - trial
 ![Task list page](/design/features/user-management/screenshots-v1/editor-screenshots/007-tasklistpage-trial.png)
-*Example of a task list page for a trial group with a changed content for Make your form live section. Changed content is as follows "This form cannot be made live because it’s in a ‘trial’ group. A group admin can request to upgrade the group so forms can be made live. You can view the members of the group to find a group admin.*
+*Example of a task list page for a trial group with content changed for the "Make your form live" section. Changed content is as follows "This form cannot be made live because it’s in a ‘trial’ group. A group admin can request to upgrade the group so forms can be made live. You can view the members of the group to find a group admin".*
 
 ### Task list page - active
 ![Task list page](/design/features/user-management/screenshots-v1/editor-screenshots/007-tasklistpage-livegroup.png)
-*Example of a task list page for an active group with a changed content for "Make your form live section". Changed content is as follows Only a group admin can make a form live. View the members of the group to find a group admin.*
+*Example of a task list page for an active group with changed content for "Make your form live" section. Changed content is as follows "Only a group admin can make a form live. View the members of the group to find a group admin".*

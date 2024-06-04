@@ -12,15 +12,16 @@
 - [Designs](#designs)
 
 ## As is 
-- Currently anyone who uses Forms can create a from and make it online
-- Departments don't have a way to check which forms are being made.
-- At the moment Adoption team manually updates users name and organisation. 
+- Currently, any user with a trial account can create a form
+- Once a user's trial account is ugraded to an editors account, they can make the form live
+- Departments don't have a way to control who creates and makes forms live
+- When upgrading a trial account, a member of the GOV.UK Forms adoption team manually adds the user's name and organisation details and changes their role from trial to editor.
 
 ## To-be
 Group admin journey enables group admins to: 
 - Create groups
-- Request groups to become live
-- Make forms live (after a group is upgraded to a live group)
+- Request groups to be made active
+- Make forms live after a group is upgraded to an active active
 - Add editors to their group
 
 ## Key decisions
@@ -146,7 +147,7 @@ An example of an active group.
 
 ### Task list page - trial
 ![Task list page](/design/features/user-management/screenshots-v1/group-admin-screenshots/010-tasklistpage-trial.png)
-*Example of a task list page for a trial group with a changed content for "Make your form live. Changed content is as follows "You cannot make this form live because it’s in a ‘trial’ group. Find out how to upgrade the group so you can make forms live.*
+*Example of a task list page for a trial group with content changed for "Make your form live" section. Changed content is as follows "You cannot make this form live because it’s in a ‘trial’ group. Find out how to upgrade the group so you can make forms live.*
 
 ### Task list page - active
 ![Task list page](/design/features/user-management/screenshots-v1/group-admin-screenshots/010-tasklistpage-active.png)

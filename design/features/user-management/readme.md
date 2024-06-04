@@ -6,8 +6,7 @@ Date created: *2024-04-18*
 
 - [Trello card](https://trello.com/c/m4pPEZmT/1280-epic-user-management-allow-accounts-to-be-upgraded-and-mous-to-be-signed?filter=member:hazalarpalikli2 "Trello card")
 - [Mural working board](https://app.mural.co/t/gaap0347/m/gaap0347/1691659258399/af093136c3f86be05860120cb92d6810e98f3643?sender=u61ceb93b0f861033ca7c7448 "Mural working board")
-- [Figma designs](https://app.mural.co/t/gaap0347/m/gaap0347/1691659258399/af093136c3f86be05860120cb92d6810e98f3643?sender=u61ceb93b0f861033ca7c7448](https://www.figma.com/file/D2DtaS68qRvVZgtxaBQNjd/User-management---moving-to-a-'group'-model-for-public-beta?type=design&node-id=124%3A7025&mode=design&t=oXGvFNLZw5ETbTzV-1 "Figma designs")
-
+- [Figma designs](https://www.figma.com/design/D2DtaS68qRvVZgtxaBQNjd/User-management---moving-to-a-'group'-model-for-public-beta?node-id=1-18&t=64POdj8MHEAkxHvb-0)
 ___
 
 ## Contents
@@ -26,7 +25,7 @@ ___
 
 ## What
 
-A new user management model is made out of 3 main user types and a new group model. These are organisation admins, super admins and standard users (group admins & editors). We are also keeping the trial accounts. ‘Groups’ will give departments more granular control over who has access to groups of forms - and what permissions they have. This will also help move the Forms team towards a model that requires less manual intervention from the adoption team.
+A new user management model was needed to allow government departments to have control over their department's use of the platfrom and to enable users to set up accounts and start using GOV.UK Forms with minimal involvement from the Forms team. We have three main user roles and a new group model. The roles are organisation admins, super admins and standard users. A standard user can have a group admin or editor role based on the group they belong to. Forms are created inside a group which can be a trial or active group. ‘Groups’ will give departments more granular control over who has access to forms and what permissions they have. 
 
 * An editor can edit forms in a group but cannot make forms live. 
 * A group admin can edit forms, make forms live and add editors to a group.
@@ -38,27 +37,27 @@ A new user management model is made out of 3 main user types and a new group mod
 <br>
 
 ## Problems we tried to solve
-* Other departments within the government wants to have a control over who has access to forms and what it is being published.
-* Departments within the government also to oversee forms being created within their department.  
-* In order to scale up our service, the Forms team also need to create a self service model to help free up some of the adoption team's capacity. 
+* Some government departments want control over who has access to the platform, who can make forms live and publish them
+* Some government departments wasnt to oversee the forms being created within their department.  
+* In order to scale up our service, we needed to create a self service model to help free up some of the GOV.UK Forms adoption team's capacity. 
   
 
 <br>
 
 ## User needs 
+  * As a form owner, I need to control who on the team can create, edit, and make a form live so that the risk of incorrect forms being published is reduced.
+* As a content or publisher in my organisation, I need to know and control who has access and can create forms on GOV.UK Forms in my organisation, so that I can review and ensure UCD practices in form creation are being followed 
  * As an organisation admin I need to know and control who has access to which forms in my organisation.
  * As a group admin I need to create and edit a form and be able to publish it on GOV.UK
  * As a group admin I need to know which forms are being created and by who
  * As an editor I need to edit forms
  * As a super admin I need to be able to see all the forms created different departments.
- * As a form owner, I need to control who on the team can create, edit, and make a form live so that the risk of incorrect forms being published is reduced.
-* As a content or publisher in my organisation, I need to know and control who has access and can create forms on GOV.UK Forms in my organisation, so that I can review and ensure UCD practices in form creation are being followed 
 
 <br>
 
 
 ## Changes
-Breakdown of changes are in the group,editor and organisation admin folders as well as the product. 
+Breakdown of changes are in the group, editor and organisation admin folders as well as the product. 
 
 The prototype can be found here: [https://forms-prototypes-pr-201.herokuapp.com/product-pages/ ](https://forms-prototypes.herokuapp.com/product-pages/)
 

@@ -11,14 +11,15 @@
 - [Designs](#designs)
 
 ## As is 
-- Currently anyone who uses Forms can create a from and make it online
-- Departments don't have a way to check which forms are being made.
-- At the moment Adoption team manually updates users name and organisation. 
+- Currently any user with a trial account can create a form
+- Once a user's trial account is ugraded to an editors account, they can make the form live
+- Departments don't have a way to control who creates and makes forms live
+- When upgrading a trial account, a member of the GOV.UK Forms adoption team manually adds the user's name and organisation details and changes their role from trial to editor
 
 ## To-be
 Organisation admin journey enables organisation admins to: 
-- View and remove members of a group
 - Create and edit a form
+- View and remove members of a group
 - Add editors or group admins to a group 
 - Make a form live and archive it (when group is ‘active’)
 - Review upgrade requests and make groups active
@@ -36,10 +37,10 @@ Organisation admin journey enables organisation admins to:
 - We decided to ask for the organisation first to avoid users who can't use Forms yet. 
 
 **Enter your full name**
-- Created an extra a page and made it necessary for all users to fill in their name, so that we update our records about the user and the adoption team can check if an MOU is in palce.
+- Created an extra page and made it necessary for all users to fill in their name, so that we update our records about the user and the adoption team can check if an MOU is in palce.
   
 **Groups landing page**
-- Create an page for group admins to see all the groups in their organisation.
+- Create a page for organisation admins to see all the groups in their organisation.
 
 **Groups landing page with an upgrade request**
 - Added a line to the upgrade request notification to ensure organization admins are aware of incoming requests
