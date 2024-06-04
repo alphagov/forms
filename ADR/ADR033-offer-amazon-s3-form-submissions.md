@@ -10,11 +10,11 @@ Proposed
 
 Users of GOV.UK Forms have asked for an alternative to email delivery of form submissions to allow integration with form processing systems.
 
-On 4th December 2023 we held a "Defining GOV.UK Forms API integration" technical discussion with representation from several other government organisations.
+Initially it was thought this might be acheived via POST to an http endpoint.
 
 ## Decision
 
-Allow organisations to choose to send form submissions to an [Amazon S3](https://aws.amazon.com/s3/) bucket they host.
+Allow organisations to choose to send form submissions to an [Amazon S3](https://aws.amazon.com/s3/) bucket they host, with a policy configured to allow GOV.UK Forms to write to it. They can then integrate with their form processing systems as required.
 
 ```mermaid
 ---
@@ -33,20 +33,25 @@ graph LR
     class gds gds
 
     subgraph org [Organisation]
-        processing[Form Processing]
         s3[\Amazon S3/]
+        policy[/"bucket policy"/]
+        processing{{Form Processing}}
 
-        s3 -.-> processing 
+        s3 ==> processing
+        s3 --- policy
     end
     
     class org org
 
-    data[/structured<br/>data/]
+    data[/"structured<br/>data"/]
+    file[/"optional<br/>file(s)"/]
 
     forms --> data --> s3
+    forms -.-> file -.-> s3
 
 ```
 
 ## Consequences
 
-> both positive and negative consequences of the decision
+* The receiving organisation must be using Amazon Web Services for this option to be suitable. An additional option may be required for organisations that can't use Amazon S3.
+* When GOV.UK Forms supports file upload, these files can also be sent via Amazon S3
