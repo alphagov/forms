@@ -444,7 +444,7 @@ If we wanted to allow for questions within a set to be themselves answered multi
   "answers": {
     // at the root level of the answers, the keys are the form IDs
     "123": {
-      // at the next level, the keys are the step IDs for the question or question set
+      // at the next level, the keys are the page IDs
       "5": {
         "full_name": "John Doe"
       },
