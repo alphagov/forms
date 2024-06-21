@@ -353,7 +353,7 @@ erDiagram
 
 In this model, we add a `question_set_id` foreign key to a `PAGE`. This is used to identify when a question is part of a question set.
 
-The `next_page_id` will point to the next question in the form regardless of whether it is in a `QUESTION_SET` or not. Additional logic will be required in runner to determine whether a page is part of `QUESTION_SET` and so where to direct the user next when dealing with navigation. For instance, if the page that a user is on is the final question in a set, we will need to show the user a "check your answers" page for the set with the option to add another answer. If the user selects to add another answer, they will be directed to the first page in the set.
+The `next_page_id` will point to the next question in the form regardless of whether it is in a `QUESTION_SET` or not. For the last page in a set, the `next_page_id` will point to the next page after the set. This indicates that once a user has finished providing as many repeat answers to the question set as they need to, they will be directed to this page next. Runner will inevitably need more logic in addition to the existing routing logic to determine which page a user is shown next when sets are introduced.
 
 When the position of a `QUESTION_SET` within a form is changed, we'd have to update both the `next_page_id` of the proceeding page, and also the `next_page_id` of the final page in the set.
 
