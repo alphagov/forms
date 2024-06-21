@@ -1,6 +1,6 @@
 # Prototype version 7
 
-Dates tested: 2022-08-02 to 2022-08-04
+Dates tested: not sure yet 
 
 ## Status
 
@@ -22,7 +22,7 @@ ___
 
 ## Context
 
-> **Sprint 9**
+> **Sprint X**
 > In this sprint we want to test
 
 <br>
