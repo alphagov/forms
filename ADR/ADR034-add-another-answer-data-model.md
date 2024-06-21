@@ -16,7 +16,7 @@ Questions will have a minimum and maximum number of answers that can be given, w
 
 Question sets can take place at any point within a form.
 
-We want to support routing to the start of a question set, and skipping over a question set. Routing will not lead into the middle of a question set, or from within a question set to the outside. 
+We want to support routing to the start of a question set, and skipping over a question set. Routing will not lead into the middle of a question set, or from within a question set to the outside. We will likely want to also support routing between questions within a question set.
 
 The current data structure for a form in the API is roughly: 
 
@@ -48,7 +48,7 @@ erDiagram
 
 A `PAGE` contains question data and its position within the form.
 
-A `PAGE` can have a `CONDITION`, which is used to describe conditional routing from that page.
+A `PAGE` can have one or more `CONDITIONs`, which are used to describe conditional routing from that page.
 
 ## Options
 
