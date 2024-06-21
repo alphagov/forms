@@ -128,7 +128,7 @@ A QuestionSet object contains a `steps` field which contains an array of Step ob
   "id": 123,
   "name": "All question types form",
   "form_slug": "all-question-types-form",
-  "start_page": 1,
+  "start_page": 5,
   ...
   "steps": [
     {
@@ -371,7 +371,7 @@ An entry in the `question_sets` array has a `first_page`, similar to the `start_
 {
   "id": 123,
   "name": "All question types form",
-  "start_page": 1,
+  "start_page": 5,
   "pages": [
     {
       "id": 5,
