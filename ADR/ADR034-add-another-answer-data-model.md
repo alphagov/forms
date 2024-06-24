@@ -62,7 +62,7 @@ flowchart TD
     Form --- Step2(Step)
     Form --- Step3(Step)
     Step1 --- Question1(Question)
-    Step2 --- QuestionSet(Question Step)
+    Step2 --- QuestionSet(Question Set)
     Step3 --- Question2(Question)
     QuestionSet --- Step4(Step)
     QuestionSet --- Step5(Step)
@@ -332,9 +332,9 @@ flowchart TD
     Form --- Page3(Page)
     Form --- Page4(Page)
     Form --- Page5(Page)
-    Page2 --- Set1(QuestionSet)
-    Page3 --- Set1(QuestionSet)
-    Page4 --- Set1(QuestionSet)
+    Page2 --- Set1(Question Set)
+    Page3 --- Set1(Question Set)
+    Page4 --- Set1(Question Set)
 ```
 
 #### Forms-api database schema
