@@ -56,6 +56,20 @@ A `PAGE` can have one or more `CONDITIONs`, which are used to describe condition
 
 This option separates pages into "Steps" and "Questions", with a new "QuestionSet" type representing a set of questions. A "Step" will either point to a "Question" or "QuestionSet" using the polymorphic associations feature of Rails.
 
+```mermaid
+flowchart TD
+    Form --- Step1(Step)
+    Form --- Step2(Step)
+    Form --- Step3(Step)
+    Step1 --- Question1(Question)
+    Step2 --- QuestionSet(Question Step)
+    Step3 --- Question2(Question)
+    QuestionSet --- Step4(Step)
+    QuestionSet --- Step5(Step)
+    Step4 --- SetQuestion1(Question)
+    Step5 --- SetQuestion2(Question)
+```
+
 #### Forms-api database schema
 
 ```mermaid
@@ -307,9 +321,21 @@ For the new data model with question sets we think the data structure of the ses
 - The API between forms-api and form-admin will need to change significantly.
 - There is some complexity to serializing and deserializing the JSON representation of a form when dealing with polymorphism.
 
-### Option 2: Keep pages holding their position in a form, whilst also being able to assign them to sets.
+### Option 2: Keep pages holding their position in a form, whilst also being able to assign them to sets
 
 This option keeps the "Pages" model largely the same, with the position remaining a property of a page. A page can have a "question set" associated with it, which holds information about the set it is in, such as the name and minimum and maximum answers.
+
+```mermaid
+flowchart TD
+    Form --- Page1(Page)
+    Form --- Page2(Page)
+    Form --- Page3(Page)
+    Form --- Page4(Page)
+    Form --- Page5(Page)
+    Page2 --- Set1(QuestionSet)
+    Page3 --- Set1(QuestionSet)
+    Page4 --- Set1(QuestionSet)
+```
 
 #### Forms-api database schema
 
