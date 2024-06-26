@@ -24,14 +24,14 @@ ___
 
 ### As-is
 
-- We don't currently provide any specific guidance or functionality for form creators to collect payment along with a form.
-- With the introduction of detailed guidance, form creators can now add links to question pages. This in theory allows them to add payment links they generate in GOV.UK Pay - but this is not built into the form building process and it would create a disjointed journey for the form filler. 
-- Form creators can also add links to the 'What happens next' information. This in theory allows them to add payment links they generate in GOV.UK Pay - but it's not part of the form building process and we don't provide any guidance about how to do this. 
+- We don’t currently provide any specific guidance or functionality for form creators to collect payment along with a form
+- With the introduction of detailed guidance, form creators can now add links to question pages. This in theory allows them to add payment links they generate in GOV.UK Pay. However, this is not built into the form-building process and it would create a disjointed journey for the form filler. 
+- Form creators can also add links to the 'What happens next' information. This in theory allows them to add payment links they generate in GOV.UK Pay. However, it's not part of the form-building process and we don’t provide any guidance about how to do this. 
 
 ### To-be
 
-- Form creators can add payment links they have created via GOV.UK Pay
-- GOV.UK Forms will handle the journey to make it consistent across forms - this means payments are taken after the form has been submitted (this aligns us with MoJ Forms, and means we don’t need to wait or worry about any work or timelines of the GOV.UK Pay team)  
+- Form creators can add payment links that they've created using GOV.UK Pay
+- GOV.UK Forms will handle the journey to make it consistent across forms - this means payments are taken after the form has been submitted. (This aligns us with MoJ Forms, and means we don’t need to wait for or worry about any of the GOV.UK Pay team's work or timelines.)  
 
 ___
 
@@ -39,17 +39,17 @@ ___
 
 - We will only offer the opportunity to add a GOV.UK Pay payment link, meaning we will not support other payment providers
   - we will validate the URL provided to make sure it meets the expected GOV.UK Pay link structure  
-- We will make the task of adding a payment link ‘optional’ for every form created adding it as a new task on the “Create a form” task list screen  
-  - this new ‘optional’ task won’t have an impact on the task completed count used to inform form creators of how many tasks they have outstanding  
-- We will give basic guidance as is helpful for our users, we don’t want to replicate anything explained by the GOV.UK Pay documentation or journey  
-- GOV.UK Forms will generate a unique reference number for every form submission  
-  - this will be included in the submission email sent to the processing email address  
-  - this will be included on the confirmation screen  
-  - this will be included in the body of the confirmation email, if a form filler chooses to receive it  
-  - if a payment link is added, we will include this link in the confirmation email  
-- We will align the journey and design with MoJ Forms as our first iteration  
-  - using the blue banner with content “You still need to pay” to make it clear to form fillers that they have not finished yet  
-  - we will include a clear call to action on this new confirmation screen to make a payment  
+- We will make the task of adding a payment link ‘optional’ for every form created, adding this as a new task on the “Create a form” task-list screen  
+  - this new ‘optional’ task won’t have an impact on the task-completed count that lets form creators know how many outstanding tasks they still have   
+- We will give basic guidance to the extent that this is helpful for our users: we don’t want to replicate anything explained by the GOV.UK Pay documentation or journey unless absolutely necessary
+- GOV.UK Forms will generate a unique reference number for every form submission. This will be included:  
+  - in the submission email sent to the processing email address  
+  - on the confirmation screen  
+  - in the body of the confirmation email, if a form filler chooses to receive this  
+- If a payment link is added, we will include this link in the confirmation email  
+- We will align the journey and the design with MoJ Forms for our first iteration, meaning we will:  
+  - use the blue banner with content saying “You still need to pay” to make it clear to form fillers that they have not yet finished   
+  - include a clear call to action on this new confirmation screen to make a payment  
 
 ___
 
@@ -59,19 +59,24 @@ ___
 
 ![Create a form task list page showing new ‘optional’ task to “Add a link to a payment page on GOV.UK Pay”. Screenshot](./screenshots-v1/001-create-a-form-optional-task.png)
 
-As part of the journey designs we explored how best to include a new task for payment links. Whether this should be within the ‘what happens next’ information task, a new task as part of the first section on the “create a form” task list or as a new section all together.  
+As part of the journey designs we explored how best to include a new task for payment links. We explored whether this should be:
+- within the ‘what happens next’ information task
+- a new task appearing as part of the first section on the “create a form” task list, or as a new section altogether 
 
-For this version we wanted to make it clear that this new task was ‘optional’ while allowing room for expansion later. Due to this we introduced a new heading within the first “Create your form” section. We also left the total number of ‘completed tasks’ the same, totalling ‘9’. We believe this will help remove the confusion, or ambiguity, of whether a payment link needs to be added to a form to make it live.    
+For this version we wanted to make it clear that this new task was ‘optional’, while allowing room for expansion later. 
 
-The task list has section “1. Create your form” with the same four tasks: 
+For this reason, we introduced a new heading within the first “Create your form” section. 
+
+We also left the total number of ‘completed tasks’ the same, totalling ‘9’. We believe this will help remove confusion or ambiguity about whether a payment link needs to be added to a form in order to make it live.    
+
+Section 1 in the task list says “1. Create your form” with these four tasks: 
 
 - “Edit the name of your form”
 - “Add and edit your questions”
 - “Add a declaration for people to agree to”
 - “Add information about what happens next”
 
-Below this summary list of tasks is the new heading level 3, “Optional tasks”. This heading is followed by a summary list with a single item to “Add a link to a payment page on GOV.UK Pay”. This row has a grey tag with the word “Optional” in it. We decided that this task could only ever be in one of two state; ‘Optional’ or ‘Completed’.  
-
+Below this summary list of tasks in section 1 is a new heading-level 3, titled “Optional tasks”. This heading is followed by a summary list with a single item saying “Add a link to a payment page on GOV.UK Pay”. This row has a grey tag with the word “Optional” in it. We decided that this task could only ever be in one of two states: ‘Optional’ or ‘Completed’.  
 
 ### Add a link to a payment page on GOV.UK Pay
 
@@ -82,20 +87,22 @@ Beneath the heading “Add a link to a payment page on GOV.UK Pay” is some ini
 > You can use GOV.UK Pay (opens in a new tab) to set up a payment page (called a ‘payment link’).  
 > Once it’s set up, you can copy and paste the payment link URL into the box below. This will add a payment page to the end of your form.
 
-The next section titled “Setting up GOV.UK Page” outlines what is needed before you can get started with creating a payment link. 
+The next section, titled “Setting up GOV.UK Pay”, outlines what’s needed before you can get started with creating a payment link. 
 
 > You’ll need to set up a GOV.UK Pay account if you do not already have one.
 > You’ll also need to talk to your organisation’s finance team to:
 > - make sure you’re allowed to take payments in this way
 > - set up a payment service provider (PSP)
 
-This is followed by an inset text component informing form creators about potential timing implications if they have not already started the GOV.UK Pay set up journey. “It could be up to several months before you’re ready to take payments. This depends on the PSP arrangements for your organisation.”  
+This is followed by an inset text component informing form creators about potential timing implications if they have not already started the GOV.UK Pay set up journey:
 
-The next section “Creating your payment link in GOV.UK Pay” outlines key steps to make sure that the payment link works correctly with GOV.UK Forms.  
+> “It could be up to several months before you’re ready to take payments. This depends on the PSP arrangements for your organisation.”  
+
+The next section, “Creating your payment link in GOV.UK Pay”, outlines key steps to make sure that the payment link works correctly with GOV.UK Forms:  
 
 > Once you have a GOV.UK Pay account you can “add a new service” and start creating your payment link.
 
-There is heading level 3 “Set up your payment link to use a form’s unique reference number”, which provides more detail about the reference numbers GOV.UK Forms uses and how to make sure these are correectly processed with the payment link provided by form creators.  
+There is a heading-level 3, “Set up your payment link to use a form’s unique reference number”, which provides more detail about the reference numbers that GOV.UK Forms uses. This includes how to make sure these are correctly processed with the payment link provided by form creators:  
 
 > GOV.UK Forms adds a unique 8-character reference to each form submission.
 > When creating a payment link in GOV.UK Pay, you’ll be asked “Do your users already have a payment reference?”
@@ -103,13 +110,13 @@ There is heading level 3 “Set up your payment link to use a form’s unique re
 > This means the form reference number will automatically be sent through to GOV.UK Pay when someone makes a payment.
 > When asked to fill in the “Name of payment reference” field, enter “Form reference number”.
 
-Next is another heading level 3 “How this will help people processing your forms” informing form creators why this is important to get right. 
+Next is another heading-level 3, “How this will help people processing your forms”. This informs form creators why it’s important to get this right: 
 
 > The form reference number will be included in the form submission email sent to your processing email address.
 > This can help match up form submissions with payments in GOV.UK Pay.
 > Find out more about creating a GOV.UK Pay payment link (opens in a new tab)  
 
-The next section “How this will work for people filling in your form” gives more information to form creators about how this will work for people filling in their form and where the reference number and links will appear.  
+The next section, “How this will work for people filling in your form”, gives more information to form creators about how this will work for people filling in their form and where the reference number and links will appear:  
 
 > Once someone’s submitted their form they’ll see a confirmation page showing:
 > - a blue banner saying “You still need to pay”
@@ -119,9 +126,9 @@ The next section “How this will work for people filling in your form” gives 
 >
 > The reference number, payment link and ‘what happens next’ information will also be included in a confirmation email for form fillers - if they choose to receive this.
 
-Finally the page ends with a text input labelled “Enter the URL of your GOV.UK Pay payment link”, giving the hint text “For example, https://gov.uk/payments/your-payment-link” to help form creators find the correct link format for their payment link that they need to share with GOV.UK Forms.  
+The page ends with a text input labelled “Enter the URL of your GOV.UK Pay payment link”. It has the hint text “For example, https://gov.uk/payments/your-payment-link” to help form creators use the correct link format for their payment link, which they need to share with GOV.UK Forms.  
 
-Finally there’s a green “Save and continue” button taking the form creator back to the “Create a form” task list page.  
+Finally, there’s a green “Save and continue” button. This takes the form creator back to the “Create a form” task-list page.  
 
 #### Add a link error summary
 
