@@ -21,7 +21,7 @@ ___
 
 ## What  
 
-This feature introduces new functionality to the form building tool to allow form creators to take a payment for their service. This way of taking payments uses the [payment page](https://payments.service.gov.uk/govuk-payment-pages/), or payment link, feature developed by GOV.UK Pay. 
+This feature introduces new functionality to the form building tool to allow form creators to take a payment for their service. This way of taking payments uses the [payment page](https://payments.service.gov.uk/govuk-payment-pages/) (or 'payment link') feature developed by GOV.UK Pay. 
 
 The feature allows form fillers to pay for the service after submitting their form, making it quicker and easier to access the service or outcome they're seeking.
 
@@ -31,7 +31,7 @@ The feature allows form fillers to pay for the service after submitting their fo
 **As a form creator**, I need to request payment, so that I can provide a paid-for service to the form filler.  
 **As a form creator**, I need to know how to set up payments, so I can take the steps needed to receive these.   
 
-**As a form filler**, I need to be able to pay, so that I can access the service or outcome I’m seeking  in a timely manner.  
+**As a form filler**, I need to be able to pay, so that I can access the service or outcome I’m seeking in a timely manner.  
 **As a form filler**, I need to know what to do after completing the form, or what will happen next, so I don’t feel confused or waste effort chasing things up unnecessarily.  
 **As a form filler**, I need confirmation that my payment has been received, so I can feel confident that the transaction has gone through.  
 **As a form filler**, I need a copy of the payment confirmation, so I have proof that I've completed what I needed to and don’t have any issues proving this later on.  
