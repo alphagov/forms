@@ -40,3 +40,14 @@ Below are the screens a form creator will see when making or editing their forms
 *Page with “GOV.UK Forms” heading and green “Create a form” start button.*
 
 <br>
+
+### Name your form page
+
+![What is the name of your form question page. Screenshot](screenshots/002-form-create-a-form.png)
+*Page with “What is the name of your form?” question heading.*
+
+There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example ‘Apply for a juggling licence’.” above a text input.
+
+Below the text input is a green “Save and continue” button.
+
+<br>
