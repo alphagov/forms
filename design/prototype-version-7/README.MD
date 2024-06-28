@@ -441,6 +441,29 @@ This page includes a secondary heading “What happens next” followed by the c
 
 There is a visually recessive ‘watermark’ saying “DRAFT” across the background of the page - this is mostly hidden behind the green success panel.  
 
+<br>
+
+___
+
+<br>
+
+## What we learned
+
+> Give a synopsis of the key findings from the round of research we tested this version.  
+> Include examples of found needs, pain points or quotes to help explain the findings. These do not have to be too detailed, as this should be covered in the research findings packs/decks - which can be linked to from here.
+
+<!-- REMOVE ME!!! after write up -->
+<!-- https://drive.google.com/drive/folders/1VOMG9a0XyV371_1LxV9qUaddkyuY_xjE -->
+
+<br>
+
+## Opportunities
+
+> Are there any opportunities we would like to explore, or ideas that we think we could consider?  
+> List these here. They do not have to be full formulated at this point, but will inform our work (and should be added to Trello to discuss and ideate as a team).
+
+<br>
+
 [Back to the top](#prototype-version-7)
 
 
