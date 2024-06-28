@@ -57,8 +57,6 @@ Below the text input is a green “Save and continue” button.
 ![Create a form task list page. Screenshot](screenshots/003-create-form.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
 
-There is a purple "draft" status tag 
-
 <br>
 
 ### Add and edit your questions page
