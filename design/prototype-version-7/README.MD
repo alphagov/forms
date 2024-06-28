@@ -331,7 +331,7 @@ There is text and a bullet list saying  “Make sure you are happy with the form
 There is a blue notification banner with title “Important“. Inside the notification banner there is a secondary heading saying “Any changes you make to a live form will be updated in the form immediately.“ 
 This is followed by a paragraph describing how changes to the form will affect people filling the form “This could have an impact on people who are filling in the form at the same time. They may lose any answers they have already provided and may need to start again.“
 
-Below the notification banner there is a secondary heading “Are you sure you want to make your form live?“ followed by a radio option “Yes“ and next on the right is a radio option “No“.
+Below the notification banner there is a secondary heading “Are you sure you want to make your form live?“ followed There are two radio options, “Yes” and “No”. 
 
 At the end of the page is a green “Continue” button. 
 
