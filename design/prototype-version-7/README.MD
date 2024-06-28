@@ -190,7 +190,7 @@ The iframe includes the title “Your form has been submitted” inside a green 
 
 ### Set the email address for completed forms
 
-![set the email address for completed forms. Screenshot](screenshots/301-set-completed-forms-email.png)
+![set the email address for completed forms page. Screenshot](screenshots/301-set-completed-forms-email.png)
 *Page with the heading “Set the email address for completed forms”.*
 
 There is a paragraph describing why form creators need to set an email address “You need to provide an email address for completed forms to be sent to for processing. It should be a shared government email inbox.“
@@ -201,13 +201,144 @@ This parapgraph descibes how we'll verify the email address provided by the form
 
 There is a secondary heading label, “What email address should completed forms be sent to?“ followed by a text area. 
 
+At the end of the page is a green “Continue” button. 
+
+<br>
+
+### Confirmation code sent 
+
+![confirmation-code-sent page. Screenshot](screenshots/302-confirmation-code-sent.png)
+*Page with the heading “Confirmation code sent”.*
+
+There is a paragraph that confirms to the form creator that a code has been sent to the email address they entered “We've sent a confirmation code and your email address to chris.cameron@digital.cabinet-office.gov.uk.“
+
+A paragrah tells explains to the form creator what to do with the confirmation code “The recipient will be asked to give you the code. You need to enter the code to confirm the email address. The code is valid for 7 days.“
+
+This is followed by a blue link to “Enter the email address confirmation code".
+There is another link to “Continue creating a form“. 
+ 
+<br>
+
+### Confirmation code sent 
+
+![confirmation code sent page. Screenshot](screenshots/302-confirmation-code-sent.png)
+*Page with the heading “Confirmation code sent”.*
+
+There is a paragraph that confirms to the form creator that a code has been sent to the email address they entered “We've sent a confirmation code and your email address to chris.cameron@digital.cabinet-office.gov.uk.“
+
+A paragrah tells explains to the form creator what to do with the confirmation code “The recipient will be asked to give you the code. You need to enter the code to confirm the email address. The code is valid for 7 days.“
+
+This is followed by a blue link to “Enter the email address confirmation code".
+There is another link to “Continue creating a form“. 
+
+<br>
+
+### Enter the confirmation code
+
+![enter the confirmation code page. Screenshot](screenshots/401-add-confirmation-code.png)
+*Page with the heading “Enter the confirmation code”.*
+
+There is a text area to enter the confirmation code. 
+
+Followed by a link to help the form creator request a new confirmation code “Send a new confirmation code to chris.cameron@digital.cabinet-office.gov.uk“. 
+
+At the end of the page is a green “Continue” button. 
+
+<br>
+
+### Email address confirmed
+
+![email address confirmed page. Screenshot](screenshots/403-email-confirmation.png)
+*Page with the heading “The confirmation code has expired”.*
+
+There is text to let the form creator know why the confirmation code has expired “The code is only valid for 7 days.“
+
+Followed by a link to help the form creator request a new confirmation code “Send a new confirmation code to chris.cameron@digital.cabinet-office.gov.uk“. 
+
+At the end of the page is a green “Continue” button. 
+There is another link to “Continue creating a form“. 
+
+<br>
+
+### The confirmation code has expired
+
+![the confirmation code has expired page. Screenshot](screenshots/402-confirmation-code-expired.png)
+*Page with the heading “The confirmation code has expired”.*
+
+There is text to confrim to the form creator that completed forms will be sent to the email address they entered and confirmed “Completed forms will be sent to chris.cameron@digital.cabinet-office.gov.uk“. 
+
+Followed by a link to “Continue creating a form“. 
+
+<br>
+
+### Provide a link to privacy information for this form
+
+![provide a link to privacy information page. Screenshot](screenshots/501-provide-link-to-privacy-information.png)
+*Page with the heading “Provide a link to privacy information for this form”.*
+
+There is a paragraph that explains why a form creator needs to provide privacy information, “To comply with the UK General Data Protection Regulation (UK GDPR), you must provide privacy information for the people who will enter their data into your form.“
+
+There is a list of the details that must be included in the privacy information, “The privacy information must include details such as:
+
+- your purposes for processing the personal data
+- how long you’ll keep the personal data
+- who the data will be shared with
+- contact details for your department and your data protection officer“
+
+This is followed by a paragrah to help the form creator know where to find the privacy information, “You may already publish this information, for example in a privacy notice or personal information charter. Existing privacy information may need to be updated to cover the data you are collecting in this form, or you may need a new privacy notice.“
+
+“To get help, contact your department’s data protection officer or data protection manager.“
+
+There is a secondary heading label, “Enter a link to privacy information for this form“ with hint text giving an example “For example, https://www.gov.uk/help/privacy-notice“. 
+This is followed by text area. 
+
 At the end of the page is a green “Save and continue” button. 
 
 <br>
 
-### Set the email address for completed forms
+### Provide contact details for support
 
-![set the email address for completed forms. Screenshot](screenshots/301-set-completed-forms-email.png)
-*Page with the heading “Set the email address for completed forms”.*
+![provide contact details for support page. Screenshot](screenshots/601-provide-support-details.png)
+*Page with the heading “Provide contact details for support”.*
+
+There is a paragraph describing why form creators need to provide contact details for support, “You need to provide at least one way for people to get help if they get stuck while filling in this form.“
+
+There is text that says where person filling the form will find the contact information “The contact information will be displayed at the bottom of every page of the form.“
+
+There is a secondary heading label, “How can people get help with filling in this form? “ with hint text saying “Select at least one option“.
+
+This is followed by the first checkbox option labelled “Email“ (selected) with a hint text saying “Enter the email address“. This is followed by a textarea. 
+
+The next checkbox option is “Phone“ (selected) with hint text saying “Enter the phone number and its opening times“. This is followed by a large textarea. 
+
+The third checkbox option is “Online contact link“ (selected). There is text saying “Enter the link“ and hint text giving an example “For example, https://gov.uk/contact-form“ followed by a textarea. The form creator is asked to give the text to describe the link,  “What text should be used to describe this link?“ with an example in hint text, “For example, ‘Online contact form’“. This is followed by a text area. 
+
+At the end of the page is a green “Save and continue” button. 
+
+<br>
+
+### Make your form live
+
+![provide contact details for support page. Screenshot](screenshots/601-provide-support-details.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Make your form live".*
+
+There is a paragraph that describes what happens when a form is made live “When you make your form live you will get a URL for the form. The form will not be indexed by search engines, so people will not be able to find it easily. Contact your GOV.UK publishing team to publish a link to your form on GOV.UK so people can find it.“
+
+There is text and a bullet list saying  “Make sure you are happy with the form before you make it live. After you have made your form live:
+- completed forms will be sent to chris.cameron@digital.cabinet-office.gov.uk
+- you will not be able to change the name of the form“
+
+There is a blue notification banner with title “Important“. Inside the notification banner there is a secondary heading saying “Any changes you make to a live form will be updated in the form immediately.“ 
+This is followed by a paragraph describing how changes to the form will affect people filling the form “This could have an impact on people who are filling in the form at the same time. They may lose any answers they have already provided and may need to start again.“
+
+Below the notification banner there is a secondary heading “Are you sure you want to make your form live?“ followed by a radio option “Yes“ and next on the right is a radio option “No“.
+
+At the end of the page is a green “Continue” button. 
+
+
+
+
+
+
 
 
