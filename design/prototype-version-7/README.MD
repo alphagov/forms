@@ -141,11 +141,11 @@ The third queston is "What is your National Insurance number?". To the right is 
 
 <br>
 
-### Add a declaration 
-![add a declaration. Screenshot](screenshots/101-edit-page-check-answers.png)
+### Edit add a declaration / check your answers page 
+![add a declaration / check your answers page. Screenshot](screenshots/101-edit-page-check-answers.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Add a a declaration".*
 
-There is a paragraph describing the check your answers page is to help the form creator, “When someone has answered all the questions in your form, they will be shown a page that lists all of their answers. The page will ask them to check their answers before they submit the form."
+There is a paragraph describing what the check your answers page is to help the form creator, “When someone has answered all the questions in your form, they will be shown a page that lists all of their answers. The page will ask them to check their answers before they submit the form."
 
 The next paragraph describes what a declaration is "You can add a declaration to this page. A declaration is some content that people must confirm they understand and agree to before they submit the form. 
 
@@ -159,8 +159,12 @@ At the end of the page is a green “Save and continue” button along side a gr
 
 On the right side of the screen there is a secondary heading, “Page preview”.
 
-The iframe includes the title “Check your answers before submitting your form".  There is also a secondary heading, “What happens next”, above where the text input content provided on the left would appear.
+The iframe includes the title “Check your answers before submitting your form" and the questions that have been added to the form so far, each having a corresponding “Change” link. There is a faded green “Agree and submit” button for illustrative purposes.
 
+![edit page check answers preview pane. Screenshot](screenshots/102-edit-page-check-answers-preview-pane.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Add a a declaration".*
+
+Close up of preview iframe showing the second level heading “Check your answers before submitting your form”, the questions that have been added to the form so far, each having a corresponding “Change” link. This is followed by the second level heading “Declaration” with the added content “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”
 
 
 
