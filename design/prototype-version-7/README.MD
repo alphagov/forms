@@ -52,7 +52,7 @@ Below the text input is a green “Save and continue” button.
 
 <br>
 
-### Create a form (task list page) - draft
+### Create a form (task list page) for a draft form
 
 ![create a form task list page. Screenshot](screenshots/003-create-form.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”. Followed by a purple tag that says “DRAFT“.*
@@ -349,7 +349,7 @@ There is a link to “Continue to your form“.
 
 <br>
 
-### Create a form (task list page) - live
+### Create a form (task list page) for a live form
 
 ![task list page for a live form. Screenshot](screenshots/703-create-form-live.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “You form”. Followed by a green tag that says “LIVE“.*
