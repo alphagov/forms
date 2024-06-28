@@ -54,7 +54,7 @@ Below the text input is a green “Save and continue” button.
 
 ### Create a form (task list page)
 
-![Create a form task list page. Screenshot](screenshots/003003-create-form.png)
+![Create a form task list page. Screenshot](screenshots/003-create-form.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
 
 There is a purple "draft" status tag 
@@ -157,14 +157,13 @@ There is a secondary heading label, “Enter a declaration for people to agree t
 
 At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
 
+<!-- describe side preview pane -->
 On the right side of the screen there is a secondary heading, “Page preview”.
 
 The iframe includes the title “Check your answers before submitting your form" and the questions that have been added to the form so far, each having a corresponding “Change” link. There is a faded green “Agree and submit” button for illustrative purposes.
 
-![edit page check answers preview pane. Screenshot](screenshots/102-edit-page-check-answers-preview-pane.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Add a a declaration".*
-
-Close up of preview iframe showing the second level heading “Check your answers before submitting your form”, the questions that have been added to the form so far, each having a corresponding “Change” link. This is followed by the second level heading “Declaration” with the added content “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”
+![preview iframe of check answers page. Screenshot](screenshots/102-edit-page-check-answers-preview-pane.png)
+*Close up of preview iframe showing the second level heading “Check your answers before submitting your form”, the questions that have been added to the form so far, each having a corresponding “Change” link. This is followed by the second level heading “Declaration” with the added content “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”*
 
 
 
