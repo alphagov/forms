@@ -152,7 +152,7 @@ Another paragraph follows describing the declaration "You might want to add a de
 
 This is followed by a third level heading "Example", and below an inset text with the example "By submitting this form your are confirming that, to the best of your knowledge, the answers you are providing are correct."
 
-There is a secondary heading label, “Enter a declaration for people to agree to (optional)" before a text area with a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
+There is a secondary heading label, “Enter a declaration for people to agree to (optional)" before a text input with a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
 
 At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
 
@@ -175,7 +175,7 @@ There is a paragraph describing what the submitted page is to help the form crea
 
 This is followed by some additional help text about what this page is for by giving additional context “Add some content to let people know what will happen next and when, so they know what to expect. There is a third level heading that says "Example" followed by inset text wirh the example “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”
 
-There is a secondary heading label, “What happens next” before a text area with a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
+There is a secondary heading label, “What happens next” before a text input with a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
 
 At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
 
@@ -200,7 +200,7 @@ This parapgraph descibes how we'll verify the email address provided by the form
 
 “The recipient will be asked to give you the code. You'll then need to enter the code to confirm the email address.“
 
-There is a secondary heading label, “What email address should completed forms be sent to?“ followed by a text area. 
+There is a secondary heading label, “What email address should completed forms be sent to?“ followed by a text input. 
 
 At the end of the page is a green “Continue” button. 
 
@@ -237,9 +237,7 @@ There is another link to “Continue creating a form“.
 ### Enter the confirmation code
 
 ![enter the confirmation code page. Screenshot](screenshots/401-add-confirmation-code.png)
-*Page with the heading “Enter the confirmation code”.*
-
-There is a text area to enter the confirmation code. 
+*Page with the heading “Enter the confirmation code” as a label for a text input to enter the confirmation code. 
 
 Followed by a link to help the form creator request a new confirmation code “Send a new confirmation code to chris.cameron@digital.cabinet-office.gov.uk“. 
 
@@ -291,7 +289,7 @@ This is followed by a paragrah to help the form creator know where to find the p
 “To get help, contact your department’s data protection officer or data protection manager.“
 
 There is a secondary heading label, “Enter a link to privacy information for this form“ with hint text giving an example “For example, https://www.gov.uk/help/privacy-notice“. 
-This is followed by text area. 
+This is followed by text input. 
 
 At the end of the page is a green “Save and continue” button. 
 
@@ -308,11 +306,11 @@ There is text that says where person filling the form will find the contact info
 
 There is a secondary heading label, “How can people get help with filling in this form? “ with hint text saying “Select at least one option“.
 
-This is followed by the first checkbox option labelled “Email“ (selected) with a hint text saying “Enter the email address“. This is followed by a textarea. 
+This is followed by the first checkbox option labelled “Email“ (selected) with a hint text saying “Enter the email address“. This is followed by a text input. 
 
-The next checkbox option is “Phone“ (selected) with hint text saying “Enter the phone number and its opening times“. This is followed by a large textarea. 
+The next checkbox option is “Phone“ (selected) with hint text saying “Enter the phone number and its opening times“. This is followed by a large text input. 
 
-The third checkbox option is “Online contact link“ (selected). There is text saying “Enter the link“ and hint text giving an example “For example, https://gov.uk/contact-form“ followed by a textarea. The form creator is asked to give the text to describe the link,  “What text should be used to describe this link?“ with an example in hint text, “For example, ‘Online contact form’“. This is followed by a text area. 
+The third checkbox option is “Online contact link“ (selected). There is “Enter the link“ and hint text “For example, https://gov.uk/contact-form“ labels for a text input. The form creator is asked to give the text to describe the link,  “What text should be used to describe this link?“ with an example in hint text, “For example, ‘Online contact form’“. This is followed by a text input. 
 
 At the end of the page is a green “Save and continue” button. 
 
@@ -397,10 +395,11 @@ The third queston is "What is your National Insurance number?". To the right is 
 
 ## Some things we changed since last time
 
-For more information, see [v0.0.6 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.7). 
+For more information, see [v0.0.7 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.7). 
 
 <br>
-<br>
+
+___
 
 ## Form runner screenshots
 
@@ -408,9 +407,41 @@ Below are the screens the form filler (the end user) would see as they complete 
 
 <br>
 
+### Preview question 1
 
+![Preview What is your name question page. Screenshot](screenshots/1001-page-preview-new-tab-1.png)
+*Page with “What is your name?” question as a label for a text input. There is a green “Continue” button and a details summary text “Get help with this form“ at the bottom.*
 
+### Preview final question
 
+![Preview What is your National Insurance number question page. Screenshot](screenshots/1002-page-preview-new-tab-3.png
+*Page with “What is your National Insurance number?” question as a label for a text input. There is a green “Continue” button at the bottom.*
+
+There is a details summary text “Get help with this form“ that is expanded to reveal the third level heading “Email“ and the email address “support@email.gov.uk“. This is the contact details added by the form creator within the admin side of the builder, meaning it can be customised. The form creator can also provide a link to contact support form or a phone number or all three options.
+
+There is a new visually recessive ‘watermark’ saying “DRAFT” across the background of the page.  
+
+### Preview check your answers (summary page)
+
+![Preview check your answers page. Screenshot](screenshots/1003-check-answers-page-preview-new-tab.png)
+*Page with “Check your answers before submitting your form” heading followed by a summary list component.*
+
+The summary list component lists rows showing the form’s full questions. There is a space to the right where the form filler's answer would appear: this has placeholder text saying “Not completed”. Finally, there is a “Change” link for the form filler to correct or change any answer they feel is incorrect.
+
+Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button. The text of the declaration is editable by the form creator within the admin side of the builder, meaning it can be customised to suit the needs of the different forms or department.
+
+There is a new visually recessive ‘watermark’ saying “DRAFT” which stretches across the background of the page. 
+
+### Preview your form has been submitted (confirmation page)
+
+![Preview form submitted page. Screenshot](screenshots/1004-confirmation-page-preview-new-tab.png)
+*Page with “Your form has been submitted” heading in a green box.*
+
+This page includes a secondary heading “What happens next” followed by the content “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.” This text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department and should match their internal service level agreements (SLAs).
+
+There is a visually recessive ‘watermark’ saying “DRAFT” across the background of the page - this is mostly hidden behind the green success panel.  
+
+[Back to the top](#prototype-version-7)
 
 
 
