@@ -52,6 +52,15 @@ Below the text input is a green “Save and continue” button.
 
 <br>
 
+### Name your form page - with form
+
+![create your form page with a form. Screenshot](screenshots/001-form-home-with-form.png)
+*Page with “GOV.UK Forms” heading, followed by a green primary button to “Create a form“.*
+
+Below the button is a summary list component showing the name of the form that has been created “Apply for a juggling licence“ and to its far right an “Edit“ link.
+
+<br>
+
 ### Create a form (task list page) for a draft form
 
 ![create a form task list page. Screenshot](screenshots/003-create-form.png)
