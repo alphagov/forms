@@ -71,7 +71,7 @@ There is a green “Add a question” button.
 
 ### Edit question 1
 ![edit question 1. Screenshot](screenshots/005-edit-page-1.png)
-*Page with “Question 1” caption above a heading “Edit question”.
+*Page with “Question 1” caption above a heading “Edit question”.*
 
 A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’” and then a text input.
 
