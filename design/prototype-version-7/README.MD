@@ -163,9 +163,51 @@ The iframe includes the title “Check your answers before submitting your form"
 ![preview iframe of check answers page. Screenshot](screenshots/102-edit-page-check-answers-preview-pane.png)
 *Close up of preview iframe showing the second level heading “Check your answers before submitting your form”, the questions that have been added to the form so far, each having a corresponding “Change” link. This is followed by the second level heading “Declaration” with the added content “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”*
 
+<br>
 
+### Edit form submitted / confirmation page
 
+![Edit form submitted page. Screenshot](screenshots/201-edit-page-confirmation.png)
+*Page with “Apply for a juggling licence” caption above the heading “Form submitted page”.*
 
+There is a paragraph describing what the submitted page is to help the form creator, “This page will be shown after someone has completed and submitted the form to let them know that the form has been submitted successfully.”
 
+This is followed by some additional help text about what this page is for by giving additional context “Add some content to let people know what will happen next and when, so they know what to expect. There is a third level heading that says "Example" followed by inset text wirh the example “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”
+
+There is a secondary heading label, “What happens next” before a text area with a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
+
+At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
+
+<!-- describe side preview pane -->
+On the right side of the screen there is a secondary heading, “Page preview”.
+
+The iframe includes the title “Your form has been submitted” inside a green box. There is also a secondary heading, “What happens next”, above where the text input content provided on the left would appear.
+
+![Preview iframe of form submitted page. Screenshot](screenshots/202-edit-page-confirmation-preview-pane.png)
+*Close up of preview iframe showing the second level heading “What happens next” followed by added content “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”*
+
+<br>
+
+### Set the email address for completed forms
+
+![set the email address for completed forms. Screenshot](screenshots/301-set-completed-forms-email.png)
+*Page with the heading “Set the email address for completed forms”.*
+
+There is a paragraph describing why form creators need to set an email address “You need to provide an email address for completed forms to be sent to for processing. It should be a shared government email inbox.“
+
+This parapgraph descibes how we'll verify the email address provided by the form creator is correct “To make sure the email address you provide is correct, we’ll send an email to it with a confirmation code and your email address.“
+
+“The recipient will be asked to give you the code. You'll then need to enter the code to confirm the email address.“
+
+There is a secondary heading label, “What email address should completed forms be sent to?“ followed by a text area. 
+
+At the end of the page is a green “Save and continue” button. 
+
+<br>
+
+### Set the email address for completed forms
+
+![set the email address for completed forms. Screenshot](screenshots/301-set-completed-forms-email.png)
+*Page with the heading “Set the email address for completed forms”.*
 
 
