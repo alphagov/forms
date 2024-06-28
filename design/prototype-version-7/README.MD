@@ -52,10 +52,10 @@ Below the text input is a green “Save and continue” button.
 
 <br>
 
-### Create a form (task list page)
+### Create a form (task list page) - draft
 
-![Create a form task list page. Screenshot](screenshots/003-create-form.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
+![create a form task list page. Screenshot](screenshots/003-create-form.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Create a form”. Followed by a purple tag that says “DRAFT“.*
 
 <br>
 
@@ -70,6 +70,7 @@ There is a green “Add a question” button.
 <br>
 
 ### Edit question 1
+
 ![edit question 1. Screenshot](screenshots/005-edit-page-1.png)
 *Page with “Question 1” caption above a heading “Edit question”.*
 
@@ -329,11 +330,105 @@ There is text and a bullet list saying  “Make sure you are happy with the form
 - you will not be able to change the name of the form“
 
 There is a blue notification banner with title “Important“. Inside the notification banner there is a secondary heading saying “Any changes you make to a live form will be updated in the form immediately.“ 
-This is followed by a paragraph describing how changes to the form will affect people filling the form “This could have an impact on people who are filling in the form at the same time. They may lose any answers they have already provided and may need to start again.“
+This is followed by a paragraph describing how any changes will affect people filling the form “This could have an impact on people who are filling in the form at the same time. They may lose any answers they have already provided and may need to start again.“
 
-Below the notification banner there is a secondary heading “Are you sure you want to make your form live?“ followed There are two radio options, “Yes” and “No”. 
+Below the notification banner there is a secondary heading “Are you sure you want to make your form live?“ followed by two radio options, “Yes” and “No”. 
 
 At the end of the page is a green “Continue” button. 
+
+<br>
+
+### Your form is live
+
+![your form is live page. Screenshot](screenshots/702-form-is-live.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Your form is live".*
+
+There is text saying "The URL for your form is:" followed by an inactive link of the live form "forms.service.gov.uk/example-url“. Below is a grey button to copy the link “Copy URL“.
+
+There is a paragraph describing what the form creator needs to do with the link “The form will not be indexed by search engines, so people will not be able to find it easily. Contact your GOV.UK publishing team to publish a link to your form on GOV.UK so people can find it.“
+
+There is a link to “Continue to your form“. 
+
+<br>
+
+### Create a form (task list page) - live
+
+![task list page for a live form. Screenshot](screenshots/703-create-form-live.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “You form”. Followed by a green tag that says “LIVE“.*
+
+<br>
+
+### Add and edit questions (make changes to a live form)
+
+![add and edit questions to make changes to a live form page. Screenshot](screenshots/801-are-you-sure-you-want-to-edit-live-questions.png)
+*Page with heading that says “Add and edit questions”.*
+
+There is text saying “Your form is live“ 
+
+Followed with a paragrah descibing what happens when changes are made to a live form “Any changes you make to a live form will be updated in the form immediately.“ 
+This is followed by a paragraph describing how any changes will affect people filling the form “This could have an impact on people who are filling in the form at the same time. They may lose any answers they have already provided and may need to start again.“
+
+There is a secondary heading “Are you sure you want to edit the questions?“ followed by two radio options, “Yes” and “No”. 
+
+At the end of the page is a green “Continue” button. 
+
+<br>
+
+### Add and edit questions (on a live form) 
+
+![add and edit questions to a live form page. Screenshot](screenshots/802-form-index-live.png)
+*Page with a blue notification banner with title “Important“, followed by “Apply for a juggling licence” caption above the heading that says “Add and edit your questions”.*
+
+At the start of the page is a blue notification banner with title “Important“. Inside the notification banner there is a secondary heading saying “Any changes you make to a live form will be updated in the form immediately.“ 
+This is followed by a paragraph describing how any changes will affect people filling the form “This could have an impact on people who are filling in the form at the same time. They may lose any answers they have already provided and may need to start again.“
+Below the heading is a green status tag “LIVE“ to let the form creator know this is a live form. 
+
+There is a green “Add a question” button followed by a secondary heading, “Your questions" and below is a link "Preview the form in a new tab". 
+
+There is a list of questions created and saved for this form. 
+The first question is "What is your name?". To the right is a grey “Move down” button and below it a link "edit".
+There is a section break
+The second question is "What is your date of birth?". To the right is a grey “Move up” button, next to it a grey "Move down" button. Bellow the "Mode down" is a link "edit".
+There is a section break
+The third queston is "What is your National Insurance number?". To the right is a grey "Move up" button and below is a link "edit".
+
+<br>
+<br>
+
+## Some things we changed since last time
+
+For more information, see [v0.0.6 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.7). 
+
+<br>
+<br>
+
+## Form runner screenshots
+
+Below are the screens the form filler (the end user) would see as they complete the form.
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
