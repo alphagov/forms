@@ -12,7 +12,7 @@ ___
 
 - [Context](#context)
 - [Admin interface screenshots](#admin-interface-screenshots)
-- [New journeys](#new-journeys)
+- [New journeys we introduced](#new-journeys)
 - [Form runner screenshots](#form-runner-screenshots)
 - [What we learned](#what-we-learned)
 - [Opportunites](#opportunities)
@@ -280,7 +280,7 @@ Followed by a link to “Continue creating a form“.
 
 <br>
 
-## New journeys
+## New journeys we introduced
 
 In prototype version 7 we introduced new journeys to enable form creators to:
 - provide a link to privacy information for a form
