@@ -416,7 +416,8 @@ The third queston is "What is your National Insurance number?". To the right is 
 
 ## Some things we changed since last time
 - Added draft and live status tags to let a user know what state a form is in
-- Content changes on the text input label on the edit confirmation/form submitted page
+- Content changes on the example heading and text input label on the edit confirmation / form submitted page
+- Content changes on the example heading and text input label on the edit add a declaration / check your answers page
 
 For more information, see [v0.0.7 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.7). 
 
@@ -438,9 +439,11 @@ Below are the screens the form filler (the end user) would see as they complete 
 ### Preview final question
 
 ![Preview What is your National Insurance number question page. Screenshot](screenshots/1002-page-preview-new-tab-3.png)
-*Page with “What is your National Insurance number?” question as a label for a text input. There is a green “Continue” button at the bottom.*
+*Page with “What is your National Insurance number?” question as a label for a text input, followed below by a green “Continue” button.*
 
-There is a details summary text “Get help with this form“ that is expanded to reveal the third level heading “Email“ and the email address “support@email.gov.uk“. This is the contact details added by the form creator within the admin side of the builder, meaning it can be customised. The form creator can also provide a link to contact support form or a phone number or all three options.
+There is a details summary link text that says “Get help with this form“ that is expanded to reveal the third level heading “Email“ and an example of a contact email address “support@email.gov.uk“. We added this details component of the contact details that can be used by a person filling a form to get help.
+
+This is the contact details added by the form creator within the admin side of the builder, meaning it can be customised. The form creator can also provide a link to contact support form or a phone number or all three options.
 
 There is a new visually recessive ‘watermark’ saying “DRAFT” across the background of the page.  
 
