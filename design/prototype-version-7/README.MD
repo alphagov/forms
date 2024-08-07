@@ -12,7 +12,7 @@ ___
 
 - [Context](#context)
 - [Admin interface screenshots](#admin-interface-screenshots)
-- [New journeys we introduced](#new-journeys)
+- [New journeys we introduced](#new-journeys-we-introduced)
 - [Form runner screenshots](#form-runner-screenshots)
 - [What we learned](#what-we-learned)
 - [Opportunites](#opportunities)
