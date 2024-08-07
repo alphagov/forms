@@ -411,6 +411,7 @@ The third queston is "What is your National Insurance number?". To the right is 
 <br>
 
 ## Some things we changed since last time
+- Added draft and live status tags to let a user know what state a form is in
 
 For more information, see [v0.0.7 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.7). 
 
