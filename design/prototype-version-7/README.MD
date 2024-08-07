@@ -12,6 +12,7 @@ ___
 
 - [Context](#context)
 - [Admin interface screenshots](#admin-interface-screenshots)
+- [New journeys](#new-journeys)
 - [Form runner screenshots](#form-runner-screenshots)
 - [What we learned](#what-we-learned)
 - [Opportunites](#opportunities)
@@ -278,6 +279,13 @@ There is text to confrim to the form creator that completed forms will be sent t
 Followed by a link to “Continue creating a form“. 
 
 <br>
+
+## New journeys
+
+In prototype version 7 we introduced new journeys to enable form creators to:
+- provide a link to privacy information for a form
+- provide contact details for support 
+- make a form live 
 
 ### Provide a link to privacy information for this form
 
