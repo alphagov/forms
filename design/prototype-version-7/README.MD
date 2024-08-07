@@ -335,7 +335,7 @@ At the end of the page is a green “Save and continue” button.
 
 ### Make your form live
 
-![provide contact details for support page. Screenshot](screenshots/601-provide-support-details.png)
+![Make your form live. Screenshot](screenshots/701-make-your-form-live.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Make your form live".*
 
 There is a paragraph that describes what happens when a form is made live “When you make your form live you will get a URL for the form. The form will not be indexed by search engines, so people will not be able to find it easily. Contact your GOV.UK publishing team to publish a link to your form on GOV.UK so people can find it.“
