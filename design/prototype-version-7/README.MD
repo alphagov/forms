@@ -185,8 +185,9 @@ There is a paragraph describing what the form submitted page is, “This page wi
 
 This is followed by some additional text to help the form creator edit the confirmation page “Add some content to let people know what will happen next and when, so they know what to expect.“ There is a third level heading, "Example" followed by inset text giving an example of content the form creator can use for their form submitted page “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”
 
-There is a secondary heading label before the text input box that says, “Enter some information to tell people what will happen next”. The content of this label has been updated to be more descriptive from the previous label "What happens next" on [edit confirmation page of prototype version 6](https://github.com/alphagov/forms/tree/main/design/prototype-version-6#edit-confirmation--form-submitted-page), to be make the label more descriptive. The text inputboxhas a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
+There is a secondary heading label before the text input box that says, “Enter some information to tell people what will happen next”. We updated the content of this label to be more descriptive than the previous label that was "What happens next" on [the edit confirmation page of prototype version 6](https://github.com/alphagov/forms/tree/main/design/prototype-version-6#edit-confirmation--form-submitted-page). 
 
+The text input box has a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
 
 At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
 
@@ -413,6 +414,7 @@ The third queston is "What is your National Insurance number?". To the right is 
 
 ## Some things we changed since last time
 - Added draft and live status tags to let a user know what state a form is in
+- Content changes on the text input label on the edit confirmation/form submitted page
 
 For more information, see [v0.0.7 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.7). 
 
