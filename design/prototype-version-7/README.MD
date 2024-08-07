@@ -221,7 +221,7 @@ At the end of the page is a green “Continue” button.
 ![confirmation-code-sent page. Screenshot](screenshots/302-confirmation-code-sent.png)
 *Page with the heading “Confirmation code sent”.*
 
-There is a paragraph that confirms to the form creator that a code has been sent to the email address they entered “We've sent a confirmation code and your email address to chris.cameron@digital.cabinet-office.gov.uk.“
+There is a paragraph that confirms to the form creator that a code has been sent to the email address they entered “We've sent a confirmation code and your email address to email@example.gov.uk.“
 
 A paragrah tells explains to the form creator what to do with the confirmation code “The recipient will be asked to give you the code. You need to enter the code to confirm the email address. The code is valid for 7 days.“
 
@@ -235,7 +235,7 @@ There is another link to “Continue creating a form“.
 ![confirmation code sent page. Screenshot](screenshots/302-confirmation-code-sent.png)
 *Page with the heading “Confirmation code sent”.*
 
-There is a paragraph that confirms to the form creator that a code has been sent to the email address they entered “We've sent a confirmation code and your email address to chris.cameron@digital.cabinet-office.gov.uk.“
+There is a paragraph that confirms to the form creator that a code has been sent to the email address they entered “We've sent a confirmation code and your email address to email@example.gov.uk.“
 
 A paragrah tells explains to the form creator what to do with the confirmation code “The recipient will be asked to give you the code. You need to enter the code to confirm the email address. The code is valid for 7 days.“
 
@@ -249,7 +249,7 @@ There is another link to “Continue creating a form“.
 ![enter the confirmation code page. Screenshot](screenshots/401-add-confirmation-code.png)
 *Page with the heading “Enter the confirmation code” as a label for a text input to enter the confirmation code. 
 
-Followed by a link to help the form creator request a new confirmation code “Send a new confirmation code to chris.cameron@digital.cabinet-office.gov.uk“. 
+Followed by a link to help the form creator request a new confirmation code “Send a new confirmation code to email@example.gov.uk“. 
 
 At the end of the page is a green “Continue” button. 
 
@@ -262,7 +262,7 @@ At the end of the page is a green “Continue” button.
 
 There is text to let the form creator know why the confirmation code has expired “The code is only valid for 7 days.“
 
-Followed by a link to help the form creator request a new confirmation code “Send a new confirmation code to chris.cameron@digital.cabinet-office.gov.uk“. 
+Followed by a link to help the form creator request a new confirmation code “Send a new confirmation code to email@example.gov.uk“. 
 
 At the end of the page is a green “Continue” button. 
 There is another link to “Continue creating a form“. 
@@ -274,7 +274,7 @@ There is another link to “Continue creating a form“.
 ![the confirmation code has expired page. Screenshot](screenshots/402-confirmation-code-expired.png)
 *Page with the heading “The confirmation code has expired”.*
 
-There is text to confrim to the form creator that completed forms will be sent to the email address they entered and confirmed “Completed forms will be sent to chris.cameron@digital.cabinet-office.gov.uk“. 
+There is text to confrim to the form creator that completed forms will be sent to the email address they entered and confirmed “Completed forms will be sent to email@example.gov.uk“. 
 
 Followed by a link to “Continue creating a form“. 
 
@@ -341,7 +341,7 @@ At the end of the page is a green “Save and continue” button.
 There is a paragraph that describes what happens when a form is made live “When you make your form live you will get a URL for the form. The form will not be indexed by search engines, so people will not be able to find it easily. Contact your GOV.UK publishing team to publish a link to your form on GOV.UK so people can find it.“
 
 There is text and a bullet list saying  “Make sure you are happy with the form before you make it live. After you have made your form live:
-- completed forms will be sent to chris.cameron@digital.cabinet-office.gov.uk
+- completed forms will be sent to email@example.gov.uk
 - you will not be able to change the name of the form“
 
 There is a blue notification banner with title “Important“. Inside the notification banner there is a secondary heading saying “Any changes you make to a live form will be updated in the form immediately.“ 
