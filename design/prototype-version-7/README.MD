@@ -152,17 +152,19 @@ The third queston is "What is your National Insurance number?". To the right is 
 
 ### Edit add a declaration / check your answers page 
 ![add a declaration / check your answers page. Screenshot](screenshots/101-edit-page-check-answers.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Add a a declaration".*
+*Page with “Apply for a juggling licence” caption above the heading that says “Add a declaration".*
 
-There is a paragraph describing what the check your answers page is to help the form creator, “When someone has answered all the questions in your form, they will be shown a page that lists all of their answers. The page will ask them to check their answers before they submit the form."
+Below the heading there is a paragraph describing the purpose of the check your answers page, “When someone has answered all the questions in your form, they will be shown a page that lists all of their answers. The page will ask them to check their answers before they submit the form."
 
-The next paragraph describes what a declaration is "You can add a declaration to this page. A declaration is some content that people must confirm they understand and agree to before they submit the form. 
+The next paragraph describes what a declaration is "You can add a declaration to this page. A declaration is some content that people must confirm they understand and agree to before they submit the form". 
 
-Another paragraph follows describing the declaration "You might want to add a declaration if you need people to confirm they have provided accurate information, or that they understand the consequences of providing false information. 
+Another paragraph follows describing how a form creator can add a declaration, "You might want to add a declaration if you need people to confirm they have provided accurate information, or that they understand the consequences of providing false information". 
 
-This is followed by a third level heading "Example", and below an inset text with the example "By submitting this form your are confirming that, to the best of your knowledge, the answers you are providing are correct."
+There is a third level heading that says "Example", followed by an inset text with the example "By submitting this form your are confirming that, to the best of your knowledge, the answers you are providing are correct." In this prototype version, we added the example heading to make it clear what the example is, and to be consistent with the pattern on the 'what happens next' page.
 
-There is a secondary heading label, “Enter a declaration for people to agree to (optional)" before a text input with a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
+There is a secondary heading label, “Enter a declaration for people to agree to (optional)". We updated this heading to be more descriptive than the previous label "Declaration" that was on [the declaration page of protototype version 6](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-6/screenshots/010-Edit-form-summary-page.png). 
+
+The text input box has a character counter that says, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit. 
 
 At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
 
