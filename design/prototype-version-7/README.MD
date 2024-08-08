@@ -295,7 +295,7 @@ In prototype version 7 we introduced new journeys to enable form creators to:
 - provide a link to privacy information for a form
 - provide contact details for support 
 - make a form live 
-- returning to a live form t edit it
+- returning to a live form to edit it
 
 ### Provide a link to privacy information for this form
 
@@ -372,14 +372,16 @@ There is text saying "The URL for your form is:" followed by an inactive link of
 
 There is a paragraph describing what the form creator needs to do with the link “The form will not be indexed by search engines, so people will not be able to find it easily. Contact your GOV.UK publishing team to publish a link to your form on GOV.UK so people can find it.“
 
-There is a link to “Continue to your form“. 
+There is a link to “Continue to form details“ which takes the form creator to the task list page for their live form. 
 
 <br>
 
 ### Create a form (task list page) for a live form
 
 ![task list page for a live form. Screenshot](screenshots/703-create-form-live.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “You form”. Followed by a green tag that says “LIVE“.*
+*Page with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
+
+This is the task list pgae for a live form. 
 
 <br>
 
