@@ -154,7 +154,7 @@ The third queston is "What is your National Insurance number?". To the right is 
 ![add a declaration / check your answers page. Screenshot](screenshots/101-edit-page-check-answers.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Add a declaration".*
 
-We updated the heading of this page from 'Form summary page' in [version 6 of the prototype](https://github.com/alphagov/forms/raw/documenting-prototype-version-7/design/prototype-version-6/screenshots/010-Edit-form-summary-page.png) to 'Add a declaration' to make the action for the form creator clear.
+We updated the heading of this page from 'Form summary page' in [version 6 of the prototype](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-6/screenshots/010-Edit-form-summary-page.png) to 'Add a declaration' to make the action for the form creator clear.
 
 Below the heading there is a paragraph describing the purpose of the check your answers page, “When someone has answered all the questions in your form, they will be shown a page that lists all of their answers. The page will ask them to check their answers before they submit the form."
 
