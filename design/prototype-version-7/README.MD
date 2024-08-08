@@ -67,6 +67,9 @@ Below the button is a summary list component showing the name of the form that h
 ![create a form task list page. Screenshot](screenshots/003-create-form.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”. Followed by a purple tag that says “DRAFT“.*
 
+What we changed from the previous version
+Changes to the 'task list page
+
 <br>
 
 ### Add and edit your questions page
