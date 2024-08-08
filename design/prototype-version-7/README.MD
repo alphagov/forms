@@ -84,9 +84,9 @@ There is a green “Add a question” button.
 ![edit question 1. Screenshot](screenshots/005-edit-page-1.png)
 *Page with “Question 1” caption above a heading “Edit question”.*
 
-A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’” and then a text input.
+A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’” and then a text input. In this version, we made a minor context change by removing the full stop that was at the end of this hint text, because it already has a question mark.
 
-A second secondary heading, “Hint text (optional)”, followed by hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” and then a text input.
+A second secondary heading, “Hint text (optional)”, followed by hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” and then a text input. We updated this hint text to be more descrptive than the previous [edit question page on prototype version 6](https://github.com/alphagov/forms/blob/main/design/prototype-version-6/screenshots/005-Edit-question-1.png). 
 
 Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be checked to make sure it’s in the selected format.” Below are radio buttons that determine the input type required:
 
@@ -98,6 +98,9 @@ Next is a secondary heading, “What kind of answer do you need to this question
 - Email address
 - National Insurance number
 - Phone number
+
+We updated the content on the hint text of the date radio button from “Requires a specific day, month and year“ to “Requires a day, month and year“ to avoid people thinking it will only accept one specific date.
+
 The page ends with a green “Save and add next question” button next to a grey “Save and preview question” button.
 Below is a blue link “Go to form overview”.
 
@@ -421,7 +424,7 @@ The third queston is "What is your National Insurance number?". To the right is 
 - Content changes on the example heading and text input label on the edit confirmation / form submitted page
 - Content changes on the example heading and text input label on the edit add a declaration / check your answers page
 - Updated the second level heading 'Add and edit your questions' page to 'Your questions'
-
+- Content updates on the 'edit question page' 
 
 For more information, see [v0.0.7 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.7). 
 
