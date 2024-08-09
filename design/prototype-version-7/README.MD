@@ -384,7 +384,7 @@ There is a link to “Continue to form details“ which takes the form creator t
 ![task list page for a live form. Screenshot](screenshots/703-create-form-live.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
 
-This is the task list pgae for a live form. 
+This is the task list page for a live form. 
 
 <br>
 
