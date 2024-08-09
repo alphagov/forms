@@ -49,7 +49,7 @@ Below these is a closed details component showing a blue link with an arrow befo
 - When users clicked on the link to “Add and edit your questions“ tasks, and added their questions, the grey highlighted tag on the far right of the row changed to a light blue tag that reads “in progress“ as shown below. Users were unsure how to move the tag to “complete“
 
 ![Create your form tasks. Screenshot](.../design/prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
-*Table with caption “1. Create your form” and four rows with link texts to tasks and tags on the far right of the rows.*
+ *Table with caption “1. Create your form” and four rows with link texts to tasks and tags on the far right of the rows.*
 
 ## What we changed and why
 
