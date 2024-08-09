@@ -13,7 +13,7 @@ We also went back slightly to previous ‘save’ buttons making it clearer whic
 
 ## What we tested last time
 
-![Create a form task list page. Screenshot](screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
+![Create a form task list page. Screenshot](https://github.com/alphagov/forms/blob/main/design/prototype-version-6/screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
 
 A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’”, followed by a text input.
