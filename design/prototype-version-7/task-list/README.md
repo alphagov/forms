@@ -58,6 +58,8 @@ The second row has a link to “How to publish the form on GOV.UK“ and a grey 
 - The link text to “Review summary page and add declaration“ was not clear to all users. This became clearer for some when they clicked the link to get to the ‘what happens next’ page.
 - When users clicked on the link to “Add and edit your questions“ tasks, and added their questions, the grey highlighted tag on the far right of the row changed to a light blue tag that reads “in progress“ as shown below. Users were unsure how to move the tag to “complete“
 
+<br>
+
 ![Create your form tasks. Screenshot](https://github.com/alphagov/forms/blob/bettymw-patch-2/design/prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
  *Table with caption “1. Create your form” and four rows with link texts to tasks and tags on the far right of the rows.*
 
@@ -69,12 +71,16 @@ The second row has a link to “How to publish the form on GOV.UK“ and a grey 
 - Added a purple highlighted tag labelled “DRAFT“ for when the form is in draft and a green highlighted tag labelled “LIVE“ for when the form has been made live. 
 - Changed the link text from “Review summary page and add declaration“ to “Add a declaration for people to agree to“. This made the task and action for the form creator clear.
 
+<br>
+
 ![Create your form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-create-form-statuses-focus.png)
 *Table captioned “1. Create your form“ and four rows below with link texts and tags on the far right.*
 
 <br>  
 
 - Changed table caption for the second set of tasks from “2. Set form responses“ to "2. Set email address for completed forms“
+
+<br>
 
 ![Set email address for completed forms. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-set-email-statuses-focus.png)
 *Table captioned "2. Set email address for completed forms“ and two rows below with link texts and tags on the far right.*
@@ -84,6 +90,8 @@ The second row has a link to “How to publish the form on GOV.UK“ and a grey 
 - Changed table caption for the third set of tasks from “3. Get your form ready to go live“ to “3. Provide privacy and contact details“
 - Edited the link text for the first task on table from “Provide a link to your privacy information“ to “Provide a link to privacy information for this form
 - Changed the link text on second row of the table captioned “3. Provide privacy and contact details“ from “Provide link to your accessibility statement“ to “Provide contact details for support“. This task was introduced so that form creators can provide at least one way for people to get help if they get stuck while filling in their form.
+
+<br>
   
 ![Provide privacy and contact details. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-privacy-contact-statuses-focus.png)
 *Table captioned “3. Provide privacy and contact details“ and two rows below with link texts and tags on the far right.*
@@ -92,10 +100,9 @@ The second row has a link to “How to publish the form on GOV.UK“ and a grey 
 
 - Changed table caption for the fourth set of tasks from “4. Publish your form“ to “4. Make your form live“.
 - Removed the final task ““How to publish the form on GOV.UK“ because the guidance to publish a form on GOV.UK was provided in the [“Make your form live“](design/prototype-version-7/screenshots/701-make-your-form-live.png) page.
-
-<br>  
-
 - Added a red “Delete” button at the bottom of the page.
+
+<br>
 
 ![Make your form live. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-make-live-focus.png)
 *Table captioned “4. Make your form live“ and a row below with an inactive link text and tag on the far right.*
