@@ -75,15 +75,12 @@ Below these is a closed details component showing a blue link with an arrow befo
 - Removed the final task ““How to publish the form on GOV.UK“ because the guidance to publish a form on GOV.UK was provided in the [“Make your form live“](design/prototype-version-7/screenshots/701-make-your-form-live.png) page.
 - Added a red “Delete” button at the bottom of the page.
 
-![Make your form live. Screenshot](design/prototype-version-7/screenshots/003-create-form-make-live-focus.png)
+![Make your form live. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-make-live-focus.png)
 *Table captioned “4. Make your form live“ and a row below with an inactive link text and tag on the far right.*
 
 ## What we designed for version 7
-# Create a form (task list page) for a draft form
 
 ![create a form task list page. Screenshot](screenshots/003-create-form.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Create a form”. Followed by a purple tag that says “DRAFT“.*
-
-# Create a form (task list page) for a live form
+*Create a form (task list page) for a draft form with “Apply for a juggling licence” caption above the heading that says “Create a form”. Followed by a purple tag that says “DRAFT“.*
 ![task list page for a live form. Screenshot](screenshots/703-create-form-live.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
+*Create a form (task list page) for a live formPage with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
