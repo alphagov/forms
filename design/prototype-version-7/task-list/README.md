@@ -62,6 +62,8 @@ The second row has a link to “How to publish the form on GOV.UK“ and a grey 
  *Table with caption “1. Create your form” and four rows with link texts to tasks and tags on the far right of the rows.*
 
 <br>  
+<br>  
+
 ## What we changed and why
 
 - Added a purple highlighted tag labelled “DRAFT“ for when the form is in draft and a green highlighted tag labelled “LIVE“ for when the form has been made live. 
