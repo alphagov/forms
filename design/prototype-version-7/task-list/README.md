@@ -23,22 +23,31 @@ The second row has a link to “Add and edit your questions“ and a grey highli
 
 The third row has a link to “Review summary page and add declaration“ and a grey highlighted tag on the far right of the row that reads “not started“.
 
-The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right of the row that reads “not started“.
+<br>  
 
 There is a another table with the second set of tasks, with the caption “2. Set form responses“
+
 The first row has a link to “Set the email address completed forms will be sent to“ and a grey highlighted tag on the far right of the row that reads “not started“.
+
 The second row has an inactive link to “Enter the email address confirmation code“ and a grey highlighted tag on the far right of the row that reads “Cannot start yet“. This inactive link changed to an active when the form creator completes the previous step and the grey highlighted status tag would change to “not started“.
 
+<br>  
+
 Next is another table with the third section of tasks, with the caption “3. Get your form ready to go live“
+
 The first row has a link to “Provide link to your privacy information“ and a grey highlighted tag on the far right of the row that reads “not started“.
+
 The second row has a link to “Provide link to your accessibility statement“ and a grey highlighted tag on the far right of the row that reads “not started“.
 
+<br>  
+
 Next is a table with the fourth set of tasks, with the caption “4. Publish your form“
+
 The first row has a link to “Make your form live“ and a grey highlighted tag on the far right of the row that reads “not started“.
+
 The second row has a link to “How to publish the form on GOV.UK“ and a grey highlighted tag on the far right of the row that reads “not started“.
 
-Below these is a closed details component showing a blue link with an arrow before the text “Add hint text to help people answer the question”.
-
+<br>  
 ### What we saw
 
 - Users found the task list clear, easy to use and logical to navigate
@@ -48,9 +57,10 @@ Below these is a closed details component showing a blue link with an arrow befo
 - The link text to “Review summary page and add declaration“ was not clear to all users. This became clearer for some when they clicked the link to get to the ‘what happens next’ page.
 - When users clicked on the link to “Add and edit your questions“ tasks, and added their questions, the grey highlighted tag on the far right of the row changed to a light blue tag that reads “in progress“ as shown below. Users were unsure how to move the tag to “complete“
 
-![Create your form tasks. Screenshot](.../design/prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
+![Create your form tasks. Screenshot](https://github.com/alphagov/forms/blob/bettymw-patch-2/design/prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
  *Table with caption “1. Create your form” and four rows with link texts to tasks and tags on the far right of the rows.*
 
+<br>  
 ## What we changed and why
 
 - Added a purple highlighted tag labelled “DRAFT“ for when the form is in draft and a green highlighted tag labelled “LIVE“ for when the form has been made live. 
@@ -59,10 +69,14 @@ Below these is a closed details component showing a blue link with an arrow befo
 ![Create your form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-create-form-statuses-focus.png)
 *Table captioned “1. Create your form“ and four rows below with link texts and tags on the far right.*
 
+<br>  
+
 - Changed table caption for the second set of tasks from “2. Set form responses“ to "2. Set email address for completed forms“
 
 ![Set email address for completed forms. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-set-email-statuses-focus.png)
 *Table captioned "2. Set email address for completed forms“ and two rows below with link texts and tags on the far right.*
+
+<br>  
 
 - Changed table caption for the third set of tasks from “3. Get your form ready to go live“ to “3. Provide privacy and contact details“
 - Edited the link text for the first task on table from “Provide a link to your privacy information“ to “Provide a link to privacy information for this form
@@ -71,12 +85,19 @@ Below these is a closed details component showing a blue link with an arrow befo
 ![Provide privacy and contact details. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-privacy-contact-statuses-focus.png)
 *Table captioned “3. Provide privacy and contact details“ and two rows below with link texts and tags on the far right.*
 
+<br>  
+
 - Changed table caption for the fourth set of tasks from “4. Publish your form“ to “4. Make your form live“.
 - Removed the final task ““How to publish the form on GOV.UK“ because the guidance to publish a form on GOV.UK was provided in the [“Make your form live“](design/prototype-version-7/screenshots/701-make-your-form-live.png) page.
+
+<br>  
+
 - Added a red “Delete” button at the bottom of the page.
 
 ![Make your form live. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-make-live-focus.png)
 *Table captioned “4. Make your form live“ and a row below with an inactive link text and tag on the far right.*
+
+<br>  
 
 ## What we designed for version 7
 
@@ -87,3 +108,6 @@ Below these is a closed details component showing a blue link with an arrow befo
 
 ![task list page for a live form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/703-create-form-live.png)
 *Create a form (task list page) for a live formPage with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
+
+<br>  
+<br>  
