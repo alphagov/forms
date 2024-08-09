@@ -13,8 +13,8 @@ We also went back slightly to previous ‘save’ buttons making it clearer whic
 
 ## What we tested last time
 
-![Edit question 1. Screenshot](../../prototype-version-3/screenshots/004-Edit-question-1.png)
-*Page with “Question 1” caption above a heading “Edit question”.*
+![Create a form task list page. Screenshot](screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
 
 A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’”, followed by a text input.
 
