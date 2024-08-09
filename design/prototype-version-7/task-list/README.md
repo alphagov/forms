@@ -16,9 +16,13 @@ This provided us with some valuable insights and formed the basis of version 7.
 Below the heading is bold text saying “Form incomplete“ that tells the form creator they have not completed all the steps to create their form. There is a parapgrah text next saying “You have completed 1 of 10 sections.“ This tells the form creator how many sections out of the total sections they have completed. 
 
 There is a table with the first set of tasks that a form creator needs to complete to create a form, with the caption “1. Create your form“
+
 The first row has a link to “Edit the name of your form“ and a blue highlighted tag on the far right of the row that reads “completed“.
+
 The second row has a link to “Add and edit your questions“ and a grey highlighted tag on the far right of the row that reads “not started“.
+
 The third row has a link to “Review summary page and add declaration“ and a grey highlighted tag on the far right of the row that reads “not started“.
+
 The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right of the row that reads “not started“.
 
 There is a another table with the second set of tasks, with the caption “2. Set form responses“
@@ -44,7 +48,7 @@ Below these is a closed details component showing a blue link with an arrow befo
 - The link text to “Review summary page and add declaration“ was not clear to all users. This became clearer for some when they clicked the link to get to the ‘what happens next’ page.
 - When users clicked on the link to “Add and edit your questions“ tasks, and added their questions, the grey highlighted tag on the far right of the row changed to a light blue tag that reads “in progress“ as shown below. Users were unsure how to move the tag to “complete“
 
-![Create your form tasks. Screenshot](design/prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
+![Create your form tasks. Screenshot](.../design/prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
 *Table with caption “1. Create your form” and four rows with link texts to tasks and tags on the far right of the rows.*
 
 ## What we changed and why
@@ -52,7 +56,7 @@ Below these is a closed details component showing a blue link with an arrow befo
 - Added a purple highlighted tag labelled “DRAFT“ for when the form is in draft and a green highlighted tag labelled “LIVE“ for when the form has been made live. 
 - Changed the link text from “Review summary page and add declaration“ to “Add a declaration for people to agree to“. This made the task and action for the form creator clear.
 
-![Create your form. Screenshot](design/prototype-version-7/screenshots/003-create-form-create-form-statuses-focus.png)
+![Create your form. Screenshot](.../design/prototype-version-7/screenshots/003-create-form-create-form-statuses-focus.png)
 *Table captioned “1. Create your form“ and four rows below with link texts and tags on the far right.*
 
 - Changed table caption for the second set of tasks from “2. Set form responses“ to "2. Set email address for completed forms“
