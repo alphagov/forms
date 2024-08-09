@@ -49,7 +49,7 @@ The second row has a link to “How to publish the form on GOV.UK“ and a grey 
 
 <br>  
 
-### What we saw
+## What we saw
 
 - Users found the task list clear, easy to use and logical to navigate
 - Users found the progress labels helpful to work through the list and used them regularly.  
@@ -117,7 +117,7 @@ The second row has a link to “How to publish the form on GOV.UK“ and a grey 
 <br> 
 
 ![task list page for a live form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/703-create-form-live.png)
-*Create a form (task list page) for a live formPage with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
+*Create a form (task list page) for a live form with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
 
 <br>  
 <br>  
