@@ -56,19 +56,19 @@ Below these is a closed details component showing a blue link with an arrow befo
 - Added a purple highlighted tag labelled “DRAFT“ for when the form is in draft and a green highlighted tag labelled “LIVE“ for when the form has been made live. 
 - Changed the link text from “Review summary page and add declaration“ to “Add a declaration for people to agree to“. This made the task and action for the form creator clear.
 
-![Create your form. Screenshot](.../design/prototype-version-7/screenshots/003-create-form-create-form-statuses-focus.png)
+![Create your form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-create-form-statuses-focus.png)
 *Table captioned “1. Create your form“ and four rows below with link texts and tags on the far right.*
 
 - Changed table caption for the second set of tasks from “2. Set form responses“ to "2. Set email address for completed forms“
 
-![Set email address for completed forms. Screenshot](design/prototype-version-7/screenshots/003-create-form-set-email-statuses-focus.png)
+![Set email address for completed forms. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-set-email-statuses-focus.png)
 *Table captioned "2. Set email address for completed forms“ and two rows below with link texts and tags on the far right.*
 
 - Changed table caption for the third set of tasks from “3. Get your form ready to go live“ to “3. Provide privacy and contact details“
 - Edited the link text for the first task on table from “Provide a link to your privacy information“ to “Provide a link to privacy information for this form
 - Changed the link text on second row of the table captioned “3. Provide privacy and contact details“ from “Provide link to your accessibility statement“ to “Provide contact details for support“. This task was introduced so that form creators can provide at least one way for people to get help if they get stuck while filling in their form.
   
-![Provide privacy and contact details. Screenshot](design/prototype-version-7/screenshots/003-create-form-privacy-contact-statuses-focus.png)
+![Provide privacy and contact details. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-privacy-contact-statuses-focus.png)
 *Table captioned “3. Provide privacy and contact details“ and two rows below with link texts and tags on the far right.*
 
 - Changed table caption for the fourth set of tasks from “4. Publish your form“ to “4. Make your form live“.
@@ -80,7 +80,10 @@ Below these is a closed details component showing a blue link with an arrow befo
 
 ## What we designed for version 7
 
-![create a form task list page. Screenshot](screenshots/003-create-form.png)
+![create a form task list page. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form.png)
 *Create a form (task list page) for a draft form with “Apply for a juggling licence” caption above the heading that says “Create a form”. Followed by a purple tag that says “DRAFT“.*
-![task list page for a live form. Screenshot](screenshots/703-create-form-live.png)
+
+<br> 
+
+![task list page for a live form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/703-create-form-live.png)
 *Create a form (task list page) for a live formPage with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
