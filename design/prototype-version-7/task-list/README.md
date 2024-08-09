@@ -2,7 +2,9 @@
 
 ## Context
 
-We tested version 6 of the task list page in usability testing sessions with form creators who had form builing experience and some with low digital confidence. We tested the design of the task list page, checking users understanding of the process to get a form live and how they navigate through the tasks. 
+We tested version 6 of the task list page in usability testing sessions with form creators who had form builing experience and some with low digital confidence. 
+
+We tested the design of the page, checking users understanding of the process to get a form live and how they navigate through the tasks. 
 
 This provided us with some valuable insights and formed the basis of version 7. 
 
@@ -11,76 +13,73 @@ This provided us with some valuable insights and formed the basis of version 7.
 ![Create a form task list page. Screenshot](https://github.com/alphagov/forms/blob/main/design/prototype-version-6/screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
 
-A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’”, followed by a text input.
+Below the heading is bold text saying “Form incomplete“ that tells the form creator they have not completed all the steps to create their form. There is a parapgrah text next saying “You have completed 1 of 10 sections.“ This tells the form creator how many sections out of the total sections they have completed. 
 
-A second secondary heading, “Question short name (optional)”, is followed by hint text “The short name will be used when the form’s questions are all displayed in a list. Use a short descriptive name. For example ‘Address’.”. This is followed by a text input.
+There is a table with the first set of tasks that a form creator needs to complete to create a form, with the caption “1. Create your form“
+The first row has a link to “Edit the name of your form“ and a blue highlighted tag on the far right of the row that reads “completed“.
+The second row has a link to “Add and edit your questions“ and a grey highlighted tag on the far right of the row that reads “not started“.
+The third row has a link to “Review summary page and add declaration“ and a grey highlighted tag on the far right of the row that reads “not started“.
+The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right of the row that reads “not started“.
+
+There is a another table with the second set of tasks, with the caption “2. Set form responses“
+The first row has a link to “Set the email address completed forms will be sent to“ and a grey highlighted tag on the far right of the row that reads “not started“.
+The second row has an inactive link to “Enter the email address confirmation code“ and a grey highlighted tag on the far right of the row that reads “Cannot start yet“. This inactive link changed to an active when the form creator completes the previous step and the grey highlighted status tag would change to “not started“.
+
+Next is another table with the third section of tasks, with the caption “3. Get your form ready to go live“
+The first row has a link to “Provide link to your privacy information“ and a grey highlighted tag on the far right of the row that reads “not started“.
+The second row has a link to “Provide link to your accessibility statement“ and a grey highlighted tag on the far right of the row that reads “not started“.
+
+Next is a table with the fourth set of tasks, with the caption “4. Publish your form“
+The first row has a link to “Make your form live“ and a grey highlighted tag on the far right of the row that reads “not started“.
+The second row has a link to “How to publish the form on GOV.UK“ and a grey highlighted tag on the far right of the row that reads “not started“.
 
 Below these is a closed details component showing a blue link with an arrow before the text “Add hint text to help people answer the question”.
 
-Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be validated to check it’s in the selected format.” Below are radio buttons that determine the input type required:
-
-- Single line of text, selected
-- Address
-- Date
-- Email address
-- National Insurance number
-- Phone number
-
-The page ends with a green “Save question” button next to a grey “Create next question” button. Below the two buttons is a “Go to form overview” link.
-
-<!-- describe side preview pane -->
-On the right side of the screen there is a secondary heading, “Question preview” with a link to “Preview question in a new tab”.
-
-Below the link is a smaller version of an empty GOV.UK service page within an iframe, to mimic a mobile screen. It shows the GOV.UK logo on a black header. Within the body of the page is a disabled green ‘Continue’ button.
-
-
 ### What we saw
 
-- User was unsure whether the save button would move them to another page
-- ‘Preview question in a new tab’ caused a navigation challenge when user tried to get out of the preview and back to form editing  
-- Some uncertainty around whether work had been saved when creating a question  
-- Some uncertainty as to what the preview pane did, particularly before users had saved a question and it had been populated with their content  
-- Users often needed to consider answer type before they were able to write useful hint text, but the current interface asks for hint text first  
-- They are also not shown how the answer type will display in the preview pane until they have saved a question. Some users re-wrote their hint text after saving and previewing  
+- Users found the task list clear, easy to use and logical to navigate
+- Users found the progress labels helpful to work through the list and used them regularly.  
+- All tasks were successfully completed apart from email setup which was not entirely clear to one low digital confidence user. 
+- All users completed the tasks in order, but when questioned said they understood it could be completed in any order.
+- The link text to “Review summary page and add declaration“ was not clear to all users. This became clearer for some when they clicked the link to get to the ‘what happens next’ page.
+- When users clicked on the link to “Add and edit your questions“ tasks, and added their questions, the grey highlighted tag on the far right of the row changed to a light blue tag that reads “in progress“ as shown below. Users were unsure how to move the tag to “complete“
+
+![Create your form tasks. Screenshot](design/prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
+*Table with caption “1. Create your form” and four rows with link texts to tasks and tags on the far right of the rows.*
 
 ## What we changed and why
 
-- Removed the ‘short version’ input for a question. Users continued to query the need for it, and were unsure when or how they could use it. We decided that this is probably not needed as a basic feature, and if we return to consider it in the future it may be a more ‘advanced’ feature
-- Made the ‘hint text’ question and input always visible - no longer in a ‘details’ component - meaning it is more prominent
-- Added more context to the ‘save’ buttons making it clearer what action each will take
-- Made ‘save and add next question’ the main call to action when adding a new question to the end position in the form
-- Made ‘save and edit next question’ the main call to action when editing a question that is not the last question within the form journey
-- Secondary action button now saves the question reloading the page
+- Added a purple highlighted tag labelled “DRAFT“ for when the form is in draft and a green highlighted tag labelled “LIVE“ for when the form has been made live. 
+- Changed the link text from “Review summary page and add declaration“ to “Add a declaration for people to agree to“. This made the task and action for the form creator clear.
 
-![Edit question 1. Screenshot](../screenshots/004-Edit-question-1.png)
-*Page with “Question 1” caption above a heading “Edit question”.*
+![Create your form. Screenshot](design/prototype-version-7/screenshots/003-create-form-create-form-statuses-focus.png)
+*Table captioned “1. Create your form“ and four rows below with link texts and tags on the far right.*
 
-A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’”. This is followed by a text input.
+- Changed table caption for the second set of tasks from “2. Set form responses“ to "2. Set email address for completed forms“
 
-A second secondary heading, “Hint text (optional)”, comes directly before hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.”. This is followed by a text input.
+![Set email address for completed forms. Screenshot](design/prototype-version-7/screenshots/003-create-form-set-email-statuses-focus.png)
+*Table captioned "2. Set email address for completed forms“ and two rows below with link texts and tags on the far right.*
 
-Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be validated to check it’s in the selected format.” Below are radio buttons that determine the input type required:
+- Changed table caption for the third set of tasks from “3. Get your form ready to go live“ to “3. Provide privacy and contact details“
+- Edited the link text for the first task on table from “Provide a link to your privacy information“ to “Provide a link to privacy information for this form
+- Changed the link text on second row of the table captioned “3. Provide privacy and contact details“ from “Provide link to your accessibility statement“ to “Provide contact details for support“. This task was introduced so that form creators can provide at least one way for people to get help if they get stuck while filling in their form.
+  
+![Provide privacy and contact details. Screenshot](design/prototype-version-7/screenshots/003-create-form-privacy-contact-statuses-focus.png)
+*Table captioned “3. Provide privacy and contact details“ and two rows below with link texts and tags on the far right.*
 
-- Single line of text (selected)
-- Address
-- Date
-- Email address
-- National Insurance number
-- Phone number
+- Changed table caption for the fourth set of tasks from “4. Publish your form“ to “4. Make your form live“.
+- Removed the final task ““How to publish the form on GOV.UK“ because the guidance to publish a form on GOV.UK was provided in the [“Make your form live“](design/prototype-version-7/screenshots/701-make-your-form-live.png) page.
+- Added a red “Delete” button at the bottom of the page.
 
-The page ends with a green “Save and add next question” button next to a grey “Save and preview question” button.  
-Below this is a blue link saying “Go to form overview”.
+![Make your form live. Screenshot](design/prototype-version-7/screenshots/003-create-form-make-live-focus.png)
+*Table captioned “4. Make your form live“ and a row below with an inactive link text and tag on the far right.*
 
-<!-- describe side preview pane -->
-On the right side of the screen there is a secondary heading “Question preview” above a link to “Preview question in a new tab”.
+## What we designed for version 7
+# Create a form (task list page) for a draft form
 
-Below the link is a smaller version of an empty GOV.UK service page within an iframe. It shows the GOV.UK logo on a black header. Within the body of the page is a disabled green ‘Continue’ button.
+![create a form task list page. Screenshot](screenshots/003-create-form.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Create a form”. Followed by a purple tag that says “DRAFT“.*
 
-### Feedback from this version
-
-- In this round we no longer saw any confusion or concern about ‘short version’ and why it was different to the ‘long version’
-- Moving the ‘hint text’ seemed to have little to no impact on users' experience and ability to use it effectively
-- Users started using the in-page preview pane (aside) more spontaneously, checking how their questions might look. However, the value of this wasn’t immediately clear and to begin with users did still seem to be ignoring it 
-- One user wanted the preview to update as they typed
-- One user commented on expecting to be asked for the answer type earlier/further up the page - feeling that the ‘hint text’ was too high up
-  > P1: ‘What kind of answer do you need to this question? - I’d expect this to be higher up instead of the hint text’
+# Create a form (task list page) for a live form
+![task list page for a live form. Screenshot](screenshots/703-create-form-live.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
