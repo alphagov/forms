@@ -9,7 +9,7 @@ Accepted
 
 ## Context
 
-This is an addendum to [ADR019](ADR019-user-amazon-ses.md) which set out the intention to use Amazon's Simple Email Service instead of GOV.UK Notify to send emails.
+This is an addendum to [ADR019](ADR019-use-amazon-ses.md) which set out the intention to use Amazon's Simple Email Service instead of GOV.UK Notify to send emails.
 
 GOV.UK Forms has continued to use GOV.UK Notify to send emails including:
 - submission confirmation emails to members of the public who have completed a form.
