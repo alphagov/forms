@@ -214,9 +214,9 @@ The iframe includes the title “Your form has been submitted” inside a green 
 ![set the email address for completed forms page. Screenshot](screenshots/301-set-completed-forms-email.png)
 *Page with the heading “Set the email address for completed forms”.*
 
-There is a paragraph describing why form creators need to set an email address “You need to provide an email address for completed forms to be sent to for processing. It should be a shared government email inbox.“
+There is a paragraph describing why form creators need to set an email address, the need to confirm it and the type of email address required “You need to provide an email address for completed forms to be sent to for processing. It should be a shared government email inbox.“
 
-This parapgraph descibes how we'll verify the email address provided by the form creator is correct “To make sure the email address you provide is correct, we’ll send an email to it with a confirmation code and your email address.“
+This parapgraph descibes how the GOV.UK Forms platform will verify the email address provided by the form creator is correct “To make sure the email address you provide is correct, we’ll send an email to it with a confirmation code and your email address.“
 
 “The recipient will be asked to give you the code. You'll then need to enter the code to confirm the email address.“
 
