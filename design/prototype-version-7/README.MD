@@ -23,8 +23,7 @@ ___
 
 ## Context
 
-> **Sprint X**
-> In this sprint we want to test
+> In this prototype version, we wanted to make and show imporvements to some crucial user journeys from the previous version that was tested. 
 
 <br>
 <br>
