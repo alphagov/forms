@@ -23,7 +23,7 @@ ___
 
 ## Context
 
-> In this prototype version 7, we introduced new user journeys and made content improvements to some pages, based on findings from usaility testing in Sprint 9 on prototye version 6. 
+> In this prototype version 7, we introduced new user journeys and made content improvements to some pages, based on findings from usability testing in Sprint 9 on prototye version 6. 
 <br>
 <br>
 
