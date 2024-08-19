@@ -23,7 +23,7 @@ ___
 
 ## Context
 
-> In this prototype version, we wanted to make and show imporvements to some crucial user journeys from the previous version that was tested. 
+> In this prototype version, we made changes to some user journeys from the previously tested version. 
 
 <br>
 <br>
@@ -383,7 +383,7 @@ There is a link to “Continue to form details“ which takes the form creator t
 ![task list page for a live form. Screenshot](screenshots/703-create-form-live.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
 
-This is the task list page for a live form. 
+This is the task list page for a live form. This is the page where the journey for a form creator returning to a live form to edit it, begins.
 
 <br>
 
