@@ -296,7 +296,7 @@ In prototype version 7 we introduced new journeys to enable form creators to:
 - provide a link to privacy information for a form
 - provide contact details for support 
 - make a form live 
-- returning to a live form to edit it
+- return to a live form to edit it
 
 ### Provide a link to privacy information for this form
 
