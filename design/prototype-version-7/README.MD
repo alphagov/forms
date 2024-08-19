@@ -166,7 +166,7 @@ The next paragraph describes what a declaration is "You can add a declaration to
 
 Another paragraph follows describing how a form creator can add a declaration, "You might want to add a declaration if you need people to confirm they have provided accurate information, or that they understand the consequences of providing false information". 
 
-There is a third level heading that says "Example", followed by an inset text with the example "By submitting this form your are confirming that, to the best of your knowledge, the answers you are providing are correct." In this prototype version, we added the example heading to make it clear what the example is, and to be consistent with the pattern on the ['Edit confirmation/form submitted page'](### Edit confirmation/form submitted page).
+There is a third level heading that says "Example", followed by an inset text with the example "By submitting this form your are confirming that, to the best of your knowledge, the answers you are providing are correct." In this prototype version, we added the example heading to make it clear what the example is, and to be consistent with the pattern on the ['Edit confirmation/form submitted page'](###Edit-confirmation/form submitted-page).
 
 There is a secondary heading label, “Enter a declaration for people to agree to (optional)". We updated this heading to be more descriptive than the previous label "Declaration" that was on the previous version 6. 
 
