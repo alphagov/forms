@@ -471,7 +471,7 @@ There is a visually recessive ‘watermark’ saying “DRAFT” across the back
 <br>
 
 ## Some things we changed since last time
-- We added a details component on the question pagesto reveal the contact details provided by the form creator, that can  can be used by a person filling a form to get help. 
+- We added a details component on the question page to reveal the contact details provided by the form creator. The contact details can be used by a person filling a form to get help. 
 <br>
 
 ___
