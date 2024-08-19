@@ -69,7 +69,7 @@ The second row has a link to “How to publish the form on GOV.UK“ and a grey 
 ## What we changed and why
 
 - Added a purple highlighted tag labelled “DRAFT“ for when the form is in draft and a green highlighted tag labelled “LIVE“ for when the form has been made live. 
-- Changed the link text from “Review summary page and add declaration“ to “Add a declaration for people to agree to“. This made the task and action for the form creator clear.
+- Changed the link text from “Review summary page and add declaration“ to “Add a declaration for people to agree to“. This made the task and action for the form creator clear and specific. This content improvement made it clearer that the declaration is for proeple who are completing the form to agree to. 
 
 <br>
 
