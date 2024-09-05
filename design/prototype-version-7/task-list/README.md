@@ -14,7 +14,9 @@ This provided us with some valuable insights and formed the basis of version 7.
 ![Create a form task list page. Screenshot](https://github.com/alphagov/forms/blob/main/design/prototype-version-6/screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
 
-Below the heading is bold text saying “Form incomplete“ that tells the form creator they have not completed all the steps to create their form. There is a parapgrah text next saying “You have completed 1 of 10 sections.“ This tells the form creator how many sections out of the total sections they have completed. 
+Below the heading is bold text saying “Form incomplete“ that tells the form creator they have not completed all the steps to create their form. 
+
+This is followed by the paragraph “You have completed 1 of 10 sections.“ This tells the form creator how many sections they have completed. 
 
 There is a table with the first set of tasks that a form creator needs to complete to create a form, with the caption “1. Create your form“
 
