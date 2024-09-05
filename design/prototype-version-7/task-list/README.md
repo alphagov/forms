@@ -5,7 +5,7 @@
 When we tested version 6 of the prototype we introduced the task list page.  
 We tested the new page with form creators who had form building experience and some with low digital confidence. 
 
-We tested the design of the page, checking users understanding of the process to get a form live and how they navigate through the tasks. 
+We wanted to check users understanding of the process to get a form ‘live’ and how they navigate through the tasks. 
 
 This provided us with some valuable insights and formed the basis of version 7. 
 
