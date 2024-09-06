@@ -441,7 +441,7 @@ Below are the screens the form filler (the end user) would see as they complete 
 ![Preview What is your National Insurance number question page. Screenshot](screenshots/1002-page-preview-new-tab-3.png)
 *Page with “What is your National Insurance number?” question as the label for a text input, followed below by a green “Continue” button.*
 
-There is a details summary link text that says “Get help with this form“ that is expanded to reveal the third level heading “Email“ and an example of a contact email address “support@email.gov.uk“. We added this details component of the contact details that can be used by a person filling a form to get help.
+There is a details component that says “Get help with this form“ that is now expanded. This reveals a third level heading, “Email“, and an example of a contact email address “support@email.gov.uk“. We added this details component for the contact details that can be used by a person filling a form to get help.  
 
 This is the contact details added by the form creator within the admin side of the builder, meaning it can be customised. The form creator can also provide a link to contact support form or a phone number or all three options.
 
