@@ -73,7 +73,7 @@ We made several changes to this page from the previous version -
 ### Add and edit your questions page
 
 ![Add and edit your questions page. Screenshot](screenshots/004-form-index-no-questions.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Add and edit your questions”.*
+*Page with “Apply for a juggling licence” caption above the heading “Add and edit your questions”.*
 
 There is a purple status tag that says 'DRAFT' to let users know this is a draft form. 
 Below the tag, there is a green “Add a question” button.
