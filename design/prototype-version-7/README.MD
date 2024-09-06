@@ -139,7 +139,7 @@ There are two radio options, “Yes” and “No” and below a green “Continu
 ### Add and edit your questions - with questions
 
 ![Add and edit your questions - with questions. Screenshot](screenshots/007-form-index-questions.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Add and edit your questions”.*
+*Page with “Apply for a juggling licence” caption above the heading “Add and edit your questions”.*
 
 There is a purple status tag that says 'DRAFT' to let users know this is a draft form. 
 There is a green “Add a question” button.
