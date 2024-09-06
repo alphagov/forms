@@ -443,7 +443,7 @@ Below are the screens the form filler (the end user) would see as they complete 
 
 There is a details component that says “Get help with this form“ that is now expanded. This reveals a third level heading, “Email“, and an example of a contact email address “support@email.gov.uk“. We added this details component for the contact details that can be used by a person filling a form to get help.  
 
-This is the contact details added by the form creator within the admin side of the builder, meaning it can be customised. The form creator can also provide a link to contact support form or a phone number or all three options.
+This is the contact details added by the form creator within the admin side of the builder. The form creator can choose to provide a link to a contact support form or a phone number or any combination of the three contact options.  
 
 There is a new visually recessive ‘watermark’ saying “DRAFT” across the background of the page.  
 
