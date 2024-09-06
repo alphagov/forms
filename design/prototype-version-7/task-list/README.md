@@ -103,7 +103,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>  
 
 - Changed step title from “3. Get your form ready to go live“ to “3. Provide privacy and contact details“
-- Edited the link text for the first task on table from “Provide a link to your privacy information“ to “Provide a link to privacy information for this form
+- Edited the link text for the first task from “Provide a link to your privacy information“ to “Provide a link to privacy information for this form”
 - Changed the link text on second row of the table captioned “3. Provide privacy and contact details“ from “Provide link to your accessibility statement“ to “Provide contact details for support“. This task was introduced so that form creators can provide at least one way for people to get help if they get stuck while filling in their form.
 
 <br>
