@@ -4,7 +4,7 @@ Not tested
 
 ## Status
 
-Superceeded by [version 8](../prototype-version-8) -->
+Superseded by [version 8](../prototype-version-8)
 
 ___
 
