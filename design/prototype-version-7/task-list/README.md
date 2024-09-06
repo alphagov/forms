@@ -115,7 +115,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 
 - Changed step title from “4. Publish your form“ to “4. Make your form live“.
 - Removed the final task ”How to publish the form on GOV.UK“ because the guidance to publish a form on GOV.UK was provided in the [“Make your form live“](design/prototype-version-7/screenshots/701-make-your-form-live.png) page.
-- Added a red “Delete” button at the bottom of the page.
+- Added a red “Delete form” button at the bottom of the page.
 
 <br>
 
