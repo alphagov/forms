@@ -93,7 +93,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 
 <br>  
 
-- Changed table caption for the second set of tasks from “2. Set form responses“ to "2. Set email address for completed forms“
+- Changed title for the second step from “2. Set form responses“ to "2. Set email address for completed forms“
 
 <br>
 
