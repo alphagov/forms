@@ -452,7 +452,7 @@ There is a new visually recessive ‘watermark’ saying “DRAFT” across the 
 ![Preview check your answers page. Screenshot](screenshots/1003-check-answers-page-preview-new-tab.png)
 *Page with “Check your answers before submitting your form” heading followed by a summary list component.*
 
-The summary list component lists rows showing the form’s full questions. There is a space to the right where the form filler's answer would appear: this has placeholder text saying “Not completed”. Finally, there is a “Change” link for the form filler to correct or change any answer they feel is incorrect.
+Each row shows the full question text added to the form followed by a space to the right where the form filler’s answer would appear. This currently has placeholder text saying “Not completed”. Finally, there is a “Change” link for the form filler to change any answer they feel is incorrect.  
 
 Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button. The text of the declaration is editable by the form creator within the admin side of the builder, meaning it can be customised to suit the needs of the different forms or department.
 
