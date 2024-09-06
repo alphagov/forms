@@ -20,17 +20,17 @@ This is followed by the paragraph “You have completed 1 of 10 sections.“ Thi
 
 There is an ordered list of steps with an unordered list of sections under each. Each section needs to be completed by the form creator before they can make their form ‘live’.
 
-<ol> Step “1. Create your form” has 4 rows under it.” <ol/>
+Step “1. Create your form” has 4 rows under it.”
 
-<ul> The first row has a link to “Edit the name of your form“ and a blue highlighted tag on the far right of the row that reads “completed“.
+<ul>
+<li><p>The first row has a link to “Edit the name of your form“ and a blue highlighted tag on the far right of the row that reads “completed“.</p></li>
 
+<li><p>The second row has a link to “Add and edit your questions“ and a grey highlighted tag on the far right that reads “not started“.</p></li>
 
-The second row has a link to “Add and edit your questions“ and a grey highlighted tag on the far right that reads “not started“.
+<li><p>The third row has a link to “Review summary page and add declaration“ and a grey highlighted tag on the far right that reads “not started“.</p></li>
 
-The third row has a link to “Review summary page and add declaration“ and a grey highlighted tag on the far right that reads “not started“.
-
-The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right that reads “not started“.
-<ul/>
+<li><p>The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right that reads “not started“.</p></li>
+</ul>
 
 <br>  
 
