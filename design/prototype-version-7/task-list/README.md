@@ -26,9 +26,9 @@ There is an ordered list of steps with an unordered list of sections under each.
 
 The second row has a link to “Add and edit your questions“ and a grey highlighted tag on the far right that reads “not started“.
 
-<ul> The third row has a link to “Review summary page and add declaration“ and a grey highlighted tag on the far right that reads “not started“.
+The third row has a link to “Review summary page and add declaration“ and a grey highlighted tag on the far right that reads “not started“.
 
-<ul> The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right that reads “not started“.
+The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right that reads “not started“.
 
 <br>  
 
