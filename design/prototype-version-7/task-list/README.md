@@ -89,7 +89,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
 
 ![Create your form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-create-form-statuses-focus.png)
-*Updated version for Step “1. Create your form” with 4 rows of tasks under it.*
+*Updated version for Step “1. Create your form” with 4 rows of tasks below and tags on the far right of each.*
 
 <br>  
 
@@ -98,7 +98,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
 
 ![Set email address for completed forms. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-set-email-statuses-focus.png)
-*Updated version for Step "2. Set email address for completed forms“ with 2 rows of tasks below and tags on the far right.*
+*Updated version for Step "2. Set email address for completed forms“ with 2 rows of tasks below and tags on the far right of each.*
 
 <br>  
 
@@ -109,7 +109,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
   
 ![Provide privacy and contact details. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-privacy-contact-statuses-focus.png)
-*Updated version for Step “3. Provide privacy and contact details“ with 2 rows below and tags on the far right.*
+*Updated version for Step “3. Provide privacy and contact details“ with 2 rows below and tags on the far right of each.*
 
 <br>  
 
@@ -120,7 +120,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
 
 ![Make your form live. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-make-live-focus.png)
-*Updated version for Step “4. Make your form live“ with a row below with an inactive link text and tag on the far right.*
+*Updated version for Step “4. Make your form live“ with a row below with an inactive link text and tag on the far right of each.*
 
 <br>  
 
