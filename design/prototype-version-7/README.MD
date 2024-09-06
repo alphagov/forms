@@ -150,7 +150,8 @@ There is a list of questions created and saved for this form.
 The first question is "What is your name?". To the right is a grey “Move down” button and below it an "Edit" link.  
 
 There is a section break
-The second question is "What is your date of birth?". To the right is a grey “Move up” button, next to it a grey "Move down" button. Bellow the "Mode down" is a link "edit".
+The second question is "What is your date of birth?". To the right is a grey “Move up” button, next to it a grey “Move down” button. Below the "Move down" button is an “Edit" link.  
+
 There is a section break
 The third queston is "What is your National Insurance number?". To the right is a grey "Move up" button and below is a link "edit".
 
