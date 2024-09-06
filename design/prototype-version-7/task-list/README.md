@@ -76,7 +76,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
 
 ![Create your form tasks. Screenshot](https://github.com/alphagov/forms/blob/bettymw-patch-2/design/prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
-*Step “1. Create your form” which has 4 rows of tasks under it. This is from version 6 of the prototype that we tested*
+*Step “1. Create your form” followed by 4 rows of tasks below, from version 6 of the prototype that we tested*
 
 <br>  
 <br>  
