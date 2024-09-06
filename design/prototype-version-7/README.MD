@@ -147,7 +147,8 @@ There is a green “Add a question” button.
 There is a secondary heading, “Your questions" and below is a link "Preview the form in a new tab". 
 
 There is a list of questions created and saved for this form. 
-The first question is "What is your name?". To the right is a grey “Move down” button and below it a link "edit".
+The first question is "What is your name?". To the right is a grey “Move down” button and below it an "Edit" link.  
+
 There is a section break
 The second question is "What is your date of birth?". To the right is a grey “Move up” button, next to it a grey "Move down" button. Bellow the "Mode down" is a link "edit".
 There is a section break
