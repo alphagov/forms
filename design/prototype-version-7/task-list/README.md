@@ -22,9 +22,11 @@ There is a table with the first set of tasks that a form creator needs to comple
 
 The first row has a link to “Edit the name of your form“ and a blue highlighted tag on the far right of the row that reads “completed“.
 
-The second row has a link to “Add and edit your questions“ and a grey highlighted tag on the far right of the row that reads “not started“.
+The second row has a link to “Add and edit your questions“ and a grey highlighted tag on the far right that reads “not started“.
 
-The third row has a link to “Review summary page and add declaration“ and a grey highlighted tag on the far right of the row that reads “not started“.
+The third row has a link to “Review summary page and add declaration“ and a grey highlighted tag on the far right that reads “not started“.
+
+The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right that reads “not started“.
 
 <br>  
 
