@@ -87,7 +87,7 @@ Below the tag, there is a green “Add a question” button.
 
 A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’” and then a text input. In this version, we made a minor context change by removing the full stop that was at the end of this hint text, because it already has a question mark.
 
-A second secondary heading, “Hint text (optional)”, followed by hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” and then a text input. We updated this hint text to be more descrptive than the previous [edit question page on prototype version 6](https://github.com/alphagov/forms/blob/main/design/prototype-version-6/screenshots/005-Edit-question-1.png). 
+A second secondary heading, “Hint text (optional)”, followed by hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” and then a text input. We updated this hint text to be more descrptive than the previous [edit question page on prototype version 6](../prototype-version-6/screenshots/005-Edit-question-1.png). 
 
 Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be checked to make sure it’s in the selected format.” Below are radio buttons that determine the input type required:
 
