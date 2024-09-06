@@ -117,7 +117,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 
 The first text input contains the text that appears as the pages heading, “What is your date of birth?”.
 
-The second text input with the secondary heading label “Hint text (optional)” has the text “Date of birth” in the text input.
+The second text input with the secondary heading label “Hint text (optional)” is empty.
 
 The ‘Date’ radio is now selected.
 
