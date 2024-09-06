@@ -115,7 +115,7 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 ![edit question 2 - saved question. Screenshot](screenshots/006-edit-page-2-saved.png)
 *Page with “Question 2” caption above a heading “What is your date of birth?”.*
 
-The first text input contains the text that appears as the pages heading, “What is your date of birth?”.
+The “Question text” input contains the content that appears as the pages heading, “What is your date of birth?”.
 
 The second text input with the secondary heading label “Hint text (optional)” is empty.
 
