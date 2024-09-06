@@ -63,7 +63,7 @@ Below the button is a summary list component showing the name of the form that h
 ### Create a form (task list page) for a draft form
 
 ![create a form task list page. Screenshot](screenshots/003-create-form.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Create a form“ and just below, a purple tag that says “DRAFT“.*
+*Page with “Apply for a juggling licence” caption above the heading “Create a form“. Just below is a purple tag that says “DRAFT“.*
 
 We made several changes to this page from the previous version - 
 [changes to the 'task list' page](https://github.com/alphagov/forms/tree/documenting-prototype-version-7/design/prototype-version-7/task-list)
