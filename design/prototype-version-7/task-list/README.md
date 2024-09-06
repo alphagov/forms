@@ -120,7 +120,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
 
 ![Make your form live. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-make-live-focus.png)
-*Updated version for Step “4. Make your form live“ with a row below with an inactive link text and tag on the far right of each.*
+*Updated version for Step “4. Make your form live“ with a row below with an inactive link text and tag on the far right.*
 
 <br>  
 
