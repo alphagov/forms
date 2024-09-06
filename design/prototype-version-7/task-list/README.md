@@ -18,7 +18,7 @@ Below the heading is bold text saying “Form incomplete“ that tells the form 
 
 This is followed by the paragraph “You have completed 1 of 10 sections.“ This tells the form creator how many sections they have completed. 
 
-There is an ordered list <ol> of steps with an unordered list <ul> of sections under each. Each section needs to be completed by the form creator before they can make their form ‘live’.
+There is an ordered list of steps with an unordered list <ul> of sections under each. Each section needs to be completed by the form creator before they can make their form ‘live’.
 Step “1. Create your form” has 4 rows under it.”
 
 The first row has a link to “Edit the name of your form“ and a blue highlighted tag on the far right of the row that reads “completed“.
