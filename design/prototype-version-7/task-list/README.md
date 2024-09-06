@@ -47,7 +47,7 @@ Step “2. Set form responses“ which has 2 rows under it.
 Step “3. Get your form ready to go live“ which has 2 rows under it.
 
 <ul> 
-<p>TThe first row has a link to “Provide link to your privacy information“ and a grey highlighted tag on the far right of the row that reads “not started“.</p>
+<p>The first row has a link to “Provide link to your privacy information“ and a grey highlighted tag on the far right of the row that reads “not started“.</p>
 
 <p>The second row has a link to “Provide link to your accessibility statement“ and a grey highlighted tag on the far right of the row that reads “not started“.</p>
 </ul>
@@ -76,7 +76,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
 
 ![Create your form tasks. Screenshot](https://github.com/alphagov/forms/blob/bettymw-patch-2/design/prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
- *Table with caption “1. Create your form” and four rows with link texts to tasks and tags on the far right of the rows.*
+*Step “1. Create your form” which has 4 rows of tasks under it. This is from version 6 of the prototype that we tested*
 
 <br>  
 <br>  
@@ -89,7 +89,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
 
 ![Create your form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-create-form-statuses-focus.png)
-*Table captioned “1. Create your form“ and four rows below with link texts and tags on the far right.*
+*Updated version for Step “1. Create your form” with 4 rows of tasks under it.*
 
 <br>  
 
@@ -98,7 +98,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
 
 ![Set email address for completed forms. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-set-email-statuses-focus.png)
-*Table captioned "2. Set email address for completed forms“ and two rows below with link texts and tags on the far right.*
+*Updated version for Step "2. Set email address for completed forms“ with 2 rows of tasks below and tags on the far right.*
 
 <br>  
 
@@ -109,7 +109,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
   
 ![Provide privacy and contact details. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-privacy-contact-statuses-focus.png)
-*Table captioned “3. Provide privacy and contact details“ and two rows below with link texts and tags on the far right.*
+*Updated version for Step “3. Provide privacy and contact details“ with 2 rows below and tags on the far right.*
 
 <br>  
 
@@ -120,7 +120,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>
 
 ![Make your form live. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-make-live-focus.png)
-*Table captioned “4. Make your form live“ and a row below with an inactive link text and tag on the far right.*
+*Updated version for Step “4. Make your form live“ with a row below with an inactive link text and tag on the far right.*
 
 <br>  
 
