@@ -1,6 +1,6 @@
 # Prototype version 7
 
-Not tested: 
+Not tested 
 
 ## Status
 
