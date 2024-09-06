@@ -478,28 +478,3 @@ ___
 
 [Back to the top](#prototype-version-7)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
