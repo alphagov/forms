@@ -51,7 +51,7 @@ Below the text input is a green “Save and continue” button.
 
 <br>
 
-### Name your form page - with form
+### GOV.UK Forms landing page - with a form
 
 ![create your form page with a form. Screenshot](screenshots/001-form-home-with-form.png)
 *Page with “GOV.UK Forms” heading, followed by a green primary button to “Create a form“.*
