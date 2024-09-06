@@ -187,7 +187,7 @@ The iframe includes the title “Check your answers before submitting your form"
 
 <br>
 
-### Edit confirmation/form submitted page
+### Form submitted page - confirmation of submission page
 
 ![Edit form submitted page. Screenshot](screenshots/201-edit-page-confirmation.png)
 *Page with “Apply for a juggling licence” caption above the heading “Form submitted page”.*
