@@ -25,36 +25,42 @@ Step “1. Create your form” which has 4 rows under it.
 <ul>
 <p>The first row has a link to “Edit the name of your form“ and a blue highlighted tag on the far right of the row that reads “completed“.</p>
 
-<p>The second row has a link to “Add and edit your questions“ and a grey highlighted tag on the far right that reads “not started“.</li>
+<p>The second row has a link to “Add and edit your questions“ and a grey highlighted tag on the far right that reads “not started“.</p>
 
 <p>The third row has a link to “Review summary page and add declaration“ and a grey highlighted tag on the far right that reads “not started“.</p>
 
-<li><p>The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right that reads “not started“.</p></li>
+<p>The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right that reads “not started“.</p>
 </ul>
 
 <br>  
 
-<ol> Step “2. Set form responses“
+Step “2. Set form responses“ which has 2 rows under it.
 
-<ul> The first row has a link to “Set the email address completed forms will be sent to“ and a grey highlighted tag on the far right of the row that reads “not started“.
+<ul> 
+<p>The first row has a link to “Set the email address completed forms will be sent to“ and a grey highlighted tag on the far right of the row that reads “not started“.</p>
 
-The second row has an inactive link to “Enter the email address confirmation code“ and a grey highlighted tag on the far right of the row that reads “Cannot start yet“. This inactive link changed to an active when the form creator completes the previous step and the grey highlighted status tag would change to “not started“.
-
-<br>  
-
-<ol> Step “3. Get your form ready to go live“
-
-<ul> The first row has a link to “Provide link to your privacy information“ and a grey highlighted tag on the far right of the row that reads “not started“.
-
-The second row has a link to “Provide link to your accessibility statement“ and a grey highlighted tag on the far right of the row that reads “not started“.
+<p>The second row has an inactive link to “Enter the email address confirmation code“ and a grey highlighted tag on the far right of the row that reads “Cannot start yet“. This inactive link changed to an active when the form creator completes the previous step and the grey highlighted status tag would change to “not started“.</p>
+</ul>
 
 <br>  
 
-Next is a table with the fourth set of tasks, with the caption “4. Publish your form“
+Step “3. Get your form ready to go live“ which has 2 rows under it.
 
-The first row has a link to “Make your form live“ and a grey highlighted tag on the far right of the row that reads “not started“.
+<ul> 
+<p>TThe first row has a link to “Provide link to your privacy information“ and a grey highlighted tag on the far right of the row that reads “not started“.</p>
 
-The second row has a link to “How to publish the form on GOV.UK“ and a grey highlighted tag on the far right of the row that reads “not started“.
+<p>The second row has a link to “Provide link to your accessibility statement“ and a grey highlighted tag on the far right of the row that reads “not started“.</p>
+</ul>
+
+<br>  
+
+Step “4. Publish your form“ which has 2 rows under it.
+
+<ul>
+<p>The first row has a link to “Make your form live“ and a grey highlighted tag on the far right of the row that reads “not started“.</p>
+
+<p>The second row has a link to “How to publish the form on GOV.UK“ and a grey highlighted tag on the far right of the row that reads “not started“.</p>
+</ul>
 
 <br>  
 
