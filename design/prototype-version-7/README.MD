@@ -143,6 +143,7 @@ There are two radio options, “Yes” and “No” and below a green “Continu
 
 There is a purple status tag that says 'DRAFT' to let users know this is a draft form. 
 There is a green “Add a question” button.
+
 There is a secondary heading, “Your questions" and below is a link "Preview the form in a new tab". 
 
 There is a list of questions created and saved for this form. 
