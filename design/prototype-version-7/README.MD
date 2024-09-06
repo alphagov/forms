@@ -66,7 +66,7 @@ Below the button is a summary list component showing the name of the form that h
 *Page with “Apply for a juggling licence” caption above the heading “Create a form“. Just below is a purple tag that says “DRAFT“.*
 
 We made several changes to this page from the previous version - 
-[changes to the 'task list' page](https://github.com/alphagov/forms/tree/documenting-prototype-version-7/design/prototype-version-7/task-list)
+[changes to the 'task list' page](task-list)
 
 <br>
 
