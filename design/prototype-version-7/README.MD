@@ -53,7 +53,7 @@ Below the text input is a green “Save and continue” button.
 
 ### GOV.UK Forms landing page - with a form
 
-![create your form page with a form. Screenshot](screenshots/001-form-home-with-form.png)
+![GOV.UK Forms landing page with a form. Screenshot](screenshots/001-form-home-with-form.png)
 *Page with “GOV.UK Forms” heading, followed by a green primary button to “Create a form“.*
 
 Below the button is a summary list component showing the name of the form that has been created “Apply for a juggling licence“ and to its far right an “Edit“ link.
