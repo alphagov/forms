@@ -157,7 +157,7 @@ The third queston is "What is your National Insurance number?". To the right is 
 
 <br>
 
-### Edit add a declaration / check your answers page 
+### Add a declaration - check your answers page 
 ![add a declaration / check your answers page. Screenshot](screenshots/101-edit-page-check-answers.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Add a declaration".*
 
