@@ -159,7 +159,7 @@ Below the heading there is a paragraph describing the purpose of the check your 
 
 The next paragraph describes what a declaration is “You can add a declaration to this page. A declaration is some content that people must confirm they understand and agree to before they submit the form.”  
 
-Another paragraph follows describing how a form creator can add a declaration, "You might want to add a declaration if you need people to confirm they have provided accurate information, or that they understand the consequences of providing false information". 
+Another paragraph follows describing how a form creator can add a declaration, “You might want to add a declaration if you need people to confirm they have provided accurate information, or that they understand the consequences of providing false information.”  
 
 There is a third level heading that says "Example", followed by an inset text with the example "By submitting this form your are confirming that, to the best of your knowledge, the answers you are providing are correct." In this prototype version, we added the example heading to make it clear what the example is, and to be consistent with the pattern on the ['Edit confirmation/form submitted page'](###Edit-confirmation/form submitted-page).
 
