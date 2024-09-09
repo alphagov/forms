@@ -291,7 +291,7 @@ There is a list of the details that must be included in the privacy information.
 
 > The privacy information must include details such as:   
 > 
-- your purposes for processing the personal data
+> - your purposes for processing the personal data  
 - how long you’ll keep the personal data
 - who the data will be shared with
 - contact details for your department and your data protection officer“
