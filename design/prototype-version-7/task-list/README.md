@@ -11,7 +11,7 @@ This provided us with some valuable insights and formed the basis of version 7.
 
 ## What we tested last time
 
-![Create a form task list page. Screenshot](https://github.com/alphagov/forms/blob/main/design/prototype-version-6/screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
+![“Create a form” task list page. Screenshot](../screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
 
 Below the heading is bold text saying “Form incomplete“ that tells the form creator they have not completed all the steps to create their form. 
@@ -75,7 +75,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 
 <br>
 
-![Create your form tasks. Screenshot](https://github.com/alphagov/forms/blob/bettymw-patch-2/design/prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
+![Step “1. Create your form” tasks. Screenshot](../screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
 *Step “1. Create your form” followed by 4 rows of tasks below, from version 6 of the prototype that we tested*
 
 <br>  
@@ -88,7 +88,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 
 <br>
 
-![Create your form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-create-form-statuses-focus.png)
+![New step “1. Create your form” and list of tasks. Screenshot](../screenshots/003-create-form-create-form-statuses-focus.png)
 *Updated version for Step “1. Create your form” with 4 rows of tasks below and tags on the far right of each.*
 
 <br>  
@@ -97,7 +97,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 
 <br>
 
-![Set email address for completed forms. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-set-email-statuses-focus.png)
+![New step “2. Set email address for completed forms” and tasks. Screenshot](../screenshots/003-create-form-set-email-statuses-focus.png)
 *Updated version for Step "2. Set email address for completed forms“ with 2 rows of tasks below and tags on the far right of each.*
 
 <br>  
@@ -108,7 +108,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 
 <br>
   
-![Provide privacy and contact details. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-privacy-contact-statuses-focus.png)
+![New step “3. Provide privacy and contact details” and tasks. Screenshot](../screenshots/003-create-form-privacy-contact-statuses-focus.png)
 *Updated version for Step “3. Provide privacy and contact details“ with 2 rows below and tags on the far right of each.*
 
 <br>  
@@ -119,20 +119,20 @@ Step “4. Publish your form“ which has 2 rows under it.
 
 <br>
 
-![Make your form live. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form-make-live-focus.png)
+![New step “4. Make your form live” and single task. Screenshot](../screenshots/003-create-form-make-live-focus.png)
 *Updated version for Step “4. Make your form live“ with a row below with an inactive link text and tag on the far right.*
 
 <br>  
 
 ## What we designed for version 7
 
-![create a form task list page. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/003-create-form.png)
-*Create a form (task list page) for a draft form with “Apply for a juggling licence” caption above the heading that says “Create a form”. Followed by a purple tag that says “DRAFT“.*
+![New “Create a form” task list page showing a ‘draft’ form. Screenshot](screenshots/003-create-form.png)
+*“Create a form” (task list page) for a draft form with “Apply for a juggling licence” caption above the heading. Followed by a purple tag that says “DRAFT“.*
 
 <br> 
 
 ![task list page for a live form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/703-create-form-live.png)
-*Create a form (task list page) for a live form with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
+*“Your form” (task list page) for a live form with “Apply for a juggling licence” caption above the heading. Followed by a green “LIVE” tag.*
 
 <br>  
 <br>  

@@ -335,13 +335,15 @@ At the end of the page is a green “Save and continue” button.
 ### Make your form live
 
 ![Make your form live. Screenshot](screenshots/701-make-your-form-live.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Make your form live".*
+*Page with “Apply for a juggling licence” caption above the heading “Make your form live”.*
 
 There is a paragraph that describes what happens when a form is made live “When you make your form live you will get a URL for the form. The form will not be indexed by search engines, so people will not be able to find it easily. Contact your GOV.UK publishing team to publish a link to your form on GOV.UK so people can find it.“
 
-There is text and a bullet list saying  “Make sure you are happy with the form before you make it live. After you have made your form live:
-- completed forms will be sent to email@example.gov.uk
-- you will not be able to change the name of the form“
+Next is content nudging the form creator to make sure they have checked their form and playing back where submissions will be sent.    
+
+> Make sure you are happy with the form before you make it live. After you have made your form live:   
+> - completed forms will be sent to email@example.gov.uk   
+> - you will not be able to change the name of the form   
 
 There is a blue notification banner with title “Important“. Inside the notification banner there is a secondary heading saying “Any changes you make to a live form will be updated in the form immediately.“ 
 This is followed by a paragraph describing how any changes will affect people filling the form “This could have an impact on people who are filling in the form at the same time. They may lose any answers they have already provided and may need to start again.“
@@ -355,33 +357,33 @@ At the end of the page is a green “Continue” button.
 ### Your form is live
 
 ![your form is live page. Screenshot](screenshots/702-form-is-live.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Your form is live".*
+*Page with “Apply for a juggling licence” caption above the heading “Your form is live”.*
 
-There is text saying "The URL for your form is:" followed by an inactive link of the live form "forms.service.gov.uk/example-url“. Below is a grey button to copy the link “Copy URL“.
+There is text saying “The URL for your form is:” followed by an inactive link of the live form “forms.service.gov.uk/example-url”. Below is a grey “Copy URL” button to copy the link to their clipboard.  
 
 There is a paragraph describing what the form creator needs to do with the link “The form will not be indexed by search engines, so people will not be able to find it easily. Contact your GOV.UK publishing team to publish a link to your form on GOV.UK so people can find it.“
 
-There is a link to “Continue to form details“ which takes the form creator to the task list page for their live form. 
+There is a link to “Continue to form details“ which takes the form creator to the task list page for their ‘live’ form. 
 
 <br>
 
 ### Create a form (task list page) for a live form
 
 ![task list page for a live form. Screenshot](screenshots/703-create-form-live.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Your form”. Followed by a green “LIVE“ tag.*
+*Page with “Apply for a juggling licence” caption above the heading “Your form”. Followed by a green “LIVE” tag.*
 
-This is the task list page for a live form. This is the beginning of the form creator's journey returning to a live form to edit it. 
+This is the task list page for a ‘live’ form. This is the beginning of the form creator’s journey returning to a ‘live’ form to edit it.  
 
 <br>
 
 ### Add and edit questions (make changes to a live form)
 
 ![add and edit questions to make changes to a live form page. Screenshot](screenshots/801-are-you-sure-you-want-to-edit-live-questions.png)
-*Page with heading that says “Add and edit questions”.*
+*Page with heading “Add and edit questions”.*
 
-There is text saying “Your form is live“ 
+There is text saying “Your form is live.”  
 
-Followed with a paragrah descibing what happens when changes are made to a live form “Any changes you make to a live form will be updated in the form immediately.“ 
+Followed by a paragraph describing what happens when changes are made to a live form “Any changes you make to a live form will be updated in the form immediately.” 
 This is followed by a paragraph describing how any changes will affect people filling the form “This could have an impact on people who are filling in the form at the same time. They may lose any answers they have already provided and may need to start again.“
 
 There is a secondary heading “Are you sure you want to edit the questions?“ followed by two radio options, “Yes” and “No”. 
@@ -392,10 +394,10 @@ At the end of the page is a green “Continue” button.
 
 ### Add and edit questions (on a live form) 
 
-![add and edit questions to a live form page. Screenshot](screenshots/802-form-index-live.png)
-*Page with a blue notification banner with title “Important“, followed by “Apply for a juggling licence” caption above the heading that says “Add and edit your questions”.*
+![Add and edit questions of a live form page. Screenshot](screenshots/802-form-index-live.png)
+*Page with a blue notification banner titled “Important”, followed by “Apply for a juggling licence” caption above the heading “Add and edit your questions”.*
 
-At the start of the page is a blue notification banner with title “Important“. Inside the notification banner there is a secondary heading saying “Any changes you make to a live form will be updated in the form immediately.“ 
+Inside the notification banner there is a secondary heading saying “Any changes you make to a live form will be updated in the form immediately.“ 
 
 This is followed by a paragraph describing how any changes will affect people filling the form “This could have an impact on people who are filling in the form at the same time. They may lose any answers they have already provided and may need to start again.“
 
@@ -409,12 +411,12 @@ There is an example list of questions created and saved for this form.
 <br>
 
 ## Some things we changed since last time
-- Added draft and live status tags to let a user know what state a form is in
-- Content changes on the example heading and text input label on the edit confirmation / form submitted page
-- Content changes on the example heading and text input label on the edit add a declaration / check your answers page
-- Updated the second level heading 'Add and edit your questions' page to 'Your questions'
-- Content updates on the 'edit question page' 
-- [Made changes to the Create a form (task list) page](https://github.com/alphagov/forms/tree/documenting-prototype-version-7/design/prototype-version-7/task-list)
+- Added ‘draft’ and ‘live’ status tags to let form creators know what state a form is in  
+- Content changes on the ‘example’ heading and textarea label on the “Form submitted page” - confirmation of a submission page  
+- Content changes on the ‘example’ heading and textarea label on the “Add a declaration” - check your answers page
+- Updated the second level heading “Add and edit your questions” page to “Your questions”  
+- Content updates on the “Edit question” page  
+- [Made changes to the “Create a form” task list page](task-list)  
 - [Introduced new journeys](#new-journeys-we-introduced)
 
 For more information, see [v0.0.7 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.7). 
@@ -432,7 +434,7 @@ Below are the screens the form filler (the end user) would see as they complete 
 ### Preview question 1
 
 ![Preview What is your name question page. Screenshot](screenshots/1001-page-preview-new-tab-1.png)
-*Page with “What is your name?” question as a label for a text input. There is a green “Continue” button and a details summary text “Get help with this form“ at the bottom.*
+*Page with “What is your name?” question as the label for a text input. There is a green “Continue” button and a details component with the text “Get help with this form“ at the bottom.*
 
 ### Preview final question
 
