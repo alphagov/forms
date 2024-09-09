@@ -398,7 +398,7 @@ At the start of the page is a blue notification banner with title “Important�
 
 This is followed by a paragraph describing how any changes will affect people filling the form “This could have an impact on people who are filling in the form at the same time. They may lose any answers they have already provided and may need to start again.“
 
-Below the heading is a green status tag “LIVE“ to let the form creator know this is a live form. 
+Below the heading is a green “LIVE“ status tag letting the form creator know this is a ‘live’ form. 
 
 There is a green “Add a question” button followed by a secondary heading, “Your questions" and below is a link "Preview the form in a new tab". 
 
