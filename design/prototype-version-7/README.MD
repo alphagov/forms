@@ -175,7 +175,7 @@ On the right side of the screen there is a secondary heading, “Page preview”
 The iframe includes the title “Check your answers before submitting your form” and the questions that have been added to the form so far, each having a corresponding “Change” link. There is a disabled green “Agree and submit” button for illustrative purposes.  
 
 ![preview iframe of check answers page. Screenshot](screenshots/102-edit-page-check-answers-preview-pane.png)
-*Close up of preview iframe showing the second level heading “Check your answers before submitting your form”, the questions that have been added to the form so far, each having a corresponding “Change” link. This is followed by the second level heading “Declaration” with the added content “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”*
+*Close up of the preview iframe showing the heading “Check your answers before submitting your form”.*
 
 <br>
 
