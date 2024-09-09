@@ -163,7 +163,7 @@ Another paragraph follows describing how a form creator can add a declaration, �
 
 There is a third level heading that says "Example", followed by an inset text with the example "By submitting this form your are confirming that, to the best of your knowledge, the answers you are providing are correct." In this prototype version, we added the example heading to make it clear what the example is, and to be consistent with the pattern on the [‘Form submitted page - confirmation of submission page’](#form-submitted-page-confirmation-of-submission-page).
 
-There is a secondary heading label, “Enter a declaration for people to agree to (optional)". We updated this heading to be more descriptive than the previous label "Declaration" that was on the previous version 6. 
+There is a secondary heading label, “Enter a declaration for people to agree to (optional)". We updated this heading to be more descriptive than the previous label "Declaration" that was in version 6. 
 
 The text input box has a character counter that says, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit. 
 
