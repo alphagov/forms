@@ -151,7 +151,7 @@ There is a an example list of questions created and saved for this form.
 
 ### Add a declaration - check your answers page 
 ![Add a declaration - check your answers page. Screenshot](screenshots/101-edit-page-check-answers.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Add a declaration".*
+*Page with “Apply for a juggling licence” caption above the heading “Add a declaration".*
 
 We updated the heading of this page from “Form summary page” in [version 6 of the prototype](../prototype-version-6/screenshots/010-Edit-form-summary-page.png) to “Add a declaration” to make the action for the form creator clear.  
 
