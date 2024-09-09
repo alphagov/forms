@@ -301,7 +301,7 @@ This is followed by some content to help the form creator know where they might 
 >  
 > To get help, contact your department’s data protection officer or data protection manager.  
 
-There is a secondary heading label, “Enter a link to privacy information for this form“ with hint text giving an example “For example, https://www.gov.uk/help/privacy-notice“. 
+There is a secondary heading label, “Enter a link to privacy information for this form“ with hint text “For example, https://www.gov.uk/help/privacy-notice“. 
 This is followed by text input. 
 
 At the end of the page is a green “Save and continue” button. 
