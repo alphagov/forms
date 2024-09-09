@@ -192,7 +192,7 @@ There is a secondary heading label before the textarea, “Enter some informatio
 
 The text input box has a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
 
-At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
+At the end of the page is a green “Save and continue” button alongside a grey “Save and preview” secondary action button.  
 
 <!-- describe side preview pane -->
 On the right side of the screen there is a secondary heading, “Page preview”.
