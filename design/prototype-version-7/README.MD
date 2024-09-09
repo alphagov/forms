@@ -321,7 +321,7 @@ There is content describing why form creators need to provide contact details fo
 
 There is a secondary heading label, “How can people get help with filling in this form? “ with hint text saying “Select at least one option“.
 
-This is followed by the first checkbox option labelled “Email“ (selected) with a hint text saying “Enter the email address“. This is followed by a text input. 
+This is followed by a checkbox option labelled “Email”. When selected this reveals a text input labelled “Enter the email address“.   
 
 The next checkbox option is “Phone“ (selected) with hint text saying “Enter the phone number and its opening times“. This is followed by a large text input. 
 
