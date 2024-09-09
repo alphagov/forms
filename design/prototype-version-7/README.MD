@@ -298,7 +298,7 @@ There is a list of the details that must be included in the privacy information.
 
 This is followed by some content to help the form creator know where they might find the privacy information:  
 > You may already publish this information, for example in a privacy notice or personal information charter. Existing privacy information may need to be updated to cover the data you are collecting in this form, or you may need a new privacy notice.  
-
+>  
 “To get help, contact your department’s data protection officer or data protection manager.“
 
 There is a secondary heading label, “Enter a link to privacy information for this form“ with hint text giving an example “For example, https://www.gov.uk/help/privacy-notice“. 
