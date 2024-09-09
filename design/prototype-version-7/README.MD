@@ -197,7 +197,7 @@ At the end of the page is a green “Save and continue” button alongside a gre
 <!-- describe side preview pane -->
 On the right side of the screen there is a secondary heading, “Page preview”.
 
-The iframe includes the title “Your form has been submitted” inside a green box. There is also a secondary heading, “What happens next”, above where the text input content provided on the left would appear.
+The iframe includes the title “Your form has been submitted” inside a green box. There is also a secondary heading, “What happens next”, above where the textarea content provided on the left would appear.  
 
 ![Preview iframe of form submitted page. Screenshot](screenshots/202-edit-page-confirmation-preview-pane.png)
 *Close up of preview iframe showing the second level heading “What happens next” followed by added content “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”*
