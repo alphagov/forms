@@ -190,7 +190,7 @@ This is followed by some additional text to help the form creator edit the confi
 
 There is a secondary heading label before the textarea, “Enter some information to tell people what will happen next”. We updated the content of this label to be more descriptive than the previous label that was “What happens next” on [the edit confirmation page of prototype version 6](../prototype-version-6/screenshots/012-Edit-form-submitted-page.png). 
 
-The text input box has a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
+The textarea has a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.  
 
 At the end of the page is a green “Save and continue” button alongside a grey “Save and preview” secondary action button.  
 
