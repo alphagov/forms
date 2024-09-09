@@ -146,15 +146,7 @@ There is a green “Add a question” button.
 
 There is a secondary heading, “Your questions" and below is a link "Preview the form in a new tab". 
 
-There is a list of questions created and saved for this form. 
-The first question is "What is your name?". To the right is a grey “Move down” button and below it an "Edit" link.  
-
-There is a section break
-The second question is "What is your date of birth?". To the right is a grey “Move up” button, next to it a grey “Move down” button. Below the "Move down" button is an “Edit" link.  
-
-There is a section break
-The third queston is "What is your National Insurance number?". To the right is a grey "Move up" button and below is a link "edit".
-
+There is a an example list of questions created and saved for this form. 
 <br>
 
 ### Add a declaration - check your answers page 
