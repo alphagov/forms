@@ -287,7 +287,9 @@ In prototype version 7 we introduced new journeys to enable form creators to:
 
 There is a paragraph that explains why a form creator needs to provide privacy information, “To comply with the UK General Data Protection Regulation (UK GDPR), you must provide privacy information for the people who will enter their data into your form.“
 
-There is a list of the details that must be included in the privacy information, “The privacy information must include details such as:
+There is a list of the details that must be included in the privacy information. 
+
+> The privacy information must include details such as:   
 
 - your purposes for processing the personal data
 - how long you’ll keep the personal data
