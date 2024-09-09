@@ -323,7 +323,7 @@ There is a secondary heading label, “How can people get help with filling in t
 
 This is followed by a checkbox option labelled “Email”. When selected this reveals a text input labelled “Enter the email address“.   
 
-The next checkbox option is “Phone“ (selected) with hint text saying “Enter the phone number and its opening times“. This is followed by a large text input. 
+The next checkbox option is “Phone“. When selected this reveals a textarea labelled “Enter the phone number and its opening times”.  
 
 The third checkbox option is “Online contact link“ (selected). There is “Enter the link“ and hint text “For example, https://gov.uk/contact-form“ labels for a text input. The form creator is asked to give the text to describe the link,  “What text should be used to describe this link?“ with an example in hint text, “For example, ‘Online contact form’“. This is followed by a text input. 
 
