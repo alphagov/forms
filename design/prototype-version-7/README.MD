@@ -290,7 +290,7 @@ There is a paragraph that explains why a form creator needs to provide privacy i
 There is a list of the details that must be included in the privacy information. 
 
 > The privacy information must include details such as:   
-
+> 
 - your purposes for processing the personal data
 - how long you’ll keep the personal data
 - who the data will be shared with
