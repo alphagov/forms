@@ -395,12 +395,7 @@ Below the heading is a green status tag “LIVE“ to let the form creator know 
 
 There is a green “Add a question” button followed by a secondary heading, “Your questions" and below is a link "Preview the form in a new tab". 
 
-There is a list of questions created and saved for this form. 
-The first question is "What is your name?". To the right is a grey “Move down” button and below it a link "edit".
-There is a section break
-The second question is "What is your date of birth?". To the right is a grey “Move up” button, next to it a grey "Move down" button. Bellow the "Mode down" is a link "edit".
-There is a section break
-The third queston is "What is your National Insurance number?". To the right is a grey "Move up" button and below is a link "edit".
+There is an example list of questions created and saved for this form. 
 
 <br>
 <br>
