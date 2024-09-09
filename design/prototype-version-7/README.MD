@@ -150,7 +150,7 @@ There is a an example list of questions created and saved for this form.
 <br>
 
 ### Add a declaration - check your answers page 
-![add a declaration / check your answers page. Screenshot](screenshots/101-edit-page-check-answers.png)
+![Add a declaration - check your answers page. Screenshot](screenshots/101-edit-page-check-answers.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Add a declaration".*
 
 We updated the heading of this page from 'Form summary page' in [version 6 of the prototype](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-6/screenshots/010-Edit-form-summary-page.png) to 'Add a declaration' to make the action for the form creator clear.
