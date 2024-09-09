@@ -274,7 +274,7 @@ There is another hypertext link to “Continue creating a form“.
 
 ## New journeys we introduced
 
-In this prototype version 7 we introduced new journeys to enable form creators to:
+In prototype version 7 we introduced new journeys to enable form creators to:
 - provide a link to privacy information for a form
 - provide contact details for support 
 - make a form live 
