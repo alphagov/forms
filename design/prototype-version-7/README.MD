@@ -325,7 +325,8 @@ This is followed by a checkbox option labelled “Email”. When selected this r
 
 The next checkbox option is “Phone“. When selected this reveals a textarea labelled “Enter the phone number and its opening times”.  
 
-The third checkbox option is “Online contact link“ (selected). There is “Enter the link“ and hint text “For example, https://gov.uk/contact-form“ labels for a text input. The form creator is asked to give the text to describe the link,  “What text should be used to describe this link?“ with an example in hint text, “For example, ‘Online contact form’“. This is followed by a text input. 
+The third checkbox option is “Online contact link“. When selected this reveals two new text inputs.   
+The first, labelled “Enter the link“, has hint text “For example, https://gov.uk/contact-form“ before the text input.   Next the form creator is asked to give text to describe the link, “What text should be used to describe this link?“ with an example in hint text. “For example, ‘Online contact form’”. Followed by the text input. 
 
 At the end of the page is a green “Save and continue” button. 
 
