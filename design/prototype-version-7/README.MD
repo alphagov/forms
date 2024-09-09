@@ -253,7 +253,7 @@ At the end of the page is a green “Continue” button.
 ![email address confirmed page. Screenshot](screenshots/403-email-confirmation.png)
 *Page with the heading “Email address confirmed”.*
 
-There is text to confirm to the form creator that completed forms will be sent to the email address they entered and confirmed “Completed forms will be sent to email@example.gov.uk“. 
+There is text to confirm to the form creator that completed forms will be sent to the email address they entered and confirmed “Completed forms will be sent to email@example.gov.uk.”  
 
 Followed by a blue text link to “Continue creating a form“. 
 
