@@ -313,9 +313,11 @@ At the end of the page is a green “Save and continue” button.
 ![provide contact details for support page. Screenshot](screenshots/601-provide-support-details.png)
 *Page with the heading “Provide contact details for support”.*
 
-There is a paragraph describing why form creators need to provide contact details for support, “You need to provide at least one way for people to get help if they get stuck while filling in this form.“
+There is content describing why form creators need to provide contact details for support and how it will appear to people filling in their form. 
 
-There is text that says where person filling the form will find the contact information “The contact information will be displayed at the bottom of every page of the form.“
+> You need to provide at least one way for people to get help if they get stuck while filling in this form.  
+>   
+> The contact information will be displayed at the bottom of every page of the form.  
 
 There is a secondary heading label, “How can people get help with filling in this form? “ with hint text saying “Select at least one option“.
 
