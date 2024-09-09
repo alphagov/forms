@@ -157,7 +157,7 @@ We updated the heading of this page from “Form summary page” in [version 6 o
 
 Below the heading there is a paragraph describing the purpose of the check your answers page, “When someone has answered all the questions in your form, they will be shown a page that lists all of their answers. The page will ask them to check their answers before they submit the form."
 
-The next paragraph describes what a declaration is "You can add a declaration to this page. A declaration is some content that people must confirm they understand and agree to before they submit the form". 
+The next paragraph describes what a declaration is “You can add a declaration to this page. A declaration is some content that people must confirm they understand and agree to before they submit the form.”  
 
 Another paragraph follows describing how a form creator can add a declaration, "You might want to add a declaration if you need people to confirm they have provided accurate information, or that they understand the consequences of providing false information". 
 
