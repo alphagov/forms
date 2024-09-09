@@ -215,7 +215,7 @@ This paragraph describes how the GOV.UK Forms platform will verify the email add
 
 > To make sure the email address you provide is correct, we’ll send an email to it with a confirmation code and your email address.  
 
-“The recipient will be asked to give you the code. You'll then need to enter the code to confirm the email address.“
+> The recipient will be asked to tell you the code. You will then need to enter the code to confirm the email address.  
 
 There is a secondary heading label, “What email address should completed forms be sent to?“ followed by a text input. 
 
