@@ -75,7 +75,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 
 <br>
 
-![Step “1. Create your form” tasks. Screenshot](../screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
+![Step “1. Create your form” tasks. Screenshot](../../prototype-version-6/screenshots/003-1-Task-list-page-tags-focus-create-your-form.png)
 *Step “1. Create your form” followed by 4 rows of tasks below, from version 6 of the prototype that we tested*
 
 <br>  
@@ -114,7 +114,7 @@ Step “4. Publish your form“ which has 2 rows under it.
 <br>  
 
 - Changed step title from “4. Publish your form“ to “4. Make your form live“.
-- Removed the final task ”How to publish the form on GOV.UK“ because the guidance to publish a form on GOV.UK was provided in the [“Make your form live“](design/prototype-version-7/screenshots/701-make-your-form-live.png) page.
+- Removed the final task ”How to publish the form on GOV.UK“ because the guidance to publish a form on GOV.UK was provided in the [“Make your form live“](../screenshots/701-make-your-form-live.png) page.
 - Added a red “Delete form” button at the bottom of the page.
 
 <br>
@@ -126,12 +126,12 @@ Step “4. Publish your form“ which has 2 rows under it.
 
 ## What we designed for version 7
 
-![New “Create a form” task list page showing a ‘draft’ form. Screenshot](screenshots/003-create-form.png)
+![New “Create a form” task list page showing a ‘draft’ form. Screenshot](../screenshots/003-create-form.png)
 *“Create a form” (task list page) for a draft form with “Apply for a juggling licence” caption above the heading. Followed by a purple tag that says “DRAFT“.*
 
 <br> 
 
-![task list page for a live form. Screenshot](https://github.com/alphagov/forms/blob/documenting-prototype-version-7/design/prototype-version-7/screenshots/703-create-form-live.png)
+![New “Your form” task list page for a ‘live’ form. Screenshot](../screenshots/703-create-form-live.png)
 *“Your form” (task list page) for a live form with “Apply for a juggling licence” caption above the heading. Followed by a green “LIVE” tag.*
 
 <br>  
