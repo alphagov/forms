@@ -11,7 +11,7 @@ This provided us with some valuable insights and formed the basis of version 7.
 
 ## What we tested last time
 
-![“Create a form” task list page. Screenshot](../screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
+![“Create a form” task list page. Screenshot](../../prototype-version-6/screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
 
 Below the heading is bold text saying “Form incomplete“ that tells the form creator they have not completed all the steps to create their form. 
