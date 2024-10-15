@@ -23,38 +23,64 @@ title: Form submission to Amazon S3
 
 graph LR
 
-    classDef default fill:#fff,stroke:#333,stroke-width:2px;
+    user((user<br />filling in<br />form))
+
+    user --submit form---> forms
 
     subgraph forms_aws [GOV.UK Forms AWS Account]
         forms[GOV.UK Forms]
         role[/"IAM role"/]
 
-        role --- forms
-
+        role --> forms
     end
 
-    subgraph org [Organisation AWS Account]
-        s3[\Amazon S3/]
-        policy[/"bucket policy<br />allows IAM role"/]
-        event[/s3:ObjectCreated event/]
-        processing{{Form Processing}}
 
-        s3 --- event --- processing
-        s3 --- processing
-        s3 --- policy
+
+    subgraph org [Organisation]
+        subgraph org_aws [Organisation AWS Account]
+            s3[\Amazon S3/]
+            policy[/"bucket policy<br />allows IAM role"/]
+            event[/s3:ObjectCreated event/]
+            processing{{Form Processing}}
+
+            s3 --> event --> processing
+            s3 --> processing
+            policy --> s3 ~~~ policy
+        end
+
+        support((Support Team))
     end
-    
 
-    data[/"structured<br/>data"/]
-    file[/"optional<br/>file(s)"/]
+    data[/"structured<br/>form data"/]
+    file[/"uploaded<br/>file(s)"/]
+    alert["Alert on S3 error"]
 
     forms --> data --> s3
     forms -.-> file -.-> s3
 
+    forms -.-> alert -.-> support
+
+    classDef default fill:#fff,stroke:#333,stroke-width:2px;
+    classDef dashed stroke-dasharray: 5 5;
+    classDef dotted stroke-dasharray: 1 1;
+
+    class file dashed
+    class alert dotted
+
+    classDef lightblue fill:#eff,stroke:#333;
+    classDef lightgreen fill:#efe,stroke:#333;
+    classDef green fill:#ded,stroke:#333;
+
+    class org green
+    class org_aws lightgreen
+    class forms_aws lightblue
 ```
+
+Writing to S3 is synchronous, so a user filling in a form will only get a success confirmation if the form is written to S3. If there is an error, the user will be notified, and the organisation's support team will be notified.
 
 ## Consequences
 
-* The format of the `structured data` that represents the submitted form can be defined in a separate ADR.
+* The format of the `structured form data` that represents the submitted form can be defined in a separate ADR.
 * The receiving organisation must be using Amazon Web Services for this option to be suitable. An additional option may be required for organisations that can't use AWS and/or Amazon S3.
+* The receiving organisation is responsible for how they process the received file(s). There may be opportunities to share implementation patterns as they are developed.
 * When GOV.UK Forms supports file upload, these files can also be sent via Amazon S3.
