@@ -59,14 +59,79 @@ ___
 
 ## Designs
 
-### New “Add a question route” journey and view on questions list page
+### Add and edit your questions
 
-!["Add and edit your questions" page with new grey “Add a question route” button next to the green “Add a question” button. Screenshot.](https://github.com/alphagov/forms/assets/35372982/700ad8f7-0fa7-4484-b636-2263beb141d2)
-*As part of the list of questions added to the form there's a new row, with the row heading “Question 2’s route”. To the right of this are the start question, the answer to base the route on and the page to take the user to if the answer is chosen. There's an edit link at the end of the row.*
+!["Add and edit your questions" page with grey “Add a question route” button next to the green “Add a question” button. Screenshot.](screenshots-v3/001-create-a-form.png)
+*Draft form with a summary list showing questions added to the form “Apply for a juggling licence”.*  
 
-### Notes
+The questions are each a new numbered row in the summar list. 
 
-- 
+> 1 What’s your name?
+> 2 Where were you born?
+> 3 What’s your date of birth?
+> 4 What’s your address?
+
+Each row has a button to either move the question ‘up’ or ‘down’ in the forms order. Question 1 “What’s your name?” only has a “Move down” button, while question 4 “What’s your address?” only has a “Move up” button.  
+Each row also has a blue ‘edit’ link that takes the form creator to edit the relevant question.  
+
+### Add and edit your questions with question routes 
+
+!["Add and edit your questions" page. Screenshot.](screenshots-v3/001-create-a-form-question-routes.png)
+*Draft form with a summary list showing questions and question routes added to the form “Apply for a juggling licence”.*  
+
+### Add a route from a question   
+
+!["Add a route from a question" page. Screenshot.](screenshots-v3/002-add-route-from-question.png)
+*Something about the new content and other stuff on the screen*  
+
+
+### Edit route 1  
+
+!["Edit route 1" page. Screenshot.](screenshots-v3/003-edit-route-1.png)
+*Something about summary list of the quesiton and the inputs*  
+
+#### Edit route 1 with “is answered as” dropdown open
+
+!["Edit route 1" page with “is answered as” dropdown open. Screenshot.](screenshots-v3/003-edit-route-1-is-answered-as.png)
+*Something about the dropdown choices*  
+
+#### Edit route 1 with “take the person to” dropdown open
+
+!["Edit route 1" page with “take the person to” dropdown open. Screenshot.](screenshots-v3/003-edit-route-1-take-the-person-to.png)
+*Something about the dropdown choices*  
+
+
+### Edit question 2’s route 
+
+!["Edit question 2’s route" page playing back the recently created route 1. Screenshot.](screenshots-v3/005-edit-question2s-route.png)
+*Something about the summary list*  
+
+#### Edit question 2’s route with branching
+
+!["Edit question 2’s route" page now showing the branching. Screenshot.](screenshots-v3/005-edit-question-2s-route-branch.png)
+*Something about the summary list*  
+
+
+### Set questions to skip
+
+!["Set questions to skip" page. Screenshot.](screenshots-v3/006-set-questions-to-skip.png)
+*Something about the new screen and content*  
+
+#### Set questions to skip with “After the person answers” dropdown open
+
+!["Set questions to skip" page with “After the person answers” dropdown open. Screenshot.](screenshots-v3/006-set-questions-to-skip-after-question.png)
+*Something about the dropdown*  
+
+#### Set questions to skip with “take them to” dropdown open
+
+!["Set questions to skip" page with “take them to” dropdown open. Screenshot.](screenshots-v3/006-set-questions-to-skip-take-the-person-to.png)
+*Something about the dropdown*  
+
+
+### Edit exit page
+
+!["Edit exit page" page. Screenshot.](screenshots-v3/006-set-questions-to-skip.png)
+*Something about the new screen and content*  
 
 ___
 
