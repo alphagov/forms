@@ -74,10 +74,11 @@ The questions are each a new numbered row in the summar list.
 Each row has a button to either move the question ‘up’ or ‘down’ in the forms order. Question 1 “What’s your name?” only has a “Move down” button, while question 4 “What’s your address?” only has a “Move up” button.  
 Each row also has a blue ‘edit’ link that takes the form creator to edit the relevant question.  
 
-### Add and edit your questions with question routes 
+#### Add and edit your questions with question routes 
 
-!["Add and edit your questions" page. Screenshot.](screenshots-v3/001-create-a-form-question-routes.png)
+!["Add and edit your questions" page. Screenshot.](screenshots-v3/001-create-a-form-question-route-created.png)
 *Draft form with a summary list showing questions and question routes added to the form “Apply for a juggling licence”.*  
+
 
 ### Add a route from a question   
 
