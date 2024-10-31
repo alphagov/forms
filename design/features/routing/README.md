@@ -6,7 +6,7 @@ Date updated: *2024-10-31*
 
 ## Contents
 
-- [Branching and exit pages](#branching-and-exit-pages)
+- [Branching and exit pages](#branching-and-exit-pages-iteration-1)
   - [What](#what)
   - [Why](#why)
   - [Hypothesis](#hypothesis)
