@@ -79,6 +79,10 @@ ___
 
 [Research planning and discussion guide](https://drive.google.com/drive/folders/1Jb7oUSfBXBamRgFkIjxf_DMRZEK5sfnM)
 
+### What we tested
+
+[User research session Oct 24 (Mural board)](https://app.mural.co/t/gaap0347/m/gaap0347/1729773162641/fbe698a2b44f833842196c252bb254abbb806042)
+
 ___
 
 [Back to the top](#branching-and-exit-pages-iteration-1)
