@@ -1,0 +1,1 @@
+This folder contains screenshots from our [User research Oct 24 (Mural board)](https://app.mural.co/t/gaap0347/m/gaap0347/1729773162641/fbe698a2b44f833842196c252bb254abbb806042). These screens were tested with 4 users.  
