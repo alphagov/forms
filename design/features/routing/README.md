@@ -26,7 +26,7 @@ Epic trello card: https://trello.com/c/a5c3JaWu/1908-epic-branching-and-exit-pag
 Mural working board: https://app.mural.co/t/gaap0347/m/gaap0347/1728478914347/6a7e0b709f50f00f81cab37414fdf44ec8601a70?wid=0-1729257264973  
 Routing and branching terminology (how we decided what to deliver): https://docs.google.com/document/d/1lXKKGyT6kbFc0EbthTPiEHK5sEIc1EuVqSLXuQ1MXPc/edit?usp=sharing  
 
-## What  
+### What  
 
 This feature introduces new functionality to the form building tool to help form creators create simple skip logic for questions. This means you can skip someone to a later question in a form based on their response to a question where they have to select one answer from a list.
 
@@ -39,7 +39,7 @@ This feature introduces new functionality to the form building tool to help form
 **As a form processor**, I need to receive the information when people have taken different branches in a way that I can easily add it up.  
 
 
-## Why  
+### Why  
 
 
 ### Hypothesis
@@ -47,8 +47,6 @@ This feature introduces new functionality to the form building tool to help form
 We believe that by offering one branch from a question, based on the ‘selection from a list’ answer type, we can help form creators create better forms that only ask for information that the processing team need to action a submission. 
 
 We believe that by offering one ‘exit page’ from a question, based on the ‘selection from a list’ answer type, we can help form creators help form fillers get to the relevant information for them without filling in a form they are not eligible for, saving them time and effort.  
-
-___
 
 [Back to the top](#routing)
 
@@ -88,6 +86,6 @@ Without skip functionality in an HTML form users are forced to go through all th
 
 We believe that by offering simple skip logic, based on the ‘selection from a list’ answer type, we can help form creators create better forms that only ask for information that the processing team need to action a submission.  
 
-___
-
 [Back to the top](#routing)
+
+___
