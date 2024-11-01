@@ -87,14 +87,14 @@ This appears above the page heading, “Add and edit your questions”, and capt
 
 Within the summary list, under question 2 “Where were you born?”, is a new row. 
 
-> Question 2’s route  
+> Question 2’s route   
 > If “2. Where were you born?” is answered “Northern Ireland” take the person to “4. What is your address?”
 
 There is a blue ‘edit’ link for the row that will take the form creator to edit they’re route.  
 
 Further down, under question 3, “What’s your date of birth?”, is another new row.  
 
-> Question 2’s route
+> Question 2’s route   
 > After “3. What’s your date of birth?” is answered, take the person to “Check your answer before submitting”.
 
 
