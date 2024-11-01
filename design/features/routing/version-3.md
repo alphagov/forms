@@ -101,7 +101,21 @@ Further down, under question 3, “What’s your date of birth?”, is another n
 ### Add a route from a question   
 
 !["Add a route from a question" page. Screenshot.](screenshots-v3/002-add-route-from-question.png)
-*Something about the new content and other stuff on the screen*  
+*“Add a route from a question” titled page. For form creators to start their route from.*  
+
+At the top of the page we try to explain what the form creator can do with the routing functionality. 
+
+> You can set up a route so if someone selects a specific answer to a question they will skip some, or all, of the remaining questions in the form. 
+> 
+> You can also specify for anyone who selects any other answer to skip one or more questions later in the form. This means you can create 2 different ‘branches’ of questions. 
+> 
+> Or you can add a route to take someone who selects a specific answer to an ‘exit page’ to remove them from the form. For example, because they’re not eligible to use the form.
+
+Below is the question “Which question do you want to start a route from?”. Under the question text we include hint text, “A route can only start from a question where people select one item from a list.”  
+
+Next are the relevant radio options for questions that the Forms tool allows creator to start their route from, select from a list radio options only.  
+
+Finally, there is a green ‘continue’ button.  
 
 
 ### Edit route 1  
