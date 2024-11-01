@@ -38,7 +38,7 @@ ___
 
 ## Key decisions
 
-- We're only going to allow routing to be set up from a radio button answer type 
+- We’re only going to allow routing to be set up from a radio button answer type 
 - Only one route, branch or ‘exit page’ can be set up for each question
   - A question can be routed to and then routed from
   - A question cannot have multiple routes from it
@@ -52,7 +52,8 @@ ___
 - Moving a page that has a route attached (meaning the start question) will also move the initial skip route, but will not impact the secondary route as this should be associated with a different question
   - Moving a page with a secondary route attached will also move the associated route
 - If the route start question is deleted, the route will also be deleted
-  - **We are yet to agree if the secondary route should be deleted**
+  - the secondary route should also be deleted
+  - any exit pages attached to the route should be deleted, until we have the option to share exit pages across multiple routing questions
 - If the route’s start question answer type is changed from a radio option, the route will be deleted. This includes:  
   - the answer type being changed  
   - the option for “People can only select one option” being unselected on the “Create a list of options” screen, making the question a checkbox rather than a radio-type question  
