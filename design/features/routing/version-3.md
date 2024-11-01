@@ -56,7 +56,11 @@ ___
   - any exit pages attached to the route should be deleted, until we have the option to share exit pages across multiple routing questions
 - If the route’s start question answer type is changed from a radio option, the route will be deleted. This includes:  
   - the answer type being changed  
-  - the option for “People can only select one option” being unselected on the “Create a list of options” screen, making the question a checkbox rather than a radio-type question  
+  - the option for “People can only select one option” being unselected on the “Create a list of options” screen, making the question a checkbox rather than a radio-type question
+- When a form creator has a route that ends on the “Check your answers before submitting” page, if they add any new questions to their form the original route will still take the person to the “Check your answers before submitting” page
+  - It is up to the form creator to make changes to their route if they now need the form filler to answer the new questions
+- As with the current skip routing, if a form creator moves pages up or down they can move them in or out of a branch route
+- **TBC: Can a question have an override from a route, while also being a route start?**
 
 ## Designs
 
