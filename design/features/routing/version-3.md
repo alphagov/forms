@@ -22,8 +22,6 @@ ___
 
 ___
 
-<br>
-
 ## What
 
 ### As-is
@@ -69,20 +67,35 @@ ___
 !["Add and edit your questions" page with grey “Add a question route” button next to the green “Add a question” button. Screenshot.](screenshots-v3/001-create-a-form.png)
 *Draft form with a summary list showing questions added to the form “Apply for a juggling licence”.*  
 
-The questions are each a new numbered row in the summar list. 
+The questions are each a new numbered row in the summary list. 
 
-> 1 What’s your name?
-> 2 Where were you born?
-> 3 What’s your date of birth?
-> 4 What’s your address?
+> 1 What’s your name?  
+> 2 Where were you born?  
+> 3 What’s your date of birth?  
+> 4 What’s your address?  
 
 Each row has a button to either move the question ‘up’ or ‘down’ in the forms order. Question 1 “What’s your name?” only has a “Move down” button, while question 4 “What’s your address?” only has a “Move up” button.  
 Each row also has a blue ‘edit’ link that takes the form creator to edit the relevant question.  
 
 #### Add and edit your questions with question routes 
 
-!["Add and edit your questions" page. Screenshot.](screenshots-v3/001-create-a-form-question-route-created.png)
+!["Add and edit your questions" page with success message. Screenshot.](screenshots-v3/001-create-a-form-question-route-created.png)
 *Draft form with a summary list showing questions and question routes added to the form “Apply for a juggling licence”.*  
+
+At the top of the screen is a green ‘Success’ notification saying, “Question 2’s route has been created”.  
+This appears above the page heading, “Add and edit your questions”, and caption, “Apply for a juggling licence”.   
+
+Within the summary list, under question 2 “Where were you born?”, is a new row. 
+
+> Question 2’s route  
+> If “2. Where were you born?” is answered “Northern Ireland” take the person to “4. What is your address?”
+
+There is a blue ‘edit’ link for the row that will take the form creator to edit they’re route.  
+
+Further down, under question 3, “What’s your date of birth?”, is another new row.  
+
+> Question 2’s route
+> After “3. What’s your date of birth?” is answered, take the person to “Check your answer before submitting”.
 
 
 ### Add a route from a question   
