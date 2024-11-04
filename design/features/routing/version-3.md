@@ -165,7 +165,7 @@ We are also including another titled option for form creators to add a new exit 
 > 4. What’s your address?  
 > Check your answers before submitting  
 > An ‘exit page’ to leave the form  
->   + Add an exit page  
+> \+ Add an exit page  
 
 ### Edit question 2’s route 
 
