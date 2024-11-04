@@ -263,7 +263,7 @@ The “take the person to” dropdown is open showing the questions and pages th
 
 ### Edit exit page
 
-!["Edit exit page" page. Screenshot.](screenshots-v3/006-set-questions-to-skip.png)
+!["Edit exit page" page. Screenshot.](screenshots-v3/004-edit-exit-page.png)
 *“Edit exit page” titled page with the caption “Edit question 2’s route” above the page heading.*  
 
 ___
