@@ -121,50 +121,150 @@ Finally, there is a green ‘continue’ button.
 ### Edit route 1  
 
 !["Edit route 1" page. Screenshot.](screenshots-v3/003-edit-route-1.png)
-*Something about summary list of the quesiton and the inputs*  
+*“Edit route 1” titled page, with caption “Edit question 2’s routes” above it.*
+
+There is a summary list at the top of the page. The row title is “If the question”. The question text appears to the right, “Where were you born?”, with a blue ‘change’ link at the end of the row.  
+
+Below are two labelled dropdowns. 
+
+> Label: is answered as  
+> Dropdown default text: Select an answer  
+
+> Label: take the person to  
+> Dropdown default text: Select a question or page  
+
+Finally is a green ‘save and continue’ button.  
 
 #### Edit route 1 with “is answered as” dropdown open
 
 !["Edit route 1" page with “is answered as” dropdown open. Screenshot.](screenshots-v3/003-edit-route-1-is-answered-as.png)
-*Something about the dropdown choices*  
+*“Edit route 1” titled page. The first dropdown is open.* 
+
+> Label: is answered as  
+> Dropdown default text: Select an answer  
+
+The dropdown is open showing the four options the form creator added. 
+
+> England  
+> Scotland  
+> Wales  
+> Northern Ireland  
 
 #### Edit route 1 with “take the person to” dropdown open
 
 !["Edit route 1" page with “take the person to” dropdown open. Screenshot.](screenshots-v3/003-edit-route-1-take-the-person-to.png)
-*Something about the dropdown choices*  
+*“Edit route 1” titled page. The second dropdown is open.* 
 
+> Label: take the person to  
+> Dropdown default text: Select a question or page  
+
+The dropdown is open showing the options available to the form creator. This will list the questions and pages that are in the form after the trigger question that the route is based on, “Where were you born?”.  
+
+We are also including another titled option for form creators to add a new exit page to associated with the chosen answers route.  
+
+> 4. What’s your address?  
+> Check your answers before submitting  
+> An ‘exit page’ to leave the form  
+>   + Add an exit page  
 
 ### Edit question 2’s route 
 
-!["Edit question 2’s route" page playing back the recently created route 1. Screenshot.](screenshots-v3/005-edit-question2s-route.png)
-*Something about the summary list*  
+!["Edit question 2’s routes" page playing back the recently created route 1. Screenshot.](screenshots-v3/005-edit-question2s-route.png)
+*“Edit question 2’s routes” titled page showing the routes created for ‘question 2’.*
+
+At the top is the summary list showing the question the route is based on.  
+
+> Question 2  
+> “Where were you born?”
+
+There is no ‘change’ link, as the form creator has added a route to their question. If they were to change the question they would lose the routing added, so we remove this option and the form creator can delete the routes and create a new route based on the correct question by starting the “Add a question route” journey again.  
+
+Under the summary list is a [summary card](https://design-system.service.gov.uk/components/summary-list/#summary-cards) for the created route.  
+
+The summary card is titled “Route 1” with a blue ‘edit’ link to the top right of the card component.  
+Within the card is a summary list detailing the route:  
+
+> If the answer is  
+> Norther Ireland  
+>  
+> take the person to  
+> 4. What’s your address?
+
+Beneath is a second summary card informing the form creator what will happen for people who haven’t made the selection to go down their created route.  
+
+The summary card is titled “For any other answer”. There is no ‘edit’ link for this route as the form creator currently hasn’t done anything with this route that should be changeable.  
+Within the card is a summary list detailing what happens when a form filler hasn’t gone down “Route 1”. 
+
+> continue to  
+> 3. What’s your date of birth?  
+
+Finally, within the card is a blue ‘Set one or more questions to skip later in the form” link. This will take the form creator to add additional skip functionality for form fillers who have gone down the ‘any other answer’ route allowing form creators to turn this route into two separate branches.  
+
+AT the bottom of the page is a green ‘save and continue’ button above a red ‘delete routes’ button.  
 
 #### Edit question 2’s route with branching
 
-!["Edit question 2’s route" page now showing the branching. Screenshot.](screenshots-v3/005-edit-question-2s-route-branch.png)
-*Something about the summary list*  
+!["Edit question 2’s routes" page now showing the branching. Screenshot.](screenshots-v3/005-edit-question-2s-route-branch.png)
+*“Edit question 2’s routes” titled page now also showing the extra routing for the “For any other answer” route.*  
 
+The second summary card titled “For any other answer” now has a blue ‘edit’ link at the top right of the card.   
+Within the card is a summary list detailing what happens when a form filler hasn’t gone down “Route 1” including the new branching added by the form creator: 
+  
+> continue to  
+> 3. What’s your date of birth?  
+>   
+> Then  
+> After the person answers  
+> 3. What’s your date of birth?  
+> take them to  
+> Check your answers before submitting   
+
+This now shows that the form fillers who have gone the ‘any other answer’ route will be skipped to the end of the form after completing the “What’s your date of birth?” question.  
 
 ### Set questions to skip
 
 !["Set questions to skip" page. Screenshot.](screenshots-v3/006-set-questions-to-skip.png)
-*Something about the new screen and content*  
+*“Set questions to skip” titled page with the caption “Edit question 2’s route” above the page heading.* 
+
+There is a lead paragraph designed to help form creators understand what they are able to do on this screen:    
+
+> You can specify for people who select any other answer to skip one or more questions later in the form. This means you can create 2 different ‘branches’ of questions.
+
+Next are two labelled dropdowns for the form creator to add the additional routing to the ‘any other answer’ journey.  
+
+> Label: After the person answers   
+> Dropdown default text: Select a question  
+
+> Label: take them to   
+> Dropdown default text: Select a question or page  
+
+At the bottom of the page is a green ‘save and continue’ button with a blue ‘cancel’ link next to it.  
 
 #### Set questions to skip with “After the person answers” dropdown open
 
 !["Set questions to skip" page with “After the person answers” dropdown open. Screenshot.](screenshots-v3/006-set-questions-to-skip-after-question.png)
-*Something about the dropdown*  
+*“Set questions to skip” titled page with the first dropdown open.*  
+
+The “After the person answers” dropdown is open showing the questions the form creator can select to end their branch, the question to take the form filler from once they have answered it. This list only includes questions that come after the trigger question that the route is based on, in this instance it includes the question the form filler is taken to if on the ‘any other answer’ route:  
+
+> 3. What’s your date of birth?  
+> 4. What’s your address?  
 
 #### Set questions to skip with “take them to” dropdown open
 
 !["Set questions to skip" page with “take them to” dropdown open. Screenshot.](screenshots-v3/006-set-questions-to-skip-take-the-person-to.png)
-*Something about the dropdown*  
+*“Set questions to skip” titled page with the second dropdown open.*  
+
+The “take the person to” dropdown is open showing the questions and pages the form creator can select to skip the person to. This list only includes questions that come after the question that the ‘any other answer’ route started from, “What’s your date of birth?”. The dropdown shows:  
+ 
+> 4. What’s your address?   
+> Check your asnwers before submitting  
 
 
 ### Edit exit page
 
 !["Edit exit page" page. Screenshot.](screenshots-v3/006-set-questions-to-skip.png)
-*Something about the new screen and content*  
+*“Edit exit page” titled page with the caption “Edit question 2’s route” above the page heading.*  
 
 ___
 
