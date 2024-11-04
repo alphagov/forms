@@ -113,7 +113,7 @@ At the top of the page we try to explain what the form creator can do with the r
 
 Below is the question “Which question do you want to start a route from?”. Under the question text we include hint text, “A route can only start from a question where people select one item from a list.”  
 
-Next are the relevant radio options for questions that the Forms tool allows creator to start their route from, select from a list radio options only.  
+Next are the relevant radio options for questions that the Forms tool allows the form creator to start their route from, ‘select from a list’ (radio options only).  
 
 Finally, there is a green ‘continue’ button.  
 
