@@ -162,7 +162,7 @@ The dropdown is open showing the options available to the form creator. This wil
 
 We are also including another titled option for form creators to add a new exit page to associated with the chosen answers route.  
 
-> 4. What’s your address?  
+> 4\. What’s your address?  
 > Check your answers before submitting  
 > An ‘exit page’ to leave the form  
 > \+ Add an exit page  
