@@ -162,7 +162,7 @@ The dropdown is open showing the options available to the form creator. This wil
 
 We are also including another titled option for form creators to add a new exit page to associated with the chosen answers route.  
 
-> \4. What’s your address?  
+> 4. What’s your address?  
 > Check your answers before submitting  
 > An ‘exit page’ to leave the form  
 > \+ Add an exit page  
@@ -247,8 +247,8 @@ At the bottom of the page is a green ‘save and continue’ button with a blue 
 
 The “After the person answers” dropdown is open showing the questions the form creator can select to end their branch, the question to take the form filler from once they have answered it. This list only includes questions that come after the trigger question that the route is based on, in this instance it includes the question the form filler is taken to if on the ‘any other answer’ route:  
 
-> 3. What’s your date of birth?  
-> 4. What’s your address?  
+> 3\. What’s your date of birth?  
+> 4\. What’s your address?  
 
 #### Set questions to skip with “take them to” dropdown open
 
@@ -257,7 +257,7 @@ The “After the person answers” dropdown is open showing the questions the fo
 
 The “take the person to” dropdown is open showing the questions and pages the form creator can select to skip the person to. This list only includes questions that come after the question that the ‘any other answer’ route started from, “What’s your date of birth?”. The dropdown shows:  
  
-> 4. What’s your address?   
+> 4\. What’s your address?   
 > Check your asnwers before submitting  
 
 
