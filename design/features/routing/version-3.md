@@ -266,6 +266,22 @@ The “take the person to” dropdown is open showing the questions and pages th
 !["Edit exit page" page. Screenshot.](screenshots-v3/004-edit-exit-page.png)
 *“Edit exit page” titled page with the caption “Edit question 2’s route” above the page heading.*  
 
+The first question is asking form creators to give their exit page a meaningful page heading. 
+
+> Label: Page heading  
+> Hint text: Use a heading that summarises why they cannot continue withe the form. For example, ‘You’re not eligible for this service’.  
+
+This is followed by a single line text input. Example text in the input “You are not eligible for this service”.  
+
+Neext is a textarea input asking the form creator for the page content to explain why the form filler cannot continue with the form and if there are potential next steps or someone they should contact instead.  
+
+> Label: Page content   
+> Hint text: Explain why they cannot continue to use the form and, if possible, tell them what they should do instead.  
+
+The intention is to try and prompt form creators to give meaningful next steps to reduce the likelihood that the person filling in the form hits a dead end, as they still have a need to contact the department to get to an outcome they need.  
+
+At the bottom of the page is a green ‘save and continue’ button with a blue ‘cancel’ link next to it.  
+
 ___
 
 ## Research focus
