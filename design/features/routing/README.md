@@ -22,9 +22,9 @@ ___
 
 Date updated: *2024-10-24* 
 
-Epic trello card: https://trello.com/c/a5c3JaWu/1908-epic-branching-and-exit-pages  
-Mural working board: https://app.mural.co/t/gaap0347/m/gaap0347/1728478914347/6a7e0b709f50f00f81cab37414fdf44ec8601a70?wid=0-1729257264973  
-Routing and branching terminology (how we decided what to deliver): https://docs.google.com/document/d/1lXKKGyT6kbFc0EbthTPiEHK5sEIc1EuVqSLXuQ1MXPc/edit?usp=sharing  
+- Epic trello card: https://trello.com/c/a5c3JaWu/1908-epic-branching-and-exit-pages  
+- Mural working board: https://app.mural.co/t/gaap0347/m/gaap0347/1728478914347/6a7e0b709f50f00f81cab37414fdf44ec8601a70?wid=0-1729257264973  
+- Routing and branching terminology (how we decided what to deliver): https://docs.google.com/document/d/1lXKKGyT6kbFc0EbthTPiEHK5sEIc1EuVqSLXuQ1MXPc/edit?usp=sharing  
 
 ### What  
 
@@ -41,12 +41,11 @@ This feature introduces new functionality to the form building tool to help form
 
 ### Why  
 
-
 ### Hypothesis
 
-We believe that by offering one branch from a question, based on the ‘selection from a list’ answer type, we can help form creators create better forms that only ask for information that the processing team need to action a submission. 
+We believe that by offering one branch from a question, based on the ‘selection from a list’ answer type, we can help form creators create better forms that only ask for information that processing teams need to action a submission. 
 
-We believe that by offering one ‘exit page’ from a question, based on the ‘selection from a list’ answer type, we can help form creators help form fillers get to the relevant information for them without filling in a form they are not eligible for, saving them time and effort.  
+We believe that by offering one ‘exit page’ from a question, based on the ‘selection from a list’ answer type, we can help form creators direct form fillers to the information that’s most relevant to them - without filling in a form they’re not eligible for. This will save them time and effort.  
 
 [Back to the top](#routing)
 
@@ -56,9 +55,9 @@ ___
 
 Date created: *2023-05-23*  
 
-Epic trello card: https://trello.com/c/nBnFZQlw/135-epic-simple-routing  
-Mural working board: https://app.mural.co/invitation/mural/gaap0347/1671196865223?sender=ue1ef9fc3c2ad3697c3c93132&key=09616cf9-ae28-43a7-8810-10970a59a765  
-Basic routing feature write up: https://docs.google.com/document/d/1i7T5D3PQw4hB1wgISi-r5086Fzw1-3nKnwaCGbNMi1E/edit#heading=h.h2rnqdwxl250  
+- Epic trello card: https://trello.com/c/nBnFZQlw/135-epic-simple-routing  
+- Mural working board: https://app.mural.co/invitation/mural/gaap0347/1671196865223?sender=ue1ef9fc3c2ad3697c3c93132&key=09616cf9-ae28-43a7-8810-10970a59a765  
+- Basic routing feature write up: https://docs.google.com/document/d/1i7T5D3PQw4hB1wgISi-r5086Fzw1-3nKnwaCGbNMi1E/edit#heading=h.h2rnqdwxl250  
 
 ___
 
