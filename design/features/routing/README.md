@@ -28,6 +28,8 @@ Date updated: *2024-10-24*
 - Mural working board: https://app.mural.co/t/gaap0347/m/gaap0347/1728478914347/6a7e0b709f50f00f81cab37414fdf44ec8601a70?wid=0-1729257264973  
 - Routing and branching terminology (how we decided what to deliver): https://docs.google.com/document/d/1lXKKGyT6kbFc0EbthTPiEHK5sEIc1EuVqSLXuQ1MXPc/edit?usp=sharing  
 
+<br>  
+
 ### What is branching and exit pages  
 
 This feature introduces additional functionality to the form building tool to allow form creators to add secondary skip logic to a later question to create two unique branches for form fillers to go. This means you can skip someone to a later question in a form based on their response to a question where they have to select one answer from a list, otherwise people who continue to the next question in the form can then be skipped over the unnecessary questions later.  
@@ -40,6 +42,7 @@ This feature introduces additional functionality to the form building tool to al
 
 **As a form processor**, I need to see the information relevant to each user in a way that I can easily transfer/paste it to where it needs to be saved, so that I don’t have to waste time manually fixing the data.  
 
+<br>  
 
 ### Why are we introducing branching and exit pages
 
@@ -66,6 +69,8 @@ Date created: *2023-05-23*
 - Mural working board: https://app.mural.co/invitation/mural/gaap0347/1671196865223?sender=ue1ef9fc3c2ad3697c3c93132&key=09616cf9-ae28-43a7-8810-10970a59a765  
 - Basic routing feature write up: https://docs.google.com/document/d/1i7T5D3PQw4hB1wgISi-r5086Fzw1-3nKnwaCGbNMi1E/edit#heading=h.h2rnqdwxl250  
 
+<br>  
+
 ### What is simple routing   
 
 This feature introduces new functionality to the form building tool to help form creators create simple skip logic for questions. This means you can skip someone to a later question in a form based on their response to a question where they have to select one answer from a list.
@@ -76,6 +81,7 @@ This feature introduces new functionality to the form building tool to help form
 
 **As a form filler**, I need to skip a question based on my previous answer, so that I don't have to give more information than I need to.
 
+<br>  
 
 ### Why are we adding simple routing  
 
