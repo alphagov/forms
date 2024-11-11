@@ -1,8 +1,8 @@
 # GOV.UK Forms
 
-We record our work and decisions in this repo. 
+We record our work and decisions in this repo.
 
-You can find: 
+You can find:
 
 - product decisions in [decision-record/](decision-record/)
 - technical decisions in [ADR/](ADR)
@@ -10,7 +10,7 @@ You can find:
 - user research findings in [research/](research/)
 - documentation of our designs in [design/](design/)
 
-We also have: 
+We also have:
 - [a private wiki](https://github.com/alphagov/forms-team/wiki) for team documentation (set-up, onboarding etc)
 - [a public wiki](https://github.com/alphagov/forms/wiki) that we don't use all that much
 
@@ -22,3 +22,9 @@ You can find our code in the following repositories:
 - [forms-product-page](https://github.com/alphagov/forms-product-page) - our product pages, as seen at [https://forms.service.gov.uk](https://forms.service.gov.uk)
 - [forms-prototypes](https://github.com/alphagov/forms-prototypes) - our prototypes, used for user research and design exploration.
 - [govuk-forms-markdown](https://github.com/alphagov/govuk-forms-markdown) - our gem for rendering the limited subset of markdown we support.
+
+## License
+
+Unless stated otherwise, the codebase is released under [the MIT License](LICENCE). This covers both the codebase and any sample code in the documentation.
+
+The documentation is [© Crown copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0 licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
