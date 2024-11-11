@@ -30,9 +30,11 @@ Date updated: *2024-10-24*
 
 <br>  
 
-### What is branching and exit pages  
+### What are branching and exit pages  
 
-This feature introduces additional functionality to the form building tool to allow form creators to add secondary skip logic to a later question to create two unique branches for form fillers to go. This means you can skip someone to a later question in a form based on their response to a question where they have to select one answer from a list, otherwise people who continue to the next question in the form can then be skipped over the unnecessary questions later.  
+This feature introduces additional functionality to the form building tool to allow form creators to add secondary skip logic to a later question. This creates two unique branches that form fillers can go down. 
+
+As before, you can skip someone to a later question in a form based on their response to a question where they have to select one answer from a list. But while people who select any other answer will still continue to the next question, you can now make them skip one or more questions later in the form. You can also direct them to a page that lets them exit the form, for example if they're not eligible.
 
 #### Branching and exit pages user stories
 
@@ -44,12 +46,11 @@ This feature introduces additional functionality to the form building tool to al
 
 <br>  
 
-### Why are we introducing branching and exit pages
+### Why are we introducing branching and exit pages?
 
-When users fill in forms they can currently be skipped questions based on a previous answer. This helped to reduce the number of questions a form filler might need to fill in or see that weren’t relevant to them or their task. This means that form creators are currently forced to create check questions that they can then use to skip people over more questions.  
+When users fill in forms they can currently be skipped over certain questions, based on a previous answer. This has helped reduce the number of questions a form filler might need to fill in or see that weren’t relevant to them or their task. However, it means that form creators are currently forced to create ‘check questions’ that they can then use to skip people over more questions.  
 
-This can add more complexity to a form for both form creators and form fillers, as the check questions need to be clear and correctly located within the form journey to make sure form fillers are not asked for information they might not have which cause anxiety for people completing forms as they may not have the information needed or they may not understand what they’re being asked for. It can also be a waste of their time and add to cognitive load.  
-
+This can add more complexity to a form for both form creators and form fillers, as the ‘check questions’ need to be clear and correctly located within the form journey to make sure form fillers are not asked for information they might not have or cannot understand. The latter can cause anxiety for people completing forms and can add to cognitive load. It can also be a waste of their time, and lead to incorrect information being supplied.  
 
 #### Branching and exit pages hypotheses
 
@@ -71,7 +72,7 @@ Date created: *2023-05-23*
 
 <br>  
 
-### What is simple routing   
+### What is simple routing?   
 
 This feature introduces new functionality to the form building tool to help form creators create simple skip logic for questions. This means you can skip someone to a later question in a form based on their response to a question where they have to select one answer from a list.
 
@@ -83,7 +84,7 @@ This feature introduces new functionality to the form building tool to help form
 
 <br>  
 
-### Why are we adding simple routing  
+### Why are we adding simple routing? 
 
 When users fill in forms they’re currently shown all the questions within a form: this means they’re potentially presented with questions that are not relevant to their submission. This can cause anxiety for people completing forms as they may not have the information needed or they may not understand what they’re being asked for. It can also be a waste of their time and add to cognitive load.  
 
