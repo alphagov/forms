@@ -1,10 +1,10 @@
 # Prototype version 6
 
-Dates tested: 
+Dates tested: *2022-08-02 to 2022-08-04*
 
 ## Status
 
-Superceeded by [version 7](../prototype-version-7) -->
+Superceeded by [version 7](../prototype-version-7)
 
 ___
 
@@ -18,28 +18,21 @@ ___
 
 ___
 
-<br>
-
 ## Context
 
-> **Sprint X**
+> **Sprint 9**
 > In this sprint we want to test
 
-<br>
-<br>
+___
 
 ## Admin interface screenshots
 
 Below are the screens a form creator will see when making or editing their forms.
 
-<br>
-
 ### GOV.UK Forms landing page
 
 ![GOV.UK Forms landing page. Screenshot](screenshots/001-GOV.UK-Forms.png)
 *Page with “GOV.UK Forms” heading and green “Create a form” start button.*
-
-<br>
 
 ### Name your form page
 
@@ -50,14 +43,10 @@ There is hint text that says, “The form name will be shown at the top of each 
 
 Below the text input is a green “Save and continue” button.
 
-<br>
-
 ### Create a form (task list page)
 
 ![Create a form task list page. Screenshot](screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
-
-<br>
 
 ### Add and edit your questions page
 
@@ -65,8 +54,6 @@ Below the text input is a green “Save and continue” button.
 *Page with “Apply for a juggling licence” caption above the heading that says “Add and edit your questions”.*
 
 There is a green “Add a question” button.
-
-<br>
 
 ### Edit question 1
 
@@ -94,8 +81,6 @@ On the right side of the screen there is a secondary heading “Question preview
 
 Below the link is a smaller version of an empty GOV.UK service page within an iframe. It shows the GOV.UK logo on a black header. Within the body of the page is a disabled green ‘Continue’ button.
 
-<br>
-
 ### Edit question 2 - saved question
 
 ![Edit question 2 with text inputs filled. Screenshot](screenshots/006-Edit-question-2-What-is-your-date-of-birth.png)
@@ -110,16 +95,12 @@ The ‘Date’ radio is now selected.
 <!-- describe side preview pane -->
 On the right side of the screen the iframe has now updated to include the question text “What is your date of birth?” and displays the date component underneath with inputs for ‘Day’, ‘Month’ and ‘Year’. The green “Continue” button is still disabled.
 
-<br>
-
 ### Delete a question
 
 ![Are you sure you want to delete this question page. Screenshot](screenshots/008-Delete-page.png)
 *Page with “Are you sure you want to delete this question?” as the heading.*
 
 There are two radio options, “Yes” and “No”. Below is a green “Continue” button.
-
-<br>
 
 ### Edit check your answers / form summary page
 
@@ -142,8 +123,6 @@ The iframe includes the title “Check your answers before submitting your form�
 ![Preview iframe of form summary page. Screenshot](screenshots/010-Edit-form-summary-page-iframe.png)
 *Close up of preview iframe showing the second level heading “Declaration” followed by added content “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”*
 
-<br>
-
 ### Edit confirmation / form submitted page
 
 ![Edit form submitted page. Screenshot](screenshots/012-Edit-form-submitted-page.png)
@@ -165,8 +144,6 @@ The iframe includes the title “Your form has been submitted” inside a green 
 ![Preview iframe of form submitted page. Screenshot](screenshots/012-Edit-form-submitted-page-iframe.png)
 *Close up of preview iframe showing the second level heading “What happens next” followed by added content “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”*
 
-<br>
-
 ### Publish a form
 
 ![Publish form, apply for a juggling licence. Screenshot](screenshots/021-Publish-form-Apply-for-a-juggling-licence.png)
@@ -179,35 +156,28 @@ There is a green “Publish form” button, the word ‘or’, and then a link t
 <!-- describe side preview pane -->
 On the right side of the screen the iframe includes the title “Apply for a juggling licence” above a green “Start now” button to simulate the journey from the start page.
 
-<br>
-<br>
+___
 
 ## Some things we changed since last time
 
 For more information, see [v0.0.6 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.6).
 
-<br>
-<br>
+___
 
 ## Form runner screenshots
 
 Below are the screens the form filler (the end user) would see as they complete the form.
 
-<br>
 
 ### Preview question 1
 
 ![Preview What is your name question page. Screenshot](screenshots/101-Preview-question-1.png)
 *Page with “What is your name?” question as a label for a text input. There is a green “Continue” button at the bottom.*
 
-<br>
-
 ### Preview final question
 
 ![Preview What is your National Insurance number question page. Screenshot](screenshots/102-Preview-final-question.png)
 *Page with “What is your National Insurance number?” question as a label for a text input. There is a green “Check your answers” button at the bottom.*
-
-<br>
 
 ### Preview check your answers (summary page)
 
@@ -218,8 +188,6 @@ The summary list component lists rows of the “Short version” of the question
 
 Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button. The text of the declaration is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department.
 
-<br>
-
 ### Preview form submitted (confirmation page)
 
 ![Preview form submitted page. Screenshot](screenshots/104-Preview-Form-submitted.png)
@@ -227,27 +195,24 @@ Below is a secondary heading, “Declaration”, before the text “By submittin
 
 This page includes a secondary heading “What happens next” followed by the content “We’ve sent you an email to confirm we have received your form.” This text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department and should match their internal service level agreements (SLAs).
 
-<br>
-
 ___
-
-<br>
 
 ## What we learned
 
-> Give a synopsis of the key findings from the round of research we tested this version.  
-> Include examples of found needs, pain points or quotes to help explain the findings. These do not have to be too detailed, as this should be covered in the research findings packs/decks - which can be linked to from here.
+This round of testing saw form creators understanding the task list as a way of guiding them through the creation journey.  
 
-<!-- REMOVE ME!!! after write up -->
-<!-- https://drive.google.com/drive/folders/1VOMG9a0XyV371_1LxV9qUaddkyuY_xjE -->
+Users were over all positive about the steps as they were displayed, the playback of status tags for each task needed to be complete. They understood that tasks could be completed in any order, but most seemed to go through it as they were layed out on screen.  
 
-<br>
+We got feedback about language used for some task links and headings being to vague or unhelpful before they clicked in to a task. In thius version of the prototype there was no way to mark questions task as complete which caused some anxiety, and is something we should look at for the next version.  
+
+### User research documentation
+(Usability testing: Task list and steps to make form live (GitHub))[../../research/2022-08-15_Task_list_and_steps_to_make_form_live.md]
+
+___
 
 ## Opportunities
 
 > Are there any opportunities we would like to explore, or ideas that we think we could consider?  
 > List these here. They do not have to be full formulated at this point, but will inform our work (and should be added to Trello to discuss and ideate as a team).
-
-<br>
 
 [Back to the top](#prototype-version-6)
