@@ -206,7 +206,7 @@ Users were over all positive about the steps as they were displayed, the playbac
 We got feedback about language used for some task links and headings being to vague or unhelpful before they clicked in to a task. In thius version of the prototype there was no way to mark questions task as complete which caused some anxiety, and is something we should look at for the next version.  
 
 ### User research documentation
-(Usability testing: Task list and steps to make form live (GitHub))[../../research/2022-08-15_Task_list_and_steps_to_make_form_live.md]
+[Usability testing: Task list and steps to make form live (GitHub)](../../research/2022-08-15_Task_list_and_steps_to_make_form_live.md)
 
 ___
 
