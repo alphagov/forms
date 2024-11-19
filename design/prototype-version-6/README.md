@@ -21,7 +21,13 @@ ___
 ## Context
 
 > **Sprint 9**  
-> In this sprint we want to test
+> When we started testing with a very simplified version of the form creator with simple features, we were able to use a single page to show all the options our form creators could do.  
+>    
+> With the complexity of our service, and based on findings from rounds of research, we believe that making a more guided journey to form creation will improve the experience, make it clear what form creators need to do, and hopefully make sure quality of forms created will be sufficient to consider them “good”.  
+>  
+> In this iteration we wanted to consider how best to use the task list to help form creators create working forms. We explored:     
+> - using the task list for the “Next steps”. Still keeping it on the same screen but showing “in progress”, “complete” and “not able to start yet” for each ‘step’    
+> - a more guided experience, using the key steps and actions to publish a form, to help users successfully create a form   
 
 ___
 
