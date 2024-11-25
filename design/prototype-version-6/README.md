@@ -12,6 +12,11 @@ ___
 
 - [Context](#context)
 - [Admin interface screenshots](#admin-interface-screenshots)
+  - [Add and edit your questions page](#add-and-edit-your-questions-page)
+  - [Edit check your answers / form summary page](#edit-check-your-answers-form-summary-page)
+  - [Edit confirmation / form submitted page](#edit-confirmation-form-submitted-page)
+  - [Set the email address for completed forms](#set-the-email-address-for-completed-forms)
+  - [Publish a form](#publish-a-form)
 - [Form runner screenshots](#form-runner-screenshots)
 - [What we learned](#what-we-learned)
 - [Opportunites](#opportunities)
@@ -170,6 +175,7 @@ On the right side of the screen the iframe has now updated to include the questi
 
 There are two radio options, “Yes” and “No”. Below is a green “Continue” button.
 
+
 ### Edit check your answers / form summary page
 
 ![Edit form summary page. Screenshot](screenshots/010-Edit-form-summary-page.png)
@@ -218,6 +224,64 @@ The iframe includes the title “Your form has been submitted” inside a green 
 
 <img alt="Preview iframe of form submitted page. Screenshot" src="screenshots/012-Edit-form-submitted-page-iframe.png" height="500" />  
 <em>Close up of preview iframe showing the second level heading “What happens next” followed by added content “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”</em>
+
+
+### Set the email address for completed forms  
+
+![Set the email address for completed forms. Screenshot](screenshots/014-Set-the-email-address-for-completed-forms.png)
+*Page headed “Set the email address for completed forms”.*  
+
+Under the page heading is some content explaining the limitations and what the form creator needs to consider when choosing the email address for their submissions to go to.  
+
+> This should be a shared government email inbox.
+>
+> An email will be sent to this address with a confirmation code and your email address. The recipient will be asked to tell you the code. You will then need to enter the code to confirm the email address.
+
+There is a secondary heading label, “What email address should completed forms be sent to?”, above a text input that validate for gov.uk emails.  
+Finally is a green “Continue” button.  
+
+#### Confirmation code sent  
+
+![Confirmation code sent. Screenshot](screenshots/015-Confirmation-code-sent.png)
+*Page headed “Confirmation code sent”.*  
+
+Under the page heading is content confirming where the code has been sent and replaying some of the content from the ‘set the email address...’ screen. 
+
+> We've sent a copnfirmation code and your email address to provided.email@department.gov.uk. The recipient will be asked to give you the code. You need to enter the code to confirm the email address.  
+> The code is valid for 7 days.
+
+Next are two links to let the form filler move forward: 
+
+- Enter the email address confirmation code  
+- Continue creating a form  
+
+
+### Enter the confirmation code  
+
+![Enter the confirmation code. Screenshot](screenshots/017-Enter-the-confirmation-code.png)
+*Page headed “Enter the confirmation code” which also acts as the label for a text input underneath.*  
+
+There is a link under the input, “Send a new confirmation code to provided.email@department.gov.uk” which lets a form creator request a new code if the previously sent one is out of date, or has not been received.  
+
+Finally is a green “Continue” button.  
+
+#### Email address confirmed
+
+![Email address confirmed. Screenshot](screenshots/018-Email-address-confirmed.png)
+*Page headed “Email address confirmed” with text “Completed forms will be sent to provided.email@department.gov.uk.” beneath.*
+
+There is a link at the bottom of the page, “Continue creating a form”, to let the form creator move forward.  
+
+#### The confirmation code has expired
+
+![The confirmation code has expired. Screenshot](screenshots/018-The-confirmation-code-has-expired.png)
+*Page headed “The confirmation code has expired” with text “The code is only valid for 7 days.” beneath.*
+ 
+There are two links at the bottom of the page to let the form filler move forward: 
+
+- Send a new confirmation code to provided.email@department.gov.uk  
+- Continue creating a form  
+
 
 ### Publish a form
 
