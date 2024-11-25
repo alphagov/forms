@@ -46,6 +46,14 @@ Below are the screens a form creator will see when making or editing their forms
 ![GOV.UK Forms landing page. Screenshot](screenshots/001-GOV.UK-Forms.png)
 *Page with “GOV.UK Forms” heading and green “Create a form” start button.*
 
+#### GOV.UK Forms landing page with a form 
+
+![GOV.UK Forms landing page with a form. Screenshot](screenshots/001-GOV.UK-Forms-added-forms.png)
+*Page with “GOV.UK Forms” heading and green “Create a form” start button.*
+
+Below is a summary list with a single row. The row contains the name of a form, “Apply for a juggling licence”, and an ‘edit’ link to it’s right.  
+
+
 ### Name your form page
 
 ![What is the name of your form question page. Screenshot](screenshots/002-What-is-the-name-of-your-form.png)
