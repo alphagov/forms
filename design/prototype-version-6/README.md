@@ -323,28 +323,29 @@ Below are the screens the form filler (the end user) would see as they complete 
 ### Preview question 1
 
 ![Preview What is your name question page. Screenshot](screenshots/101-Preview-question-1.png)
-*Page with “What is your name?” question as a label for a text input. There is a green “Continue” button at the bottom.*
+*Page with “What is your name?” question as a label for a text input. There is a green “Continue” button at the bottom. The background of the screenshot has a “DRAFT” watermark.*
 
 ### Preview final question
 
 ![Preview What is your National Insurance number question page. Screenshot](screenshots/102-Preview-final-question.png)
-*Page with “What is your National Insurance number?” question as a label for a text input. There is a green “Check your answers” button at the bottom.*
+*Page with “What is your National Insurance number?” question as a label for a text input. There is a green “Check your answers” button at the bottom. The background of the screenshot has a “DRAFT” watermark.*
 
-### Preview check your answers (summary page)
+### Preview check your answers (summary) page
 
-![Preview check your answers page. Screenshot](screenshots/103-Preview-Check-your-answers.png)
-*Page with “Check your answers” heading followed by a summary list component.*
+![Preview check your answers before submitting your form page. Screenshot](screenshots/103-preview-check-your-answers.png)
+*Page with “check your answers before submitting your form” heading followed by a summary list component. The background of the screenshot has a “DRAFT” watermark.*
 
-The summary list component lists rows of the “Short version” of the questions the form creator has added with a space to the right where the form fillers answer would appear. Finally there is a “Change” link for the form filler to correct or change any answer they feel is incorrect.
+The summary list component lists rows questions the form creator has added with a space to the right where the form fillers answer would appear, currently displaying placeholder text “Not completed”. Finally there is a “Change” link for the form filler to correct or change any answer they feel is incorrect.
 
-Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button. The text of the declaration is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department.
+Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button.  
+The declaration text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department.  
 
-### Preview form submitted (confirmation page)
+### Preview form submitted (confirmation) page
 
-![Preview form submitted page. Screenshot](screenshots/104-Preview-Form-submitted.png)
-*Page with “Form submitted” heading followed by “Your reference number is HDJ2123F” in a green box.*
+![Preview your form has been submitted page. Screenshot](screenshots/104-preview-form-submitted.png)
+*Page with “Your form has been submitted” heading in a green box. The background of the screenshot has a “DRAFT” watermark which is mostly covered by the green box.*
 
-This page includes a secondary heading “What happens next” followed by the content “We’ve sent you an email to confirm we have received your form.” This text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department and should match their internal service level agreements (SLAs).
+This page includes a secondary heading “What happens next” followed by the content that would have been added by the form creator within the admin side of the builder. It should match their internal service level agreements (SLAs) and include any information relevant to the form fillers journey, including any next steps they need to take.  
 
 ___
 
