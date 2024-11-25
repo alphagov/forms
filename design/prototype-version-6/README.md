@@ -95,9 +95,20 @@ The second row has a link to “How to publish the form on GOV.UK“ and a grey 
 ### Add and edit your questions page
 
 ![Add and edit your questions page. Screenshot](screenshots/004-Add-and-edit-your-questions.png)
-*Page with “Apply for a juggling licence” caption above the heading that says “Add and edit your questions”.*
+*Page with “Apply for a juggling licence” caption above the heading “Add and edit your questions”.*
 
 There is a green “Add a question” button.
+
+#### Add and edit your questions page with added questions  
+
+![Add and edit your questions page. Screenshot](screenshots/007-Add-and-edit-your-questions-added-questions.png)
+*Page with “Apply for a juggling licence” caption above the heading “Add and edit your questions”.*
+
+There is a green “Add a question” button.  
+
+Below is a secondary heading, “Add and edit questions”. There is a blue link underneath, “Preview the form in a new tab”.  
+
+Next is a summary list with 3 rows. One for each question added by the form creator. To the right of each row is a button to move the question up or down the form order. There is also a blue ‘edit’ link for each row.  
 
 ### Edit question 1
 
