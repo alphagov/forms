@@ -187,9 +187,12 @@ At the end of the page is a green “Save and continue” button along side a gr
 On the right side of the screen there is a secondary heading, “Page preview” above an iframe.
 
 The iframe includes the title “Check your answers before submitting your form” and the questions that have been added to the form so far, each having a corresponding “Change” link. There is a faded green “Agree and submit” button for illustrative purposes.
+ 
+<figure>
+    <img alt="Preview iframe of form summary page. Screenshot" src="screenshots/010-Edit-form-summary-page-iframe.png" height="500" />  
+    <figcaption>Close up of preview iframe showing the second level heading “Declaration” followed by added content “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”</figcaption>
+</figure>
 
-![Preview iframe of form summary page. Screenshot](screenshots/010-Edit-form-summary-page-iframe.png)
-*Close up of preview iframe showing the second level heading “Declaration” followed by added content “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”*
 
 ### Edit confirmation / form submitted page
 
