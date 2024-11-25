@@ -147,6 +147,8 @@ The second text input with the secondary heading label “Hint text (optional)�
 
 The ‘Date’ radio is now selected.
 
+At the bottom of the screen under the green “Save and add next question” and grey “Save and preview question” buttons a new red “Delete this question” button is now shown.  
+
 <!-- describe side preview pane -->
 On the right side of the screen the iframe has now updated to include the question text “What is your date of birth?” and displays the date component underneath with inputs for ‘Day’, ‘Month’ and ‘Year’. The green “Continue” button is still disabled.
 
