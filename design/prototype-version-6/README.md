@@ -197,21 +197,27 @@ The iframe includes the title “Check your answers before submitting your form�
 ![Edit form submitted page. Screenshot](screenshots/012-Edit-form-submitted-page.png)
 *Page with “Apply for a juggling licence” caption above the heading “Form submitted page”.*
 
-There is a paragraph describing what the submitted page is to help the form creator, “This page will be shown after someone has completed and submitted the form to let them know that the form has been submitted successfully.”
+There is a paragraph describing what the submitted page is to help the form creator:
 
-This is followed by some additional help text about what this page is for by giving additional context “Add some content to let people know what will happen next and when, so they know what to expect. For example:” and an example “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”
+> This page will be shown after someone has completed and submitted the form to let them know that the form has been submitted successfully.
 
-There is a secondary heading label, “What happens next” before a text area with a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
+This is followed by some additional help text about what content should be included and an example using the [inset text component](https://design-system.service.gov.uk/components/inset-text/):  
 
-At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
+> Add some content to let people know what will happen next and when, so they know what to expect. For example:  
+>   
+> We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.
+
+This is followed by a secondary heading label, “What happens next”, before a textarea with a character counter, “You have 2000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
+
+At the end of the page is a green “Save and continue” button next to a grey “Save and preview” secondary button.
 
 <!-- describe side preview pane -->
-On the right side of the screen there is a secondary heading, “Page preview”.
+On the right side of the screen there is a secondary heading, “Page preview” above an iframe showing a preview of the page as a form filler would see it. 
 
-The iframe includes the title “Your form has been submitted” inside a green box. There is also a secondary heading, “What happens next”, above where the text input content provided on the left would appear.
+The iframe includes the title “Your form has been submitted” inside a green box. There is also a secondary heading, “What happens next”, above where the text input content provided on the left would appear.  
 
-![Preview iframe of form submitted page. Screenshot](screenshots/012-Edit-form-submitted-page-iframe.png)
-*Close up of preview iframe showing the second level heading “What happens next” followed by added content “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”*
+<img alt="Preview iframe of form submitted page. Screenshot" src="screenshots/012-Edit-form-submitted-page-iframe.png" height="500" />  
+<em>Close up of preview iframe showing the second level heading “What happens next” followed by added content “We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.”</em>
 
 ### Publish a form
 
