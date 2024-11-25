@@ -283,6 +283,17 @@ There are two links at the bottom of the page to let the form filler move forwar
 - Send a new confirmation code to provided.email@department.gov.uk  
 - Continue creating a form  
 
+#### Are you sure you want to change this email address? - return to set the email address journey  
+
+![Are you sure you want to change this email address?. Screenshot](screenshots/020-Are-you-sure-you-want-to-change-this-email-address.png)
+*Page headed “Are you sure you want to change this email address?” which also acts as the legend for a radio options underneath.*
+
+There is hint text explaining what this change will mean for form creators. 
+
+> Completed forms will be sent to new.provided.email@department.gov.uk instead of provided.email@department.gov.uk.  
+
+Under the hint text are the radio options, ‘yes’ above the ‘no’. Finally is a green “Continue” button.  
+
 
 ### Publish a form
 
