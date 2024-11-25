@@ -104,18 +104,29 @@ There is a green “Add a question” button.
 ![Edit question 1. Screenshot](screenshots/005-Edit-question-1.png)
 *Page with “Question 1” caption above a heading “Edit question”.*
 
-A secondary heading, “Question text”, comes directly before the hint text “Ask a question the way you would in person. For example ‘What is your address?’” and then a text input.
+A secondary heading, “Question text”, comes before hint text “Ask a question the way you would in person. For example ‘What is your address?’”. Then an empty text input.
 
-A second secondary heading, “Hint text (optional)”, followed by hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” and then a text input.
+Beneath this is another secondary heading, “Hint text (optional)”, followed by hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.”. Then another empty text input. 
 
-Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be checked to make sure it’s in the selected format.” Below are radio buttons that determine the input type required:
+Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be checked to make sure it’s in the selected format.”  
+Below are [small radio buttons](https://design-system.service.gov.uk/components/radios/#smaller-radios) that let the form creator indicate the input type required. Each radio has hint text associated.  
 
-- Single line of text (selected)
-- Address
-- Date
-- Email address
-- National Insurance number
-- Phone number
+- Single line of text (selected)  
+  For a short answer  
+- Multiple lines of text  
+  For a longer answer  
+- Number    
+  Requires a numerical answer  
+- Address  
+  To collect an address with separate fields for line 1, line 2, town or city.    
+- Date  
+  Requires a specific day, month and year  
+- Email address  
+  Requires an answer in the format of an email address  
+- National Insurance number  
+  Requires an answer in the format of a National Insurance number  
+- Phone number    
+  Requires an answer in the format of a phone number  
 
 The page ends with a green “Save and add next question” button next to a grey “Save and preview question” button.  
 Below is a blue link “Go to form overview”.
