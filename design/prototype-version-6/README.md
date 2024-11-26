@@ -372,7 +372,18 @@ ___
 
 ## Opportunities
 
-> Are there any opportunities we would like to explore, or ideas that we think we could consider?  
-> List these here. They do not have to be full formulated at this point, but will inform our work (and should be added to Trello to discuss and ideate as a team).
+Based on the research we want to: 
+
+- Make the task list links clearer, where we saw or heard problems for users
+- Make imrpovements to the content for ‘what happens next’ to help users provide useful information to their form fillers, including: 
+  - Make the label text more specific?
+  - Make it clearer it’s for people completing the form
+  - Consider adding example heading to make it clearer what the example is.
+  - Remove character count? As it adds an expectation of amount of text you should provide (and actually we really don’t want more than a couple of lines if they can’t format the text).
+- Make improvements to the declaration content to help users decide whether they need to add a declaration to their form or not, including: 
+  - Focus on providing declaration content (that’s the action) rather than on checking answers - made the task list link text, heading and content more specific
+  - Make it clearer that the declaration is content for people who are completing the form to agree to
+  - Add an example heading to make it clearer what the example is, and to be consistent with the pattern on the 'what happens next' page.
+- Improve the content and journey for setting an email for form submissions to be sent to
 
 [Back to the top](#prototype-version-6)
