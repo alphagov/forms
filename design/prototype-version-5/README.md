@@ -54,6 +54,38 @@ There is a green “Add a question” button.
 
 Below the button is a secondary heading “Form name”. The form name appears below in a summary list component, with “Apply for a juggling licence” on the left with an “Edit” link on the right.
 
+#### Form overview page with questions added
+
+![Form overview page. Screenshot](screenshots/006-Form-overview-Apply-for-a-juggling-licence-added-questions.png)
+*Page with “Apply for a juggling licence” caption above the heading that says “Form overview”.*
+
+There is a green “Add a question” button.
+
+Below the button is a secondary heading “Form name”. The form name appears below in a summary list component, with “Apply for a juggling licence” on the left with an “Edit” link on the right.  
+
+Next is another secondary heading, “Your questions”, with a summary list of the questions added to the form so far. Each question is on it’s own row and the question text appears on the left, start of the row. 
+On far right of the first row is a grey ‘move down’ button above an ‘edit’ link. The second row has a ‘move up’ and ‘move down’ button above an ‘edit’ link, being that the question can be moved earlier or later in the form order. The last row has a ‘move up’ button above an ‘edit’ link.  
+
+Beneath is another secondary heading, “Standard pages”. This is followed by another summary list.  
+
+The first row says: 
+
+> Check your answers
+>
+> This page lists all the questions and answers so people can check them before they submit the form. You can add a declaration for people to confirm their answers.
+
+To the right of the row is an ‘edit’ link. 
+
+The next, and final row, says: 
+
+> Confirmation
+>
+> This page will be shown to confirm that form has been submitted. You can add information to tell people what will happen next.
+
+To the right of the row is an ‘edit’ link.  
+
+Below this is a final secondary heading, “Next steps”. There is a link to “Test the form in a new tab” above a grey “Publish form” button.  
+
 
 ### Edit question 1
 
