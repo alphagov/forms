@@ -18,6 +18,7 @@ ___
   - [Set the email address for completed forms](#set-the-email-address-for-completed-forms)
   - [Enter the confirmation code](#enter-the-confirmation-code)
   - [Publish a form](#publish-a-form)
+- [Some things we changed since last time](#some-things-we-changed-since-last-time)
 - [Form runner screenshots](#form-runner-screenshots)
 - [What we learned](#what-we-learned)
 - [Opportunites](#opportunities)
@@ -30,10 +31,6 @@ ___
 > When we started testing with a very simplified version of the form creator with simple features, we were able to use a single page to show all the options our form creators could do.  
 >    
 > With the complexity of our service, and based on findings from rounds of research, we believe that making a more guided journey to form creation will improve the experience, make it clear what form creators need to do, and hopefully make sure quality of forms created will be sufficient to consider them “good”.  
->  
-> In this iteration we wanted to consider how best to use the task list to help form creators create working forms. We explored:     
-> - using the task list for the “Next steps”. Still keeping it on the same screen but showing “in progress”, “complete” and “not able to start yet” for each ‘step’    
-> - a more guided experience, using the key steps and actions to publish a form, to help users successfully create a form   
 
 ___
 
@@ -318,6 +315,25 @@ On the right side of the screen the iframe includes the title “Apply for a jug
 ___
 
 ## Some things we changed since last time
+
+In version 6 we wanted to consider how best to use a task list to help form creators create working forms. We explored:  
+
+- using the task list for the “Next steps”. Still keeping it on the same screen but showing “in progress”, “complete” and “not able to start yet” for each ‘step’    
+- a more guided experience, using the key steps and actions to publish a form, to help users successfully create a form
+- adding additional steps that the team believe will need to be taken before a new form can be made live, inlcuding adding a privacy statement link and an accessibility statement link for the form
+  - these were added to prompt conversations with participants during testing 
+
+We also added new journeys to test including: 
+
+- Review summary page and add declaration
+  - Redesigned declaration journey to only allow customisation of declaration content
+  - Added more context about what the form creator is being asked for on this page and added an example of what a declaration might be 
+- Add information about what happens next
+  - Redesigned the edit summary page journey to limit customisation to the what happens next content
+  - Added more context about what the form creator is being asked for on this page and added an example of what the content might be  
+- Set form responses
+  - Designed a new journey to let form creators set up the email address where GOV.UK Forms will send the form filler submissions
+  - The journey allows adding an email address, changing/updating an existing address and confirmation of access to a given email address
 
 For more information, see [v0.0.6 release notes](https://github.com/alphagov/forms-prototypes/releases/tag/v0.0.6).
 
