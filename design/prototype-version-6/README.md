@@ -28,9 +28,9 @@ ___
 ## Context
 
 > **Sprint 9**  
-> When we started testing with a very simplified version of the form creator with simple features, we were able to use a single page to show all the options our form creators could do.  
+> When we started testing with a very simplified version of the form builder, with only simple features, we were able to use a single page to show all the options available to our form creators.  
 >    
-> With the complexity of our service, and based on findings from rounds of research, we believe that making a more guided journey to form creation will improve the experience, make it clear what form creators need to do, and hopefully make sure quality of forms created will be sufficient to consider them “good”.  
+> With the increasing complexity of our service, however, and based on findings from further rounds of research, we decided that creating a more ‘guided’ journey to form creation would improve the experience, make it clearer what form creators need to do, and hopefully ensure that the quality of the forms created would mean they could be considered ‘good’.  
 
 ___
 
@@ -43,12 +43,12 @@ Below are the screens a form creator will see when making or editing their forms
 ![GOV.UK Forms landing page. Screenshot](screenshots/001-GOV.UK-Forms.png)
 *Page with “GOV.UK Forms” heading and green “Create a form” start button.*
 
-#### GOV.UK Forms landing page with a form 
+#### GOV.UK Forms landing page with one form already created
 
 ![GOV.UK Forms landing page with a form. Screenshot](screenshots/001-GOV.UK-Forms-added-forms.png)
 *Page with “GOV.UK Forms” heading and green “Create a form” start button.*
 
-Below is a summary list with a single row. The row contains the name of a form, “Apply for a juggling licence”, and an ‘edit’ link to it’s right.  
+Below is a summary list with a single row. The row contains the name of a form, “Apply for a juggling licence”, and an ‘edit’ link to its right.  
 
 
 ### Name your form page
@@ -56,7 +56,7 @@ Below is a summary list with a single row. The row contains the name of a form, 
 ![What is the name of your form question page. Screenshot](screenshots/002-What-is-the-name-of-your-form.png)
 *Page with “What is the name of your form?” question heading.*
 
-There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example ‘Apply for a juggling licence’.” above a text input.
+There is hint text that says, “The form name will be shown at the top of each page of the form. Use a name that describes what the form will help people to do. For example ‘Apply for a juggling licence’.” This is above a text input.
 
 Below the text input is a green “Save and continue” button.
 
@@ -65,13 +65,13 @@ Below the text input is a green “Save and continue” button.
 ![Create a form task list page. Screenshot](screenshots/003-Create-a-form-Apply-for-a-juggling-licence.png)
 *Page with “Apply for a juggling licence” caption above the heading that says “Create a form”.*
 
-Below the heading is bold text saying “Form incomplete“ that tells the form creator they have not completed all the steps to create their form.
+Below the heading is bold text saying “Form incomplete“. This tells the form creator they have not completed all the steps needed to create their form.
 
-This is followed by the paragraph “You have completed 1 of 10 sections.“ This tells the form creator how many sections they have completed.
+This is followed by the sentence “You have completed 1 of 10 sections.“ This tells the form creator how many sections they have completed.
 
-There is an ordered list of steps with an unordered list of sections under each. Each section needs to be completed by the form creator before they can make their form ‘live’.
+There is then an ordered list of steps with an unordered list of sections under each step, as set out below. Each section needs to be completed by the form creator before they can make their form ‘live’. 
 
-Step “1. Create your form” which has 4 rows under it.
+Step “1. Create your form” has 4 rows under it.
 
 The first row has a link to “Edit the name of your form“ and a blue highlighted tag on the far right of the row that reads “completed“.
 
@@ -82,21 +82,21 @@ The third row has a link to “Review summary page and add declaration“ and a 
 The fourth row has a link to “Add information about what happens next“ and a grey highlighted tag on the far right that reads “not started“.
 
 
-Step “2. Set form responses“ which has 2 rows under it.
+Step “2. Set form responses“ has 2 rows under it.
 
 The first row has a link to “Set the email address completed forms will be sent to“ and a grey highlighted tag on the far right of the row that reads “not started“.
 
-The second row has an inactive link to “Enter the email address confirmation code“ and a grey highlighted tag on the far right of the row that reads “Cannot start yet“. This inactive link changed to an active when the form creator completes the previous step and the grey highlighted status tag would change to “not started“.
+The second row has an inactive link to “Enter the email address confirmation code“ and a grey highlighted tag on the far right of the row that reads “Cannot start yet“. This inactive link changes to active when the form creator completes the previous step and the grey highlighted status tag would change to “not started“.
 
 
-Step “3. Get your form ready to go live“ which has 2 rows under it.
+Step “3. Get your form ready to go live“ has 2 rows under it.
 
 The first row has a link to “Provide link to your privacy information“ and a grey highlighted tag on the far right of the row that reads “not started“.
 
 The second row has a link to “Provide link to your accessibility statement“ and a grey highlighted tag on the far right of the row that reads “not started“.
 
 
-Step “4. Publish your form“ which has 2 rows under it.
+Step “4. Publish your form“ has 2 rows under it.
 
 The first row has a link to “Make your form live“ and a grey highlighted tag on the far right of the row that reads “not started“.
 
