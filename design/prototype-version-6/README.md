@@ -108,30 +108,31 @@ The second row has a link to “How to publish the form on GOV.UK“ and a grey 
 ![Add and edit your questions page. Screenshot](screenshots/004-Add-and-edit-your-questions.png)
 *Page with “Apply for a juggling licence” caption above the heading “Add and edit your questions”.*
 
-There is a green “Add a question” button.
+There is a green “Add a question” button under the heading.
 
 #### Add and edit your questions page with added questions  
 
 ![Add and edit your questions page. Screenshot](screenshots/007-Add-and-edit-your-questions-added-questions.png)
 *Page with “Apply for a juggling licence” caption above the heading “Add and edit your questions”.*
 
-There is a green “Add a question” button.  
+There is a green “Add a question” button under the heading.  
 
-Below is a secondary heading, “Add and edit questions”. There is a blue link underneath, “Preview the form in a new tab”.  
+Below is a secondary heading, “Add and edit questions”. There is a blue link directly underneath that which says “Preview the form in a new tab”.  
 
-Next is a summary list with 3 rows. One for each question added by the form creator. To the right of each row is a button to move the question up or down the form order. There is also a blue ‘edit’ link for each row.  
+Next is a summary list with 3 rows - one for each question added by the form creator. To the right of each row is a grey button labelled ‘move up’ or ‘move down’ which lets someone move the question up or down in the form order. There is also a blue ‘edit’ link for each row.  
 
 ### Edit question 1
 
 ![Edit question 1. Screenshot](screenshots/005-Edit-question-1.png)
 *Page with “Question 1” caption above a heading “Edit question”.*
 
-A secondary heading, “Question text”, comes before hint text “Ask a question the way you would in person. For example ‘What is your address?’”. Then an empty text input.
+A secondary heading, “Question text”, comes before the hint text “Ask a question the way you would in person. For example ‘What is your address?’.” There’s then an empty text input.
 
-Beneath this is another secondary heading, “Hint text (optional)”, followed by hint text “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.”. Then another empty text input. 
+Beneath this is another secondary heading, “Hint text (optional)”, followed by hint text saying “You can use hint text if you need to explain the format the answer should be in, or where to find the information you’ve asked for.” There's then another empty text input. 
 
 Next is a secondary heading, “What kind of answer do you need to this question?”, which has the hint text “The answer will be checked to make sure it’s in the selected format.”  
-Below are [small radio buttons](https://design-system.service.gov.uk/components/radios/#smaller-radios) that let the form creator indicate the input type required. Each radio has hint text associated.  
+
+Below are [small radio buttons](https://design-system.service.gov.uk/components/radios/#smaller-radios) that let the form creator indicate the input type required. Each radio has hint text associated with it.  
 
 - Single line of text (selected)  
   For a short answer  
@@ -151,7 +152,8 @@ Below are [small radio buttons](https://design-system.service.gov.uk/components/
   Requires an answer in the format of a phone number  
 
 The page ends with a green “Save and add next question” button next to a grey “Save and preview question” button.  
-Below is a blue link “Go to form overview”.
+
+Below is a blue link which says “Go to form overview”.
 
 <!-- describe side preview pane -->
 On the right side of the screen there is a secondary heading “Question preview” above a link to “Preview question in a new tab”.
@@ -163,23 +165,23 @@ Below the link is a smaller version of an empty GOV.UK service page within an if
 ![Edit question 2 with text inputs filled. Screenshot](screenshots/006-Edit-question-2-What-is-your-date-of-birth.png)
 *Page with “Question 2” caption above a heading “What is your date of birth?”.*
 
-The first text input contains the text that appears as the pages heading, “What is your date of birth?”.
+The first text input contains the text that appears as the page’s heading, “What is your date of birth?”.
 
 The second text input with the secondary heading label “Hint text (optional)” has the text “Date of birth” in the text input.  
 
 The ‘Date’ radio is now selected.
 
-At the bottom of the screen under the green “Save and add next question” and grey “Save and preview question” buttons a new red “Delete this question” button is now shown.  
+At the bottom of the screen under the green “Save and add next question” and grey “Save and preview question” buttons is a new red “Delete this question” button.  
 
 <!-- describe side preview pane -->
-On the right side of the screen the iframe has now updated to include the question text “What is your date of birth?” and displays the date component underneath with inputs for ‘Day’, ‘Month’ and ‘Year’. The green “Continue” button is still disabled.
+On the right side of the screen the iframe has now updated to include the question text “What is your date of birth?”. It displays the date component underneath with inputs for ‘Day’, ‘Month’ and ‘Year’. The green “Continue” button is still disabled.
 
 ### Delete a question
 
 ![Are you sure you want to delete this question page. Screenshot](screenshots/008-Delete-page.png)
 *Page with “Are you sure you want to delete this question?” as the heading.*
 
-There are two radio options, “Yes” and “No”. Below is a green “Continue” button.
+There are two radio options beneath the heading - “Yes” and “No”. Below is a green “Continue” button.
 
 
 ### Edit check your answers / form summary page
@@ -187,18 +189,18 @@ There are two radio options, “Yes” and “No”. Below is a green “Continu
 ![Edit form summary page. Screenshot](screenshots/010-Edit-form-summary-page.png)
 *Page with “Apply for a juggling licence” caption above the heading “Form summary page”.*
 
-There is a paragraph describing what the summary page is to help the form creator, “This page lists all the questions and answers so people can check them before they submit the form.”
+There is a paragraph describing what the summary page is to help the form creator: “This page lists all the questions and answers so people can check them before they submit the form.”
 
-This is followed by some additional help text about what this page is for by giving additional context “You can add a declaration for people to confirm their answers. For example:” and an example “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”
+This is followed by some additional help text about what this page is for, to give additional context: “You can add a declaration for people to confirm their answers. For example:” It then gives an example, which says “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”
 
-There is a secondary heading label, “Declaration” before a text area with a character counter, “You have 2,000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
+There is a secondary heading label, “Declaration”, before a text area with a character counter that says “You have 2,000 characters remaining”. This gives form creators an idea of how many characters they have left within a 2,000 character limit.
 
-At the end of the page is a green “Save and continue” button along side a grey “Save and preview” secondary action button.
+At the end of the page there’s a green “Save and continue” button alongside a grey “Save and preview” secondary action button.
 
 <!-- describe side preview pane -->
-On the right side of the screen there is a secondary heading, “Page preview” above an iframe.
+On the right side of the screen there is a secondary heading, “Page preview”, above an iframe.
 
-The iframe includes the title “Check your answers before submitting your form” and the questions that have been added to the form so far, each having a corresponding “Change” link. There is a faded green “Agree and submit” button for illustrative purposes.
+The iframe includes the title “Check your answers before submitting your form” and the questions that have been added to the form so far. Each has a corresponding “Change” link. There is a faded green “Agree and submit” button for illustrative purposes.
 
 <img alt="Preview iframe of form summary page. Screenshot" src="screenshots/010-Edit-form-summary-page-iframe.png" height="500" />  
 <em>Close up of preview iframe showing the second level heading “Declaration” followed by added content “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.”</em>
