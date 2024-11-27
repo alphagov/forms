@@ -211,7 +211,7 @@ The iframe includes the title “Check your answers before submitting your form�
 ![Edit form submitted page. Screenshot](screenshots/012-Edit-form-submitted-page.png)
 *Page with “Apply for a juggling licence” caption above the heading “Form submitted page”.*
 
-There is a paragraph describing what the submitted page is to help the form creator:
+There is a paragraph describing what the form submitted page is to help the form creator:
 
 > This page will be shown after someone has completed and submitted the form to let them know that the form has been submitted successfully.
 
@@ -221,12 +221,12 @@ This is followed by some additional help text about what content should be inclu
 >   
 > We'll send you an email to let you know the outcome. You'll usually get a response within 10 working days.
 
-This is followed by a secondary heading label, “What happens next”, before a textarea with a character counter, “You have 2000 characters remaining”, giving form creators an idea of how much they have left of a 2,000 character limit.
+This is followed by a secondary heading label, “What happens next”, before a textarea with a character counter, “You have 2000 characters remaining”. This gives form creators an idea of how many characters they have left within a 2,000 character limit.
 
 At the end of the page is a green “Save and continue” button next to a grey “Save and preview” secondary button.
 
 <!-- describe side preview pane -->
-On the right side of the screen there is a secondary heading, “Page preview” above an iframe showing a preview of the page as a form filler would see it. 
+On the right side of the screen there is a secondary heading, “Page preview”, above an iframe showing a preview of the page as a form filler would see it. 
 
 The iframe includes the title “Your form has been submitted” inside a green box. There is also a secondary heading, “What happens next”, above where the text input content provided on the left would appear.  
 
@@ -239,26 +239,27 @@ The iframe includes the title “Your form has been submitted” inside a green 
 ![Set the email address for completed forms. Screenshot](screenshots/014-Set-the-email-address-for-completed-forms.png)
 *Page headed “Set the email address for completed forms”.*  
 
-Under the page heading is some content explaining the limitations and what the form creator needs to consider when choosing the email address for their submissions to go to.  
+Under the page heading is some content explaining the limitations and what the form creator needs to consider when choosing which email address their submissions should go to:  
 
 > This should be a shared government email inbox.
 >
 > An email will be sent to this address with a confirmation code and your email address. The recipient will be asked to tell you the code. You will then need to enter the code to confirm the email address.
 
-There is a secondary heading label, “What email address should completed forms be sent to?”, above a text input that validate for gov.uk emails.  
-Finally is a green “Continue” button.  
+There is a secondary heading label, “What email address should completed forms be sent to?”, above a text input that validates for GOV.UK emails.  
+
+Finally, there is a green “Continue” button.  
 
 #### Confirmation code sent  
 
 ![Confirmation code sent. Screenshot](screenshots/015-Confirmation-code-sent.png)
 *Page headed “Confirmation code sent”.*  
 
-Under the page heading is content confirming where the code has been sent and replaying some of the content from the ‘set the email address...’ screen. 
+Under the page heading is content confirming where the code has been sent. It also replays some of the content from the ‘set the email address...’ screen. 
 
-> We've sent a copnfirmation code and your email address to provided.email@department.gov.uk. The recipient will be asked to give you the code. You need to enter the code to confirm the email address.  
+> We've sent a confirmation code and your email address to provided.email@department.gov.uk. The recipient will be asked to give you the code. You need to enter the code to confirm the email address.  
 > The code is valid for 7 days.
 
-Next are two links to let the form filler move forward: 
+Next are two links that let the form filler move forward: 
 
 - Enter the email address confirmation code  
 - Continue creating a form  
@@ -269,9 +270,9 @@ Next are two links to let the form filler move forward:
 ![Enter the confirmation code. Screenshot](screenshots/017-Enter-the-confirmation-code.png)
 *Page headed “Enter the confirmation code” which also acts as the label for a text input underneath.*  
 
-There is a link under the input, “Send a new confirmation code to provided.email@department.gov.uk” which lets a form creator request a new code if the previously sent one is out of date, or has not been received.  
+There is a link under the input, which says: “Send a new confirmation code to provided.email@department.gov.uk”. This lets a form creator request a new code if the one sent previously is out of date, or has not been received.  
 
-Finally is a green “Continue” button.  
+Finally, there is a green “Continue” button.  
 
 #### Email address confirmed
 
@@ -285,7 +286,7 @@ There is a link at the bottom of the page, “Continue creating a form”, to le
 ![The confirmation code has expired. Screenshot](screenshots/018-The-confirmation-code-has-expired.png)
 *Page headed “The confirmation code has expired” with text “The code is only valid for 7 days.” beneath.*
  
-There are two links at the bottom of the page to let the form filler move forward: 
+There are two links at the bottom of the page to let the form creator move forward: 
 
 - Send a new confirmation code to provided.email@department.gov.uk  
 - Continue creating a form  
@@ -293,13 +294,13 @@ There are two links at the bottom of the page to let the form filler move forwar
 #### Are you sure you want to change this email address? - return to set the email address journey  
 
 ![Are you sure you want to change this email address?. Screenshot](screenshots/020-Are-you-sure-you-want-to-change-this-email-address.png)
-*Page headed “Are you sure you want to change this email address?” which also acts as the legend for a radio options underneath.*
+*Page headed “Are you sure you want to change this email address?” which also acts as the legend for radio options underneath.*
 
-There is hint text explaining what this change will mean for form creators. 
+There is hint text explaining what this change will mean for form creators: 
 
 > Completed forms will be sent to new.provided.email@department.gov.uk instead of provided.email@department.gov.uk.  
 
-Under the hint text are the radio options, ‘yes’ above the ‘no’. Finally is a green “Continue” button.  
+Under the hint text are the radio options, ‘yes’ (which comes first) and ‘no’. Finally, there is a green “Continue” button.  
 
 
 ### Publish a form
@@ -307,7 +308,7 @@ Under the hint text are the radio options, ‘yes’ above the ‘no’. Finally
 ![Publish form, apply for a juggling licence. Screenshot](screenshots/021-Publish-form-Apply-for-a-juggling-licence.png)
 *Page with “Publish form” caption above the heading “Apply for a juggling licence”.*
 
-There is a question, “Where do you want to publish the form?” with two radio options below, “On the GOV.UK website” and “On my organisation’s website”.
+There is a question, “Where do you want to publish the form?”, with two radio options below. These are: “On the GOV.UK website” and “On my organisation’s website”.
 
 There is a green “Publish form” button, the word ‘or’, and then a link to “return to page list”.
 
@@ -318,10 +319,12 @@ ___
 
 ## Some things we changed since last time
 
-In version 6 we wanted to consider how best to use a task list to help form creators create working forms. We explored:  
+In version 6 we wanted to consider how best to use a task list to help form creators create working forms. 
 
-- using the task list for the “Next steps”. Still keeping it on the same screen but showing “in progress”, “complete” and “not able to start yet” for each ‘step’    
-- a more guided experience, using the key steps and actions to publish a form, to help users successfully create a form
+We explored:  
+
+- using the task list for the “Next steps” - still keeping it on the same screen but showing “in progress”, “complete” and “not able to start yet” for each ‘step’    
+- a more guided experience using the key steps and actions needed to publish a form, to help users successfully create a form
 - adding additional steps that the team believe will need to be taken before a new form can be made live, inlcuding adding a privacy statement link and an accessibility statement link for the form
   - these were added to prompt conversations with participants during testing 
 
@@ -361,17 +364,18 @@ Below are the screens the form filler (the end user) would see as they complete 
 ![Preview check your answers before submitting your form page. Screenshot](screenshots/103-Preview-Check-your-answers-before-submitting-your-form.png)
 *Page with “check your answers before submitting your form” heading followed by a summary list component. The background of the screenshot has a “DRAFT” watermark.*
 
-The summary list component lists rows questions the form creator has added with a space to the right where the form fillers answer would appear, currently displaying placeholder text “Not completed”. Finally there is a “Change” link for the form filler to correct or change any answer they feel is incorrect.
+The summary list component lists rows of questions the form creator has added with a space to the right where the form filler’s answer would appear, currently displaying placeholder text “Not completed”. There is then a “Change” link for the form filler to correct or change any answer they feel is incorrect.
 
 Below is a secondary heading, “Declaration”, before the text “By submitting this form you are confirming that, to the best of your knowledge, the answers you are providing are correct.” This is an example declaration for the form filler to agree to, by clicking the green “Agree and submit” button.  
-The declaration text is editable by the form creator within the admin side of the builder, meaning it can be customised as to the needs of the different forms or department.  
+
+The declaration text is editable by the form creator within the admin side of the builder, meaning it can be customised to meet the needs of the different forms or department.  
 
 ### Preview form submitted (confirmation) page
 
 ![Preview your form has been submitted page. Screenshot](screenshots/104-Preview-Your-form-has-been-submitted.png)
 *Page with “Your form has been submitted” heading in a green box. The background of the screenshot has a “DRAFT” watermark which is mostly covered by the green box.*
 
-This page includes a secondary heading “What happens next” followed by the content that would have been added by the form creator within the admin side of the builder. It should match their internal service level agreements (SLAs) and include any information relevant to the form fillers journey, including any next steps they need to take.  
+This page includes a secondary heading, “What happens next”, followed by the content that would have been added by the form creator within the admin side of the builder. It should match their internal service level agreements (SLAs) and include any information relevant to the form filler’s journey, including any next steps they need to take.  
 
 ___
 
@@ -379,9 +383,9 @@ ___
 
 This round of testing saw form creators understanding the task list as a way of guiding them through the creation journey.  
 
-Users were over all positive about the steps as they were displayed, the playback of status tags for each task needed to be complete. They understood that tasks could be completed in any order, but most seemed to go through it as they were layed out on screen.  
+Overall, users were positive about the steps as they were displayed and the playback of status tags for each task that needed completing. They understood that tasks could be completed in any order, but most seemed to go through it as they were laid out on screen.  
 
-We got feedback about language used for some task links and headings being to vague or unhelpful before they clicked in to a task. In thius version of the prototype there was no way to mark questions task as complete which caused some anxiety, and is something we should look at for the next version.  
+We got feedback about the language used for some task links and headings being too vague or unhelpful before they clicked into a task. In this version of the prototype there was no way to mark a question’s task as complete, which caused some anxiety and is something we should look at for the next version.  
 
 ### User research documentation
 [Usability testing: Task list and steps to make form live (GitHub)](../../research/2022-08-15_Task_list_and_steps_to_make_form_live.md)
@@ -393,15 +397,16 @@ ___
 Based on the research we want to: 
 
 - Make the task list links clearer, where we saw or heard problems for users
-- Make imrpovements to the content for ‘what happens next’ to help users provide useful information to their form fillers, including: 
+- Make improvements to the content for ‘what happens next’ to help users provide useful information to their form fillers, including: 
   - Make the label text more specific?
   - Make it clearer it’s for people completing the form
-  - Consider adding example heading to make it clearer what the example is.
-  - Remove character count? As it adds an expectation of amount of text you should provide (and actually we really don’t want more than a couple of lines if they can’t format the text).
+  - Consider adding an example heading to make it clearer what the example is
+  - Remove character count? It adds an expectation of the amount of text you should provide (and we really don’t want more than a couple of lines if they can’t format the text).
 - Make improvements to the declaration content to help users decide whether they need to add a declaration to their form or not, including: 
-  - Focus on providing declaration content (that’s the action) rather than on checking answers - made the task list link text, heading and content more specific
+  - Focus on providing declaration content (which is the action) rather than on checking answers 
+  - Make the task list link text, heading and content more specific
   - Make it clearer that the declaration is content for people who are completing the form to agree to
-  - Add an example heading to make it clearer what the example is, and to be consistent with the pattern on the 'what happens next' page.
+  - Add an example heading to make it clearer what the example is, and to be consistent with the pattern on the 'what happens next' page
 - Improve the content and journey for setting an email for form submissions to be sent to
 
 [Back to the top](#prototype-version-6)
