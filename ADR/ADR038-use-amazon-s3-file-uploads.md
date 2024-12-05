@@ -1,4 +1,4 @@
-# ADR037: Use Amazon S3 and GuardDuty Malware Protection for file upload
+# ADR038: Use Amazon S3 and GuardDuty Malware Protection for file upload
 
 Date: 2024-12-04
 
