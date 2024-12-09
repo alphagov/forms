@@ -8,7 +8,7 @@ Proposed
 
 ## Context
 
-Sometimes users need to upload a file as part of completing a form. These files need to be stored temporarily until the form is sent to the receiving organisation. It's possible that uploaded files may contact malware, so they should be checked first before send them on.
+Sometimes users need to upload a file as part of completing a form. These files need to be stored temporarily until the form is sent to the receiving organisation. It's possible that uploaded files may contain malware, so they should be checked first before sending them on.
 
 ## Decision
 
