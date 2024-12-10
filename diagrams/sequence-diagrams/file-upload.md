@@ -39,27 +39,26 @@ user->>browser: select "Choose file"
 browser->>user: display file dialog
 user->>browser: select file
 
-alt If file is uploaded to forms-runner
-  browser->>runner: POST html form data
-  runner->>s3: write file
-  runner->>browser: redirect
-else If file is uploaded directly to S3
-  note over browser, s3: See https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-UsingHTTPPOST.html
-  browser->>s3: POST html form data
-  alt If successful
-    note over browser, s3: what HTTP response code is used?
-    s3->>browser: redirect
-  else If error
-    note over browser, s3: "If the upload fails, Amazon S3 displays an error and does not redirect the user to a URL."<br />unclear how to handle this error scenario...
-    s3->>browser: HTTP response
-    browser->>user: display Amazon S3 error
-    note over user: ?!
-  end
-end
+
+browser->>runner: POST file
+note over runner: Need to check memory requirements if holding files in memory
+
+runner->>runner: check filesize
+note over runner: is check done during upload or after upload?
+
+note over runner: how to handle file size too big?
+
+runner->>s3: write file
+note over runner: how is file associated with user session?
 
 s3->>guard: new object event
 note over guard: GuardDuty<br />Malware Protection<br />for S3
 guard->>s3: scan
+
+runner->>s3: GetObjectTagging
+s3->>runner: return TagSet
+
+note over runner: poll undil tags returned
 
 alt No malware detected
   guard->>s3: tag object NO_THREATS_FOUND
@@ -67,11 +66,14 @@ else otherwise
   guard->>s3: tag object
 end
 
-browser->>runner: GET (following redirect)
 runner->>s3: GetObjectTagging
 s3->>runner: return TagSet
 
 note over user,guard: will user wait until file upload and checks have completed?
+
+runner->>browser: redirect
+browser->>runner: GET next question (following redirect)
+
 
 alt file OK
   runner->>runner: render success
@@ -89,11 +91,24 @@ browser->>runner: GET next question
 note over user,runner: complete rest of questions
 
 runner->>browser: check your answers
-note over browser: what happens if file(s) haven't been scanned yet?
 
 user->>browser: submit form
-browser->>runner: submit form
+browser->>runner: POST submit form
+
+runner->>runner: enqueue email sending job
+
+runner->>browser: redirect
+browser->>runner: GET confirmation page
+runner->>browser: confirmation page
+browser->>user: show confirmation page
+
+runner->>runner: dequeue email sending job
 runner->>s3: get file(s)
+
+note over s3: When / how are files deleted from s3?
+
+note over runner: Need to check memory requirements if holding files in memory
+
 runner->>ses: send email
 ses->>inbox: send email
 ```
