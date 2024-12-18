@@ -114,3 +114,37 @@ else failure:
     note over user: now what?<br />allow user to try again?
 end
 ```
+
+## Asynchronous form sending
+
+> [!NOTE]
+> File upload has not yet been implemented, these are ideas / proposals:
+
+```mermaid
+
+---
+title: GOV.UK Forms Asynchronous form sending
+---
+
+sequenceDiagram
+
+autonumber
+
+participant runner as forms-runner
+participant s3 as Amazon S3
+participant ses as Amazon SES
+participant inbox as email inbox
+
+actor processor
+
+runner->>runner: enqueue email sending job
+note over runner: some time later...
+runner->>runner: dequeue email sending job
+runner->>s3: get file(s)
+runner->>ses: send email
+note over runner,ses: how are errors handled?
+ses->>inbox: send email
+inbox->>processor: retrieve form
+processor->>processor: process form
+
+```
