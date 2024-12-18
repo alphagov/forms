@@ -75,7 +75,7 @@ opt file not OK
   runner->>browser: redirect to error
   browser->>runner: GET file upload page with error (following redirect)
   runner->>browser: HTTP response
-  browser->>user: show error message
+  browser->>user: display error message
   note over user: now what?<br />allow user to try again?
 end
 
@@ -87,6 +87,7 @@ note over user,runner: complete rest of questions
 
 browser->>runner: GET check your answers
 runner->>browser: HTTP response
+browser->>user: display check your answers page
 
 user->>browser: submit form
 browser->>runner: POST submit form
@@ -103,14 +104,14 @@ alt success:
     runner->>browser: redirect to confirmation
     browser->>runner: GET confirmation page
     runner->>browser: HTTP reponse
-    browser->>user: show confirmation page
+    browser->>user: display confirmation page
     inbox->>processor: retrieve form
     processor->>processor: process form
 else failure:
     runner->>browser: redirect to error
     browser->>runner: GET error page
     runner->>browser: HTTP reponse
-    browser->>user: show error page
+    browser->>user: display error page
     note over user: now what?<br />allow user to try again?
 end
 ```
