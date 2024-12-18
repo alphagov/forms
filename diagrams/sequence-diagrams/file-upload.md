@@ -58,7 +58,7 @@ guard->>s3: scan
 runner->>s3: GetObjectTagging
 s3->>runner: return TagSet
 
-note over runner: poll undil tags returned
+note over runner: poll until tags returned
 
 alt No malware detected
   guard->>s3: tag object NO_THREATS_FOUND
