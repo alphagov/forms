@@ -11,7 +11,7 @@
 
 ## Users
 - GOV.UK Forms users (civil servants)
-- 4
+- 4 users
 
 ## Methodology
 - Interviews + usability walkthroughs
