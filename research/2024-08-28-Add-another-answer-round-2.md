@@ -1,6 +1,6 @@
 # Add another answer round 2 - usability testing
 
-## 2024-08-28 / Sprint N
+## 2024-08-28 / Sprint 2
 
 ## Aims
 - Usability test the MVP for single repeated questions.
