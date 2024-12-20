@@ -24,7 +24,7 @@ The content on the page to choose which question is helpful. People find it easy
 
 People mostly know which answer to choose to build a route - not always obvious to them.
 
-The route descriptions on the Questions page is helpful, but also hard to make sense of.
+The route descriptions on the questions page is helpful, but also hard to make sense of.
 
 ### Building 2 branches
 
