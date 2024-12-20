@@ -24,7 +24,7 @@
 - People didn't notice the maximum number of repeated answers.
 - People questioned the need for a maximum and stated that any maximum would need to be much higher.
 - The format of the MVP email seemed unproblematic - but these are not the real users, so recommend checking with actual data processors.
-- The routing 'model' for building multiple repeated questions did not test well. Only one user (n=5) worked out how to do it and they said it was onl due to test expectations. They also didn't find the process or the language logical.
+- The routing 'model' for building multiple repeated questions did not test well. Only one user (n=5) worked out how to do it and they said it was only due to test expectations. They also didn't find the process or the language logical.
 - The 'add a question set' button was only discussed - it seemed reasonably clear to users, but with no confident consensus as to its purpose. Uers would need to try it out.
 - The radio option on the 'answer type' page worked well and users were confident that it would be what they needed to do. It helped to steer them through the journey.
 - The iterated journey for building multiple repeated questions worked better than the previous concept, but some users still found it confusing - although all users managed to get it right in the end.
