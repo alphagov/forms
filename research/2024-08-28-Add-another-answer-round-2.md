@@ -20,7 +20,7 @@
 - usability/cognitive walkthrough of Mural designs
 
 ## Key Headlines 
-- The MVP tested quite well but users need help understanding how to write the repeated questions to make them clear that users can add another answer.
+- The MVP tested quite well but users need help understanding how to write the repeated questions to make it clear that users can add another answer.
 - People didn't notice the maximum number of repeated answers.
 - People questioned the need for a maximum and stated that any maximum would need to be much higher.
 - The format of the MVP email seemed unproblematic - but these are not the real users, so recommend checking with actual data processors.
