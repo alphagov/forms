@@ -44,7 +44,7 @@ All participants correctly select the answer and questions the routing should be
 Participants felt the design of the page that plays back the routes was clear after building the first route.
 Two don't notice the option to build a second route at this stage.
 Of the two who see it, one doesn't understand it but is happy to try it out.
-There were suggestions that the guidance or content could be clearer and give further explanantion at this point.
+There were suggestions that the guidance or content could be clearer and give further explanation at this point.
 
 ### 'Set questions to skip' page
 After clicking the 'Set...' link, two are easily able to understand and do what they need to do.
