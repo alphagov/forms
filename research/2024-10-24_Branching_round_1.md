@@ -18,7 +18,7 @@
 
 ## Key Headlines 
 ### Building a simple route (one branch only)
-People click to Edit a question when trying to add routes, before spotting the 'Add a question route' button.
+People click to ‘Edit a question’ when trying to add routes, before spotting the 'Add a question route' button.
 
 The content on the page to choose which question is helpful. People find it easy enough to choose the right question for a single branch.
 
