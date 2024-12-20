@@ -105,7 +105,7 @@ alt success:
     browser->>runner: GET confirmation page
     runner->>browser: HTTP reponse
     browser->>user: display confirmation page
-    inbox->>processor: get form from inbox
+    processor->>inbox: get form from inbox
     processor->>processor: process form
 else failure:
     runner->>browser: redirect to error
@@ -145,7 +145,7 @@ runner->>s3: get file(s)
 runner->>ses: send email
 note over runner,ses: how are errors handled?
 ses->>inbox: send email
-inbox->>processor: get form from inbox
+processor->>inbox: get form from inbox
 processor->>processor: process form
 
 ```
