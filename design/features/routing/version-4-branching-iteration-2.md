@@ -41,7 +41,7 @@ The main things we decided to address were:
 
 ### Add a route from a question
 
-<img src="https://github.com/user-attachments/assets/cd6b37fc-6d94-4f5c-bd27-90dbbb4d8698" width="500">
+<img src="/design/features/routing/screenshots-v4/add-a-route-from-a-question.png" width="500">
 
 #### Description of the image and the changes made in this iteration: 
 
@@ -79,7 +79,7 @@ When they click ‘Continue’ they are taken to the ‘Question x’s routes’
 
 ### Question x’s routes - with Route 1 set
 
-<img src="https://github.com/user-attachments/assets/5127e44f-989f-4614-b8cc-fc4ef71473a1" width="500">
+<img src="/design/features/routing/screenshots-v4/question-xs-routes-with-1-route.png" width="500">
 
 #### Description of the image and the changes made in this iteration: 
 
@@ -122,7 +122,7 @@ If the form creator selects the link to ‘set more questions’ to skip they’
 
 ### Route 2: set questions to skip
 
-<img src="https://github.com/user-attachments/assets/70f04b8c-5843-4c37-8636-0e1acd93b11c" width="500">
+<img src="/design/features/routing/screenshots-v4/set-questions-to-skip-page.png" width="500">
 
 #### Description of the image and the changes made in this iteration: 
 
@@ -183,7 +183,7 @@ First question and destination question are consecutive already:
 
 ### Question x’s routes - with Routes 1 and 2 set
 
-<img src="https://github.com/user-attachments/assets/202e0e3c-7bad-43e2-98f2-868c8b82cacb" width="500">
+<img src="/design/features/routing/screenshots-v4/questions-xs-routes-with-2-routes.png" width="500">
 
 #### Description of the image and the changes made in this iteration: 
 
@@ -214,7 +214,7 @@ There is then a red ‘Delete routes’ button. And a link to ‘Continue to you
 
 ### Add and edit your questions - showing routes
 
-<img src="https://github.com/user-attachments/assets/5b895048-0e62-466e-9e68-e8d843fec188" width="500">
+<img src="/design/features/routing/screenshots-v4/add-and-edit-your-questions-page-with-routes.png" width="500">
 
 #### Description of the image and the changes made in this iteration: 
 
@@ -238,7 +238,7 @@ Each route description also has a blue ‘Edit’ link to the right.
 
 ### Your questions - read-only view of a live form
 
-<img src="https://github.com/user-attachments/assets/f540dce6-4d8a-494d-8aee-15b60985e981" width="500">
+<img src="/design/features/routing/screenshots-v4/your-questions-page-for-a-live-form-with-routes.png" width="500">
 
 #### Description of the image and the changes made in this iteration: 
 
