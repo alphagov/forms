@@ -143,8 +143,11 @@ We’ve added the playback of this information to this page to make it clear whi
 Then there are two select components for the form creator to set the questions to skip from and to. The labels and default select option text read: 
 
 > Then after the person answers
+>
 > Select a question
+>
 > take them to
+>
 > Select a question or page
 
 There is then an expandable details component. 
