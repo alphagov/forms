@@ -1,0 +1,1 @@
+This folder contains screenshots from our [Branching designs Mural board](https://app.mural.co/t/gaap0347/m/gaap0347/1728478914347/6a7e0b709f50f00f81cab37414fdf44ec8601a70). These screens are documented in [Branching and exit pages iteration 2](design/features/routing/version-4-branching-iteration-2.md).
