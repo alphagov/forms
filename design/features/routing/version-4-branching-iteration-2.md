@@ -65,7 +65,7 @@ Then hint text:
 
 > A route can only start from a question where people select one item from a list.
 
-The answer options are all the ‘selection from a list’ questions from the form that only allow one answer (radio questions). In the example in the image, there are 2 questions the form creator can select from. 
+The answer options are all the ‘selection from a list’ questions from the form that only allow one answer (radio questions). In the example in the image above, there are 2 questions the form creator can select from. 
 
 Finally, there’s a green ‘Continue’ button.
 
