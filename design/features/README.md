@@ -25,8 +25,8 @@ This feature introduces the ability to make a draft of a live form so that you c
 ### [Previewing a question](previewing-a-question)  
 This feature introduces a clear and quick way to help form creators understand what an answer type will look like and how it’ll be formatted alongside other content they’ve added - including hint text and additional guidance.
 
-### [Simple routing logic (skip questions)](routing)  
-This feature introduces new functionality to the form building tool to help form creators create simple skip logic for questions. This means you can skip someone to a later question in a form based on their response to a question where they have to select one answer from a list.
+### [Routing, branching and exit pages](routing)  
+Functionality to allow form creators to skip someone to a later question, or an exit page, based on an answer to a radio question.
 
 ### [User management journey](user-management)  
 This journey enables other departments having more control over who creates and publishes forms. 
