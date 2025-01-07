@@ -3,7 +3,7 @@
 Date: 2024-11-25
 
 ## Status
-Approved
+Accepted
 
 ## Context
 
