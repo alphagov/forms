@@ -56,7 +56,7 @@ More explanation or clarity could be useful at this point, possibly around the c
 There was some difficulty in understanding routing when the routes that depend on a question are described quite far away from the question itself, and the other route that impacts who takes the second route.
 There was some dislike of the naming of each bit of routing, feeling it would be helpful if it related more to the thing that influences the route.
 
-Most participants needed some direction or explanation at some point in the journey around how it would work [as it was a walkthrough so they could only see the next page in the 'happy path' not necessarily what they would have chosen to do]. This indicates some need for better clarity about where and how to do things.
+Most participants needed some direction or explanation at some point in the journey around how it would work (as it was a walkthrough so they could only see the next page in the 'happy path' not necessarily what they would have chosen to do). This indicates some need for better clarity about where and how to do things.
 
 ## Supporting Evidence
 - [Report (Mural board)](https://app.mural.co/t/gaap0347/m/gaap0347/1727432983705/a5f21ac1a04ec2831cda45dd723328346546891f?wid=0-1730209686442)
