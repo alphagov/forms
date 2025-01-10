@@ -31,7 +31,7 @@ The route descriptions on the questions page is helpful, but also hard to make s
 One participant saw each branch as separate routing, whereas our implementation groups them together within a 'set' of routes for a question.
 
 ### 'Add a route from a question' page
-The content on the page to choose which question is a little less clear for 2 branches, and less easily understood. However, they all manage to choose the correct question [there was only one to choose!].
+The content on the page to choose which question is a little less clear for 2 branches, and less easily understood. However, they all manage to choose the correct question (there was only one to choose!).
 There was some confusion with people thinking they could build multiple branches - the design actually only allows people to build 2.
 A possibility they don't read all the guidance fully because the task on this page seems quite straightforward. Is the guidance in the place where they need it most?
 
