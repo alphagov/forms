@@ -6,7 +6,7 @@
 - To understand the high-level user needs when using branching (we will learn more detailed needs when we see them using our designs in action)
 - To understand the user’s mental model for branching (where and how to implement it)
 - To learn what language people use around branching
-- For those who have their own dept platform - find out how they’ve implemented and what they’ve learned
+- For those who have their own dept forms platform - find out how they’ve implemented branching and what they’ve learned
 
 
 ## Users
