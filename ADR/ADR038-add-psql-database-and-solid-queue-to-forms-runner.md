@@ -1,4 +1,4 @@
-# ADR038: Store submission data in PostgresSQL and use Solid Queue to send emails asynchronously
+# ADR038: Store submission data in PostgreSQL and use Solid Queue to send emails asynchronously
 
 Date: 2024-11-25
 
@@ -45,7 +45,7 @@ The issue that we found with this was that due to the way Sidekiq uses Redis in 
 
 Solid Queue, which is a queue backed by a SQL database, is the default for ActiveJob in Rails 8. This provides us a guarantee that jobs are only run once and will not be lost, as it works by locking a database row for reads while it is processing a job and only deleting the database row after the job has successfully completed. Solid Queue provides automatic retries for jobs, and it is possible to configure an out-of-the box administrative dashboard using the `mission_control-jobs` gem to view and manage jobs.
 
-We can use SolidQueue with a PostgresSQL database that we set up in AWS, which we already have running for other parts of the system.
+We can use SolidQueue with a PostgreSQL database that we set up in AWS, which we already have running for other parts of the system.
 
 The need for a SQL database isn't a blocker to using Solid Queue, as we need to add a database to store submission data to handle bounced email anyway, as outlined [below](#storing-submission-data-to-handle-bounced-emails).
 
@@ -69,7 +69,7 @@ Submission data would be kept in the database until we are sure the email has no
 
 Adding a database now will allow for other features down the line. In particular, storing submission data in a database will likely be required when we implement the ability for form fillers to save their data and return later.
 
-It makes most sense for us to store submission data in a PostgresSQL database, as this provides reliable storage that is easily accessible and we already use PostgresSQL for other microservices.
+It makes most sense for us to store submission data in a PostgreSQL database, as this provides reliable storage that is easily accessible and we already use PostgreSQL for other microservices.
 
 We have some concerns about database performance if we use the same Amazon Aurora instance for databases for all of our microservices. One app seeing increased request volumes places increased load on the database, which can degrade the performance of the other apps as the database slows. We also have some concerns about database restoration/roll back if all apps use the same Aurora instance. If this were the case we can only rollback databases for all our apps. The risk of losing submission data if this were to happen is a major concern. For these reasons we want to add a separate Aurora cluster for the Forms Runner database.
 
@@ -79,7 +79,7 @@ We should consider encrypting the submission data at rest in the database, if we
 
 We will use Solid Queue and ActiveJob to manage the background processing of emails.
 
-We will use PostgresSQL/RDS for the database on the Forms Runner, with a separate Aurora instance.
+We will use PostgreSQL/RDS for the database on the Forms Runner, with a separate Aurora instance.
 
 ## Consequences
 
@@ -87,4 +87,4 @@ We will have a reliable way to deliver emails to form processors with files atta
 
 Forms Runner will be responsible for running background jobs to send submission emails and consume SQS messages that inform us about the send result. We will have to manage any performance impacts of this and configure additional monitoring.
 
-We have an additional infrastructure dependency on PostgresSQL for Forms Runner. There will be additional costs to configuring another Amazon Aurora instance.
+We have an additional infrastructure dependency on PostgreSQL for Forms Runner. There will be additional costs to configuring another Amazon Aurora instance.
