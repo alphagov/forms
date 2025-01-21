@@ -14,8 +14,7 @@ graph TD
     classDef notify fill:#000,stroke:#000,stroke-width:1px,color:#fff;
     classDef pay fill:#000,stroke:#000,stroke-width:1px,color:#fff;
 
-    %%classDef gds fill:#fff,stroke:#333,stroke-width:1px,color:#888,padding:10px,font-size:28px;
-    classDef org fill:#fe6,stroke:#fc3,stroke-width:5px,color:#000,padding:10px,font-size:20px;
+    classDef org fill:#fe6,stroke:#fc3,stroke-width:5px,color:#000;
 
     classDef user fill:#dfd,stroke:#333,stroke-width:3px,color:#000;
 
@@ -23,16 +22,13 @@ graph TD
 
     user((form<br>completer))
 
-    %% subgraph gds [Government Digital Service]
-        %% gov.uk[GOV.UK]
-        gov.uk[GOV.UK
-        <font color=#d2e2f1>The best place to find
-        government services
-        and information</font>]
-        forms[GOV.UK Forms]
-        notify[GOV.UK Notify]
-        pay[GOV.UK Pay]
-    %% end
+    gov.uk[GOV.UK
+    <font color=#d2e2f1>The best place to find
+    government services
+    and information</font>]
+    forms[GOV.UK Forms]
+    notify[GOV.UK Notify]
+    pay[GOV.UK Pay]
 
     class gov.uk govuk
     class forms forms
@@ -42,37 +38,38 @@ graph TD
 
 
     subgraph org [Organisation]
-        inbox[team<br>email<br/>inbox]
+
+        inbox[shared inbox]
         case[Case<br>Management<br>System]
-        %%rpa[Robotic<br/>Process<br/>Automation]
         integration([system integration])
 
+        creator((form<br>creator))
         processor((form<br>processor))
 
         integration -..-> case
-        inbox --> processor --> case
-        %%inbox-.->rpa-.->case
-        
+        inbox --> processor -.-> case
+
     end
     
-    class org org
-
     confirmation[/confirmation<br/>email/]
-    email[/submitted<br/>form/]
-    data[/structured<br/>data/]
+    email[/submitted form<br/>as email/]
+    data[/submitted form<br/>as structured data/]
 
-class integration,data optional
+    forms ~~~ creator
+    creator -- create form --> forms
 
-    user -- browse --> gov.uk -- links to --> forms --> notify -. optional .-> confirmation -.-> user
+    user ~~~ confirmation ~~~ notify ~~~ forms
 
-    notify --> email --> inbox
+    user -- browse --> gov.uk -- links to --> forms -. optional .-> notify -. optional .-> confirmation -.-> user
 
+    forms --> email --> inbox
     
+    forms -. under development .-> data  -.-> integration
 
-    forms -. being investigated .-> data  -.-> integration
+    forms -. optional link to .-> pay -. reconcile payment .-> processor
 
-    forms -. optional link to .-> pay
-
-    class user,processor user
+    class org org
+    class user,processor,creator user
+    class integration,data,confirmation optional
 
 ```
