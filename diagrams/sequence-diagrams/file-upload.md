@@ -1,7 +1,59 @@
-## Uploading a file when completing a form
-
 > [!NOTE]
-> File upload has not yet been implemented, these are ideas / proposals:
+> File upload is under active development, the following is likely to change:
+
+## File Upload Architecture
+
+```mermaid
+---
+title: GOV.UK Forms file upload
+---
+
+graph LR
+
+    user((user<br />filling in<br />form))
+    file[file to<br />upload]
+    browser[web browser]
+
+    user --> browser --http POST--> cloudfront --http POST--> forms --PutObject--> s3 --GetObject--> forms --SendEmail--> ses --send email with attachment(s)----> inbox
+    file --> browser
+
+    subgraph forms_aws [GOV.UK Forms AWS Account]
+        cloudfront[Amazon CloudFront]
+        waf["AWS WAF<br />(Web Application Firewall)"]
+        forms[forms-runner]
+        s3[\Amazon S3<br />bucket/]
+        guardduty[Amazon GuardDuty<br />S3 Malware Protection]
+        ses["Amazon SES<br />(Simple Email Service)"]
+        sns["Amazon SNS<br />(Simple Notification Service)"]
+        cloudwatch[Amazon<br />CloudWatch]
+
+        cloudfront --inspect request--> waf
+
+        s3 --new object event--> guardduty --tag object--> s3
+        
+        forms --subscribe to topic--> sns --receive delivery notification--> forms
+        
+        ses --delivery<br />notification--> sns
+
+        guardduty --collect malware metrics--> cloudwatch
+        ses --collect email metrics--> cloudwatch
+    end
+
+    subgraph org [Organisation]
+        inbox[email<br />inbox]
+    end
+
+
+    classDef default fill:#fff,stroke:#333,stroke-width:2px;
+
+    classDef lightblue fill:#eff,stroke:#333;
+    classDef green fill:#ded,stroke:#333;
+
+    class org green
+    class forms_aws lightblue
+```
+
+## Uploading a file when completing a form
 
 ```mermaid
 
@@ -119,7 +171,7 @@ end
 ## Asynchronous form sending
 
 > [!NOTE]
-> File upload has not yet been implemented, these are ideas / proposals:
+> Asynchronous form sending has not yet been implemented, these are ideas / proposals:
 
 ```mermaid
 
