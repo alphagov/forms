@@ -21,6 +21,7 @@ graph LR
         cloudfront[Amazon CloudFront]
         waf["AWS WAF<br />(Web Application Firewall)"]
         forms[forms-runner]
+        rds[("Amazon RDS<br/>(Relational<br/>Database<br/>Service)")]
         s3[\Amazon S3<br />bucket/]
         guardduty[Amazon GuardDuty<br />S3 Malware Protection]
         ses["Amazon SES<br />(Simple Email Service)"]
@@ -32,7 +33,9 @@ graph LR
         s3 --new object event--> guardduty --tag object--> s3
         
         forms --subscribe to topic--> sns --receive delivery notification--> forms
-        
+
+        forms --store completed form<br/>update delivery status--> rds --get completed form--> forms
+
         ses --delivery<br />notification--> sns
 
         guardduty --collect malware metrics--> cloudwatch
