@@ -14,7 +14,8 @@ graph LR
     file[file to<br />upload]
     browser[web browser]
 
-    user --> browser --http POST--> cloudfront --http POST--> forms --PutObject--> s3 --GetObject--> forms --SendEmail--> ses --send email with attachment(s)----> inbox
+    user --> browser --http POST--> cloudfront --http POST--> forms --PutObject<br/>GetObject<br/>DeleteObject--> s3
+    forms --SendEmail--> ses --send email with attachment(s)----> inbox
     file --> browser
 
     subgraph forms_aws [GOV.UK Forms AWS Account]
@@ -25,6 +26,7 @@ graph LR
         s3[\Amazon S3<br />bucket/]
         guardduty[Amazon GuardDuty<br />S3 Malware Protection]
         ses["Amazon SES<br />(Simple Email Service)"]
+        sqs["Amazon SQS<br/>(Simple Queue Service)"]
         sns["Amazon SNS<br />(Simple Notification Service)"]
         cloudwatch[Amazon<br />CloudWatch]
 
@@ -32,9 +34,11 @@ graph LR
 
         s3 --new object event--> guardduty --tag object--> s3
         
-        forms --subscribe to topic--> sns --receive delivery notification--> forms
+        forms --read from queue--> sqs
 
-        forms --store completed form<br/>update delivery status--> rds --get completed form--> forms
+        sqs --subscribe to topic--> sns
+
+        forms --store/get/delete completed form<br/>update delivery status--> rds
 
         ses --delivery<br />notification--> sns
 
