@@ -45,21 +45,44 @@ The issue that we found with this was that due to the way Sidekiq uses Redis in 
 
 Solid Queue, which is a queue backed by a SQL database, is the default for ActiveJob in Rails 8. This provides us a guarantee that jobs are only run once and will not be lost, as it works by locking a database row for reads while it is processing a job and only deleting the database row after the job has successfully completed. Solid Queue provides automatic retries for jobs, and it is possible to configure an out-of-the box administrative dashboard using the `mission_control-jobs` gem to view and manage jobs.
 
-We can use SolidQueue with a PostgreSQL database that we set up in AWS, which we already have running for other parts of the system.
+We can use Solid Queue with a PostgreSQL database that we set up in AWS, which we already have running for other parts of the system.
 
 The need for a SQL database isn't a blocker to using Solid Queue, as we need to add a database to store submission data to handle bounced email anyway, as outlined [below](#storing-submission-data-to-handle-bounced-emails).
 
+##### Pros
+
+* Solid Queue is the Rails default, and is well supported.
+* We think that it should be easy to configure the initial setup.
+* It's easy to run Solid Queue on a developer machine for local testing.
+* It's easy to configure recurring tasks. We think we'll need to run a recurring task to delete submission data when our retention period has elapsed.
+
+##### Cons
+
+* We need to put more thought into how we add useful monitoring and alerting.
+* Extra configuration is required to set up a job management dashboard.
+
 #### AWS SQS
 
-SQS is a reliable queueing mechanism that lots of people on the team are familiar with. It is possible to set up SQS to work with ActiveJob which will manage queueing and processing background jobs. SQS has automatic retries and dead letter queues which would allow us to handle cases where we fail to initiate sending the email. We could use FIFO SQS queues to guarantee that jobs are only processed once, and so we do not send duplicate emails.
+It is possible to set up SQS to work with ActiveJob which will manage queueing and processing background jobs. SQS has automatic retries and dead letter queues which would allow us to handle cases where we fail to initiate sending the email. We could use FIFO SQS queues to guarantee that jobs are only processed once, and so we do not send duplicate emails.
 
 As we need to store data in a database to [handle bounced emails](#storing-submission-data-to-handle-bounced-emails), the message size limit of 256 KB will not be an issue for us. We can just send an ID referencing the submission in the SQS message. The cost associated with sending the number of SQS messages that we anticipate is negligible.
 
 There is an AWS gem, `aws-activejob-sqs-ruby` to integrate SQS with ActiveJob in Rails. However, this is not widely used.
 
+##### Pros
+
+* We already use SQS for bounce notifications for SES emails.
+* Lots of the team are familiar with SQS.
+* We know how to set up alerts for messages going into the dead letter queue, and if the queue gets too big.
+
+##### Cons
+
+* The Ruby gem to use ActiveJob to queue tasks using SQS isn't widely used.
+* To test running background jobs on a developer machine we'll need additional setup to connect to AWS or run an SQS mock locally.
+
 #### Chosen technology
 
-We have decided to use ActiveJob backed by Solid Queue to send emails asynchronously. This is because this is the default way of processing background jobs in Rails and we cannot see significant advantages to using SQS. As we require a SQL database for storing submission data, needing a database is not a blocker to using Solid Queue.
+We have decided to use ActiveJob backed by Solid Queue to send emails asynchronously. This is because this is the default way of processing background jobs in Rails and we think it should be fairly straightforward to configure, and run locally for testing. As we require a SQL database for storing submission data, needing a database is not a blocker to using Solid Queue. However, when making this decision we thought the pros and cons of Solid Queue and SQS were quite balanced. Therefore, we're open to switching to using SQS if there are difficulties we spot using Solid Queue or additional advantages of using SQS that become apparent.
 
 ### Storing submission data to handle bounced emails
 
@@ -87,4 +110,4 @@ We will have a reliable way to deliver emails to form processors with files atta
 
 Forms Runner will be responsible for running background jobs to send submission emails and consume SQS messages that inform us about the send result. We will have to manage any performance impacts of this and configure additional monitoring.
 
-We have an additional infrastructure dependency on PostgreSQL for Forms Runner. There will be additional costs to configuring another Amazon Aurora instance.
+We have an additional infrastructure dependency on PostgreSQL for Forms Runner. There will be additional costs to configuring another Amazon Aurora instance. We also want to bring forward work to allow for zero downtime RDS updates so that we don't need to make the platform unavailable for form fillers whilst performing an update.
