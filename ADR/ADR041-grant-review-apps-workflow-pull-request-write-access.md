@@ -46,6 +46,8 @@ https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow
 
 We have decided we will grant the review apps workflow write access to pull requests. 
 
+As a new mitigation, we will change our GitHub repository configuration to prevent direct pushes to the `main` branch from any but a small number of people with write access to the repository.
+
 An additional measure we could take would be to remove the permission for GitHub Actions to create pull requests or submit approvals in our repository configuration. However, doing so would prevent us adopting dependabot PR auto-approval in `forms-admin` in the future. 
 
 ## Consequences
