@@ -5,9 +5,9 @@
 ## Aims
 - Aims here
 
-## Users
-- Type of users
-- Number of users
+## Participants
+- Type of participants
+- Number of participants
 
 ## Methodology
 - Research methods used
