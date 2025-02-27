@@ -9,7 +9,7 @@
 - For those who have their own dept forms platform - find out how they’ve implemented branching and what they’ve learned
 
 
-## Users
+## Participants
 - GOV.UK Forms users (civil servants)
 - 4 users
 
