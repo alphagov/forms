@@ -1,10 +1,10 @@
-# ADR038: Use Amazon S3 and GuardDuty Malware Protection for file upload
+# ADR042: Use Amazon S3 and GuardDuty Malware Protection for file upload
 
 Date: 2024-12-04
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
 
@@ -20,4 +20,4 @@ A new S3 bucket needs to be created which `forms-runner` can access.
 
 There is a cost associated with the use of GuardDuty Malware Protection, [$0.95 per GB per month in Europe (London) Region](https://aws.amazon.com/guardduty/pricing/#GuardDuty_protection_plans) as of December 2024.
 
-Files uploaded to S3 must be deleted when the user session they are associated with ends / expires.
+Data retention for files uploaded to S3 must be considered.
