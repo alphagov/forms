@@ -46,7 +46,7 @@ ___
 - Form creators have to manually create long list questions
 (up to 30 options)
 - There is no quicker way to creating lists of options
-- Long lists of options are not user friendly for form fillers
+- Long lists of options are not user-friendly for form fillers
 - We don't have an autocomplete support for select one only long lists
 
 
@@ -59,7 +59,8 @@ ___
 ### To-be
 
 - Form creator can create a list of more than 30 options when they expect the form filler to select only one option
-- 
+- Form creator has an easier way for creating a list of options, like pasting the list into a text box
+- Form filler can use an easier way to select from a longer list of options (30 +) by typing in the input field that reveals the options and progressively narrows them down with an autocomplete
 
 
 ## Key decisions
@@ -71,7 +72,12 @@ ___
 - After form creator has made their list of options, on the Edit page we present the list of options as a bullet list and we play back the amount of options they created for reassurance. If the list is longer than 10 options we present it in a 'detail' component, so that
 
 ## Measuring impact
+We made assumptions and trade-offs when designing and implementing the long lists feature. We needed to measure how the feature is used and in what context, so that we can spot potential problems and find ways to improve it.
+We kept the option to include 'None of the above' for select one only longer lists (30+) as weren't sure if there would be use cases for it, but didn't have enough evidence to remove it.
 
+We're measuring how many live forms and questions use the select from a list of options answer type with a specific look into specific details on 
+
+- how many and which forms and questions use the long list autocomplete feature and do the questions include the 'none of the above' - this can tell us if there is an actual need and use for including 'none of the above'. And allow us to drill into more details of the context of the questions and the 
 <br>
 
 ## Designs
@@ -97,18 +103,31 @@ flowchart LR
     I --> n3
     
 ```
-Steps are
+The diagram outlines the journey with these steps
 
-From the Add and edit questions page -> Create a question
-What kind of answer do you need to this question page -> user selects 'Selection from a list of options' -> continue
-What's your question -> Use types in their question -> Continue
-How many options should people be able to select? -> Radio selection One option only or One or more options
+**Start**
 
-The journey splits
+Page: Add and edit your questions -> Use 'Add a question' button
 
-If One option only
+Page: What kind of answer do you need to this question? -> user selects 'Selection from a list of options' -> Continue
 
-If One or more options
+Page: What's your question -> User types in their question -> Continue
+
+Page: How many options should people be able to select? -> Presenting two radio buttons: One option only or One or more options -> Select an option -> Continue
+
+*The journey splits depending on which option was selected, but the steps are the same*
+
+Page: Create a list of options -> User can input options one by one or Select a link to enter options into a text box -> Select link or Continue
+
+If continue go to 'Edit question' page
+
+If select link:
+
+Page: Enter your list's of options into a text box -> User can Type or paste a list of options in to t a textarea -> User decides if their list should include 'none of the above' option -> Continue
+
+Page: Edit question -> User can add more information to their question and edit it -> Save question
+
+**End**
 
 <br>
 
@@ -140,34 +159,122 @@ Selection from a list of option is the starting point of creating lists of optio
 
 With a text input and Continue button
 
+<hr>
+
 ### How many options should people be able to select - new step
+<br>
 
-![](screenshots-v1/002-how-many-options-can-people-select.png)
+!["How many options should people be able to select" page. Screenshot](screenshots-v1/002-how-many-options-can-people-select.png)
 
-### Create a list of options pages
+*A page titled: "How many options should people be able to select"*
 
-#### One only
+With two radio options. User can select:
+* One option only - *Your list can have up to 1,000 options*
+* One or more options - *Your list can have up to 30 options*
 
-![](screenshots-v1/003-create-a-list-of-options-select-one-only-single-fields.png)
+and Continue button
 
-![](screenshots-v1/006-create-a-list-of-options-select-one-only-text-box.png)
+We introduced this page to then tailor the content and logic to a specific case, where we allow single selection options to be up to 1000, but we keep the limit for multiple selection to 30 options.
 
-#### One or many
+<hr>
 
-![](screenshots-v1/004-create-a-list-of-options-select-many-single-fields.png)
+## Create a list of options pages
 
-![](screenshots-v1/005-create-a-list-of-options-select-many-single-fields.png)
+### Create a list of options - One only
 
+!["Create a list of options" page. Screenshot](screenshots-v1/003-create-a-list-of-options-select-one-only-single-fields.png)
+
+*A page titled: "Create a list of options"*
+
+On this page we:
+* play back that people filling in the form will be able to select one option from the list
+* state that the limit of options is 1000
+* provide a standard way of creating list of options, where user enters each option into text field and can add more or remove them
+* provide an alternative way to creating a list of options, where form creator can enter all their options into one text box as a link to a new page
+* let users decide if their list should have a 'None of the above' option
+
+<br>
+
+### Enter your list's options into a text box
+
+!["Enter your list's of options into a text box"](screenshots-v1/006-create-a-list-of-options-select-one-only-text-box.png)
+
+*A page titled: "Enter your list's options into a text box"*
+
+On this page we:
+* play back that people filling in the form will be able to select one option from the list
+* state that the limit of options is 1000
+* tell users, that if their list is longer than 30 options, people [filling in the forms] will be able to search and find the options by typing into an autocomplete box
+* provide a text box where users can type or paste long lists of options, which each option on a new line
+* let users decide if their list should have a 'None of the above' option
+
+The task of creating the list of options is the same, but the main heading of this page is different, so that is more accessible and easier to distinguish for users when the land on a new page following a link.
+
+### Create a list of options - One or many
+
+!["Create a list of options" page. Screenshot"](screenshots-v1/004-create-a-list-of-options-select-many-single-fields.png)
+
+On this page we:
+* play back that people filling in the form will be able to select one option or more options from the list
+* state that the limit of options is 30
+* provide a standard way of creating list of options, where user enters each option into text field and can add more or remove them
+* provide an alternative way to creating a list of options, where form creator can enter all their options into one text box as a link to a new page
+* let users decide if their list should have a 'None of the above' option
+
+*A page titled: "Create a list of options"*
+
+### Enter your list's options into a text box
+
+!["Enter your list's of options into a text box"](screenshots-v1/005-create-a-list-of-options-select-many-single-fields.png)
+
+*A page titled: "Enter your list's options into a text box"*
+
+On this page we:
+* play back that people filling in the form will be able to select one or more options from the list
+* state that the limit of options is 30
+* provide a text box where users can type or paste long lists of options, which each option on a new line
+* let users decide if their list should have a 'None of the above' option
+
+The task of creating the list of options is the same, but the main heading of this page is different, so that is more accessible and easier to distinguish for users when the land on a new page following a link.
 
 
 ### Edit question page - how we display answer settings and lists of options
 
-![](screenshots-v1/010-edit-question-options-list.png)
+!["Edit question" page. Screenshot](screenshots-v1/010-edit-question-options-list.png)
 
-### Edit selection type warning messages and flows
+*A page titled: "Edit question"*
 
-![](screenshots-v1/007-change-seletion-type-warnings.png)
+On this page we:
+* Display the question text, and let user edit it
+* Let users include an optional hint text in a text box
+* Let user add guidance optionally if their question is more complex, and they need to explain how to answer the question
+* Show answer settings, where the user can review and edit them
+* in the answer settings we display the number of options they created, followed by the list of options. If the list is longer than 10 options, we wrap them in the detail component so that it's easier for them to scan the page
+* Let the use save the question, or delete it (after it's saved)
+* Provide a link to go back to their questions
+* Provide a link to edit next question
 
-![](screenshots-v1/008-change-selection-type-reduce-options-list-edit-options.png)
+### Warning messages and errors
 
-![](screenshots-v1/009-change-selection-type-reduce-option-list-on-edit-question.png)
+!["Important banner warnings". Screenshot](screenshots-v1/007-change-seletion-type-warnings.png)
+*A screenshot titled: "Important banner warnings"*
+
+We provide warnings to the user when their actions can have an impact on the structure of their form, like routes or to the lists of options itself
+
+If their list is longer than 30 options and they want to switch to 'one or more options' we say:
+> If you change this to 'one or more options', you'll need to edit your list. You can only have up to 30 options in a list where people can select one or more options. If you make this change, you'll be able to edit your list on the next page.
+
+If their list was using a route and was above 30 options, we say
+> If you change this to ‘one or more options’, the route from this question will be deleted and you’ll need to edit the list. You can only have up to 30 options in a list where people can select one or more options. If you make this change, you’ll be able to edit your list on the next page. 
+
+<br>
+
+!["Edit list of options page with error message". Screenshot](screenshots-v1/008-change-selection-type-reduce-options-list-edit-options.png)
+
+*A page titled: "Edit list of options"*
+
+<br>
+
+!["Edit question page with error message". Screenshot](screenshots-v1/009-change-selection-type-reduce-option-list-on-edit-question.png)
+
+*A page titled: "Edit question"*
