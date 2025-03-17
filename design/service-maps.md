@@ -36,4 +36,9 @@ GOV.UK Forms started the ‘Early Access’ phase in November 2023 to allow anyo
 
 Last updated 23 Nov 2023
 
+## GOV.UK Forms user journey in Public Beta 
+This map shows the end-to-end user journey for creating online forms as from the public beta launch in November 2024. The map will be updated from time to time with changes from new features or iterations to existing features.
 
+[GOV.UK Forms user journey as at start of public beta (Figma)](https://www.figma.com/design/jdJbfvsEvIMXp7q3hCibX9/Full-GOV.UK-Forms-user-journey-as-at-start-of-public-beta?node-id=309-2336&t=K5E2sb6Db64dw1Fm-0)
+
+Last updated 6 Jan 2025 
