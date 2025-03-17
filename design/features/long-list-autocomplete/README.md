@@ -261,11 +261,11 @@ On this page we:
 
 We provide warnings to the user when their actions can have an impact on the structure of their form, like routes or to the lists of options itself
 
-If their list is longer than 30 options and they want to switch to 'one or more options' we say:
+If their list is longer than 30 options, and they want to switch to 'one or more options' we say:
 > If you change this to 'one or more options', you'll need to edit your list. You can only have up to 30 options in a list where people can select one or more options. If you make this change, you'll be able to edit your list on the next page.
 
 If their list was using a route and was above 30 options, we say
-> If you change this to ‘one or more options’, the route from this question will be deleted and you’ll need to edit the list. You can only have up to 30 options in a list where people can select one or more options. If you make this change, you’ll be able to edit your list on the next page. 
+> If you change this to ‘one or more options’, the route from this question will be deleted, and you’ll need to edit the list. You can only have up to 30 options in a list where people can select one or more options. If you make this change, you’ll be able to edit your list on the next page. 
 
 <br>
 
@@ -273,8 +273,20 @@ If their list was using a route and was above 30 options, we say
 
 *A page titled: "Edit list of options"*
 
+When a form creator wants to change their list of options from 'select one only' to 'select one or more' we show them a message that they might need to edit their list of options (As shown in the 'Important banner warnings").
+If they proceed and their list of options is longer than 30, they will see an error message on the 'Edit list of options' page
+
+>You cannot have more than 30 options in a list when people can select more than one option"
+
+The form creator then can edit down their list of options in the text area to meet the limit.
+
+If they save their changes, they get taken to Edit question page to view all their changes.
+
+If the form creator didn't save their changes and used a back link, they will land on the 'Edit question' page. When they try to save the question and their list is still above the limit, we show them the same error message and highlight the area where they can 'Change' the list of options. Screenshot below.
+
 <br>
 
 !["Edit question page with error message". Screenshot](screenshots-v1/009-change-selection-type-reduce-option-list-on-edit-question.png)
 
-*A page titled: "Edit question"*
+*A page titled: "Edit question" with an error message*
+
