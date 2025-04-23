@@ -38,7 +38,7 @@ graph LR
 
         sqs --subscribe to topic--> sns
 
-        forms --store/get/delete completed form<br/>update delivery status--> rds
+        forms --store/get/delete submission<br/>update delivery status--> rds
 
         ses --delivery<br />notification--> sns
 
@@ -62,36 +62,33 @@ graph LR
 
 ## Uploading a file when completing a form
 
+### User completes a file upload question
+
 ```mermaid
 
 ---
-title: GOV.UK Forms File Upload
+title: User completes a file upload question
 ---
 
 sequenceDiagram
 
 autonumber
 
-actor user
+actor user as User
 
-participant browser
+participant browser as Browser
 
-participant runner as forms-runner
+participant runner as Forms Runner
 participant s3 as Amazon S3
 participant guard as Amazon GuardDuty
-participant ses as Amazon SES
-participant inbox as email inbox
-
-actor processor
 
 user->>browser: navigate to file upload page
 browser->>runner: GET file upload page
 runner->>runner: render file upload page
-note over runner: can use "accept"<br />HTML attribute to<br />limit file type(s)
-runner->>browser: HTTP response
+runner->>browser: HTTP 200 response
 browser->>user: display file upload page
 
-note over user: users sees "File upload" component<br/>from GOV.UK Design System
+note over user: User sees "File upload" component<br/>from GOV.UK Design System
 
 user->>browser: select "Choose file"
 browser->>user: display file dialog
@@ -100,12 +97,13 @@ browser->>user: display filename of selected file
 user->>browser: select "Continue"
 
 browser->>runner: POST file
-note over runner: Need to check memory requirements if holding files in memory
 
-runner->>runner: check filesize
-note over runner: is check done during upload or after upload?
+runner->>runner: validate file size and type
 
-note over runner: how to handle file size too big?
+opt Invalid file
+  runner->>browser: HTTP 422 response
+  browser->>user: display file upload page with error message
+end
 
 runner->>s3: write file
 runner->>runner: associate file with user session
@@ -114,97 +112,156 @@ s3->>guard: new object event
 note over guard: GuardDuty<br />Malware Protection<br />for S3
 guard->>s3: scan
 
-runner->>s3: GetObjectTagging
-s3->>runner: return TagSet
-
-note over runner: poll until tags returned
-
 alt No malware detected
-  guard->>s3: tag object NO_THREATS_FOUND
+    guard->>s3: tag object NO_THREATS_FOUND
 else otherwise
-  guard->>s3: tag object
+    guard->>s3: tag object
 end
 
-runner->>s3: GetObjectTagging
-s3->>runner: return TagSet
-
-note over user,guard: will user wait until file upload and checks have completed?
-
-opt file not OK
-  runner->>browser: redirect to error
-  browser->>runner: GET file upload page with error (following redirect)
-  runner->>browser: HTTP response
-  browser->>user: display error message
-  note over user: now what?<br />allow user to try again?
+loop poll until GuardDuty tag is returned
+  runner->>s3: GetObjectTagging
+  s3->>runner: return TagSet
 end
 
-runner->>browser: redirect to next page
-browser->>runner: GET next page (following redirect)
-runner->>browser: HTTP reponse
+note over runner,guard: We may want to change how we get the GuardDuty status if making<br/>the user wait while we poll causes issues
 
-note over user,runner: complete rest of questions
-
-browser->>runner: GET check your answers
-runner->>browser: HTTP response
-browser->>user: display check your answers page
-
-user->>browser: submit form
-browser->>runner: POST submit form
-
-note over runner: Also considering asynchronous email sending via queue
-
-runner->>s3: get file(s)
-
-note over runner: Need to check memory requirements if holding files in memory
-
-runner->>ses: send email
-alt success:
-    ses->>inbox: send email
-    runner->>browser: redirect to confirmation
-    browser->>runner: GET confirmation page
-    runner->>browser: HTTP reponse
-    browser->>user: display confirmation page
-    processor->>inbox: get form from inbox
-    processor->>processor: process form
-else failure:
-    runner->>browser: redirect to error
-    browser->>runner: GET error page
-    runner->>browser: HTTP reponse
-    browser->>user: display error page
-    note over user: now what?<br />allow user to try again?
+opt GuardDuty found threat or could not scan file
+  runner->>browser: HTTP 422 response
+  browser->>user: display file upload page with error message
 end
+
+runner->>browser: HTTP 302 redirect response
+browser->>runner: GET review file page
+browser->>user: display review file page with uploaded filename
+note over user,browser: User can choose to remove their file. If they<br/>do they are shown a confirmation page, and taken<br/>back to the file upload page if they confirm.
+
+user->>browser: select "Continue"
+
+runner->>browser: HTTP 302 redirect response
+
+note over user,runner: User completes the rest of the questions
 ```
 
-## Asynchronous form sending
-
-> [!NOTE]
-> Asynchronous form sending has not yet been implemented, these are ideas / proposals:
-
+### User submits their form
 ```mermaid
 
 ---
-title: GOV.UK Forms Asynchronous form sending
+title: User submits their form
 ---
 
 sequenceDiagram
 
 autonumber
 
-participant runner as forms-runner
+actor user as User
+
+participant browser as Browser
+
+participant runner as Forms Runner
+participant runner-db as Forms Runner database
+participant solidqueue-db as Solid Queue database
+
+browser->>runner: GET check your answers
+runner->>browser: HTTP 200 response
+browser->>user: display check your answers page
+
+user->>browser: select "Submit"
+browser->>runner: POST submit form
+runner->>runner-db: save Submission
+runner->>solidqueue-db: enqueue send submission job
+
+runner->>browser: HTTP 302 response
+browser->>runner: GET confirmation page
+runner->>browser: HTTP 200 response
+browser->>user: Display confirmation page
+
+```
+
+### Sending the submission email asynchronously
+
+```mermaid
+
+---
+title: Sending the submission email asynchronously 
+---
+
+sequenceDiagram
+
+autonumber
+
+participant worker as Forms runner worker
+participant solidqueue-db as Solid Queue database
+participant runner-db as Forms Runner database
 participant s3 as Amazon S3
 participant ses as Amazon SES
-participant inbox as email inbox
+participant sns as Amazon SNS
+participant inbox as Email inbox
+participant sentry as Sentry
 
 actor processor
 
-runner->>runner: enqueue email sending job
-note over runner: some time later...
-runner->>runner: dequeue email sending job
-runner->>s3: get file(s)
-runner->>ses: send email
-note over runner,ses: how are errors handled?
-ses->>inbox: send email
-processor->>inbox: get form from inbox
-processor->>processor: process form
+worker->>solidqueue-db: dequeue send submission job
+worker->>runner-db: get Submission
+worker->>s3: get file(s)
+worker->>ses: send email
 
+break error 
+  alt AWS SDK error and max retries not reached
+    worker->>solidqueue-db: schedule retry
+  else
+    worker->>sentry: send error
+  end
+end
+
+ses->>worker: return message_id
+worker->>runner-db: set mail_message_id on Submission
+worker->>runner-db: update mail_status of Submission to "pending"
+
+ses-)inbox: send email
+note over ses,inbox: happens some time later
+
+alt email sent successfully
+  processor->>inbox: get form from inbox
+  processor->>processor: process form
+else email bounces
+  ses->>sns: send bounce notification
+  note over ses,sns: We have an SQS queue subscribed to the<br/> SNS topic and a recurring task to poll<br/>the SQS queue.
+end
+```
+
+### Handling email bounces/complaints
+```mermaid
+
+---
+title: Handling email bounces/complaints
+---
+
+sequenceDiagram
+
+autonumber
+
+participant worker as Solid Queue worker
+participant solidqueue-db as Solid Queue database
+participant runner-db as Forms Runner database
+participant sqs as Amazon SQS
+participant inbox as Email inbox
+participant sentry as Sentry
+
+actor support as Forms team tech support
+
+worker->>solidqueue-db: enqueue recurring receive bounces job
+worker->>solidqueue-db: dequeue receive bounces job
+worker->>sqs: get messages from bounces and complaints queue
+alt there is a bounce SQS message
+  worker->>runner-db: get Submission by the message_id in the SQS message
+  worker->>runner-db: update mail_status of Submission to "bounced"
+  worker->>sentry: send error event
+else there is a complaint SQS message
+  worker->>runner-db: get Submission by the message_id in the SQS message
+  worker->>worker: Log with the submission details
+end
+
+support->>sentry: Alert via Slack
+support->>support: Identify why the email bounced
+support->>support: Run rake task to retry submission
 ```
