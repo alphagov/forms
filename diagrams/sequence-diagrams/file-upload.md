@@ -221,12 +221,15 @@ ses-)inbox: send email
 note over ses,inbox: happens some time later
 
 alt email sent successfully
+  ses->>sns: send delivery notification
   processor->>inbox: get form from inbox
   processor->>processor: process form
 else email bounces
   ses->>sns: send bounce notification
   note over ses,sns: We have an SQS queue subscribed to the<br/> SNS topic and a recurring task to poll<br/>the SQS queue.
 end
+
+worker->>worker: Recurring task deletes Submissions<br/>that haven't bounced after 7 days
 ```
 
 ### Handling email bounces/complaints
@@ -244,7 +247,6 @@ participant worker as Solid Queue worker
 participant solidqueue-db as Solid Queue database
 participant runner-db as Forms Runner database
 participant sqs as Amazon SQS
-participant inbox as Email inbox
 participant sentry as Sentry
 
 actor support as Forms team tech support
@@ -255,13 +257,41 @@ worker->>sqs: get messages from bounces and complaints queue
 alt there is a bounce SQS message
   worker->>runner-db: get Submission by the message_id in the SQS message
   worker->>runner-db: update mail_status of Submission to "bounced"
+  worker->>worker: Log with the submission details
   worker->>sentry: send error event
+  sentry->>support: Alert via Slack
+  support->>support: Identify why the email bounced
+  support->>support: Run rake task to retry submission
 else there is a complaint SQS message
   worker->>runner-db: get Submission by the message_id in the SQS message
   worker->>worker: Log with the submission details
 end
 
-support->>sentry: Alert via Slack
-support->>support: Identify why the email bounced
-support->>support: Run rake task to retry submission
+```
+
+### Handling successful deliveries
+
+```mermaid
+
+---
+title: Handling successful deliveries
+---
+
+sequenceDiagram
+
+autonumber
+
+participant worker as Solid Queue worker
+participant solidqueue-db as Solid Queue database
+participant runner-db as Forms Runner database
+participant sqs as Amazon SQS
+
+actor support as Forms team tech support
+
+worker->>solidqueue-db: enqueue recurring receive deliveries job
+worker->>solidqueue-db: dequeue receive deliveries job
+worker->>sqs: get messages from deliveries queue
+worker->>runner-db: get Submission by the message_id in the SQS message
+worker->>runner-db: update mail_status of Submission to "delivered"
+note over worker,runner-db: we don't currently use the "delivered" status for anything other than for information
 ```
