@@ -1,3 +1,11 @@
+---
+title: GOV.UK Forms API class diagram
+---
+
+# GOV.UK Forms API class diagram
+## 2025-05-29
+
+```mermaid
 classDiagram
 	direction RL
 	class `AccessToken`
@@ -87,3 +95,4 @@ classDiagram
 	`Form` --> `MadeLiveForm`
 	`Form` --> `Api::V2::FormDocument`
 	`Condition` .. `Form`
+```
