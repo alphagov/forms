@@ -1,3 +1,11 @@
+---
+title: GOV.UK Forms Admin app class diagram
+---
+
+# GOV.UK Forms Admin app class diagram
+## 2025-05-29
+
+```mermaid
 classDiagram
 	direction RL
 	class `CreateFormService::CreateFormEvent`
@@ -78,3 +86,4 @@ classDiagram
 	`Organisation` --> `MouSignature`
 	`Group` --> `Membership`
 	`Group` --> `GroupForm`
+  ```
