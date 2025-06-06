@@ -7,7 +7,7 @@ These feedback rounds were planned as intermediary research where we could under
 
 **They were not designed or planned as rigorous investigations, and therefore the findings and data should be treated with caution.**
 
-The aim was to understand whether the first part of of our recent iterations in response to the latest usability testing of branching were heading in the right direction:
+The aim was to understand whether the first part of our recent iterations in response to the latest usability testing of branching were heading in the right direction:
 * Is it easier for users to find where to do branching?
 * Is it easier for users to understand how routing works?
 * Is it easier for users to understand how to build 2 routes?
