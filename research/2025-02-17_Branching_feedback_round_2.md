@@ -10,7 +10,7 @@ These feedback rounds were planned as intermediary research where we could under
 The aim was to understand whether the first part of of our recent iterations in response to the latest usability testing of branching were heading in the right direction:
 * Is it easier for users to find where to do branching?
 * Is it easier for users to understand how routing works?
-* Is it easier for user to understand how to build 2 routes?
+* Is it easier for users to understand how to build 2 routes?
 
 ## Participants
 - Civil servants - existing users (mostly beginners)
