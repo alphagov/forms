@@ -28,7 +28,7 @@ Removing the next question from the second dropdown on 'Add a route to a questio
 
 Users still find it hard to understand and set the 2nd route, especially from the 'Set questions to skip' page.
 
-Our understanding of the users' mental model has solidifed: users think they need to 'build' each route separately, rather than adding all questions that all form fillers will flow through until you skip them over some questions.
+Our understanding of the users’ mental model has solidified: users think they need to ‘build’ each route separately, rather than adding all questions that all form fillers will flow through until you skip them over some questions.
 
 Team decisions:
 1) Decide the criteria that will give the team enough confidence to launch the feature
