@@ -12,9 +12,9 @@ The aim was to understand whether the first part of of our recent iterations in 
 * Is it easier for users to understand how routing works?
 * Is it easier for user to understand how to build 2 routes?
 
-## Users
+## Participants
 - Civil servants - existing users (mostly beginners)
-- 4 users
+- 4 participants
 
 ## Methodology
 - Informal observations of 2 users (like UR but not formalised)
