@@ -14,13 +14,9 @@ Date created: 2025-06-11
 
 ## What this documentation covers
 
-This is the third iteration that was created and put live into production based on previous research.
+This is the third iteration that was created and put live into production based on previous research. 
 
 [This iteration’s designs in Mural](https://app.mural.co/t/gaap0347/m/gaap0347/1728478914347/6a7e0b709f50f00f81cab37414fdf44ec8601a70?wid=0-1737023334487).
-
-## Research summary
-
-We...
 
 ## Designs
 
