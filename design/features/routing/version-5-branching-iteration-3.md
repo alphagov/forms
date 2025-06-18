@@ -70,6 +70,8 @@ The page heading and guidance content remain the same while the bottom section i
 >   
 > It’s usually easiest to create all your form’s questions first, then add the routes you need.
 
+The updated content reflects more accurately the criteria required to be able to add routing to a question. We also add new additional context of adding all your forms questions before adding your routing. 
+
 The page ends with a blue ‘Back to your questions’ link. 
 
 ### Add a route from a question - You have no more questions to add a route from
@@ -83,6 +85,8 @@ This page shows an alternative version of the ‘Add a route from a question’ 
 The page heading and guidance content remain the same while the bottom section is replaced by a section titled ‘You have no more questions to add a route from’. The content reads:  
 
 > You can only add a route from a question that does not already have 2 routes. If you need to edit an existing route, go back to your questions.  
+
+The new content more accurately reflects the updated criteria for routing and informs form creators to consider returning to their question list if they need to make changes to an existing question’s routes. 
 
 The page ends with a blue ‘Back to your questions’ link. 
 
