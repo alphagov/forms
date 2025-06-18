@@ -53,6 +53,24 @@ Finally, there’s a green ‘Continue’ button.
 
 After the form creator has selected a question to start their route from and then ‘Continue’, they move to the ‘Edit route 1’ page.
 
+### Add a route from a question - You cannot add a route yet
+
+<img alt="Page titled “Add a route from a question” with guidance the bottom section has been replaced by new static content “You cannot add a route yet” with more context beneath. Screenshot" src="screenshots-v5/002-add-a-route-from-a-question-YouCannotAddARouteYet.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+This page shows an alternative version of the ‘Add a route from a question’ page where a form does not meet the minimum criteria that allows routing to be added. The page heading and guidance content remain the same while the bottom section is replaced by a section titled ‘You cannot add a route yet’. The content reads:  
+
+> Before you can add a route, your form needs to have a question that:  
+>   
+> - asks people to select only one option from a list  
+> - has at least one question after it  
+>   
+> It’s usually easiest to create all your form’s questions first, then add the routes you need.
+
+The page ends with a blue ‘Back to your questions’ link. 
+
+
 ### Edit route 1
 
 We’ve made no changes to this page in this iteration. The form creator selects the answer that will skip people forward, and the question they want them to skip to. 
