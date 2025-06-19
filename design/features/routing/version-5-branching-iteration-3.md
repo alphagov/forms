@@ -145,3 +145,37 @@ If the form creator selects the button to ‘Set questions to skip’ they’ll 
 We’ve made no changes to this page in this iteration. The form creator selects the question that will people will skip from if they haven’t triggered Route 1, and the question they want them to skip to after answer the question. 
 
 When they click ‘Save and continue’ they are taken back to the ‘Question x’s routes’ page.
+
+### Question x’s routes - with Route 1 and Route for any other answer set
+
+<img alt="Page titled “Question 2’s routes” now showing two summary cards. Route 1 and Route for any other answer. Screenshot" src="screenshots-v5/003-question-xs-routes-bothRoutesSet.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+People are returned to this page after setting questions to skip for Route 2. The page now shows the question that will be skipped as part of Route for any other answer, as well as the option to edit or delete Route for any other answer.
+
+The H1 is ‘Questions 2’s routes’.
+
+The page then plays back the question the routes in the page apply to. In this example:  
+
+> Question 2: Are you directly employed? 
+
+There are then 2 grey boxes - using the ‘summary card’ component. The first is titled ‘Route 1’ and the second ‘Route for any other answer’.
+
+The Route 1 box is unchanged from previously. It reads:
+
+> If the answer is: Yes
+> 
+> take the person to: 4. What is your business area?
+
+There are also blue ‘Edit’ and ‘Delete’ links in the top right corner of the Route 1 summary card.
+
+In the Route for any other answer summary card, we then play back the secondary route associated with this question. It reads:
+
+> For any other answer, continue to: 3. What are your company details?  
+>  
+> Then after the person answers: 3. What are the company details?  
+>  
+> take them to: 6. Your personal details  
+
+There is then a red ‘Delete routes’ button. And a link to ‘Continue to your questions’.
