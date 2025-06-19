@@ -90,7 +90,6 @@ The new content more accurately reflects the updated criteria for routing and in
 
 The page ends with a blue ‘Back to your questions’ link. 
 
-
 ### Edit route 1
 
 We’ve made no changes to this page in this iteration. The form creator selects the answer that will skip people forward, and the question they want them to skip to. 
@@ -140,3 +139,9 @@ This has changed from the previous version to try to make it clearer how the oth
 We have then hidden the previously always there red ‘Delete routes’ button to reduce confusion. Finally there is a link to ‘Continue to your questions’. 
 
 If the form creator selects the button to ‘Set questions to skip’ they’ll go to the ‘Set questions to skip’ page.  
+
+### Set questions to skip
+
+We’ve made no changes to this page in this iteration. The form creator selects the question that will people will skip from if they haven’t triggered Route 1, and the question they want them to skip to after answer the question. 
+
+When they click ‘Save and continue’ they are taken back to the ‘Question x’s routes’ page.
