@@ -179,3 +179,27 @@ In the Route for any other answer summary card, we then play back the secondary 
 > take them to: 6. Your personal details  
 
 There is then a red ‘Delete routes’ button. And a link to ‘Continue to your questions’.
+
+### Add and edit your questions - showing routes 
+
+<img alt="Page titled “Add and edit your questions”. The page lists the questions added to a form, including a summary of the routing beneath the question that it triggers. Screenshot" src="screenshots-v5/006-add-and-edit-your-questions-listWithRouting.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+This page shows a list of the questions in a form. It shows what number each question is and its question text. To the right of each question there’s a ‘Edit’ link, ‘Move up’ and ‘Move down’ grey buttons. Between 3 of the questions in the design there are route descriptions to explain to the form creator what routing has been set and where people are skipped to.
+
+In this iteration, the wording for the label of a route has been made less concise. It now only tells the form creator which question the route belongs to. 
+
+There are 3 examples in the image. The route label and description between questions 1 and 2 reads:
+
+> Question 1’s routes: If “Have you undergone a BPSS check?” is answered as “No” go to the exit page, “You are not eligible for this service”  
+
+The route label and description between questions 2 and 3 reads: 
+
+> Question 2’s routes: If “Are you directly employed?” is answered as “Yes” go to 4, “What is your business area?”  
+
+The route label and description between questions 3 and 4 reads: 
+
+> Question 2’s routes: After 3, “What are the company details?” go to 6, “Your personal details”  
+
+Each route description also has a blue ‘Edit’ link to the right. 
