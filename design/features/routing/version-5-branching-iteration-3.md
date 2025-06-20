@@ -7,7 +7,6 @@ Date created: 2025-06-11
 ## Contents
 
 - [What this documentation covers](#what-this-documentation-covers)
-- [Research summary](#research-summary)
 - [Designs](#designs)
 
 * * *
@@ -179,6 +178,46 @@ In the Route for any other answer summary card, we then play back the secondary 
 > take them to: 6. Your personal details  
 
 There is then a red ‘Delete routes’ button. And a link to ‘Continue to your questions’.
+
+
+### Are you sure you want to delete route 1 
+
+<img alt="Page titled “Are you sure you want to delete route 1?”, this question then has yes and no radio options. Screenshot" src="screenshots-v5/004-are-you-sure-you-want-to-delete-route-1.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+This page asks the form creator to confirm whether they want to delete the Route 1 associated with question 2. 
+
+As part of this iteration we added a blue ‘Important’ notification banner to the start of the page which reads: 
+
+> If you delete this route, the route for any other answer will also be deleted. 
+
+This will only appear where a question has 2 routes added to it. It is designed to warn the form creator what will happen if they choose to continue the deletion of Route 1. 
+
+The pages H1, ‘Are you sure you want to delete route 1?’, appears next and is the question label for 2 radio options, ‘Yes’ or ‘No’. 
+
+Finally is a green ‘Save and continue’ button which will take the form creator to the next screen depending on their answer. 
+
+If they select: 
+
+- ‘Yes’ they will continue to their questions list  
+- ‘No’ they will return to the question x’s routes screen  
+
+
+### Are you sure you want to delete the route for any other answer 
+
+<img alt="Page titled “Are you sure you want to delete the route for any other answer?”, this question then has yes and no radio options. Screenshot" src="screenshots-v5/005-are-you-sure-you-want-to-delete-the-route-for-any-other-answer.png" width="500">
+
+<img alt="There is a problem notification box showing ‘Select ‘Yes’ to delete the route’ error message. Screenshot" src="screenshots-v5/005-are-you-sure-you-want-to-delete-the-route-for-any-other-answer-error.png" width="300">
+
+#### Description of the image and the changes made in this iteration: 
+
+This page asks the form creator to confirm whether they want to delete the Route for any other answer associated with question 2. 
+
+The pages H1 ‘Are you sure you want to delete the route for any other answer?’ is the question label for 2 radio options, ‘Yes’ or ‘No’. 
+
+There is a green ‘Save and continue’ button which will return the form creator to the question x’s routes screen. If they had selected ‘Yes’ a green success banner will appear confirming the deletion of the route. 
+
 
 ### Add and edit your questions - showing routes 
 
