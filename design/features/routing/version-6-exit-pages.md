@@ -69,7 +69,7 @@ The guidance above aims to set expectations for the form creator about what they
 
 Next are two dropdowns that the form creator select from to create their route. The first, ‘If the answer selected is’, has already been selected and is showing the word ‘No’. The second dropdown labelled ‘skip the person to’ is covered by an open dropdown menu showing the list of options available to the form creator. It lists the placeholder text, ‘Select a question or page’, followed by all of the questions, number followed by content, left in the form starting from the current question. The final two rows of the dropdown list give the form creator the option to see and create a new ‘exit page’ for the above answer. They show: 
 
-> An ‘exxit page’ to leave the form  
+> An ‘exit page’ to leave the form  
 >   Add an exit page  
 
 By selecting the ‘Add an exit page’ option from the list when the form creator clicks ‘Save and continue’ they are taken to the ‘Edit exit page’ screen.
