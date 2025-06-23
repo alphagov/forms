@@ -52,3 +52,25 @@ The answer options are all the ‘selection from a list’ questions from the fo
 Finally, there’s a green ‘Continue’ button.
 
 After the form creator has selected a question to start their route from and then ‘Continue’, they move to the ‘Edit route 1’ page.
+
+### Add route 1: select an answer and where to skip to - showing ‘skip the person to’ dropdown  
+
+<img src="screenshots-v6/002-add-route-1-skipPersonTo-Dropdown.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+The page’s H1 is ‘Add route 1: select an answer and where to skip to’. It then has some guidance before a summary component showing the question number and content. In this example it reads: 
+
+> Question 2: Have you had a BPSS check?  
+
+The guidance above aims to set expectations for the form creator about what they can do with content of the current and following questions. It reads: 
+
+> You can skip people who select one specific answer to [question 2] to a later question or page. People who select any other answer will continue to [question 3].
+
+Next are two dropdowns that the form creator select from to create their route. The first, ‘If the answer selected is’, has already been selected and is showing the word ‘No’. The second dropdown labelled ‘skip the person to’ is covered by an open dropdown menu showing the list of options available to the form creator. It lists the placeholder text, ‘Select a question or page’, followed by all of the questions, number followed by content, left in the form starting from the current question. The final two rows of the dropdown list give the form creator the option to see and create a new ‘exit page’ for the above answer. They show: 
+
+> An ‘exxit page’ to leave the form  
+>   Add an exit page  
+
+By selecting the ‘Add an exit page’ option from the list when the form creator clicks ‘Save and continue’ they are taken to the ‘Edit exit page’ screen.
+
