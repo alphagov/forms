@@ -74,3 +74,36 @@ Next are two dropdowns that the form creator select from to create their route. 
 
 By selecting the ‘Add an exit page’ option from the list when the form creator clicks ‘Save and continue’ they are taken to the ‘Edit exit page’ screen.
 
+### Edit exit page - Javascript markdown editor  
+
+<img src="screenshots-v6/003-edit-exit-page-markdownEditor.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+The page’s H1 is ‘Edit exit page’. This is followed by a labelled single line text input, ‘Page heading’ with the hint text: 
+
+> Use a heading that summarises why someone cannot continue with the form. For example, ‘You’re not eligible for this service’.  
+
+This is followed by the ‘Add content’ section with some basic guidance reading: 
+
+> Use Markdown if you need to format your exit page content. Formatting help can be found below.  
+
+Below are two tabs, ‘Write content’ and ‘Preview content’. We are reusing the markdown what you see is what you get (WYSIWYG) type editor that was developed as part of the [detailed guidance work](). The idea is to allow form creators to have greater control over how their content appears to form fillers. Meaning they can make the content more legible while adding clear next steps, options and links to follow based on the reason for seeing an ‘exit page’. 
+
+Within the ‘Write content’ tab we include some additional help text: 
+
+> Explain why they cannot continue to use the form and, if possible, tell them what they should do instead.  
+
+Followed by the different format type buttons that inject markdown code into the textarea beneath. These include: 
+
+- H2 for secondary-level headings  
+- H3 for third-level headings  
+- Hyperlink to add links to other pages outside of the form  
+- Bulleted lists  
+- Numbered lists  
+
+The textarea has a character counter to show form creators the limit of characters than are supported by the form tool. The screenshot includes a limit of 400 characters but this was set to 4999 characters to match other maximum character limits placed on textareas. 
+
+Finally in editing tab is a ‘Formatting help’ detail component, hiding the extra guidance to help form creators write and understand the markdown code.  
+
+At the bottom of the page is a green ‘Save and continue’ button which will take the user back to the ‘question xs routes’ screen. Alongside the button is a blue ‘Cancel’ link which will return the form creator back to the ‘Add route 1: select an answer and where to skip to’ page. 
