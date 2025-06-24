@@ -102,7 +102,7 @@ Followed by the different format type buttons that inject markdown code into the
 - Bulleted lists  
 - Numbered lists  
 
-The textarea has a character counter to show form creators the limit of characters than are supported by the form tool. The screenshot includes a limit of 400 characters but this was set to 4999 characters to match other maximum character limits placed on textareas. 
+The textarea has a character counter to show form creators the limit of characters than are supported by the form tool. The screenshot includes a limit of 4000 characters but this was set to 4999 characters to match other maximum character limits placed on textareas. 
 
 Finally in editing tab is a ‘Formatting help’ detail component, hiding the extra guidance to help form creators write and understand the markdown code.  
 
