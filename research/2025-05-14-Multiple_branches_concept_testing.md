@@ -23,7 +23,7 @@ Concept testing of 3 designs.
 
 60 minute sessions.
 
-One task per design. Tasks carried out by giving instructions to the researcher, who navigated screens on a Mural board, imitating interactions.
+One task per design. Tasks carried out by the participant giving instructions to the researcher, who navigated screens on a Mural board, imitating interactions.
 
 ## Key Headlines 
 According to the quantitative data, Design 2 was the easiest to use and the most preferred by participants.
