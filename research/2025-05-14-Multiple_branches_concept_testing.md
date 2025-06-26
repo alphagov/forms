@@ -29,7 +29,7 @@ One task per design. Tasks carried out by the participant giving instructions to
 According to the quantitative data, Design 2 was the easiest to use and the most preferred by participants.
 
 **Design 1:**
-Most managed to set at least some of the correct routes after figuring out how it worked. 
+Most managed to set at least some of the correct routes after figuring out how it worked.  
 4 set all the routes required.
 1 did not add the final route (not from a list question) and thought they had finished
 2 didn’t get as far as adding the final route.
