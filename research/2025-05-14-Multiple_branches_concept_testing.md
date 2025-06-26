@@ -3,7 +3,7 @@
 ## 2025-05-14 / Sprint 17
 
 ## Aims
-Learn about how people’s mental models around multiple branches.
+Learn about people’s mental models around multiple branches.
 
 Find out which elements of 3 concepts people find easiest to use to create multiple branches.
 
