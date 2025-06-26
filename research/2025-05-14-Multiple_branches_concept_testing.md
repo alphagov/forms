@@ -34,7 +34,7 @@ Most managed to set at least some of the correct routes after figuring out how i
 1 did not add the final route (not from a list question) and thought they had finished
 - 2 didn’t get as far as adding the final route  
 - ALL participants started by unnecessarily adding a route to the first answer in the list  
-5 people talked about how tricky it was to work out which routes to set where.
+- 5 people talked about how tricky it was to work out which routes to set where  
 
 **Design 2:**
 They were able to add the skips easily.
