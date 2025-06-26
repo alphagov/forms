@@ -30,7 +30,7 @@ According to the quantitative data, Design 2 was the easiest to use and the most
 
 **Design 1:**  
 Most managed to set at least some of the correct routes after figuring out how it worked.  
-4 set all the routes required.
+- 4 set all the routes required    
 1 did not add the final route (not from a list question) and thought they had finished
 - 2 didn’t get as far as adding the final route  
 - ALL participants started by unnecessarily adding a route to the first answer in the list  
