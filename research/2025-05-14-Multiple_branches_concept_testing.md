@@ -9,7 +9,7 @@ Find out which elements of 3 concepts people find easiest to use to create multi
 
 **Design 1:** Works the same way routing currently does in the platform. Allows branching from any question or answer.
 
-**Design 2: **All questions shown on one page, where users can use dropdowns to select where form fillers go next. Allows users to add a skip from any question or answer.
+**Design 2:** All questions shown on one page, where users can use dropdowns to select where form fillers go next. Allows users to add a skip from any question or answer.
 
 **Design 3: **Very different conceptually to current routing. Users add questions to a ‘branch’ from a specific answer in a radio list.
 
