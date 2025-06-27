@@ -117,3 +117,42 @@ At the bottom of the page is a green ‘Save and continue’ button which will t
 This screen is the same as the ‘Edit exit page - Markdown editor - Write content’ above but the ‘Preview content’ tab is now active. 
 
 Within the tab is a preview of how the form creators markdown will be presented to the form filler. This example shows a heading level 2 followed by some content with a link half way through it. This is followed by an example of bulleted list items. 
+
+
+### Question x’s routes - with Route 1 set 
+
+<img src="screenshots-v6/005-question-xs-routes-withExitPageRoute.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+This page shows the routes that you have from a specific question. It also allows you to:
+
+- edit the first route
+- delete the first route
+- set questions to skip later in the form for any other answer
+- delete all routes from this question, after having added 2 routes to the question
+- continue to your questions
+
+The H1 is ‘Questions 2’s routes’. 
+
+The page then plays back the question the routes in the page apply to. In this example:  
+
+> Question 2: Are you directly employed?  
+
+There is then 1 grey box - using the ‘summary card’ component. Titled ‘Route 1’.
+
+There is a blue ‘Edit’ link alongside a ‘Delete’ link in the top right corner of the Route 1 summary card.
+
+It shows the route that has been created by the form creator, in this case the page heading of the newly created exit page. It reads:
+
+> If the answer is: Yes
+>
+> skip the person to: You are not eligible for this service
+
+Below the Route 1 box is now a secondary heading, ‘If people select any other answer’, followed by guidance content explaining how the forms routes will normally work for people filling in the form who haven’t selected the answer that triggers Route 1. This content reads:   
+
+> People who select any other answer will continue to [question 3] and through the rest of the form.
+
+This content was updated to reflect the fact we do not allow 2 or more routes from a question while also limiting the functionality of an exit page question to only allow one bit of routing. Removing the chances that questions later in the form are orphaned by accident.  
+
+The page ends with a link to ‘Continue to your questions’.
