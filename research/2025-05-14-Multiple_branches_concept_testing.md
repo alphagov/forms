@@ -50,7 +50,8 @@ According to the quantitative data, Design 2 was the easiest to use and the most
 - There was quite a lot of thought put into what a branch actually was and how it worked
 - 4 people mentioned they liked the process of adding all the questions at once into the branch.
 - There were a lot of queries and mistakes around the mechanisms of adding the questions. Most expected to add the detail of each question before adding the next question.
-- Quite a lot of conflicting feedback and responses to using this design:
+
+Quite a lot of conflicting feedback and responses to using this design:  
 - Some were unsure where the branch ended or how it connected back to the main form. Most did eventually work it out or make correct assumptions.
 - Some said it was less intuitive, while others found it more intuitive.
 - Some were confused, while other found it quite easy to understand.
