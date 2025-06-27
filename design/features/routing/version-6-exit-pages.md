@@ -74,7 +74,7 @@ Next are two dropdowns that the form creator select from to create their route. 
 
 By selecting the ‘Add an exit page’ option from the list when the form creator clicks ‘Save and continue’ they are taken to the ‘Edit exit page’ screen.
 
-### Edit exit page - Javascript markdown editor  
+### Edit exit page - Markdown editor - Write content  
 
 <img src="screenshots-v6/003-edit-exit-page-markdownEditor.png" width="500">
 
@@ -107,3 +107,13 @@ The textarea has a character counter to show form creators the limit of characte
 Finally in editing tab is a ‘Formatting help’ detail component, hiding the extra guidance to help form creators write and understand the markdown code.  
 
 At the bottom of the page is a green ‘Save and continue’ button which will take the user back to the ‘question xs routes’ screen. Alongside the button is a blue ‘Cancel’ link which will return the form creator back to the ‘Add route 1: select an answer and where to skip to’ page. 
+
+### Edit exit page - Markdown editor - Preview content  
+
+<img src="screenshots-v6/004-edit-exit-page-markdownPreviewer.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+This screen is the same as the ‘Edit exit page - Markdown editor - Write content’ above but the ‘Preview content’ tab is now active. 
+
+Within the tab is a preview of how the form creators markdown will be presented to the form filler. This example shows a heading level 2 followed by some content with a link half way through it. This is followed by an example of bulleted list items. 
