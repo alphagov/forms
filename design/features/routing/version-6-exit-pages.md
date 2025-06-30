@@ -129,9 +129,12 @@ This page shows the routes that you have from a specific question. It also allow
 
 - edit the first route
 - delete the first route
+- continue to your questions
+
+Some things that have changed when a form creator adds an exit page to an answer include removing: 
+
 - set questions to skip later in the form for any other answer
 - delete all routes from this question, after having added 2 routes to the question
-- continue to your questions
 
 The H1 is ‘Questions 2’s routes’. 
 
