@@ -174,6 +174,8 @@ Next are the green ‘Save and continue’ and red ‘Delete route’ buttons. T
 
 <img src="screenshots-v6/007-are-you-sure-you-want-to-delete-this-exit-page.png" width="500">
 
+<img alt="There is a problem notification box showing ‘Select ‘Yes’ to delete the route’ error message. Screenshot" src="screenshots-v6/007-are-you-sure-you-want-to-delete-this-exit-page-error.png" width="300">
+
 #### Description of the image and the changes made in this iteration: 
 
 When form creators need to delete an exit page we need them to confirm the action in case a mistake was made. This screen is also designed to warn them of other implications deletion will cause. 
