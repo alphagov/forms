@@ -118,6 +118,14 @@ This screen is the same as the ‘Edit exit page - Markdown editor - Write conte
 
 Within the tab is a preview of how the form creators markdown will be presented to the form filler. This example shows a heading level 2 followed by some content with a link half way through it. This is followed by an example of bulleted list items. 
 
+### Exit page structure - what the form filler would see
+
+<img src="screenshots-v6/104-exit-page-outline.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+[toDo] 
+
 
 ### Question x’s routes - with Route 1 set 
 
@@ -191,4 +199,43 @@ The H1 also acts as the label for a radio option question with the ‘Yes’ or 
 The page ends with a green ‘Save and continue’ button. The form creator is taken to the next relevant screen depending on their answer. If they answer: 
 
 - ‘Yes’: they will be taken to the ‘add and edit your questions’ screen showing the ‘Success’ banner  
-- ‘No’: they will return to the ‘Edit exit page’ screen to continue editing  
+- ‘No’: they will return to the ‘Edit exit page’ screen to continue editing
+
+### Add and edit your questions - question xs routes have been deleted
+
+<img src="screenshots-v6/008-add-and-edit-your-questions-withRoutes.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+[toDo] 
+
+### Your questions - live form view
+
+<img src="screenshots-v6/009-your-questions-live-view-withRoutes.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+[toDo] 
+
+### Are you sure you want to delete this question
+
+#### Question is the start of a route banner  
+<img src="screenshots-v6/010-are-you-sure-you-want-to-delete-this-question-routeStartWarning.png" width="500">
+ 
+#### Question is the start of a route banner - with exit page  
+<img src="screenshots-v6/010-question-x-is-the-start-of-a-route-warning.png" width="300">
+
+#### Question routes to an exit page banner  
+<img src="screenshots-v6/010-question-x-is-the-start-of-a-route-warning.png" width="300">
+
+#### Description of the image and the changes made in this iteration: 
+
+[toDo] 
+
+### Edit question - proposed routing content
+
+<img src="screenshots-v6/011-edit-question-withRoutingConcept.png" width="500">
+
+#### Description of the image and the changes made in this iteration: 
+
+[toDo] 
