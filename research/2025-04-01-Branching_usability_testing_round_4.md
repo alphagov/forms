@@ -22,7 +22,7 @@ Design 3 proposed changes in functionality. When adding a 2nd route, the platfor
 Pre-call task with one prototype + 60-minutes usability testing of two prototypes.
 
 ## Key Headlines 
-**Design 1:**
+### Design 1
 
 _Against the criteria:_
 4 out of 7 people could create 2 branches from a question and demonstrate that they understood how they did it.
@@ -33,7 +33,7 @@ _Against the criteria:_
 All participants originally put their questions in the wrong order for applying the routing. (pre-call task)
 They found re-ordering the questions frustrating.
 Adding the routing took a lot of thought or trying things out.
-Participants frequently mentioned a need to “see” the routing in order to what is happening.
+Participants frequently mentioned a need to “see” the routing in order to understand what is happening.
 Several described routing as being challenging in some way, and described other platforms they preferred
 Having the question text (as well as numbers) in the dropdowns was helpful.
 They didn’t seem to mind the amount of time they spent doing it (an average of 30 minutes).
@@ -41,7 +41,7 @@ When using the prototype for the second time, participants:
 - still didn’t always remember what order they needed to put the questions in
 - still found it tricky and confusing to work out which routes to apply
 
-_Conclusion_
+#### Conclusion
 The prototype is still challenging for users to understand and incurs high cognitive load.
 However, on the whole, users end up being able to apply two routes to a question.
 Design 1 just meets the criteria for us to feel confident enough to launch it.
