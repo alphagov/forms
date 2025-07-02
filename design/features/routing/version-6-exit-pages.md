@@ -133,6 +133,7 @@ Next is the ‘Back’ link. Above the pages H1, this example shows ‘[page hea
 > [body content - markdown]
 >
 > [body content - markdown]
+> 
 > [example link - markdown]
 
 The body ends with the usual ‘Get help with this form’ detail component that appears across a form created on GOV.UK Forms.  
@@ -219,7 +220,13 @@ The page ends with a green ‘Save and continue’ button. The form creator is t
 
 #### Description of the image and the changes made in this iteration: 
 
-[toDo] 
+This screen shows the ‘Add and edit your questions’ page as it appears when editing a draft version of your form. 
+
+As part of this iteration we wanted to add a ‘Success’ notification banner when the form creator confirms the deletion of a route or routes. The content of the banner reads: 
+
+> Question 2’s routes have been deleted
+
+The rest of the page is the same as before the routes were added.  
 
 ### Your questions - live form view
 
