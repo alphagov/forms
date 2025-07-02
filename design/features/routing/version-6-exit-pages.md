@@ -124,8 +124,20 @@ Within the tab is a preview of how the form creators markdown will be presented 
 
 #### Description of the image and the changes made in this iteration: 
 
-[toDo] 
+This screenshot shows an example of the structure as it would appear to the person filling in the form. 
 
+It shows the deault GOV.UK design with logo on a black background. Beneath is the latest update to the service navigation showing the forms name bolded on a grey background. 
+
+Next is the ‘Back’ link. Above the pages H1, this example shows ‘[page heading]’. This is followed by some example snippets: 
+
+> [body content - markdown]
+>
+> [body content - markdown]
+> [example link - markdown]
+
+The body ends with the usual ‘Get help with this form’ detail component that appears across a form created on GOV.UK Forms.  
+
+This example was used to help illustrate to across the team what the end page and markdown should look like without getting confused by ipsum lorem.  
 
 ### Question x’s routes - with Route 1 set 
 
