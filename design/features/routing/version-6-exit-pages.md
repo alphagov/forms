@@ -221,16 +221,39 @@ The page ends with a green ‘Save and continue’ button. The form creator is t
 
 #### Question is the start of a route banner  
 <img src="screenshots-v6/010-are-you-sure-you-want-to-delete-this-question-routeStartWarning.png" width="500">
- 
-#### Question is the start of a route banner - with exit page  
-<img src="screenshots-v6/010-question-x-is-the-start-of-a-route-warning.png" width="300">
 
-#### Question routes to an exit page banner  
-<img src="screenshots-v6/010-question-x-is-the-start-of-a-route-warning.png" width="300">
-
-#### Description of the image and the changes made in this iteration: 
+##### Description of the image and the changes made in this iteration: 
 
 [toDo] 
+
+#### Proposed alternate banner notifications for exit pages release - not implemented   
+
+##### Question X is the start of a route   
+<img src="screenshots-v6/010-question-x-is-the-start-of-a-route-warning.png" width="300">
+
+This version of the blue ‘Important’ banner would appear where the question being deleted has an exit page route added, replacing current version to be more specific about the exit page content also being deleted.   
+
+The content of the banner reads: 
+
+> **Question 2 is the start of a route**  
+>   
+> If you delete this question, its routes and exit page will also be delete. View question 2’s routes.
+
+The ‘View question 2’s routes’ is a link that will take the user to the relevant question routes summary screen in case they need to better understand the implications of their choice or make other amendments to the routing instead. 
+
+##### Question X routes to an exit page       
+<img src="screenshots-v6/010-question-x-routes-to-an-exit-page-warning.png" width="300">
+
+The content of this version reads: 
+
+> **Question 2 routes to an exit page**  
+>   
+> If you delete this question, its route and exit page will also be delete. View question 2’s routes.
+
+This version still includes the link to ‘View question 2’s route’ summary screen.  
+
+
+
 
 ### Edit question - proposed routing content
 
