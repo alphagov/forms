@@ -5,6 +5,13 @@
 ## Aims
 This round aimed to test different iterations of the latest design for two branches, to assess whether they would meet our pre-decided criteria for confidence to launch.
 
+### The criteria
+
+We would consider launching Design 1 if:
+- 4 out of 6 people could create 2 branches from a question and demonstrate that they understood how they did it.
+- 4 out of 6 people could assess a question with routing and decide whether the design would enable them to build it.
+- 4 out of 6 people could show someone else how to set up 2 routes
+
 ### Designs to test
 There were originally 3 designs to test, but time constraints meant that we prioritised to only test 2 versions (Design 1 and Design 3).
 
@@ -22,7 +29,11 @@ Pre-call task with one prototype + 60-minutes usability testing of two prototype
 ## Key headlines 
 ### Design 1
 
-#### Against the criteria
+#### The outcomes in line with the criteria
+
+We had decided the criteria based on 6 participants, but as we ended up with 7 participants, we had a conversation about whether the criteria levels should change. We decided that 4 out of 7 would be enough for us to have a conversation and consider whether to launch the deisgn.
+
+**Outcomes**
 - 4 out of 7 people could create 2 branches from a question and demonstrate that they understood how they did it.
 - 4 out of 7 people could assess a question with routing and decide whether the design would enable them to build it.
 - 4 out of 7 people could show someone else how to set up 2 routes
