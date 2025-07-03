@@ -216,7 +216,7 @@ This page asks the form creator to confirm whether they want to delete the Route
 
 The page’s H1 ‘Are you sure you want to delete the route for any other answer?’ is the question label for 2 radio options, ‘Yes’ or ‘No’. 
 
-There is a green ‘Save and continue’ button which will return the form creator to the question x’s routes screen. If they had selected ‘Yes’ a green success banner will appear confirming the deletion of the route. 
+There is a green ‘Save and continue’ button which will return the form creator to the question x’s routes screen. If they selected ‘Yes’ a green success banner will appear confirming the deletion of the route. 
 
 
 ### Add and edit your questions - showing routes 
