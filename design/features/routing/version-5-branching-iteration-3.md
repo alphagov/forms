@@ -38,7 +38,7 @@ The guidance aims to set expectations for the form creator about what they can a
 >
 > You can only add a route from a question that does not already have 2 routes. Go back to your questions if you need to edit an existing route.  
 
-Note: this implementation did not include exit page functionality and so missed additional guidance content that was added later. 
+Note: this implementation did not include exit page functionality so that is not mentioned in the guidance. 
 
 The guidance is followed by a question: 
 
