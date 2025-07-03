@@ -228,13 +228,23 @@ As part of this iteration we wanted to add a ‘Success’ notification banner w
 
 The rest of the page is the same as before the routes were added.  
 
-### Your questions - live form view
+### Your questions - read-only view of a live form
 
 <img src="screenshots-v6/009-your-questions-live-view-withRoutes.png" width="500">
 
 #### Description of the image and the changes made in this iteration: 
 
-[toDo] 
+This page shows the list of a live form’s questions. It lists each of the form’s questions in a summary card component. If a route starts from a question, the summary card for that question also includes a description of that route. The image shows examples of 3 questions with routes with 1 question showing the content where an exit page route has been added. 
+
+The summary card for Question 1 with an exit page, reads:
+
+> 1. Have you undergone a BPSS check?
+> 
+> Answer type: Selection from a list, one option only.
+> 
+> Options: Yes, No
+> 
+> Route: If the answer is “No” go to the exit page, “You are not eligible for this service”
 
 ### Are you sure you want to delete this question
 
