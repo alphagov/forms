@@ -141,7 +141,7 @@ If the form creator selects the button to ‘Set questions to skip’ they’ll 
 
 ### Set questions to skip
 
-We’ve made no changes to this page in this iteration. The form creator selects the question that will people will skip from if they haven’t triggered Route 1, and the question they want them to skip to after answer the question. 
+We’ve made no changes to this page in this iteration. The form creator selects the question that people will skip from if they haven’t triggered Route 1, and the question they want them to skip to. 
 
 When they click ‘Save and continue’ they are taken back to the ‘Question x’s routes’ page.
 
