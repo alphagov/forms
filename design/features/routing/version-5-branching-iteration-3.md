@@ -46,7 +46,7 @@ The guidance is followed by a question:
 
 This was previously followed by hint text but has been incorporated into the guidance removing the need for it as part of the question component.  
 
-The answer options are all the ‘selection from a list’ questions from the form that only allow one answer (radio questions). In the example in the image above, there are 2 questions the form creator can select from. 
+The answer options are all the ‘selection from a list’ questions from the form that only allow one answer (radio questions) and do not already have 2 routes added to them. In the example in the image above, there are 2 questions the form creator can select from. 
 
 Finally, there’s a green ‘Continue’ button.
 
