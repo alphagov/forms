@@ -238,7 +238,7 @@ This page shows the list of a live form’s questions. It lists each of the form
 
 The summary card for Question 1 with an exit page, reads:
 
-> 1. Have you undergone a BPSS check?
+> 1\. Have you undergone a BPSS check?
 > 
 > Answer type: Selection from a list, one option only.
 > 
@@ -248,14 +248,30 @@ The summary card for Question 1 with an exit page, reads:
 
 ### Are you sure you want to delete this question
 
-#### Question is the start of a route banner  
 <img src="screenshots-v6/010-are-you-sure-you-want-to-delete-this-question-routeStartWarning.png" width="500">
 
-##### Description of the image and the changes made in this iteration: 
+#### Description of the image and the changes made in this iteration: 
 
-[toDo] 
+When form creators need to delete a question we currently ask them to confirm the action in case a mistake was made. As part of the exit page work we also need to inform form creators when a question has an exit page added as we will also delete this from the backend if they continue.  
 
-#### Proposed alternate banner notifications for exit pages release - not implemented   
+The screen starts with a blue ‘Important’ notification banner. It reads:
+
+> **Question 2 is the start of a route**   
+>
+> If you delete this question, its routes will also be deleted. View question 2’s routes.  
+
+The screen then goes on to display the question text, ‘What is the name of the company contact?’, as a caption above the H1 ‘Are you sure you want to delete this question?’.
+
+The H1 also acts as the label for a radio option question with the ‘Yes’ or ‘No’ radio options.
+
+The page ends with a green ‘Save and continue’ button. The form creator is taken to the next relevant screen depending on their answer. If they answer:
+
+- ‘Yes’: they will be taken to the ‘add and edit your questions’ screen showing the ‘Success’ banner
+- ‘No’: they will return to the ‘Edit question’ screen to continue editing
+
+#### Proposed alternate banner notifications for exit pages release - not implemented 
+
+As part of the design work done for exit pages we explored making the content of the ‘Important’ banners more accurate giving additional context where an exit page would be impacted.  
 
 ##### Question X is the start of a route   
 <img src="screenshots-v6/010-question-x-is-the-start-of-a-route-warning.png" width="300">
