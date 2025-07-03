@@ -298,12 +298,23 @@ The content of this version reads:
 This version still includes the link to ‘View question 2’s route’ summary screen.  
 
 
-
-
 ### Edit question - proposed routing content
 
 <img src="screenshots-v6/011-edit-question-withRoutingConcept.png" width="500">
 
 #### Description of the image and the changes made in this iteration: 
 
-[toDo] 
+This is the current ‘Edit question’ page with a new concept we explored when designing [2 branches](version-5-branching-iteration-3.md) and exit pages. 
+
+The overall page is the same up to and including the playback of ‘Answer settings’ section. Beneath we added a new ‘Routes’ section. The idea was to give form creators an idea of if a question has or is impacted by routing elsewhere in the form. The example shown is where a question is being skipped by a previous questions route. It reads: 
+
+> Some people will not see this question because of Question 2’s routes.
+
+‘Question 2’s routes’ is a link to the route summmary screen for question 2 in this example. 
+
+Other potential options we explored include: 
+
+- when the question meets the criteria for adding a question route to it, we would show the option to add a new route
+- if the question is the start or end of a route with the option to go to the routes summary screen
+
+The team feel this is worth exploring further going forward but has not been prioritised as something for development yet. The designs still need to be explored in testing.  
