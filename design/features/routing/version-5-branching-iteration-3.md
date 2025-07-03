@@ -194,7 +194,7 @@ As part of this iteration we added a blue ‘Important’ notification banner to
 
 This will only appear where a question has 2 routes added to it. It is designed to warn the form creator what will happen if they choose to continue the deletion of Route 1. 
 
-The pages H1, ‘Are you sure you want to delete route 1?’, appears next and is the question label for 2 radio options, ‘Yes’ or ‘No’. 
+The page’s H1, ‘Are you sure you want to delete route 1?’, appears next and is the question label for 2 radio options, ‘Yes’ or ‘No’. 
 
 Finally is a green ‘Save and continue’ button which will take the form creator to the next screen depending on their answer. 
 
