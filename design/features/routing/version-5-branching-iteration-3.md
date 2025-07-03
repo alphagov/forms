@@ -135,7 +135,7 @@ Next is a grey secondary action button ‘Set questions to skip’.
 
 This has changed from the previous version to try to make it clearer how the other routes work and that the form creator can change the default form flow for the other routes on this screen by way of the button.
 
-We have then hidden the previously always there red ‘Delete routes’ button to reduce confusion. Finally there is a link to ‘Continue to your questions’. 
+We have then hidden the previously always there red ‘Delete routes’ button to reduce confusion - since there is only one route currently. Finally there is a link to ‘Continue to your questions’. 
 
 If the form creator selects the button to ‘Set questions to skip’ they’ll go to the ‘Set questions to skip’ page.  
 
