@@ -79,7 +79,7 @@ The page ends with a blue ‘Back to your questions’ link.
 
 #### Description of the image and the changes made in this iteration: 
 
-This page shows an alternative version of the ‘Add a route from a question’ page where a form may already have routing applied to all possible questions that meet the minimum criteria meaning there are no longer any questions that can have new routes added. 
+This page shows an alternative version of the ‘Add a route from a question’ page where a form already has routes applied to all possible questions that meet the minimum criteria - so there are no more questions that can have a new route added. 
 
 The page heading and guidance content remain the same while the bottom section is replaced by a section titled ‘You have no more questions to add a route from’. The content reads:  
 
