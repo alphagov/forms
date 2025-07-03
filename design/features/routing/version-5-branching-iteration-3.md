@@ -227,7 +227,7 @@ There is a green ‘Save and continue’ button which will return the form creat
 
 This page shows a list of the questions in a form. It shows what number each question is and its question text. To the right of each question there’s an ‘Edit’ link, ‘Move up’ and ‘Move down’ grey buttons. Between 3 of the questions in the design there are route descriptions to explain to the form creator what routing has been set and where people are skipped to.
 
-In this iteration, the wording for the label of a route has been made less concise. It now only tells the form creator which question the route belongs to. 
+In this iteration, the wording for the label of a route has been made more concise. It now only tells the form creator which question the route belongs to. 
 
 There are 3 examples in the image. The route label and description between questions 1 and 2 reads:
 
