@@ -50,7 +50,7 @@ The answer options are all the ‘selection from a list’ questions from the fo
 
 Finally, there’s a green ‘Continue’ button.
 
-After the form creator has selected a question to start their route from and then ‘Continue’, they move to the ‘Edit route 1’ page.
+After the form creator has selected a question to start their route from and then ‘Continue’, they move to the ‘Add route 1’ page.
 
 ### Add route 1: select an answer and where to skip to - showing ‘skip the person to’ dropdown  
 
