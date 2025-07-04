@@ -87,7 +87,7 @@ This is followed by the ‘Add content’ section with some basic guidance readi
 
 > Use Markdown if you need to format your exit page content. Formatting help can be found below.  
 
-Below are two tabs, ‘Write content’ and ‘Preview content’. We are reusing the markdown what you see is what you get (WYSIWYG) type editor that was developed as part of the [detailed guidance work](). The idea is to allow form creators to have greater control over how their content appears to form fillers. Meaning they can make the content more legible while adding clear next steps, options and links to follow based on the reason for seeing an ‘exit page’. 
+Below are two tabs, ‘Write content’ and ‘Preview content’. We are reusing the markdown what you see is what you get (WYSIWYG) type editor that was developed as part of the [detailed guidance work](https://app.mural.co/t/gaap0347/m/gaap0347/1683038152877/e16c675d20fcbc7595d016d03eeb5d7024fe0020?wid=0-1691141415389). The idea is to allow form creators to have greater control over how their content appears to form fillers. Meaning they can make the content more legible while adding clear next steps, options and links to follow based on the reason for seeing an ‘exit page’. 
 
 Within the ‘Write content’ tab we include some additional help text: 
 
