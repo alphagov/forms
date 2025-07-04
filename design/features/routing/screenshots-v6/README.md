@@ -1,0 +1,1 @@
+This folder contains screenshots from our [Exit pages iteration 1 Mural board](https://app.mural.co/t/gaap0347/m/gaap0347/1740496027781/5a34f1bab377b7c7126742591825b0d3d616b9dc?wid=0-1740496156549). These screens are documented in [Exit pages iteration 2](../version-6-exit-pages.md).
