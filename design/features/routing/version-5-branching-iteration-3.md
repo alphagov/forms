@@ -151,7 +151,7 @@ When they click ‘Save and continue’ they are taken back to the ‘Question x
 
 #### Description of the image and the changes made in this iteration: 
 
-People are returned to this page after setting questions to skip for Route 2. The page now shows the question that will be skipped as part of Route for any other answer, as well as the option to edit or delete Route for any other answer.
+People are returned to this page after setting questions to skip for the route for any other answer. The page shows the questions that will be skipped by the route for any other answer, as well as the option to edit or delete that secondary route.
 
 The H1 is ‘Questions 2’s routes’.
 
