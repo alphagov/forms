@@ -196,7 +196,7 @@ This will only appear where a question has 2 routes added to it. It is designed 
 
 The page’s H1, ‘Are you sure you want to delete route 1?’, appears next and is the question label for 2 radio options, ‘Yes’ or ‘No’. 
 
-Finally is a green ‘Save and continue’ button which will take the form creator to the next screen depending on their answer. 
+Finally there’s a green ‘Save and continue’ button which will take the form creator to the next screen depending on their answer. 
 
 If they select: 
 
