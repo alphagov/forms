@@ -37,7 +37,6 @@ The guidance aims to set expectations for the form creator about what they can a
 >  
 > People who select any other answer will continue to the next question and through the rest of the form.  
 
-Note: this implementation did not include exit page functionality and so missed additional guidance content that was added later. 
 
 The guidance is followed by a question:  
 
