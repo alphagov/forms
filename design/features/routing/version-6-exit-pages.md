@@ -71,7 +71,7 @@ Next are two dropdowns that the form creator selects from to create their route.
 > An ‘exit page’ to leave the form  
 >   Add an exit page  
 
-By selecting the ‘Add an exit page’ option from the list when the form creator clicks ‘Save and continue’ they are taken to the ‘Edit exit page’ screen.
+If the form creator selects ‘Add an exit page’ from the list then ‘Save and continue’, they are taken to the ‘Edit exit page’ screen.
 
 ### Edit exit page - Markdown editor - Write content  
 
