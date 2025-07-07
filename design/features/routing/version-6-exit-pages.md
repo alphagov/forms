@@ -213,7 +213,7 @@ The page ends with a green ‘Save and continue’ button. The form creator is t
 - ‘Yes’: they will be taken to the ‘add and edit your questions’ screen showing the ‘Success’ banner  
 - ‘No’: they will return to the ‘Edit exit page’ screen to continue editing
 
-### Add and edit your questions - question xs routes have been deleted
+### Add and edit your questions - question x’s routes have been deleted
 
 <img src="screenshots-v6/008-add-and-edit-your-questions-withRoutes.png" width="500">
 
