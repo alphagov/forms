@@ -202,7 +202,7 @@ When form creators need to delete an exit page we need them to confirm the actio
 
 The screen starts with a blue ‘Important’ notification banner. It reads: 
 
-> If you delete this exit page, the route to it iwll also be deleted
+> If you delete this exit page, the route to it will also be deleted
 
 The screen then goes on to display the name of the exit page, ‘You are not eligible for this service’, as a caption above the H1 ‘Are you sure you want to delete this exit page?’. 
 
