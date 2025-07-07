@@ -105,7 +105,7 @@ The textarea has a character counter to show form creators the limit of characte
 
 Finally in editing tab is a ‘Formatting help’ detail component, hiding the extra guidance to help form creators write and understand the markdown code.  
 
-At the bottom of the page is a green ‘Save and continue’ button which will take the user back to the ‘question xs routes’ screen. Alongside the button is a blue ‘Cancel’ link which will return the form creator back to the ‘Add route 1: select an answer and where to skip to’ page. 
+At the bottom of the page is a green ‘Save and continue’ button which will take the user back to the ‘question x’s routes’ screen. Alongside the button is a blue ‘Cancel’ link which will return the form creator back to the ‘Add route 1: select an answer and where to skip to’ page. 
 
 ### Edit exit page - Markdown editor - Preview content  
 
