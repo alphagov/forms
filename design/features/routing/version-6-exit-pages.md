@@ -186,7 +186,7 @@ The page ends with a link to ‘Continue to your questions’.
 
 #### Description of the image and the changes made in this iteration: 
 
-On this screen everything is mostly the same as if you are adding a new route 1. The changes made are the H1 which now reads ‘Edit route 1’. The 2 dropdowns still show with the existing selections visible. Beneath the ‘skip the person to’ dropdown - which shows ‘You are not eligible for this service’ for a created exit page - there is a new link, ‘Edit “You are not eligible for this service”. This link takes the form creator to the ‘Edit exit page’ screen to make changes or delete the page. 
+On this screen everything is mostly the same as if you are adding a new route 1. The changes made are the H1 which now reads ‘Edit route 1’. The 2 dropdowns still show with the existing selections visible. Beneath the ‘skip the person to’ dropdown - which shows ‘You are not eligible for this service’ for a created exit page - there is a new link, ‘Edit “You are not eligible for this service”‘. This link takes the form creator to the ‘Edit exit page’ screen to make changes or delete the page. 
 
 Next are the green ‘Save and continue’ and red ‘Delete route’ buttons. The page ends with a link ‘Back to question 2’s routes’. 
 
