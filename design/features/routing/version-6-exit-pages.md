@@ -137,7 +137,7 @@ Next is the ‘Back’ link. Above the pages H1, this example shows ‘[page hea
 
 The body ends with the usual ‘Get help with this form’ detail component that appears across a form created on GOV.UK Forms.  
 
-This example was used to help illustrate to across the team what the end page and markdown should look like without getting confused by ipsum lorem.  
+This example was used to help illustrate to the team what the end page and markdown should look like without getting confused by ipsum lorem.  
 
 ### Question x’s routes - with Route 1 set 
 
