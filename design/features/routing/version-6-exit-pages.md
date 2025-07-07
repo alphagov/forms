@@ -44,7 +44,7 @@ The guidance is followed by a question:
 
 Then hint text:  
 
-> A route can only start from a question where people select one item from a list.  
+> A route can only start from a question where people select one item from a list. Go back to your questions if you need to edit an existing route. 
 
 The answer options are all the ‘selection from a list’ questions from the form that only allow one answer (radio questions). In the example in the image above, there are 2 questions the form creator can select from. 
 
