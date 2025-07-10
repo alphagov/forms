@@ -5,6 +5,34 @@
 
 Date created: *2025-07-09*  
 
+* * *
+
+## Contents
+
+- [What](#what)
+    - [Our users](#our-users)
+    - [Previous research](#previous-research)
+    - [The problem](#the-problem)
+    - [User stories](#user-stories)
+- [Key decisions](#key-decisions)
+- [Feedback from users](#feedback-from-users)
+- [Released feature](#released-feature)
+    - [Form creator can add a file upload question](#form-creator-can-add-a-file-upload-question)
+    - [Form creator edits file upload question](#form-creator-edits-file-upload-question)
+    - [Upload a file - form filler user flow](#upload-a-file---form-filler-user-flow)
+    - [Upload a file - form filler](#upload-a-file---form-filler)
+    - [Check your uploaded file - form filler](#check-your-uploaded-file---form-filler)
+    - [Confirm to remove your file - form filler](#confirm-to-remove-your-file---form-filler)
+    - [File removed, upload a new one - form filler](#file-removed-upload-a-new-one---form-filler)
+    - [Check your answers with file upload](#check-your-answers-with-file-upload)
+    - [Check your answer page with page heading for file upload question with guidance](#check-your-answer-page-with-page-heading-for-file-upload-question-with-guidance)
+    - [Submitted form responses in an email to a form processor](#submitted-form-responses-in-an-email-to-a-form-processor)
+- [Measuring](#measuring)
+- [What we didn’t do and why](#what-we-didnt-do-and-why)
+- [What would we like to do in the next release](#what-would-we-like-to-do-in-the-next-release)
+
+* * *
+
 ## What
 
 Epic trello card: [https://trello.com/c/NWsgTJrc](https://trello.com/c/NWsgTJrc)
