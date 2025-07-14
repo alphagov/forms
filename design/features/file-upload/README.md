@@ -57,7 +57,7 @@ Form creators who currently ask for lists of documents to be sent in could see t
 
 In previous research rounds participants clearly preferred the email attachment options over Notify-style links (one per document). Largely due to the number of steps the file links took, especially in cases where they received multiple documents. 
 
-Participants mostly didn’t have a major issue with files being sent to their inbox as they had large amounts of storage. Most people transferred documents to another system as part of their initial processing of submissions.
+Participants mostly didn’t have a major issue with files being sent to their inbox as they had large amounts of storage. Most form processors transferred documents to another system as part of their initial processing of submissions.
 
 The majority of forms asking for additional documents, that would be handled by a file upload, were asking for scans, photos of PDFs.
 
