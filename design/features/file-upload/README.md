@@ -65,7 +65,7 @@ The majority of forms asking for additional documents, that would be handled by 
 
 A lot of forms require additional evidence to be attached to the form submission, so that the team processing the forms can provide a service to the end users (members of the public and organisations).
 
-In order to onboard more forms to the [GOV.UK](http://GOV.UK) Forms product, we need to support file upload.
+In order to onboard more forms to the GOV\.UK Forms product, we need to support file upload.
 
 People processing the forms often receive submissions with missing or incomplete sets of documents, and most of the forms do not have any mechanisms beyond a checklist to ensure people send the right documents.
 
