@@ -93,7 +93,7 @@ This means that a form creator can make up to four questions asking for a file, 
 
 To keep the process simple and within the scope we decided to allow one file upload per question.
 
-Following’s [Notify’s approach](https://docs.notifications.service.gov.uk/ruby.html#upload-your-file) the GOV.UK Forms supports uploading file types:
+Following [Notify’s approach](https://docs.notifications.service.gov.uk/ruby.html#upload-your-file) - GOV.UK Forms supports uploading the following file types:
 
 * CSV (.csv)  
 * image (.jpeg, .jpg, .png)  
