@@ -82,7 +82,7 @@ People processing the forms often receive submissions with missing or incomplete
 | Form processor | easy access to file attachments | I can process them quickly and save time | yes |
 | Form processor | identifying information (such as reference number) in the file name | I can process the right files with the right form submission | yes |
 | Form processor | the files to be renamed before I receive it | the file name relates to the question asked | no |
-| Form processor | a way to to tell which file relates to a specific question | I can process the form correctly | yes |
+| Form processor | a way to tell which file relates to a specific question | I can process the form correctly | yes |
 | Form filler | to be able to upload a file/files | I can provide the information I am being asked for | yes |
 
 ## Key decisions
@@ -102,7 +102,7 @@ Following [Notify’s approach](https://docs.notifications.service.gov.uk/ruby.h
 * PDF (.pdf)  
 * text (.json, .odt, .rtf, .txt)
 
-Show page heading content above the question text for file upload questions on the Check your answers page. \[link to the explanation\]
+We agreed to show page heading content above the question text for file upload questions on the '[check your answers](#check-your-answer-page-with-page-heading-for-file-upload-question-with-guidance)' page.
 
 ## Feedback from users
 
@@ -114,9 +114,9 @@ We learned that they would require multiple documents uploaded in one question.
 
 With the limits we set form creators could phrase the questions to ask for specific documents. Some users would need to create a workaround to fit the file upload constraints and might end up repeating a similar question to ask for one piece of evidence.
 
-When users tried to fill in the form via preview and upload documents it wasn’t initially clear whether a question asks for one or multiple files.
+When form creators tried to fill in the form via preview and upload documents it wasn’t initially clear whether a question asks for one or multiple files.
 
-Users expected to be able to receive larger files.
+Participants, like form creators and form owners, expected to be able to receive larger files.
 
 Form creators wanted to get more information about supported files when they were creating a file upload question
 
