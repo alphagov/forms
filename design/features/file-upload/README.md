@@ -59,7 +59,7 @@ In previous research rounds participants clearly preferred the email attachment 
 
 Participants mostly didn’t have a major issue with files being sent to their inbox as they had large amounts of storage. Most form processors transferred documents to another system as part of their initial processing of submissions.
 
-The majority of forms asking for additional documents, that would be handled by a file upload, were asking for scans, photos of PDFs.
+The majority of forms asking for additional documents, that would be handled by a file upload, were asking for scans, photos or PDFs.
 
 ### The problem
 
