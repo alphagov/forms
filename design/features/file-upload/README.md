@@ -79,7 +79,7 @@ People processing the forms often receive submissions with missing or incomplete
 | Form creator | to be able to set accepted file types per questions | I can receive the files in the format required for a form / question | no |
 | Form creator / processor | to potentially get more than 4 files | we collect the supporting evidence we need to process a form | no |
 | Form processor | to receive and access the files users upload | I can process the submitted information in the way I need to | yes |
-| Form processor | an easy access to file attachments | I can process them quickly and save time | yes |
+| Form processor | easy access to file attachments | I can process them quickly and save time | yes |
 | Form processor | an identifying information (such as reference number) in the file name | I can process the right files with the right form submission | yes |
 | Form processor | the files to be renamed before I receive it | the file name relates to the question asked | no |
 | Form processor | a way to to tell which file relates to a specific question | I can process the form correctly | yes |
