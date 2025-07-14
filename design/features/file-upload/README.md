@@ -120,7 +120,7 @@ Users expected to be able to receive larger files.
 
 Form creators wanted to get more information about supported files when they were creating a file upload question
 
-User said that adding reference numbers from the form submissions in the file attachment would help processors. 
+1 participant said that adding reference numbers from the form submissions in the file attachment would help form processors. 
 
 “Having the ref number in the file name would be really useful \- so once you’ve saved the file to your computer it would make it easier to find the file. If you are dealing with 100’s of files. Last year we received 59 folders with files in. I’m not the only one who has access to it. It’s a way of making the files referencable”
 
@@ -134,7 +134,7 @@ Form creators would like to have more control over what file types they accept.
 
 Some form creators indicated that form fillers should be able to change the file names after uploading, so that it can help with processing and make it more findable.
 
-Some users were concerned whether it would be safe to open the file attachments or receive files through email (with people’s personal data, like a passport photo).
+Some participants were concerned whether it would be safe to open the file attachments or receive files through email (with people’s personal data, like a passport photo).
 
 ## Released feature
 
@@ -143,7 +143,7 @@ Some users were concerned whether it would be safe to open the file attachments 
 
 *A page titled “What kind of answer do you need to this question” with a list of options to select from*
 
-When a user creates a question from this page they can select ‘File upload - people will only be able to upload on file’ as an option. We iterated the content multiple times to make it clearer that form fillers would be able to upload one file only. 
+When a user creates a question from this page they can select ‘File upload - people will only be able to upload one file’ as an option. We iterated the content multiple times to make it clearer that form fillers would be able to upload one file only. 
 
 **Error messages**
 
@@ -154,14 +154,16 @@ When a form creator tried to add more than four file upload questions, we show a
 
 *A page titled “Edit question”*
 
-The create and edit question page is tailored to be more specific to asking for a file. We removed the ‘Can answer more than once’ section as the file upload is restricted to one file per question.
+The create and edit question page is tailored to be more specific to asking for a file. We removed the ‘Can answer more than once’ section as the file upload is restricted to one file per question.  
+
 At the top of the page we communicate the restrictions for file upload and after feedback from users we included a copy about what files people can upload including the file sizes. The copy:
 
 > People can only upload one file for each file upload question. 
 >
 > A form can have up to 4 file upload questions.
 >
-> What files can people upload?
+> What files can people upload? (details component)
+> 
 > People can upload the following file types:
 > - CSV (.csv)
 > - image (.jpeg, .jpg, .png)
@@ -172,26 +174,39 @@ At the top of the page we communicate the restrictions for file upload and after
 >
 > Each file must be smaller than 7MB.
 
-We used a specific copy to help form creators ask a file upload question:
 
-The main question text changed to ‘Ask for a file’ and the hint text says: "Be specific about the file you want to receive. For example 'Upload your annual report'".
+The first input label is now ‘Ask for a file’, with the hint text: 
+
+> Be specific about the file you want to receive. For example ‘Upload your annual report’.
 
 In the section for adding hint text we included information to explain that form fillers would be told about the files they could upload. We added this because we saw that form creators would put this information in the hint text, leading to duplicate content on the question page for form fillers.
 
-The hint text content changed to: ‘You can add a short hint to help people upload the file you need. For example, you might need the file to contain specific information. People will be shown the types of file they can upload.’
+The hint text content now reads: 
 
-We found that some form fillers need to include a lot of contextual information about the file they want to get, so we changed the guidance content to reflect that. The copy: ‘Only add guidance if you need to give a longer explanation of what the uploaded file needs to contain, or to format your content with paragraphs, headings, lists or links.’
+> ‘You can add a short hint to help people upload the file you need. For example, you might need the file to contain specific information. People will be shown the types of file they can upload.’
+
+We found that some form creators need to include a lot of contextual information about the file they want to get, so we changed the guidance content to reflect that. It reads:  
+
+> Only add guidance if you need to give a longer explanation of what the uploaded file needs to contain, or to format your content with paragraphs, headings, lists or links.
 
 ### Upload a file - form filler user flow
 ![Upload a file user flow for form filler. Diagram](screenshots-released-version/002-upload-a-file-pattern-diagram.png)
 
 *A user flow diagram showing steps to upload and remove the file*
 
-Choose a file, select a file using the device’s native file browser, once the file is selected continue, on the next ‘Check your file’ page show notification that the file was uploaded successfully, and the user can check their file and can remove it. If they continue, they go to the next question to check your answers page. If the user decides to remove the file they are taken to a new page and asked to confirm removing the file.
+The flow diagram shows the steps a form filler will go through as part of the form journey. 
+
+1. ‘Choose a file’ page
+2. Select a file using the device’s native file browser, after selecting the file they continue on to the next page within the form  
+3. ‘Check your file’ page showing a notification that the file was uploaded successfully with the option to remove it if necessary
+
+If the form filler continues, they will progress through the rest of the form. 
+
+If they decide to remove the file they are taken to a new page and asked to confirm the action. 
 
 If they don’t confirm they go back to the ‘Check your file’ page, if they confirm removal, they go to ‘Upload a file’ page, with a notification that a file was successfully removed.
 
-When a user is on Check your answer page, and they want to change the file upload answer, they get directed to ‘Check your file’ page where they can remove the file and upload a new one. After uploading the new file, checking it, they should be taken back to the last check your answers page.
+When a user is on Check your answer page, and they want to change the file upload answer, they get directed to ‘Check your file’ page where they can remove the file and upload a new one. After uploading the new file and checking it, they should be taken back to the last check your answers page.
 Once the user submits the form they are shown a confirmation page that the form was submitted.
 
 The diagram below outlines the journey with these steps
@@ -240,8 +255,10 @@ The page includes content in a detail component explaining to form fillers what 
 > - text (.json, .odt, .rtf, .txt)
 > Each file must be smaller than 7MB.
 
-When the user presses ‘Choose file’ it opens up the device’s default file browsing window and the user can select a file from the system. Depending on their device or operating system, the unsupported files won’t be displayed or won’t be selectable.
-When they confirm, the file name and type would be displayed next to the ‘Choose file’ button. Then the user can press continue to upload the file and is taken to another page to ‘Check their uploaded file”.
+When the user presses ‘choose file’ it opens up the device’s default file browsing window and the user can select a file from the system. Depending on their device or operating system, the unsupported files won’t be displayed or won’t be selectable.
+
+When they confirm, the file name and type will be displayed next to the ‘choose file’ button. Then the user can press continue to upload the file and is taken to another page to ‘Check their uploaded file’.  
+
 The user can also drag a file over the ‘Choose file’ area, but with the standard file upload component it’s not very clear that this is possible. The new enhanced file upload component has clearer and better support for dropping files, and we will be using it once the issue we raised is addressed.
 
 **Error messages**
@@ -253,10 +270,11 @@ We use the standard error messages mentioned in the [GOV.UK Design System file u
 
 *Page title: “Question made by form creator - Success. Your file has been uploaded”*
 
-Once the user uploads a file and continues, they get on the ‘Check your uploaded file” page. The page shows a success notification: “Success - Your file has been uploaded” to reassure the users. We keep the question text and hint text made by the form creator. We won’t show guidance or page heading on this page. 
-Under a heading ‘Check your uploaded file” in a summary list component we list “your file” followed by the name and format of the uploaded file, with a link to ‘Remove”. If a user uses the ‘Remove’ link it takes them to a new page to “Remove your file”.
+Once the user uploads a file and continues, they get on the ‘Check your uploaded file’ page. The page shows a success notification: ‘Success - Your file has been uploaded’ to reassure the users. We keep the question text and hint text made by the form creator. We won’t show guidance or page heading on this page.  
 
-This step helps the users to double-check the file they provided and to remove the file if it’s not the right one or if they have changed their mind. We needed to provide a way of removing the uploaded files especially if a file upload question is optional and the users want to have changed their mind and want to delete the file.
+Under a heading ‘Check your uploaded file’ in a summary list component we list ‘your file’ followed by the name and format of the uploaded file, with a link to ‘Remove’. If a user uses the ‘Remove’ link it takes them to a new page to ‘Remove your file’.
+
+This step helps the users to double-check the file they provided and to remove the file if it’s not the right one or if they have changed their mind. We needed to provide a way of removing the uploaded files especially if a file upload question is optional and the users have changed their mind and want to delete the file.
 
 Under the summary list we say “You can remove this file if you need to upload a different one” to make it clearer that they can only provide one file. 
 
@@ -268,15 +286,15 @@ Under the summary list we say “You can remove this file if you need to upload 
 
 When a user decides to remove a file they get taken to a “Remove your file” page. We play back the file name and type in the inset text component. And we ask the user “Are you sure you want to remove your file?” to confirm their action.
 
-If they select ‘Yes” they land on the initial ‘Upload a file” question, where they can upload a new file. They would see a notification “Success - Your file has been removed” to confirm their previous action.
+If they select ‘yes’ they land on the initial ‘Upload a file’ question, where they can upload a new file. They would see a notification “Success - Your file has been removed” to confirm their previous action.
 
-If they select “No” they get back to the “Check your uploaded file” page where they can continue filling in the form.
+If they select ‘no’ they get back to the ‘Check your uploaded file’ page where they can continue filling in the form.
 
 
 ### File removed, upload a new one - form filler
 ![Your file has been removed. Upload a file page](screenshots-released-version/006-file-removed-upload-new-file.png)
 
-*Page titled: “Question made by form creator. Success - Your file has been removed*
+*Page titled: “Question made by form creator. Success - Your file has been removed”*
 
 After the user confirms they want to remove the file they land on the initial file upload question page where the ‘Choose file’ file upload element is reset to default state. We show a notification: “Success. Your file has been removed” to confirm their previous action and reassure them that the file is removed.
 
@@ -295,7 +313,8 @@ Once the user has completed filling in the form they land on “Check your answe
 
 When a file upload question has a guidance it changes the structure of the question. This means that the main context of the question is likely to be in the page heading and the question text becomes more generic, like ‘Upload a photo”.
 
-If there are multiple file upload questions with a generic question text, then on Check your answers page the form fillers might not be able to review which files they uploaded relate to a question without the context of the page heading.
+If there are multiple file upload questions with generic question text, then on check your answers page the form fillers might not be able to review which files they uploaded relative the question without the context of the page heading.  
+
 We decided that for file upload questions, if they contain a page heading for the guidance we will display the page heading above the question text on the check your answer page to provide more context and help users review their answers before submitting the form. 
 
 
@@ -304,22 +323,23 @@ We decided that for file upload questions, if they contain a page heading for th
 
 *Email mockup containing the information submitted in the form with attachments.*
 
-When a form is submitted the responses get sent to an email to processing teams. The email would contain the question answers in the body of an email in a structured way.
-Answers to file upload questions are displayed under a questions text in the format of the uploaded file name and type. And each has appended content saying "(attached to this email)". To make it clear that the answer is an attachment and to help form processors match up the right uploaded file to the right question.
+When a form is submitted the responses get sent via email to the form processing team. The question answers are included in the email body text in a structured way.  
+
+Answers to file upload questions are displayed under the question text in the format of the uploaded file name and type. Each being appended with the content "(attached to this email)". To make it clear that the answer is an attachment and to help form processors match up the right uploaded file to the right question.  
 
 ## Measuring
 
-The first release of file upload for [GOV.UK](http://GOV.UK) Forms is mostly essential functionality with limitations, and we know there is more we could do to make it better for form creators and form fillers. We have implemented ways to measure the use of the feature, so that we can understand and prioritise any problematic parts to address. We check for:
+The first release of file upload for GOV\.UK Forms is mostly essential functionality with limitations, and we know there is more we could do to make it better for form creators and form fillers. We have implemented ways to measure the use of the feature, so that we can understand and prioritise any problematic parts to address. We check for:
 
-- What is the impact of file upload features on completion rate? Do people drop off more often?  
+- What the impact of the file upload feature has on completion rate? Do people drop off more often?  
 - How often do people try to upload the wrong file format or size? What is the format?  
-- Do people open the ‘detail’ component on what files are accepted  
-- How often do form creators try to add more than 4 file upload questions
+- Do people open the ‘detail’ component on what file types are accepted?   
+- How often do form creators try to add more than 4 file upload questions?
 
 Other things we measure:
 
 - How many forms use a file upload question  
-- What are most common uploaded file types and sizes
+- What are the most common uploaded file types and sizes
 
 ## What we didn’t do and why
 
@@ -331,13 +351,14 @@ We tested the enhanced file upload from the Design System to check if it is suit
 
 ## What would we like to do in the next release
 
-Support uploading multiple files per question, explore add another pattern for file upload
-Remove the limits for the number of files uploaded per question
-Make the total file size limits more flexible. 
-Allow 
-Support sending large file attachments over multiple emails per form submission
-Gather feedback from using the feature and improve it in the next iteration
-Explore if we can better support people uploading files and help them through the process, for example guide on taking a photo of a document, scanning a document, sending files between devices etc. This is because based on [MoJ Design System guidance](https://design-patterns.service.justice.gov.uk/patterns/upload-files/):
+- Support uploading multiple files per question - exploring the ‘add another’ pattern for file upload
+- Remove the limits for the number of files uploaded per question
+- Make the total file size limits more flexible  
+- Support sending large file attachments over multiple emails per form submission
+- Gather feedback from using the feature and improve it in the next iteration
+- Explore if we can better support people uploading files and help them through the process, for example guide on taking a photo of a document, scanning a document, sending files between devices etc
+
+[MoJ Design System guidance](https://design-patterns.service.justice.gov.uk/patterns/upload-files/) says:  
 
 >Uploading files can be challenging for users, it may require things like
 >
@@ -348,6 +369,6 @@ Explore if we can better support people uploading files and help them through th
 
 So it would be beneficial to develop a standard pattern for helping users to upload files that could be applied across all forms created with GOV.UK Forms.
 
-Explore how we could support save and return, so that users can come back to a form if they don’t have access to evidence at hand.
+We also want to explore how we could support save and return, so that users can come back to a form if they don’t have access to evidence at hand.
 
 
