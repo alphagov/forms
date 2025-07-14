@@ -345,7 +345,6 @@ Other things we measure:
 
 We learned through feedback from users that one file per question and total file size in one email submission won’t meet all user needs.
 If form owners set up submissions to an S3 bucket, rather than use emails, we could potentially remove restrictions for them. As it stands, nobody is receiving submissions in this way. 
-We discussed
 
 We tested the enhanced file upload from the Design System to check if it is suitable for the feature launch, but we found a [bug](https://github.com/alphagov/govuk-frontend/issues/5791)
 
@@ -353,7 +352,8 @@ We tested the enhanced file upload from the Design System to check if it is suit
 
 - Support uploading multiple files per question - exploring the ‘add another’ pattern for file upload
 - Remove the limits for the number of files uploaded per question
-- Make the total file size limits more flexible  
+- Make the total file size limits more flexible
+- Allow form creators to choose the types of file they can receive. 
 - Support sending large file attachments over multiple emails per form submission
 - Gather feedback from using the feature and improve it in the next iteration
 - Explore if we can better support people uploading files and help them through the process, for example guide on taking a photo of a document, scanning a document, sending files between devices etc
