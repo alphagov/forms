@@ -53,7 +53,7 @@ Epic trello card: [https://trello.com/c/NWsgTJrc](https://trello.com/c/NWsgTJrc)
 
 [File upload research insights November 2022](https://docs.google.com/document/d/1MDc2X3MSZJhkKLyyRb8dWapPthQAV_sMPaBC8q82zkQ/edit?usp=sharing) 
 
-People currently asking for lists of documents to be sent in could see the benefit of structuring this request with a question for each. At the moment their form completers often miss some documents leading to correspondence back and forth. One estimated 90% of submissions are currently incomplete.
+Form creators who currently ask for lists of documents to be sent in could see the benefit of structuring this request with a question for each document. At the moment their form fillers often miss some documents leading to correspondence back and forth. One estimated 90% of submissions are currently incomplete.
 
 In previous research rounds participants clearly preferred the email attachment options over Notify-style links (one per document). Largely due to the number of steps the file links took, especially in cases where they received multiple documents. 
 
