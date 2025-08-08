@@ -6,7 +6,7 @@ Date created: *2025-08-08*
 
 In development  
 
-__   
+___   
 
 ## Contents   
 
@@ -16,7 +16,7 @@ __
   - [Key decisions](#key-decisions)  
   - [Designs](#designs)  
  
-__   
+___   
 
 ## What  
 
@@ -30,7 +30,7 @@ __
 
 
 
-__   
+___   
 
 <br>  
 
