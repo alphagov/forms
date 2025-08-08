@@ -65,6 +65,29 @@ After playing back the options designed by the designers the team agreed to take
 
 ## Designs  
 
+### Your groups  
+![“Your groups” organisation landing screen. Screenshot](./screenshots-v1/001-your-groups.png)  
+
+
+### Active group   
+![“A wonderful group name” titled screen showing an active groups forms. Screenshot](./screenshots-v1/002-active-group.png)  
+
+
+### Move form to a different group  
+![“Move form to a different group” titled screen with options of groups to move the form to. Screenshot](./screenshots-v1/003-move-form-to-a-different-group.png)  
+
+#### If there are no groups for this form to be moved to  
+![You have no other groups option. Screenshot](./screenshots-v1/003-move-form-to-a-different-group-no-groups.png)  
+
+#### If there are between 11 and 30 potential groups this form can be moved to  
+![What group do you want to move it to question with dropdown select component. Screenshot](./screenshots-v1/003-move-form-to-a-different-group-11-to-30-groups.png)  
+
+### If there are more than 30 potential groups this form can be moved to 
+![What group do you want to move it to question with automcplete component. Screenshot](./screenshots-v1/003-move-form-to-a-different-group-31+-groups.png)  
+
+#### Error message if no selection is made  
+![There is a problem error banner. Screenshot](./screenshots-v1/003-move-form-to-a-different-group-error.png)  
+*Error message shows ‘Select the group you want to move this form to’ which is a link to the pages question input.*
 
 
 ___   
