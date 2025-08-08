@@ -10,6 +10,12 @@ ___
 
 ## Contents 
 
+- [Managing forms and groups within your organisation](#managing-forms-and-groups-within-your-organisation)
+  - [Status](#status)
+  - [Contents](#contents)
+  - [What](#what)
+    - [User stories](#user-stories)
+  - [Why](#why)
 ___
 
 ## What 
