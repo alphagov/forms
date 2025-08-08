@@ -90,6 +90,17 @@ After playing back the options designed by the designers the team agreed to take
 *Error message shows ‘Select the group you want to move this form to’ which is a link to the pages question input.*
 
 
+### Active group - successfully moved form to a new group   
+![Active group page showing a success message. Screenshot](./screenshots-v1/004-active-group-success-form-moved.png)  
+
+
+### Notification email - Group admins and editors version 
+![Form has been moved email to group admins and editors. Screenshot](./screenshots-v1/101-form-moved-groups-email-group-admin-editors.png)  
+
+
+### Notification email - Org admins version 
+![Form has been moved email to org admins. Screenshot](./screenshots-v1/102-form-moved-groups-email-org-admins.png)  
+
 ___   
 
 <br>  
