@@ -66,12 +66,37 @@ After playing back the options designed by the designers the team agreed to take
 ## Designs  
 
 ### Your groups  
-![“Your groups” organisation landing screen. Screenshot](./screenshots-v1/001-your-groups.png)  
+<img alt='“Your groups” organisation landing screen. Screenshot' src="screenshots-v1/001-your-groups.png" width="500">
 
+Page titled ‘Your groups’ which lists the different groups within an organisation. This view shows what an organisation admin user would see. 
+
+Table captioned ‘Upgrade requests’ with 2 columns, ‘Group name’ and ‘Created by’. The group name table item shows the name of the group as a link to view and edit it. The created by table item shows the firstname and lastname of the user who created the group. 
+
+Below is another table captioned ‘Active groups. The table format is the same but this table only shows groups that are in an ‘active’ state. 
+
+This is followed by a third table captioned ‘Trial groups’. 
+
+The page ends with a green ‘Create a group’ button and closed details component labelled “What is a ‘group’?”.  
 
 ### Active group   
-![“A wonderful group name” titled screen showing an active groups forms. Screenshot](./screenshots-v1/002-active-group.png)  
+<img alt='“A wonderful group name” titled screen showing an active groups forms. Screenshot' src="screenshots-v1/002-active-group.png" width="500">
 
+Pge titled ‘A wonderful group name’, which is an example of what a group might be named. There is a caption above the heading, ‘Active group’, telling the user what state the current group is in. 
+
+Beneatht the heading are 2 links to edit this group: 
+
+- Change the name of this group
+- Edit the members of this group
+
+Next is a green ‘Create a form’ button using the start button formatting with the right pointing arrow. 
+
+Finally is a table captioned “Forms in ‘A wonderful group name’”. The table consists of 4 columns:  
+
+- Form name
+- Created by
+- Status
+
+And a newly added ‘Actions’ column which will only show for organisation admins. This column shows a ‘Change group’ link for each form. This is where the new journey is started from. 
 
 ### Move form to a different group  
 ![“Move form to a different group” titled screen with options of groups to move the form to. Screenshot](./screenshots-v1/003-move-form-to-a-different-group.png)  
