@@ -98,6 +98,12 @@ Finally is a table captioned “Forms in ‘A wonderful group name’”. The ta
 
 And a newly added ‘Actions’ column which will only show for organisation admins. This column shows a ‘Change group’ link for each form. This is where the new journey is started from. 
 
+The table in this example shows 3 forms: 
+
+- Apply for a juggling licence
+- Form a name
+- Form b name 
+
 ### Move form to a different group  
 <img alt='“Move form to a different group” titled screen with options of groups to move the form to. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group.png" width="500">
 
@@ -152,15 +158,60 @@ Where there are more than 30 groups to move a form to the list should as much as
 This error will only appear where a user tries to ‘Save and continue’ without making a choice. This is the same error as it would appear no matter which component is shown. 
 
 ### Active group - successfully moved form to a new group   
-![Active group page showing a success message. Screenshot](./screenshots-v1/004-active-group-success-form-moved.png)  
+<img alt='Active group page showing a success message. Screenshot' src="screenshots-v1/004-active-group-success-form-moved.png" width="500">
+
+When a form is successfully moved from one group to another the user is returned to the group view page titled ‘Your groups’. There is a green ‘Success’ banner that now appears at the top of this page playingback the detail of the change made to provide confidence that what the user has tried to do has taken affect. The message in this example says: 
+
+> ‘Apply for a juggling licence’ has been moved to ‘Group a name’
+
+The table captioned “Forms in ‘A wonderful group name’” further down the page now only shows 2 forms, no longer showing the ‘Apply for a juggling licnce’ row as this form has been moved to another group in the organisation. 
 
 
 ### Notification email - Group admins and editors version 
-![Form has been moved email to group admins and editors. Screenshot](./screenshots-v1/101-form-moved-groups-email-group-admin-editors.png)  
+<img alt='Form has been moved email to group admins and editors. Screenshot' src="screenshots-v1/101-form-moved-groups-email-group-admin-editors.png" width="500">
 
+This is an example of the emails that group admins and editors will receive when a form that was in one of their groups is moved elsewhere. The intention is to make sure all impacted users are notified of the change and who it was made by and when. This email has the subject line: 
+
+> Your form has moved groups
+
+And the body reads: 
+
+> The form “[form name]” has been moved from a group you are part of, “[group Y name]”, to the group “[group Z name]”.
+>
+> [org admin name] moved the form at 11:58am on 31 March 2025.
+>
+> You may no longer have access to this form.
+>
+> You are receiving this email because you are a form editor or a group admin for this group. You cannot unsubscribe from these emails.
+
+Finally is some content explaining that this email is a no-reply email, as per the rest of the emails sent by GOV\.UK Forms. It reads: 
+
+> **You cannot reply to this email**
+>
+> If you need to contact the person who made this change, you’ll need to contact them directly.
+>
+> If you’re experiencing a technical issue with this form, contact the GOV.​UK Forms team with details of the issue and the form it relates to.
 
 ### Notification email - Org admins version 
-![Form has been moved email to org admins. Screenshot](./screenshots-v1/102-form-moved-groups-email-org-admins.png)  
+<img alt='Form has been moved email to org admins. Screenshot' src="screenshots-v1/102-form-moved-groups-email-org-admins.png" width="500">
+
+This is an example of the email that organisation admins will receive when a form in their organisation is moved. The intention is to make sure all organisation admins are notified of the change and who it was made by and when so there is accountability and traceability. This email has the subject line: 
+
+> A form has been moved
+
+And the body reads: 
+
+> The form “[form name]” has been moved from the group “[group Y name]” to the group “[group Z name]”.
+>
+> [org admin name] moved the form at 11:58am on 31 March 2025.
+
+Finally is some content explaining that this email is a no-reply email, as per the rest of the emails sent by GOV\.UK Forms. It reads: 
+
+> **You cannot reply to this email**
+>
+> If you need to contact the person who made this change, you’ll need to contact them directly.
+>
+> If you’re experiencing a technical issue with this form, contact the GOV.​UK Forms team with details of the issue and the form it relates to.
 
 ___   
 
