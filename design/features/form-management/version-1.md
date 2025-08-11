@@ -31,7 +31,7 @@ We need to design how they could do this and make sure it’s feasible from an i
 
 As part of a follow up workshop the team explored potential design options to meet this need. In this session there was a clear consensus of a new simple journey to allow only org admins to move a single form between groups. We discussed: 
 
-### Where we think we could start the journey?
+### Where we think we could start the journey
 
 - Action on the form task list / live / archive view
 - Action in the form table row
@@ -70,7 +70,7 @@ After playing back the options designed by the designers the team agreed to take
 
 Page titled ‘Your groups’ which lists the different groups within an organisation. This view shows what an organisation admin user would see. 
 
-Table captioned ‘Upgrade requests’ with 2 columns, ‘Group name’ and ‘Created by’. The group name table item shows the name of the group as a link to view and edit it. The created by table item shows the firstname and lastname of the user who created the group. 
+Table captioned ‘Upgrade requests’ with 2 columns, ‘Group name’ and ‘Created by’. The ‘group name’ table item shows the name of the group as a link to view and edit it. The ‘created by’ table item shows the firstname and lastname of the user who created the group. 
 
 Below is another table captioned ‘Active groups. The table format is the same but this table only shows groups that are in an ‘active’ state. 
 
@@ -79,9 +79,9 @@ This is followed by a third table captioned ‘Trial groups’.
 The page ends with a green ‘Create a group’ button and closed details component labelled “What is a ‘group’?”.  
 
 ### Active group   
-<img alt='“A wonderful group name” titled screen showing an active groups forms. Screenshot' src="screenshots-v1/002-active-group.png" width="500">
+<img alt='“A wonderful group name” titled screen showing an ‘active’ group’s forms. Screenshot' src="screenshots-v1/002-active-group.png" width="500">
 
-Pge titled ‘A wonderful group name’, which is an example of what a group might be named. There is a caption above the heading, ‘Active group’, telling the user what state the current group is in. 
+Page titled ‘A wonderful group name’, which is an example of what a group might be named. There is a caption above the heading, ‘Active group’, telling the user what state the current group is in. 
 
 Beneath the heading are 2 links to edit this group: 
 
@@ -114,7 +114,7 @@ Next is a summary list component playing back the information relevant to the pe
 - Form name: Apply for a juggling licence
 - Group name: A wonderful group name
 
-Next is some guidance content to help users undestand the limitations and what happens when they save their changes. 
+Next is some guidance content to help users understand the limitations and what happens when they save their changes. 
 
 > You can move draft forms into active or trial groups. Live forms can only be moved into active groups.
 >
@@ -131,7 +131,7 @@ The radio options component is used where the options available are 10 or fewer.
 Finally, there is a green ‘Save and continue’ button.  
 
 #### If there are no groups for this form to be moved to  
-<img alt='You have no other groups option. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-no-groups.png" width="300">
+<img alt='“You have no other groups” option. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-no-groups.png" width="300">
 
 When the user lands on this page and there are no options that meet the minimum criteria where the chosen form can be moved to the question and options list is replaced with static content: 
 
@@ -142,33 +142,33 @@ When the user lands on this page and there are no options that meet the minimum 
 For this version we will also not show the ‘Save and continue’ button as the only action here should be to go back to the previous group view page.  
 
 #### If there are between 11 and 30 potential groups this form can be moved to  
-<img alt='What group do you want to move it to question with dropdown select component. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-11-to-30-groups.png" width="300">
+<img alt='What group do you want to move it to question with a dropdown select component. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-11-to-30-groups.png" width="300">
 
 When the user sees this page where they have between 11 and 30 group options to choose from we will show a select component, this was agreed as a fall back to time there are over 11 options available. While an autocomplete component should be shown as the primary choice. 
 
 ### If there are more than 30 potential groups this form can be moved to 
-<img alt='What group do you want to move it to question with automcplete component. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-31+-groups.png" width="300">
+<img alt='What group do you want to move it to question with an autocomplete component. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-31+-groups.png" width="300">
 
 Where there are more than 30 groups to move a form to the list should as much as possible be shown as an autocomplete, only showing as a select component where javascript is disabled. 
 
 #### Error message if no selection is made  
-<img alt='There is a problem error banner. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-error.png" width="300">
-*Error message shows ‘Select the group you want to move this form to’ which is a link to the pages question input.*
+<img alt='“There is a problem” error banner. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-error.png" width="300">
+*The error message shows ‘Select the group you want to move this form to’ which is a link to the page’s question input.*
 
 This error will only appear where a user tries to ‘Save and continue’ without making a choice. This is the same error as it would appear no matter which component is shown. 
 
 ### Active group - successfully moved form to a new group   
 <img alt='Active group page showing a success message. Screenshot' src="screenshots-v1/004-active-group-success-form-moved.png" width="500">
 
-When a form is successfully moved from one group to another the user is returned to the group view page titled ‘Your groups’. There is a green ‘Success’ banner that now appears at the top of this page playingback the detail of the change made to provide confidence that what the user has tried to do has taken affect. The message in this example says: 
+When a form is successfully moved from one group to another the user is returned to the group view page titled ‘Your groups’. There is a green ‘Success’ banner that now appears at the top of this page playing back the details of the change made to provide confidence that what the user has tried to do has taken effect. The message in this example says: 
 
 > ‘Apply for a juggling licence’ has been moved to ‘Group a name’
 
-The table captioned “Forms in ‘A wonderful group name’” further down the page now only shows 2 forms, no longer showing the ‘Apply for a juggling licnce’ row as this form has been moved to another group in the organisation. 
+The table captioned “Forms in ‘A wonderful group name’” further down the page now only shows 2 forms, no longer showing the ‘Apply for a juggling licence’ row as this form has been moved to another group in the organisation. 
 
 
 ### Notification email - Group admins and editors version 
-<img alt='Form has been moved email to group admins and editors. Screenshot' src="screenshots-v1/101-form-moved-groups-email-group-admin-editors.png" width="500">
+<img alt='“Your form has moved groups” email to group admins and editors. Screenshot' src="screenshots-v1/101-form-moved-groups-email-group-admin-editors.png" width="500">
 
 This is an example of the emails that group admins and editors will receive when a form that was in one of their groups is moved elsewhere. The intention is to make sure all impacted users are notified of the change and who it was made by and when. This email has the subject line: 
 
@@ -193,7 +193,7 @@ Finally is some content explaining that this email is a no-reply email, as per t
 > If you’re experiencing a technical issue with this form, contact the GOV.​UK Forms team with details of the issue and the form it relates to.
 
 ### Notification email - Org admins version 
-<img alt='Form has been moved email to org admins. Screenshot' src="screenshots-v1/102-form-moved-groups-email-org-admins.png" width="500">
+<img alt='“A form has been moved” email to org admins. Screenshot' src="screenshots-v1/102-form-moved-groups-email-org-admins.png" width="500">
 
 This is an example of the email that organisation admins will receive when a form in their organisation is moved. The intention is to make sure all organisation admins are notified of the change and who it was made by and when so there is accountability and traceability. This email has the subject line: 
 
