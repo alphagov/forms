@@ -83,7 +83,7 @@ The page ends with a green ‘Create a group’ button and closed details compon
 
 Pge titled ‘A wonderful group name’, which is an example of what a group might be named. There is a caption above the heading, ‘Active group’, telling the user what state the current group is in. 
 
-Beneatht the heading are 2 links to edit this group: 
+Beneath the heading are 2 links to edit this group: 
 
 - Change the name of this group
 - Edit the members of this group
@@ -99,21 +99,57 @@ Finally is a table captioned “Forms in ‘A wonderful group name’”. The ta
 And a newly added ‘Actions’ column which will only show for organisation admins. This column shows a ‘Change group’ link for each form. This is where the new journey is started from. 
 
 ### Move form to a different group  
-![“Move form to a different group” titled screen with options of groups to move the form to. Screenshot](./screenshots-v1/003-move-form-to-a-different-group.png)  
+<img alt='“Move form to a different group” titled screen with options of groups to move the form to. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group.png" width="500">
+
+Page titled ‘Move form to a different group’. There is a caption above the heading, ‘Active group’, telling the user what state the current group is in. 
+
+Next is a summary list component playing back the information relevant to the person making the change to give some confidence that they are changing the correct form and group. It shows: 
+
+- Form name: Apply for a juggling licence
+- Group name: A wonderful group name
+
+Next is some guidance content to help users undestand the limitations and what happens when they save their changes. 
+
+> You can move draft forms into active or trial groups. Live forms can only be moved into active groups.
+>
+> We’ll tell the group admins and editors that this form has been moved and they may no longer have access to it.
+
+There is now a question for the user to answer, ‘What group do you want to move it to?’. In this version of the screenshot it shows 3 options listed as radio buttons: 
+
+- Group a name
+- Group b name
+- Group c name
+
+The radio options component is used where the options available are 10 or fewer. 
+
+Finally, there is a green ‘Save and continue’ button.  
 
 #### If there are no groups for this form to be moved to  
-![You have no other groups option. Screenshot](./screenshots-v1/003-move-form-to-a-different-group-no-groups.png)  
+<img alt='You have no other groups option. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-no-groups.png" width="300">
+
+When the user lands on this page and there are no options that meet the minimum criteria where the chosen form can be moved to the question and options list is replaced with static content: 
+
+> **You have no other groups**
+>
+> You need to create a new group to move this form into, or upgrade a trial group to move a live form.
+
+For this version we will also not show the ‘Save and continue’ button as the only action here should be to go back to the previous group view page.  
 
 #### If there are between 11 and 30 potential groups this form can be moved to  
-![What group do you want to move it to question with dropdown select component. Screenshot](./screenshots-v1/003-move-form-to-a-different-group-11-to-30-groups.png)  
+<img alt='What group do you want to move it to question with dropdown select component. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-11-to-30-groups.png" width="300">
+
+When the user sees this page where they have between 11 and 30 group options to choose from we will show a select component, this was agreed as a fall back to time there are over 11 options available. While an autocomplete component should be shown as the primary choice. 
 
 ### If there are more than 30 potential groups this form can be moved to 
-![What group do you want to move it to question with automcplete component. Screenshot](./screenshots-v1/003-move-form-to-a-different-group-31+-groups.png)  
+<img alt='What group do you want to move it to question with automcplete component. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-31+-groups.png" width="300">
+
+Where there are more than 30 groups to move a form to the list should as much as possible be shown as an autocomplete, only showing as a select component where javascript is disabled. 
 
 #### Error message if no selection is made  
-![There is a problem error banner. Screenshot](./screenshots-v1/003-move-form-to-a-different-group-error.png)  
+<img alt='There is a problem error banner. Screenshot' src="screenshots-v1/003-move-form-to-a-different-group-error.png" width="300">
 *Error message shows ‘Select the group you want to move this form to’ which is a link to the pages question input.*
 
+This error will only appear where a user tries to ‘Save and continue’ without making a choice. This is the same error as it would appear no matter which component is shown. 
 
 ### Active group - successfully moved form to a new group   
 ![Active group page showing a success message. Screenshot](./screenshots-v1/004-active-group-success-form-moved.png)  
