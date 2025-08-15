@@ -20,13 +20,13 @@ ___
 
 ## What 
 
-This feature introduces ways for users to manage the forms and groups within their organisation, with the first versions being focussed on organisation admin user types. This will help them track the forms and groups being created and what is needed and allow them to minimise noise of unused groups and forms. 
+This feature introduces ways for users to manage the forms and groups within their organisation, with the first versions being focussed on organisation admin user types. This will allow them to organise their forms and groups, and minimise noise of unused groups and forms. 
 
 ## Why 
 
 We know our organisation admins have various frustrations with managing the users, forms and groups in their organisations. Following a workshop with several org admins, we identified two priority things they need to be able to do:
 
-- Move a form from one of their groups to another (not multiple forms)
+- Move a form from one of their groups to another
 - Delete a group they no longer need
 
 ___
