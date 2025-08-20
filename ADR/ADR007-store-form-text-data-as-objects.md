@@ -4,7 +4,9 @@ Date: 2022-05-26
 
 ## Status
 
-Proposed
+Superseded by [ADR044: Translate API response at request time](ADR044-translate-api-response-at-request-time.md).
+
+Note that this ADR was never implemented.
 
 ## Context
 
@@ -21,8 +23,8 @@ Were we to replace these (or any other forms where multiple language versions ar
 
 ### Option 1: Do not support multiple languages per form in the runner, get users to create one form per each language
 
-
 **Example schema**
+
 ```json
 {
   "form": {
@@ -41,18 +43,19 @@ Additionally, we would not be able to respect the users locale settings in their
 ### Option 2: Support multiple languages per form, providing translations in the schema for any user generated text:
 
 **Example schema**
+
 ```json
 {
   "form": {
-      "pages": [
-        {
-          "questionText": {
-            "en": "The title in English",
-            "cy": "The title in Welsh",
-            "es": "The title in Spanish"
-          }
+    "pages": [
+      {
+        "questionText": {
+          "en": "The title in English",
+          "cy": "The title in Welsh",
+          "es": "The title in Spanish"
         }
-      ]
+      }
+    ]
   }
 }
 ```
