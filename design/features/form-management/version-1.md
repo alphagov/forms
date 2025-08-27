@@ -49,9 +49,10 @@ As part of a follow up workshop the team explored potential design options to me
 
 ### What notifications are needed, and for who? 
 
-- Notify other org admins of a forms move
-- Notify the group admins of the group the form has moved from of a forms move
-- Notify the group editors of the group the form has moved from of a forms move
+When a form is moved, we need to notify the:
+
+- other org admins in the organisation
+- members of the group the form has moved from
 
 ### What is OUT of scope for now? 
 
