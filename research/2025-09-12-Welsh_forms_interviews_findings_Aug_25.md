@@ -34,11 +34,11 @@ Overall, we learned that there is a common high-level process of producing the E
 
 People work in different formats, depending on their systems and the type of form being produced (i.e. document-based, digital, services).
 
-When working with a translated version, it is either in a table format next to the English version, or as an exact dupliacte of the English version so that all the formatting and structure matches. This is so that it is easy to relate each question to its original, otherwise they face challenges building the Welsh version with accuracy.
+When working with a translated version, it is either in a table format next to the English version, or as an exact duplicate of the English version so that all the formatting and structure matches. This is so that it is easy to relate each question to its original, otherwise they face challenges building the Welsh version with accuracy.
 
 There are some generally understood best practices in relation to bilingual forms, such as involving translators early, toggling between forms, and ensuring the whole journey is in the alternative language.
 
-It is helpful for form translators to have direct acces to edit a form to esnure accuracy and efficiency of collaboration. 
+It is helpful for form translators to have direct acces to edit a form to ensure accuracy and efficiency of collaboration. 
 
 Form fillers do not trust translated versions of forms and don't see them as the most reliable version. They need to switch between the 2 versions in order to check their understanding and to gain trust in the form itself.
 
@@ -46,7 +46,7 @@ The forms processors receiving the Welsh data are likely to be the same people a
 
 Teams aim for the Welsh forms to mirror the English forms as closely as possible. This improves trust in the Welsh version.
 
-Welsh content is likely to be longer than the English original and it does have its own alphabet with special characters. The context of a piece of content greatly influences the words used int he transaltion, which can impact different elements of a form, such as lists.
+Welsh content is likely to be longer than the English original and it does have its own alphabet with special characters. The context of a piece of content greatly influences the words used in the transaltion, which can impact different elements of a form, such as lists.
 
 ## Supporting Evidence
 - [Slide deck](https://docs.google.com/presentation/d/1fHNsM-kiZ7xOZRfK-9GfJ4yQ-JefqSIIrdFht5pi114/edit?slide=id.g3619d51f40a_0_67&pli=1#slide=id.g3619d51f40a_0_67)
