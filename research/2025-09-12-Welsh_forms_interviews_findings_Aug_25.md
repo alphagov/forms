@@ -30,7 +30,7 @@ We also learned about a lot of different users' needs, which are listed in [this
 
 **General findings**
 
-Overall, we learned that there is a common high-level process of producing the English form first, getting it translated then produing the Welsh form.
+Overall, we learned that there is a common high-level process of producing the English form first, getting it translated then producing the Welsh form.
 
 People work in different formats, depending on their systems and the type of form being produced (i.e. document-based, digital, services).
 
