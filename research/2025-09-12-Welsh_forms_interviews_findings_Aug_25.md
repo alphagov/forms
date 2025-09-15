@@ -38,7 +38,7 @@ When working with a translated version, it is either in a table format next to t
 
 There are some generally understood best practices in relation to bilingual forms, such as involving translators early, toggling between forms, and ensuring the whole journey is in the alternative language.
 
-It is helpful for form translators to have direct acces to edit a form to ensure accuracy and efficiency of collaboration. 
+It is helpful for form translators to have direct access to edit a form to ensure accuracy and efficiency of collaboration. 
 
 Form fillers do not trust translated versions of forms and don't see them as the most reliable version. They need to switch between the 2 versions in order to check their understanding and to gain trust in the form itself.
 
