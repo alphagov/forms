@@ -22,7 +22,7 @@
 ## Key Headlines 
 **Welsh form publishing journey**
 
-We learned about the journey that Publishing teams go through to produce a Welsh version of the form, which is outlined in [this storyboard](https://app.mural.co/t/gaap0347/m/gaap0347/1757672226529/0429baadcf8abbbe2341099bae3722542c730346?wid=0-1756742539143) along with the detailed other findings on the same board and in the deck below.
+We learned about the journey that publishing teams go through to produce a Welsh version of a form, which is outlined in [this storyboard](https://app.mural.co/t/gaap0347/m/gaap0347/1757672226529/0429baadcf8abbbe2341099bae3722542c730346?wid=0-1756742539143) along with the detailed other findings on the same board and in the deck below.
 
 **User needs**
 
