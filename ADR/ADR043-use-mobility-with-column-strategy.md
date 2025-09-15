@@ -4,7 +4,7 @@ Date: 2025-06-09
 
 ## Status
 
-Accepted
+Superseded by [ADR046: Use Mobility's table backend strategy to store translations](ADR046-use-mobility-table-backend-strategy.md).
 
 ## Context
 
@@ -28,11 +28,14 @@ The main strategies for storing translations are:
   - essentially a variant of the serialized data strategy that takes advantage of PostgreSQL's jsonb column type to make data easier to query.
 
 #### Translatable columns
+
 Advantages:
+
 - Simple to understand and work with
 - Easy to query
 
 Disadvantages:
+
 - Since new columns need to be added to every table for every language, the maintenance burden increases as the number of locales increases
 - Since every new model would require new columns, maintenance burden increases as number of models increases
 - Inefficient use of database space
@@ -40,46 +43,59 @@ Disadvantages:
 We currently have a small number of models and locales which mitigates the main disadvantages, so this seems like a good option for us.
 
 #### Model translation tables
+
 Advantages:
+
 - Scales well with locales (since all locales can use the same table)
 - Uses space more efficiently than translatable columns
 
 Disadvantages:
+
 - Adds one extra table per model, so maintenance burden increases as the number of models increases
 - Requires table joins, creating increased complexity and risk of performance issues
 
 This could be a good option for us, since we have a small number of models.
 
 #### Shared translation tables
+
 Advantages
+
 - Versatile, no additional migrations required when adding new locales or models
 
 Disadvantages
+
 - Requires more complex table joins, creating increased complexity and risk of performance issues
 - since tables don't map 1:1 with model tables, it's harder to keep the shared table up to date with attribute renames and dropped columns
 
 This could work for for us, but might be needlessly complex for the number of models and locales we're currently expecting to have.
 
 #### Serialized data
+
 Advantages:
+
 - Simple to understand and work with
 
 Disavantages:
+
 - Difficult to add constraints
 - Difficult to query
 
-We recommend against this option - the PostgreSQl jsonb strategy is functionally similar with fewer disadvantages. 
+We recommend against this option - the PostgreSQl jsonb strategy is functionally similar with fewer disadvantages.
 
 #### PostgreSQL jsonb
+
 Advantages:
+
 - Simple to understand and work with
 
 Disavantages:
+
 - Difficult to add constraints
 
 We think the inability to easily add database constraints makes this a poor option for our use case.
 
 ### Gems
+
 There are a few popular Ruby gems for dealing with translations. We looked into:
 
 - [Mobility](https://github.com/shioyama/mobility)
@@ -92,6 +108,7 @@ Of these, only Mobility and Globalize have received recent updates. Mobility is 
 Mobility also supports all of the backend strategies we've looked at, with largely the same API for each, which means it would be helpful if we decided we wanted to change strategy later.
 
 We also considered the possibility of implementing our own solution without using a gem. In this case we’d:
+
 - Have one less dependency
 - Have more control over our implementation
 - Have to manage database changes manually
@@ -101,6 +118,7 @@ We also considered the possibility of implementing our own solution without usin
 ## Decision
 
 We have decided to:
+
 - implement translatable columns for each translatable text field
 - use the Mobility gem, configured with the `:column` backend strategy, to manage this
 
