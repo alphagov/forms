@@ -1,32 +1,47 @@
 # Features
 
-We use this area to record design work and decisions made, and any iterations made to improve usability for form creators and form fillers.  
+We use this area to record design work and decisions made for specific features and types of functionality, including any iterations made to improve usability for form creators and form fillers.  
 
-## Explore the features we’ve designed  
+## Features we’ve designed  
 
 ### [Confirm that a form’s been submitted (form fillers)](confirmation-email-for-form-fillers)  
-This feature introduces new functionality to the form filler’s journey, allowing them to request an email confirming that they’ve successfully submitted a form.
+Allows form fillers to request an email confirming that they’ve successfully submitted a form.
 
-### [Add guidance to help people answer the question (‘detailed guidance’)](detailed-guidance)  
-This feature introduces new functionality to the form building tool, allowing form creators to add more complex help text to a question page. This ‘guidance’ text will appear above the question, on the same page.
+### [Add guidance before a question (‘detailed guidance’)](detailed-guidance)  
+Allows form creators to add lengthier and more complex help text before a question. 
 
 ### [Early access journey](early-access)  
-This journey is designed to allow people to create a trial account and request an upgrade to an editor account - so they can make live forms to be published on GOV.UK.
+Allowed people to create a trial account and request an upgrade to an editor account - so they could make live forms. Superseded by the group model for user management.
 
 ### [Editing pages when looking at a preview of a form](editing-drafts)  
-This feature introduces functionality in the form building tool to help form creators return to edit their questions more quickly when previewing the form as if they’re someone who’s filling it in. It introduces a clearer, simpler route for form creators to navigate between previewing and editing their form.
+Gives form creators an easier, clearer way to return to editing their questions from a preview of the form.
+
+### [File upload](file-upload)  
+Allows a form filler to upload a file.
+
+### [Form management](forem-management)  
+Ways for organisations to manage their forms such as deleting groups and moving forms. 
 
 ### [Metrics for form creators](form-metrics)  
-This feature introduces new functionality to the form building tool to allow form creators to see how their form is performing. We’ll be starting with a minimum offering of: number of forms started, number of forms submitted, and completion rate.
+Allows form creators to see how their form is performing. Starting with a minimum offering of: number of forms started, number of forms submitted, and completion rate.
 
 ### [Live and draft](live-draft)  
-This feature introduces the ability to make a draft of a live form so that you can prepare changes to it. You can then make all the changes live at the same time, when appropriate.
+Allows form creators to make a draft of a live form so that you can prepare changes to it then make all the changes live at the same time.
+
+### [Long lists and autocomplete ](long-list-autocomplete)  
+Allows form creators to create longer lists of options and for form fillers to type to find an option to select from a list. 
+
+### [Payment links](payment-links)  
+Allows form creators to take payment with a form. 
 
 ### [Previewing a question](previewing-a-question)  
-This feature introduces a clear and quick way to help form creators understand what an answer type will look like and how it’ll be formatted alongside other content they’ve added - including hint text and additional guidance.
+Helps form creators understand what an answer type will look like and how it’ll be formatted alongside other content they’ve added - including hint text and additional guidance.
+
+### [Research email consent](research-email-consent)
+Asks form creator users for consent to send an email to them about user research. 
 
 ### [Routing, branching and exit pages](routing)  
-Functionality to allow form creators to skip someone to a later question, or an exit page, based on an answer to a radio question.
+Allows form creators to create 2 branches of questions or to skip someone to a later question, or an exit page, based on an answer to a radio question.
 
 ### [User management journey](user-management)  
-This journey enables other departments having more control over who creates and publishes forms. 
+Gives organisations more control over who can creates forms and who can make them live. 
