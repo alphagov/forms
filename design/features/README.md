@@ -44,4 +44,4 @@ Asks form creator users for consent to send an email to them about user research
 Allows form creators to create 2 branches of questions or to skip someone to a later question, or an exit page, based on an answer to a radio question.
 
 ### [User management journey](user-management)  
-Gives organisations more control over who can creates forms and who can make them live. 
+Gives organisations more control over who can create forms and who can make them live. 
