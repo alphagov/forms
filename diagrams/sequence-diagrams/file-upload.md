@@ -1,6 +1,3 @@
-> [!NOTE]
-> File upload is under active development, the following is likely to change:
-
 ## File Upload Architecture
 
 ```mermaid
