@@ -38,15 +38,15 @@ graph TD
     filler --- runner --- admin
 
     notify(GOV.UK Notify)
+    ses(Amazon Simple Email Service)
 
     pay(GOV.UK Pay)
     filler -.- pay -.- runner
 
     filler -.- notify
-    notify --- runner
-    processor --- notify
-
-
+    notify -.- runner
+    ses --- runner
+    processor --- ses
 ```
 
 ## Links to Sequence Diagrams
