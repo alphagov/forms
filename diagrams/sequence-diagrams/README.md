@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The diagrams in this folder (created using [Mermaid](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams)) show the interactions between users and GOV.UK Forms, including the 3 applications [forms-admin](https://github.com/alphagov/forms-admin), [forms-api](https://github.com/alphagov/forms-api), and [forms-runner](https://github.com/alphagov/forms-runner).
+The diagrams in this folder (created using [Mermaid](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams)) show the interactions between users and GOV.UK Forms, including the two main applications [forms-admin](https://github.com/alphagov/forms-admin) and [forms-runner](https://github.com/alphagov/forms-runner).
 
 The diagram below is to provide an overview of the different users and systems that interact with each other. For clarity, not all interactions are shown. Please refer to individual sequence diagrams for detailed interactions.
 
@@ -28,15 +28,14 @@ graph TD
 
     subgraph sg1 [GOV.UK Forms]
         admin(forms-admin)
-        api(forms-api)
         runner(forms-runner)
     end
 
     editor---runner
 
-    auth0 --- admin --- api
+    auth0 --- admin
     filler --- govuk
-    filler --- runner --- api
+    filler --- runner --- admin
 
     notify(GOV.UK Notify)
 

@@ -24,7 +24,7 @@ generator="mermaid" rake erd
 
 This will create a file called `erd.mmd` in the root of the application.
 
-## Update the diagram
+## Update the diagram
 
 1. Open the file in an editor and copy the contents (all of the `classDiagram` block).
 2. Paste the contents into the corresponding diagram file, replacing everything inside the "mermaid" block:

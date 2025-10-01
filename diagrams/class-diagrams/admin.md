@@ -33,6 +33,7 @@ classDiagram
 	`Form` : +text declaration_text
 	`Form` : +string external_id
 	`Form` : +text form_slug
+	`Form` : +string language
 	`Form` : +text name
 	`Form` : +string payment_url
 	`Form` : +text privacy_policy_url
@@ -49,30 +50,28 @@ classDiagram
 	`Form` : +text support_url
 	`Form` : +text support_url_text
 	`Form` : +text what_happens_next_markdown
+	class `FormDocument`
+	`FormDocument` : +jsonb content
+	`FormDocument` : +text tag
 	class `FormSubmissionEmail`
 	`FormSubmissionEmail` : +string confirmation_code
 	`FormSubmissionEmail` : +string created_by_email
 	`FormSubmissionEmail` : +string created_by_name
-	`FormSubmissionEmail` : +integer form_id
 	`FormSubmissionEmail` : +string temporary_submission_email
 	`FormSubmissionEmail` : +string updated_by_email
 	`FormSubmissionEmail` : +string updated_by_name
 	class `Group`
-	`Group` : +boolean branch_routing_enabled
-	`Group` : +boolean exit_pages_enabled
 	`Group` : +text external_id
 	`Group` : +string name
 	`Group` : +string status
 	`Group` : +boolean welsh_enabled
 	class `GroupForm`
-	`GroupForm` : +integer form_id
 	class `Membership`
 	`Membership` : +string role
 	class `MouSignature`
 	class `Organisation`
 	`Organisation` : +string abbreviation
 	`Organisation` : +boolean closed
-	`Organisation` : +integer default_group_id
 	`Organisation` : +string govuk_content_id
 	`Organisation` : +boolean internal
 	`Organisation` : +string name
@@ -84,7 +83,6 @@ classDiagram
 	`Page` : +text hint_text
 	`Page` : +boolean is_optional
 	`Page` : +boolean is_repeatable
-	`Page` : +integer next_page
 	`Page` : +text page_heading
 	`Page` : +integer position
 	`Page` : +text question_text
@@ -106,9 +104,11 @@ classDiagram
 	`User` : +text permissions
 	`User` : +string provider
 	`User` : +boolean remotely_signed_out
+	`User` : +string research_contact_status
 	`User` : +string role
 	`User` : +datetime terms_agreed_at
 	`User` : +string uid
+	`User` : +datetime user_research_opted_in_at
 	`Item` --> `PaperTrail::Version`
 	`Organisation` --> `PaperTrail::Version`
 	`User` --> `PaperTrail::Version`
@@ -123,7 +123,11 @@ classDiagram
 	`Organisation` --> `MouSignature`
 	`Group` --> `Membership`
 	`Group` --> `GroupForm`
+	`Form` -- `GroupForm`
+	`Group` ..> `Form`
+	`Form` --> `FormDocument`
 	`Form` --> `Page`
+	`Form` -- `FormSubmissionEmail`
 	`Page` --> `Condition`
 	`Condition` .. `Form`
-  ```
+```
