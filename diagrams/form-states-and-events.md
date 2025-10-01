@@ -1,24 +1,6 @@
 # Form states and events used by state machine
 
-## Current Flow
-
-```mermaid
----
- title: Form states and events called to transition to state
----
-stateDiagram-v2
-    Draft --> Live : make_live!
-    Draft --> Deleted : delete_form!
-    live_with_draft: Live with draft
-    Live --> live_with_draft : create_draft_from_live_form!
-    live_with_draft --> Live : make_live!
-    live_with_draft --> Draft: archive_live_form!
-    Live --> Draft: archive_live_form!
-   
-```
-
-
-## Future Flow
+## State diagram
 
 ```mermaid
 ---
