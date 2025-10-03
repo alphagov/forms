@@ -16,4 +16,4 @@ We had a SmartSurvey form that people needed to complete to sign up to the panel
 
 ## Versions
 
-- Version 1 - built and released in September 2025
+- [Version 1](version-1.md) - built and released in September 2025
