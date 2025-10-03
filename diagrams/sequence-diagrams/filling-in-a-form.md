@@ -7,7 +7,6 @@ sequenceDiagram
   participant govuk as GOV.UK website
   participant runner as forms-runner
   participant admin as forms-admin
-  participant notify as GOV.UK Notify
   participant inbox as shared email inbox
   actor processor as Form processor
 
@@ -41,13 +40,13 @@ sequenceDiagram
   user->>browser: Click "Submit"
   browser->>runner: POST /form/{form id}/{form slug}/submit-answers
   runner->>admin: GET /api/v2/forms/{form id}/live
-  runner->>notify: client.send_email()
-  runner->>runner: Delete user session
+  runner->>runner: save Submission
+  runner->>runner: enqueue send submission job
   runner-->>browser: 302
   browser->>runner: GET /form/{form id}/{form slug}/submitted
   runner->>admin: GET /api/v2/forms/{form id}/live
   browser-->>user: Show confirmation page
-  notify->>inbox: Send email
+  runner->>inbox: Send email
   inbox->>processor: Read email
 ```
 
@@ -61,7 +60,6 @@ sequenceDiagram
   participant browser as Web Browser
   participant runner as forms-runner
   participant admin as forms-admin
-  participant notify as GOV.UK Notify
 
   user->>browser: Click link to form
   browser->>runner: GET /form/{form id}/{form slug}
@@ -74,8 +72,6 @@ sequenceDiagram
     user-->browser: Fills in the answer to question<br>clicks "Continue" button
   end
 ```
-
-
 
 ## Brief summary
 
