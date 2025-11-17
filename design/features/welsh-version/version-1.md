@@ -2,7 +2,8 @@
 
 ## Status
 
-Date created: *2025-11-17*  
+Date created: 17 November 2025  
+Tested: Week commencing 10 November 2025  
 
 In development  
 
@@ -27,20 +28,26 @@ ___
 
 ### As-is
 
-- Form creators need 
+- Form creators need to create separate forms for Welsh, or any other language. This means that key pieces of form interactive elements such as buttons and get help links are still in English making these forms look broken to form fillers.  
 
 ### To-be
 
-- Form creators can add additional content and context to individual question pages to help form fillers understand what's needed from them. They can use basic formatting like headings, lists and links.
+- Form creators can add a Welsh version of their form by providing Welsh translations to all content as part of their form. This means form fillers will be able to switch between languages when completing a form.  
 
 
 ## Key decisions  
 
+Based on an initial round of research, the team agreed to:  
 
+- prioritise testing an MVP single page design to understand if this is sufficient
+- work towards developing the single page design with the understanding that some elements might change and the journey might need to be broken up and become a multi step journey later if findings tell us such
+- release our MVP as soon as possible, unless research shows massive problems with the single page journey  
 
 <br>
 
 ## Design for build
 
-### Edit question page
+### Your forms - group view  
+
+
 
