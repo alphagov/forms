@@ -52,3 +52,9 @@ Based on an initial round of research, the team agreed to:
 ![Account applications trial group page. Screenshot](./screenshots-v1/001%20-%20Account%20applications%20-%20Trial%20group.png)
 *Account applications group view. Showing our test form, “Register for an account” in the forms table list.*  
 
+
+### Create a form - task list 
+
+![Create a form task list page. Screenshot](./screenshots-v1/002%20-%20Create%20a%20form%20Register%20for%20an%20account.png)
+*Create a form task list page showing 3 of 10 tasks marked completed.*  
+
