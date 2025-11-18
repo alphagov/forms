@@ -58,3 +58,15 @@ Based on an initial round of research, the team agreed to:
 ![Create a form task list page. Screenshot](./screenshots-v1/002%20-%20Create%20a%20form%20Register%20for%20an%20account.png)
 *Create a form task list page showing 3 of 10 tasks marked completed.*  
 
+
+### Add a Welsh version of your form - empty form  
+
+![Add a Welsh version of your form showing empty tasks. Screenshot](./screenshots-v1/003%20-%20Add%20a%20Welsh%20version%20of%20your%20form%20Register%20for%20an%20account%20-%20no%20Welsh.png)
+*Add a Welsh version of your form showing that no tasks have been completed in English yet.*  
+
+
+### Add a Welsh version of your form - completed form  
+
+![Add a Welsh version of your form showing English form partially completed. Screenshot](./screenshots-v1/003-%20Add%20a%20Welsh%20version%20of%20your%20form%20Register%20for%20an%20account%20-%20Welsh%20inputs.png)
+*Add a Welsh version of your form showing several tasks completed in English.*  
+
