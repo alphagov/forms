@@ -49,5 +49,6 @@ Based on an initial round of research, the team agreed to:
 
 ### Your forms - group view  
 
-
+![Account applications trial group page. Screenshot](./screenshots-v1/001%20-%20Account%20applications%20-%20Trial%20group.png)
+*Account applications group view. Showing our test form, “Register for an account” in the forms table list.*  
 
