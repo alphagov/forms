@@ -106,7 +106,7 @@ Does this need to be a separate task?**_
 - On the whole they are aware of the need for the option for Welsh people to be communicated with in the language of their choosing (including having both).
 - However, their ways of learning or deciding varied or were unknown.
 - They would need a way to determine what language their form fillers prefer.
-- None seemed to have a strong expectations for whether or how this would be provided by the platform.
+- None seemed to have strong expectations for whether or how this would be provided by the platform.
 
 **_Do form processors have separate email addresses for Welsh forms?_**
 - Low sample caveat!
