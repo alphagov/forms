@@ -66,7 +66,7 @@
 - Only one person raised the possibility of having a Welsh version of the privacy statement.
 - Some tested saving it empty to see what happened. Those who saw that the system allows them to save it empty assume that it will default to the English link. 
 - Three added the English link even though it's not in the doc.
-- On the whole, they seems to not be concerned about linking to the English version and didn’t raise the possibility of having a Welsh privacy statement. Two people explicitly said they wouldnt have a Welsh privacy notice. 
+- On the whole, they don’t seem to be concerned about linking to the English version and didn’t raise the possibility of having a Welsh privacy statement. Two people explicitly said they wouldn’t have a Welsh privacy notice. 
 
 **_How do they respond to fields using markdown?_**
 **_Do they need preview?_**
