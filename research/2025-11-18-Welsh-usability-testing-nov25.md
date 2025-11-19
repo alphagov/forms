@@ -33,7 +33,7 @@
 
 - The need for a Welsh expert to review the final output was mentioned by several.
 
-- 2 participants experienced challenges caused by the pasted Welsh content boxes behave. One struggles with the scrolling boxes. Another had pasted in carriage returns which pushed the text out of view when the English was only a single line. Didn’t understand what the corner expander icon meant.
+- 2 participants experienced challenges caused by the pasted Welsh content boxes behaviour. One struggled with the scrolling boxes. Another had pasted in carriage returns which pushed the text out of view when the English was only a single line. Didn’t understand what the corner expander icon meant.
 
 - After using it, participants said it was easy, logical and straightforward.
 
