@@ -48,7 +48,7 @@
 
 **_Do people know these fields are editable?_**
 - 4 participants easily realised they could click in the fields and edit them.
-- One said they were looking for an edit button at first, but did “it didn't take me too long to figure out."
+- One said they were looking for an edit button at first, but said “it didn't take me too long to figure out."
 - One didn’t work it out for a long time, and had a very different mental model of what this page was.
 
 **_How do people manage if the declaration is missing?_**
