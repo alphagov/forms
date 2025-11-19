@@ -108,4 +108,18 @@ Based on an initial round of research, the team agreed to:
 
 ![Submission confirmation screen in Welsh. Screenshot](./screenshots-v1/1003%20-%20Welsh%20confirmation%20page.png)
 *Previewing a Welsh language successful confirmation screen as form fillers would see it.*  
+___
 
+<br>
+
+## Research
+
+[Research findings from testing](../../../research/2025-11-18-Welsh-usability-testing-nov25.md)
+
+<br>
+
+___
+
+<br>
+
+[Back to the top](#add-welsh-version-of-a-form-v1)
