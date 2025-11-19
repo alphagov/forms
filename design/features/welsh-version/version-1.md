@@ -74,4 +74,10 @@ Based on an initial round of research, the team agreed to:
 ### Add a Welsh version of your form - completed English form  
 
 ![Add a Welsh version of your form showing English form completed. Screenshot](./screenshots-v1/003-%20Add%20a%20Welsh%20version%20of%20your%20form%20Register%20for%20an%20account%20-%20Full%20English%20form.png)
-*Add a Welsh version of your form showing several tasks completed in English.*  
+*Add a Welsh version of your form showing all tasks completed in English.*  
+
+
+### Create a form - show new ‘Make your Welsh form live’ task  
+
+![Create a form task list page showing Welsh task completed revealing new make Welsh form live. Screenshot](./screenshots-v1/002%20-%20Create%20a%20form%20Register%20for%20an%20account%20-%20Make%20Welsh%20live.png)
+*Create a form task list page showing 6 of 10 tasks marked completed. Including the optional Welsh task which reveals a new “Make your Welsh form live” task.* 
