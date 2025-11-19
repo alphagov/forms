@@ -115,7 +115,7 @@ Does this need to be a separate task?**_
 
 **The design of the Group page**
 - “Welsh version: not yet named” was generally understood.
-- However, there was a tendency to link it to the status of the Welsh form being in draft .
+- However, there was a tendency to link it to the status of the Welsh form being in draft.
 - It was useful to know there was a Welsh version.
 - Whether the name was necessary at all was queried by some.
 - One person made the point that form names can be long and Welsh would be even longer.
