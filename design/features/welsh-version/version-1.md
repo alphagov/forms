@@ -15,10 +15,9 @@ ___
 - [Contents](#contents)
 - [What](#what)
 - [Key decisions](#key-decisions)
-- [Design for build](#design-for-build)
-- [Design to test in the prototype](#design-to-test-in-the-prototype)
-- [Notes](#notes)
-- [Research focus](#research-focus)
+- [Design tested in prototype](#design-tested-in-prototype)
+- [Form filler screens](#form-filler-screens)
+- [Research](#research)
 
 ___
 
@@ -45,7 +44,7 @@ Based on an initial round of research, the team agreed to:
 
 <br>
 
-## Design for build
+## Design tested in prototype
 
 ### Your forms - group view  
 
@@ -94,7 +93,7 @@ We introduced this as the new section 4, moving the “Make your form live” se
 
 The new section reads: 
 
-> 4. Create a Welsh version of your form (optional)  
+> 4\. Create a Welsh version of your form (optional)  
 > Add a Welsh version of your form 
 
 The “Add a Welsh version of your form” task has an “Optional” tag to match other optional tasks added to the task list and will only appear as “In progress”, when Welsh inputs are filled in by the form creator, and “Completed” after all the English tasks are complete and the Welsh version tasks is marked as completed by the form creator when they are finished adding their translations.  
