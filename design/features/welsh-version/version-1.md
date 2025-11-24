@@ -190,6 +190,30 @@ Question 6’s table shows a 3 column table:
 
 The “List of options” is the row heading spanning the row for each option within the list showing the English content added and the Welsh content input showing the placeholder text.   
 
+The page still shows the next few sections as incomplete reading: 
+
+> **Declaration for people to agree to**  
+> No declaration was added to the form.  
+> 
+> **Information about what happens next**  
+> No information about what happens next was added to the form yet. 
+> 
+> **Payment link**  
+> No payment link has been added to the form. 
+> 
+> **Link to privacy information for this form**  
+> No privacy information has been added to the form yet.  
+
+The final section is the 3 column table captioned “Contact details for support” showing the contact information added for the English form.
+
+> **Online link text** : Our full contact details : _Enter Welsh Online link text_ (placeholder text)
+>
+> **Online link URL** : https://www.gov.uk/contact-us : _Enter Welsh Online link URL (placeholder)_  
+
+We wanted to test this section with form creators to get a better understanding if method of contact for support is likely to occur on a single form.  
+
+The page ends with a green “Save and continue” button. 
+
 
 ### Add a Welsh version of your form - completed English form  
 
