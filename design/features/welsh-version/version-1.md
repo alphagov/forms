@@ -88,11 +88,56 @@ We also wanted to get a better idea if the statuses made sense alongside each fo
 ![Create a form task list page. Screenshot](./screenshots-v1/002%20-%20Create%20a%20form%20Register%20for%20an%20account.png)
 *Create a form task list page showing 3 of 10 tasks marked completed.*  
 
+As part of the new feature we wanted to test if it made sense to include a new optional section and task to the “Create a form” task list page. 
+
+We introduced this as the new section 4, moving the “Make your form live” section down to a new section 5.  
+
+The new section reads: 
+
+> 4. Create a Welsh version of your form (optional)  
+> Add a Welsh version of your form 
+
+The “Add a Welsh version of your form” task has an “Optional” tag to match other optional tasks added to the task list and will only appear as “In progress”, when Welsh inputs are filled in by the form creator, and “Completed” after all the English tasks are complete and the Welsh version tasks is marked as completed by the form creator when they are finished adding their translations.  
+
 
 ### Add a Welsh version of your form - empty English form  
 
 ![Add a Welsh version of your form showing empty tasks. Screenshot](./screenshots-v1/003%20-%20Add%20a%20Welsh%20version%20of%20your%20form%20Register%20for%20an%20account%20-%20no%20Welsh.png)
 *Add a Welsh version of your form showing that no tasks have been completed in English yet.*  
+
+If the form creator has only created a new form and added a name they will still be able to click into the Welsh version task. 
+
+The page at this point is in it’s empty state. The page is titled, “Add a Welsh version of your form”. 
+
+Their is a grey “Download as a spreadsheet” button, that we wanted to test with form creators to understand if it waas useful and made sense to be on this screen.  
+
+Next is a table captioned, “Form name” showing 2 columns “English content” and “Welsh content”.  
+
+The next row reads:  
+
+> Register for an account: _Enter Welsh form name_ (placeholder text) 
+
+The second column in the row is an editable textarea ready for the form’s name in Welsh.  
+
+There are an additional 6 h2s, each with text informing the form creator that that section has not been added yet. They read:  
+
+> **Form questions**  
+> No questions have been added to the form yet.  
+> 
+> **Declaration for people to agree to**  
+> No declaration was added to the form.  
+> 
+> **Information about what happens next**  
+> No information about what happens next was added to the form yet. 
+> 
+> **Payment link**  
+> No payment link has been added to the form. 
+> 
+> **Link to privacy information for this form**  
+> No privacy information has been added to the form yet.  
+> 
+> **Contact details for support**  
+> No contact details for support have been added to the form yet. 
 
 
 ### Add a Welsh version of your form - partially completed English form  
