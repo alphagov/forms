@@ -144,6 +144,52 @@ There are an additional 6 h2s, each with text informing the form creator that th
 ![Add a Welsh version of your form showing English form partially completed. Screenshot](./screenshots-v1/003-%20Add%20a%20Welsh%20version%20of%20your%20form%20Register%20for%20an%20account%20-%20Welsh%20inputs.png)
 *Add a Welsh version of your form showing several tasks completed in English.*  
 
+This version of the screen shows that the form creator has added 6 questions and contact details for support to the English version of their form, offering inputs for each of the content elements to be translated in Welsh.  
+
+The page is still headed, “Add a Welsh version of your form”. Now alongside the grey “Download as a spreadsheet” button is a new “Preview this form in Welsh” link for the form creator to preview the Welsh version of their form starting in Welsh.  
+
+The first table captioned “Form name” still shows an input for Welsh content of their forms name. 
+
+Beneath the form name table are the individual tables for each question within the form, each table uses the “Question” and number for each caption. They show the different editable content of each question that was created by the form creator when creating their English version. 
+
+Question 1’s table shows a 3 column table: 
+
+> **Page heading** : How to complete this form : _Enter Welsh question text_ (placeholder text)
+> 
+> **Guidance text** : (This shows the markdown added in English including the markdown syntax) : _Enter Welsh guidance text_ (placeholder text)
+> 
+> **Question text** : What is your full name? : _Enter Welsh question text_ (placeholder text)
+
+Question 2’s table shows a 3 column table: 
+
+> **Question text** : What is your date of birth? : _Enter Welsh question text_ (placeholder text)
+> 
+> **Hint text** : For example, 20 3 2000 : _Enter Welsh hint text_ (placeholder text)
+
+Question 3’s table shows a 3 column table: 
+
+> **Question text** : What is your address? : _Enter Welsh question text_ (placeholder text)
+
+Question 4’s table shows a 3 column table: 
+
+> **Question text** : What is your phone number? : _Enter Welsh question text_ (placeholder text)
+
+Question 5’s table shows a 3 column table: 
+
+> **Question text** : What is your National Insurance number? : _Enter Welsh question text_ (placeholder text)
+> 
+> **Hint text** : It’s on your National Insurance card, benefit letter, payslip or P60. For example, QQ65 43 21 C. : _Enter Welsh hint text_ (placeholder text)
+
+Question 6’s table shows a 3 column table: 
+
+> **Question text** : If you live in Wales, would you like to hear from us in Welsh in future communications? : _Enter Welsh question text_ (placeholder text)
+> 
+> **Hint text** : We will only use this if we contact you for more information : _Enter Welsh hint text_ (placeholder text) 
+>
+> **List of options** : Yes, No, Not applicable : _Enter Welsh option 1_ (placeholder text), _Enter Welsh option 2_ (placeholder text), _Enter Welsh option 3_ (placeholder text)  
+
+The “List of options” is the row heading spanning the row for each option within the list showing the English content added and the Welsh content input showing the placeholder text.   
+
 
 ### Add a Welsh version of your form - completed English form  
 
