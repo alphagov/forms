@@ -58,6 +58,30 @@ Based on an initial round of research, the team agreed to:
 ![Account applications trial group page. Screenshot](./screenshots-v1/2000-Account-applications-group-page-showing-Welsh-version.png)
 *Account applications group view. Showing our several forms with various states in the forms table list. This was used in testing to see how creators understood statuses and Welsh version names.*  
 
+The page is headed “Account applications”, the name of the group that the form creator has given their group. Above the page heading is a caption, “Active group”. 
+
+Next are 2 links: 
+
+- Change the name of this group
+- Edit the members of this group 
+
+There is a green “Create a form” button styled like the GOV.UK start button.  
+
+The page also has a table captioned, “Forms in ‘Account applications’”. Column headings appear as: “Form name”, “Created by”, and “Status”. 
+
+Each row is a form within the group. To test this version of the screen we show 6 different forms with varying statuses and with differing levels of Welsh version, they are: 
+
+- Apply for an account for someone else (link) - this form has no Welsh version and is “Archived”  
+- Apply for an account for a child (link) - under the form name link is the text, “Welsh version: not yet named”. This form is “Live” with a “Draft” version  
+- Apply to renew your account (link) - under the form name link is the text, “Welsh version: Gwneud cais i adnewyddu eich cyfrif”. This form is “Live”
+- Raise a concern about an account holder (link) - under the form name link is the text, “Welsh version: Codi pryder am ddeiliad cyfrif”. This form is “Live” with a “Draft” version
+- Register for an account (link) - under the form name link is the text, “Welsh version: not yet named”. The form is “Draft” only
+- Report misuse of an account (link) - under the form name link is the text, “Welsh version: Rhoi gqybod am gamddefnydd o gyfrif”. Ths form is “Live” 
+
+This page was created in Mural only to show to participants. We wanted to test if they understood the information that appeared on this screen. Whether it was all useful, with a focus on the “Welsh version” name and whether it had no name but a Welsh version was at least in “Draft”. 
+
+We also wanted to get a better idea if the statuses made sense alongside each form, especially when a “Welsh version” existed. 
+
 
 ### Create a form - task list 
 
