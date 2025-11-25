@@ -229,7 +229,7 @@ The page now also shows that the “Declaration for people to agree to”, “In
 At the bottom of the screen a new question has been introduced for the form creator to mark the Welsh version as complete, it reads: 
 
 > **Have you finished adding your Welsh version?**    
-> Selectin ‘Yes’ will mark this task as complete. You’ll still be able to make more changes if you need to.
+> Selecting ‘Yes’ will mark this task as complete. You’ll still be able to make more changes if you need to.
 >
 > Yes  
 > No, I’ll come back later  
