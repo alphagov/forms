@@ -55,7 +55,7 @@ Based on an initial round of research, the team agreed to:
 ### Your forms - static screen used in testing   
 
 ![Account applications trial group page. Screenshot](./screenshots-v1/2000-Account-applications-group-page-showing-Welsh-version.png)
-*Account applications group view. Showing our several forms with various states in the forms table list. This was used in testing to see how creators understood statuses and Welsh version names.*  
+*Account applications group view. Showing several forms with various states in the forms table list. This was used in testing to see how creators understood statuses and Welsh version names.*  
 
 The page is headed “Account applications”, the name of the group that the form creator has given their group. Above the page heading is a caption, “Active group”. 
 
