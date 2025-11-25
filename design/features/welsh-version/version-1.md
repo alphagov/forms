@@ -36,7 +36,7 @@ ___
 
 ## Key decisions  
 
-Based on an initial round of research, the team agreed to:  
+Based on [an initial round of research](../../../research/2025-09-12-Welsh_forms_interviews_findings_Aug_25.md), the team agreed to:  
 
 - prioritise testing an MVP single page design to understand if this is sufficient
 - work towards developing the single page design with the understanding that some elements might change and the journey might need to be broken up and become a multi step journey later if findings tell us such
