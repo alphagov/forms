@@ -220,11 +220,44 @@ The page ends with a green “Save and continue” button.
 ![Add a Welsh version of your form showing English form completed. Screenshot](./screenshots-v1/003-%20Add%20a%20Welsh%20version%20of%20your%20form%20Register%20for%20an%20account%20-%20Full%20English%20form.png)
 *Add a Welsh version of your form showing all tasks completed in English.*  
 
+This version of the screen shows that the form creator has added all the sections of their English form, including 6 questions. The Welsh content inputs for each of the content elements are complete with the Welsh language equivalents.  
+
+The page is still headed, “Add a Welsh version of your form”. There’s a grey “Download as a spreadsheet” button alongside a “Preview this form in Welsh” link for the form creator to preview the Welsh version of their form starting in Welsh.
+
+The page now also shows that the “Declaration for people to agree to”, “Information about what happens next”, “Payment link” and “Link to privacy information for this form” tables each with their English and Welsh content complete. 
+
+At the bottom of the screen a new question has been introduced for the form creator to mark the Welsh version as complete, it reads: 
+
+> **Have you finished adding your Welsh version?**    
+> Selectin ‘Yes’ will mark this task as complete. You’ll still be able to make more changes if you need to.
+>
+> Yes  
+> No, I’ll come back later  
+
+This new question is designed to only appear after the form creator has added all the English tasks that are needed to be able to make the English form live, excluding the submission email (TBC). This will now let them mark the Welsh version as complete only if they have filled all the Welsh content inputs for the English added to their form. By only adding this question after the English form is complete we believe we will simplify the experience, not having to mark the Welsh version as not complete yet each time while letting form creators add varying levels of translation as they build their form or finalise some of the background processes and email submissions. 
+
+The page still ends with a green “Save and continue” button.  
+
 
 ### Create a form - show new ‘Make your Welsh form live’ task  
 
 ![Create a form task list page showing Welsh task completed revealing new make Welsh form live. Screenshot](./screenshots-v1/002%20-%20Create%20a%20form%20Register%20for%20an%20account%20-%20Make%20Welsh%20live.png)
 *Create a form task list page showing 6 of 10 tasks marked completed. Including the optional Welsh task which reveals a new “Make your Welsh form live” task.* 
+
+When the form creator saves their Welsh version they are returned to the task list with the list of tasks marked completed. They are also presented with a green ‘success’ banner at the top of the screen, it reads: 
+
+> **Success**   
+> Your Welsh version has been saved  
+
+A new task is also revealed in section “5. Make your form live”. It now shows 3 items: 
+
+> Share a preview of your draft form (link) : _Not started_
+> 
+> Make your English form live (text only) : _Cannot start yet_
+> 
+> Make your Welsh form live (text only) : _Cannot start yet_
+
+
 
 <br>
 
