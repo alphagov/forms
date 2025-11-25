@@ -108,7 +108,7 @@ If the form creator has only created a new form and added a name they will still
 
 The page at this point is in it’s empty state. The page is titled, “Add a Welsh version of your form”. 
 
-Their is a grey “Download as a spreadsheet” button, that we wanted to test with form creators to understand if it waas useful and made sense to be on this screen.  
+There is a grey “Download as a spreadsheet” button, that we wanted to test with form creators to understand if it was useful and made sense to be on this screen.  
 
 Next is a table captioned, “Form name” showing 2 columns “English content” and “Welsh content”.  
 
