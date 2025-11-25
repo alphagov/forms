@@ -190,7 +190,7 @@ Question 6’s table shows a 3 column table:
 
 The “List of options” is the row heading spanning the row for each option within the list showing the English content added and the Welsh content input showing the placeholder text.   
 
-The page still shows the next few sections as incomplete reading: 
+The page still shows the next few sections as incomplete, reading: 
 
 > **Declaration for people to agree to**  
 > No declaration was added to the form.  
