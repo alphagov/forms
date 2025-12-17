@@ -39,7 +39,7 @@ This iteration added this functionality with 5 variants of content to be shown o
 
 ### At least 7 days of data
 
-<img width="500" alt="metrics for at least 7 days of data" src="https://github.com/user-attachments/assets/7719efae-66fb-4198-9ffc-42b4bc7177d8" />
+<img width="500" alt="metrics for at least 7 days of data" src="screenshots-v2/metrics-for-at-least-7-days-of-data.png" />
 
 **Description of the image:**
  
@@ -59,7 +59,7 @@ Beneath the metrics is linked text that reads:
 
 ### Less than a week’s worth of data
 
-<img width="500" alt="metrics with less than 7 days of data" src="https://github.com/user-attachments/assets/8af3063a-6770-44ce-9547-ad5bf247013e" />
+<img width="500" alt="metrics with less than 7 days of data" src="screenshots-v2/metrics-with-less-than-7-days-of-data.png" />
 
 **Description of the image:**
 
@@ -73,7 +73,7 @@ This is followed by the metrics and the link to download the CSV of all the form
 
 ### No starts in the past 7 days and the form is newly live
 
-<img width="500" alt="metrics if no starts in past 7 days and form is newly live" src="https://github.com/user-attachments/assets/3c11b34a-cf76-40c7-9622-eabcdcd28a39" />
+<img width="500" alt="metrics if no starts in past 7 days and form is newly live" src="screenshots-v2/metrics-if-no-starts-in-past-7-days-and-form-is-newly-live.png" />
 
 **Description of the image:**
  
@@ -94,7 +94,7 @@ There is no data to download so there is no link to download a CSV.
 
 ### No starts in the past 7 days
 
-<img width="500" alt="metrics if no starts in past 7 days" src="https://github.com/user-attachments/assets/6a991d1e-905f-439f-b24c-32a49fe4bbab" />
+<img width="500" alt="metrics if no starts in past 7 days" src="screenshots-v2/metrics-if-no-starts-in-past-7-days.png" />
 
 **Description of the image:**
  
@@ -111,7 +111,7 @@ This is followed by a link to download the CSV of all the form’s data. The lin
 
 ### No data because there’s a problem
 
-<img width="500" alt="no metrics because of a problem" src="https://github.com/user-attachments/assets/6182006d-0da5-4abd-be0f-cd78dffb9343" />
+<img width="500" alt="no metrics because of a problem" src="screenshots-v2/no-metrics-because-of-a-problem.png" />
 
 **Description of the image:**
  
