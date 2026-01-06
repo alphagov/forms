@@ -40,7 +40,7 @@ The designs and content changed for this iteration were:
 
 **Description of the image and changes:**
 
-The screenshot above the second section of the task list for creating a form. It has the heading: “2. Set up how you get completed forms”.
+The screenshot above shows the second section of the task list for creating a form. It has the heading: “2. Set up how you get completed forms”.
 
 Under the heading there are two tasks. The link text for the first is “Set the email address completed forms will be sent to” and for the second is “Enter the email address confirmation code”. In the example here they each show a status on the right of “completed”. 
 
