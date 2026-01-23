@@ -32,7 +32,7 @@ This added the option for form creators to get form submissions in a JSON file a
 
 ### S3 buckets, late 2025
 
-We made it possible for completed form submissions to go to an AWS S3 bucket in 2025. Initially this is a manual process outside of the platform. The form owners have to set up the bucket and manage it themselves. They also have to choose to receive completed forms as either JSON or CSV files. when they've given us the details and we switch their form to S3, they then get completed forms sent to their S3 bucket instead of via email. 
+We made it possible for completed form submissions to go to an AWS S3 bucket in 2025. Initially this is a manual process outside of the platform. The form owners have to set up the bucket and manage it themselves. They also have to choose to receive completed forms as either JSON or CSV files. When they've given us the details and we switch their form to S3, they then get completed forms sent to their S3 bucket instead of via email. 
 
 We later published some guidance about this option on the product site - [processing completed form submissions](https://www.forms.service.gov.uk/processing-completed-form-submissions). 
 
