@@ -19,7 +19,7 @@ We know our organisation admins have various frustrations with managing the user
 
 ## Iterations
 
-### [Version 1 - Moving a form to a different group, August 2025](/version-1.md)
+### [Version 1 - Moving a form to a different group, August 2025](version-1.md)
 Adds the ability for organisation admins to move a form to a different group in their organisation.
 
 ### Version 2 - Delete an empty group
