@@ -26,11 +26,24 @@ Email was the starting point for the product as it is equivalent to the way many
 
 This iteration added the option for form creators to also get the answers in a CSV file attached to each completed form email. The task list to create or edit a form was given an extra optional task to 'Get completed forms as CSV files' for form creators to turn the CSVs on or off.
 
-### [JSON file email attachment, December 2024](version-3-json-submissions.md)
+### [JSON file email attachment, December 2025](version-3-json-submissions.md)
 
 This added the option for form creators to get form submissions in a JSON file attached to each completed form email. 
 
-### S3 buckets, late 2024
+### S3 buckets, late 2025
 
-We offered teams the option to set up AWS S3 buckets to receive completed form submissions. Initially this was offered as a manual process outside of the platform.
-The form owners would have to set up the bucket and manage it themselves. They would also have to choose to receive completed forms as either JSON or CSV files. Once we set it up, they would then get completed forms sent to their S3 bucket instead of via email. 
+We made it possible for completed form submissions to go to an AWS S3 bucket in 2025. Initially this is a manual process outside of the platform. The form owners have to set up the bucket and manage it themselves. They also have to choose to receive completed forms as either JSON or CSV files. when they've given us the details and we switch their form to S3, they then get completed forms sent to their S3 bucket instead of via email. 
+
+We later published some guidance about this option on the product site - [processing completed form submissions](https://www.forms.service.gov.uk/processing-completed-form-submissions). 
+
+### Telling people about the S3 buckets option, January 2026
+
+We need to make several changes to the task list to properly represent the S3 option. While that is being prioritised, we wanted to do something smaller to at least tell people that this is an option.
+
+So in January 2026, we added a details component to the page where form creators set the email address for completed forms. This tells them S3 buckets is an option, and links to the [processing completed form submissions](https://www.forms.service.gov.uk/processing-completed-form-submissions) guidance on the product site which has more information and tells them to contact us to set it up.
+
+
+
+
+
+
