@@ -90,7 +90,7 @@ else email bounces
   note over ses,sns: We have an SQS queue subscribed to the<br/> SNS topic and a recurring task to poll<br/>the SQS queue.
 end
 
-worker->>worker: Recurring task deletes Submissions<br/>that haven't bounced after 7 days
+worker->>worker: Recurring task deletes Submissions<br/> 30 days after they were created
 ```
 
 ## Handling email bounces/complaints
