@@ -75,8 +75,7 @@ break error
 end
 
 ses->>worker: return message_id
-worker->>runner-db: set mail_message_id on Submission
-worker->>runner-db: set the last_delivery_attempt timestamp on Submission
+worker->>runner-db: create a Delivery record with the<br/> message_id from SES as the delivery_reference
 
 ses-)inbox: send email
 note over ses,inbox: happens some time later
@@ -116,15 +115,15 @@ worker->>solidqueue-db: enqueue recurring receive bounces job
 worker->>solidqueue-db: dequeue receive bounces job
 worker->>sqs: get messages from bounces and complaints queue
 alt there is a bounce SQS message
-  worker->>runner-db: get Submission by the message_id in the SQS message
-  worker->>runner-db: update delivery_status of Submission to "bounced"
+  worker->>runner-db: get Delivery where the delivery_reference is the<br/> message_id from the SQS message
+  worker->>runner-db: set the failed_at timestamp on the Delivery
   worker->>worker: Log with the submission details
   worker->>sentry: send error event
   sentry->>support: Alert via Slack
   support->>support: Identify why the email bounced
   support->>support: Run rake task to retry submission
 else there is a complaint SQS message
-  worker->>runner-db: get Submission by the message_id in the SQS message
+  worker->>runner-db: get Delivery where the delivery_reference is the<br/> message_id from the SQS message
   worker->>worker: Log with the submission details
 end
 
@@ -152,7 +151,8 @@ actor support as Forms team tech support
 worker->>solidqueue-db: enqueue recurring receive deliveries job
 worker->>solidqueue-db: dequeue receive deliveries job
 worker->>sqs: get messages from deliveries queue
-worker->>runner-db: get Submission by the message_id in the SQS message
+worker->>runner-db: get Delivery where the delivery_reference is the<br/> message_id from the SQS message
+worker->>runner-db: set the delivered_at timestamp on the Delivery
 worker->>worker: log a "form_submission_delivered" event
 note over worker,runner-db: we don't currently use the "delivered" status for anything other than for information
 ```
