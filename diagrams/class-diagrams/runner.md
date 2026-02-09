@@ -7,14 +7,22 @@ title: GOV.UK Forms Runner app class diagram
 
 ```mermaid
 classDiagram
-	direction RL
-	class `Submission`
-	`Submission` : +jsonb answers
-	`Submission` : +jsonb form_document
-	`Submission` : +integer form_id
-	`Submission` : +string mail_message_id
-	`Submission` : +string mail_status
-	`Submission` : +string mode
-	`Submission` : +string reference
-	`Submission` : +datetime sent_at
+    direction RL
+    class `Delivery`
+    `Delivery` : +datetime delivered_at
+    `Delivery` : +string delivery_reference
+    `Delivery` : +datetime failed_at
+    `Delivery` : +string failure_reason
+    `Delivery` : +datetime last_attempt_at
+    class `Submission`
+    `Submission` : +jsonb answers
+    `Submission` : +jsonb form_document
+    `Submission` : +integer form_id
+    `Submission` : +string mode
+    `Submission` : +string reference
+    `Submission` : +string submission_locale
+    class `SubmissionDelivery`
+    `Submission` --> `SubmissionDelivery`
+    `Delivery` --> `SubmissionDelivery`
+    `Submission` "0..*" -- "0..*" `Delivery`
   ```
